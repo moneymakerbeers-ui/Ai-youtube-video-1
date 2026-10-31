@@ -1,0 +1,4 @@
+{
+  "expect": { "long": { "w": 960, "h": 540 }, "short": { "w": 540, "h": 960, "maxS": 180 } },
+  "loudness": { "targetLufs": -18, "toleranceLu": 4, "maxTruePeakDbtp": -1.0 }
+}

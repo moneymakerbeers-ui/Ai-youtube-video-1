@@ -1,0 +1,693 @@
+{
+  "_note": "Synthetic example used only by `npm run selftest`. Not a real video.",
+  "config": {
+    "videoIdea": "Why is the sky blue? (format example only)",
+    "sensitivity": "normal",
+    "maxPaidSpend": {
+      "higgsfieldCredits": 15
+    },
+    "purpose": "smoke"
+  },
+  "facts": {
+    "claims": [
+      {
+        "id": "F01",
+        "text": "Sunlight contains all the colours of visible light mixed together.",
+        "spokenWording": "Sunlight is every colour mixed together.",
+        "sources": [
+          {
+            "title": "(example) optics textbook, chapter on light and colour",
+            "type": "textbook",
+            "accessed": "2026-10-30"
+          },
+          {
+            "title": "(example) space-agency explainer on sunlight",
+            "type": "institution",
+            "accessed": "2026-10-30"
+          }
+        ],
+        "status": "verified",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "locator": {
+              "kind": "quote",
+              "value": "section 2"
+            },
+            "quote": "Sunlight contains all the colours of the visible spectrum mixed together.",
+            "snapshot": "research/sources/optics-textbook.txt",
+            "snapshotSha256": "aacc0d59a0c260d2d8713015169c6a38e58ec96a4c4291a4d1bccdb32596ab37",
+            "supports": "direct",
+            "interpretation": "The passage states the claim in almost the same words.",
+            "uncertainty": "none"
+          }
+        ]
+      },
+      {
+        "id": "F02",
+        "text": "Air molecules scatter shorter (blue) wavelengths of light more strongly than longer (red) wavelengths (Rayleigh scattering).",
+        "sources": [
+          {
+            "title": "(example) atmospheric optics reference",
+            "type": "reference",
+            "accessed": "2026-10-30"
+          },
+          {
+            "title": "(example) university physics notes",
+            "type": "institution",
+            "accessed": "2026-10-30"
+          }
+        ],
+        "status": "verified",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "locator": {
+              "kind": "quote",
+              "value": "section 2"
+            },
+            "quote": "shorter wavelengths of light are scattered more strongly than longer wavelengths",
+            "snapshot": "research/sources/atmos-optics.txt",
+            "snapshotSha256": "fccad96f1094a17a26a1c7279836bce462328cf4a9dd7cb13092b20184e23520",
+            "supports": "direct",
+            "interpretation": "The passage states the claim in almost the same words.",
+            "uncertainty": "none"
+          }
+        ]
+      },
+      {
+        "id": "F03",
+        "text": "At sunset the light passes through more air, so more blue is scattered out of the direct beam and the light looks redder.",
+        "sources": [
+          {
+            "title": "(example) national weather service explainer",
+            "type": "institution",
+            "accessed": "2026-10-30"
+          }
+        ],
+        "status": "verified",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "locator": {
+              "kind": "quote",
+              "value": "section 2"
+            },
+            "quote": "at sunset the light passes through more air so more blue light is scattered out of the beam",
+            "snapshot": "research/sources/nws.txt",
+            "snapshotSha256": "5724fe0821c92cae35bfef80d75f8c37714295398900279ba648d9ab709c0180",
+            "supports": "direct",
+            "interpretation": "The passage states the claim in almost the same words.",
+            "uncertainty": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "scenes": {
+    "schemaVersion": 1,
+    "fps": 30,
+    "scenes": [
+      {
+        "id": "s01",
+        "section": "open",
+        "claimIds": [
+          "F01"
+        ],
+        "narration": "Look up on a clear day and the sky is blue. But sunlight looks white, so where does the blue come from?",
+        "intent": "name the sky, then open one precise gap: white light, blue sky",
+        "retentionBeat": "promise",
+        "presentation": "illustration",
+        "visualIntensity": 1,
+        "transition": {
+          "type": "cut"
+        },
+        "voice": {
+          "intent": "invite, don't announce",
+          "emotion": "curious, restrained",
+          "intensity": 1,
+          "pace": "steady",
+          "emphasisWords": [
+            "white"
+          ],
+          "pauseAfterMs": 400
+        },
+        "entities": [
+          {
+            "id": "e_sky",
+            "role": "subject",
+            "assetId": "a01",
+            "need": "a clear blue sky above a calm horizon"
+          },
+          {
+            "id": "e_q",
+            "role": "label",
+            "text": "Why blue?",
+            "enterAtWord": 14
+          }
+        ],
+        "layouts": {
+          "landscape": {
+            "placements": {
+              "e_sky": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 1.1,
+                "depth": 0.8
+              },
+              "e_q": {
+                "x": 0.5,
+                "y": 0.82,
+                "w": 0.3,
+                "z": 2
+              }
+            },
+            "camera": []
+          },
+          "portrait": {
+            "placements": {
+              "e_sky": {
+                "x": 0.5,
+                "y": 0.45,
+                "w": 1.6,
+                "depth": 0.8
+              },
+              "e_q": {
+                "x": 0.5,
+                "y": 0.7,
+                "w": 0.6,
+                "z": 2
+              }
+            },
+            "camera": []
+          }
+        },
+        "shortIds": [
+          "S01"
+        ],
+        "assetIds": [
+          "a01"
+        ],
+        "timing": {
+          "startS": 0,
+          "endS": 6,
+          "firstWord": 0,
+          "lastWord": 20
+        }
+      },
+      {
+        "id": "s02",
+        "section": "mechanism",
+        "claimIds": [
+          "F01",
+          "F02"
+        ],
+        "narration": "Sunlight is every colour mixed together. The tiny molecules in air scatter short, blue wavelengths far more than long, red ones.",
+        "intent": "show why one molecule treats blue and red differently",
+        "retentionBeat": "develop",
+        "presentation": "diagram",
+        "visualIntensity": 3,
+        "signature": {
+          "before": "one light beam meeting one air molecule",
+          "after": "the whole sky, every point of it scattering",
+          "track": "the molecule, which becomes one point of the blue sky"
+        },
+        "transition": {
+          "type": "nested_scale",
+          "rationale": "a scale pull-back turns one scattering event into the whole sky, so many tiny events read as one colour",
+          "anchorFrom": {
+            "entityId": "e_molecule"
+          },
+          "anchorTo": {
+            "entityId": "e_sky"
+          },
+          "durationMs": 2200,
+          "easing": "emphasized",
+          "fallback": "dissolve",
+          "offsetMs": -300
+        },
+        "voice": {
+          "intent": "explain plainly, then slow on the key contrast",
+          "emotion": "warm explanatory",
+          "intensity": 1,
+          "pace": "steady",
+          "emphasisWords": [
+            "blue",
+            "red"
+          ]
+        },
+        "entities": [
+          {
+            "id": "e_beam",
+            "role": "diagram",
+            "assetId": "a02",
+            "need": "a white beam splitting into colours"
+          },
+          {
+            "id": "e_molecule",
+            "role": "subject",
+            "assetId": "a04",
+            "need": "one air molecule, scattering blue strongly"
+          },
+          {
+            "id": "e_label",
+            "role": "label",
+            "text": "blue scatters most",
+            "enterAtWord": 14
+          }
+        ],
+        "layouts": {
+          "landscape": {
+            "placements": {
+              "e_beam": {
+                "x": 0.35,
+                "y": 0.5,
+                "w": 0.6
+              },
+              "e_molecule": {
+                "x": 0.68,
+                "y": 0.5,
+                "w": 0.18,
+                "z": 1
+              },
+              "e_label": {
+                "x": 0.68,
+                "y": 0.72,
+                "w": 0.3,
+                "z": 2
+              }
+            },
+            "camera": [
+              {
+                "from": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "scale": 1
+                },
+                "to": {
+                  "x": 0.62,
+                  "y": 0.5,
+                  "scale": 1.4
+                },
+                "startWord": 6,
+                "endWord": 18,
+                "reason": "follow the beam to the molecule that scatters it"
+              }
+            ]
+          },
+          "portrait": {
+            "placements": {
+              "e_beam": {
+                "x": 0.5,
+                "y": 0.3,
+                "w": 0.9
+              },
+              "e_molecule": {
+                "x": 0.5,
+                "y": 0.52,
+                "w": 0.3,
+                "z": 1
+              },
+              "e_label": {
+                "x": 0.5,
+                "y": 0.68,
+                "w": 0.7,
+                "z": 2
+              }
+            },
+            "camera": []
+          }
+        },
+        "shortIds": [
+          "S01"
+        ],
+        "assetIds": [
+          "a02",
+          "a04"
+        ],
+        "qaRisk": [
+          "morph_geometry",
+          "aspect_recompose"
+        ],
+        "timing": {
+          "startS": 6,
+          "endS": 14,
+          "firstWord": 0,
+          "lastWord": 20
+        }
+      },
+      {
+        "id": "s03",
+        "section": "mechanism",
+        "claimIds": [
+          "F02"
+        ],
+        "narration": "So blue light is thrown around the whole sky, and it reaches your eyes from every direction. That is why the sky looks blue.",
+        "intent": "let the answer land and close the gap opened in s01",
+        "retentionBeat": "payoff",
+        "presentation": "illustration",
+        "visualIntensity": 2,
+        "transition": {
+          "type": "cut"
+        },
+        "voice": {
+          "intent": "let the answer land",
+          "emotion": "warm, quietly satisfied",
+          "intensity": 1,
+          "pace": "slower",
+          "pauseBeforeMs": 500
+        },
+        "entities": [
+          {
+            "id": "e_sky",
+            "role": "subject",
+            "assetId": "a01",
+            "need": "the same sky as s01, now with scattered light drawn in"
+          },
+          {
+            "id": "e_dir",
+            "role": "label",
+            "text": "every direction",
+            "enterAtWord": 9
+          }
+        ],
+        "layouts": {
+          "landscape": {
+            "placements": {
+              "e_sky": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 1.1,
+                "depth": 0.8
+              },
+              "e_dir": {
+                "x": 0.5,
+                "y": 0.82,
+                "w": 0.3,
+                "z": 2
+              }
+            },
+            "camera": []
+          },
+          "portrait": {
+            "placements": {
+              "e_sky": {
+                "x": 0.5,
+                "y": 0.45,
+                "w": 1.6,
+                "depth": 0.8
+              },
+              "e_dir": {
+                "x": 0.5,
+                "y": 0.7,
+                "w": 0.6,
+                "z": 2
+              }
+            },
+            "camera": []
+          }
+        },
+        "shortIds": [
+          "S01"
+        ],
+        "assetIds": [
+          "a01"
+        ],
+        "timing": {
+          "startS": 14,
+          "endS": 22,
+          "firstWord": 0,
+          "lastWord": 20
+        }
+      },
+      {
+        "id": "s04",
+        "section": "sunset",
+        "claimIds": [
+          "F03"
+        ],
+        "narration": "At sunset the light travels a longer path through the air, and much of the blue is scattered away before it reaches you. So what is left?",
+        "intent": "settle the first question and open the next one",
+        "retentionBeat": "next_question",
+        "presentation": "illustration",
+        "visualIntensity": 1,
+        "transition": {
+          "type": "cut"
+        },
+        "voice": {
+          "intent": "turn toward the next question",
+          "emotion": "curious, restrained",
+          "intensity": 1,
+          "pace": "steady",
+          "pauseAfterMs": 600
+        },
+        "entities": [
+          {
+            "id": "e_sun",
+            "role": "subject",
+            "assetId": "a03",
+            "need": "a low sun over the same horizon"
+          },
+          {
+            "id": "e_q2",
+            "role": "label",
+            "text": "So what is left?",
+            "enterAtWord": 22
+          }
+        ],
+        "layouts": {
+          "landscape": {
+            "placements": {
+              "e_sun": {
+                "x": 0.5,
+                "y": 0.5,
+                "w": 1.1,
+                "depth": 0.8
+              },
+              "e_q2": {
+                "x": 0.5,
+                "y": 0.82,
+                "w": 0.35,
+                "z": 2
+              }
+            },
+            "camera": []
+          }
+        },
+        "shortIds": [],
+        "assetIds": [
+          "a03"
+        ],
+        "look": "dusk",
+        "timing": {
+          "startS": 22,
+          "endS": 30,
+          "firstWord": 0,
+          "lastWord": 20
+        }
+      }
+    ]
+  },
+  "shorts": {
+    "shorts": [
+      {
+        "id": "S01",
+        "status": "validated",
+        "title": "Why is the sky blue?",
+        "question": "Sunlight is white, so why is the sky blue?",
+        "minimumContext": [
+          "Sunlight contains every visible colour"
+        ],
+        "payoff": "Air molecules scatter blue light far more than red, in every direction.",
+        "sceneIds": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "delta": {
+          "closingLine": "So the sky is blue because blue is the colour the air throws around the most.",
+          "portraitRestage": "stack beam, molecule and label in the central band; label above the bottom safe zone"
+        },
+        "targetDurationS": 40,
+        "validation": {
+          "independentOpening": true,
+          "oneQuestion": true,
+          "minimumContext": true,
+          "completeExplanation": true,
+          "cleanPayoff": true,
+          "sourceLinked": true,
+          "deltaDefined": true
+        }
+      },
+      {
+        "id": "S02",
+        "status": "candidate",
+        "title": "Why are sunsets red?",
+        "question": "If the sky is blue, why is the sunset red?",
+        "minimumContext": [
+          "Air scatters blue light"
+        ],
+        "payoff": "A longer path through the air scatters most of the blue away.",
+        "sceneIds": [
+          "s04"
+        ],
+        "delta": {},
+        "targetDurationS": 30,
+        "validation": {
+          "independentOpening": false,
+          "oneQuestion": true,
+          "minimumContext": false,
+          "completeExplanation": false,
+          "cleanPayoff": false,
+          "sourceLinked": true,
+          "deltaDefined": false
+        }
+      }
+    ]
+  },
+  "manifest": {
+    "assets": [
+      {
+        "id": "a01",
+        "kind": "image",
+        "file": "assets/sky-plate.png",
+        "route": "generated_image",
+        "provenance": {
+          "tool": "higgsfield",
+          "model": "(example) image model",
+          "prompt": "(example) a clear blue sky above a calm horizon, no text",
+          "jobId": "job_example"
+        },
+        "creditsSpent": 2.75,
+        "width": 2048,
+        "height": 2048,
+        "focal": {
+          "x": 0.5,
+          "y": 0.55
+        },
+        "usedBy": [
+          "s01",
+          "s03"
+        ]
+      },
+      {
+        "id": "a02",
+        "kind": "svg",
+        "file": "assets/beam.svg",
+        "route": "code",
+        "provenance": {},
+        "usedBy": [
+          "s02"
+        ]
+      },
+      {
+        "id": "a03",
+        "kind": "image",
+        "file": "assets/sunset.jpg",
+        "route": "retrieved",
+        "provenance": {
+          "sourceUrl": "https://example.org/photo"
+        },
+        "license": {
+          "name": "CC0 (example)",
+          "url": "https://example.org/license",
+          "evidenceFile": "assets/_licenses/a03.txt"
+        },
+        "usedBy": [
+          "s04"
+        ]
+      },
+      {
+        "id": "a04",
+        "kind": "svg",
+        "file": "assets/molecule.svg",
+        "route": "code",
+        "provenance": {},
+        "usedBy": [
+          "s02"
+        ]
+      }
+    ]
+  },
+  "state": {
+    "slug": "example-sky-20261030",
+    "idea": "Why is the sky blue? (format example only)",
+    "stages": {
+      "00-preflight": {
+        "status": "done",
+        "at": "2026-10-30T09:40:00Z",
+        "evidence": [
+          "preflight.md",
+          "prices.json"
+        ]
+      },
+      "01-research-script": {
+        "status": "done",
+        "at": "2026-10-30T09:55:00Z",
+        "evidence": [
+          "scenes.json",
+          "facts.json"
+        ]
+      },
+      "02-assets": {
+        "status": "in_progress",
+        "step": "7",
+        "evidence": []
+      }
+    },
+    "spendGate": {
+      "status": "approved",
+      "approvedAt": "2026-10-30T10:00:00Z",
+      "ceiling": {
+        "higgsfieldCredits": 15,
+        "elevenlabsChars": 8000,
+        "otherUsd": 0
+      }
+    },
+    "ledger": {
+      "higgsfieldCredits": 2.75,
+      "elevenlabsChars": 0,
+      "otherUsd": 0
+    },
+    "deliverables": {},
+    "blocked": []
+  },
+  "evidence-review": {
+    "reviewedAt": "2026-10-30T00:00:00Z",
+    "reviewer": {
+      "kind": "independent_agent",
+      "note": "example"
+    },
+    "verdicts": [
+      {
+        "claimId": "F01",
+        "verdict": "supported",
+        "reason": "The quoted passage states the claim directly."
+      },
+      {
+        "claimId": "F02",
+        "verdict": "supported",
+        "reason": "The quoted passage states the claim directly."
+      },
+      {
+        "claimId": "F03",
+        "verdict": "supported",
+        "reason": "The quoted passage states the claim directly."
+      }
+    ]
+  },
+  "shorts-review": {
+    "reviewedAt": "2026-10-30T00:00:00Z",
+    "reviewer": {
+      "kind": "independent_agent"
+    },
+    "verdicts": [
+      {
+        "shortId": "S01",
+        "verdict": "pass",
+        "standalone": true,
+        "problems": []
+      }
+    ]
+  }
+}

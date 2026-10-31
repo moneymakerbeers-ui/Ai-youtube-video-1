@@ -1,0 +1,5 @@
+# Python 3.13 was used for every test run. Pins are the versions that were installed and tested.
+numpy==2.5.3
+scipy==1.18.1
+pillow==12.3.0
+pytest==9.1.1

@@ -1,0 +1,578 @@
+
+> youtube-studio@3.0.0 test
+> npm run typecheck && npm run selftest && npm run test:engine && npm run test:py
+
+
+> youtube-studio@3.0.0 typecheck
+> tsc -p tsconfig.json
+
+
+> youtube-studio@3.0.0 selftest
+> tsx schema/validate.ts selftest
+
+ok    example config
+ok    example facts
+ok    example scenes
+ok    example shorts
+ok    example manifest
+ok    example state
+ok    example evidence-review
+ok    example shorts-review
+ok    rule bites: level-3 without signature
+ok    rule bites: match transition without anchors
+ok    rule bites: Short scene without portrait layout
+ok    rule bites: payoff without claim ids
+ok    rule bites: camera move without a reason
+ok    rule bites: hold without a reason
+ok    rule bites: credits above 20 without creator raise
+ok    rule bites: target duration under 5 minutes
+ok    rule bites: production video whose aligned scenes run under 5:00 (cross-file)
+ok    rule bites: a test clip may be short (control: must stay valid)
+ok    rule bites: validated Short with a failed check
+ok    rule bites: retrieved asset without license evidence
+ok    rule bites: generated asset without prompt
+ok    rule bites: verified claim with one weak source
+ok    rule bites: verified claim without any direct evidence pointer
+ok    rule bites: quote locator without the quote
+ok    rule bites: evidence points past the sources list
+ok    rule bites: unknown claim id (cross-file)
+ok    rule bites: voice intensity above the sensitivity cap (cross-file)
+ok    rule bites: gap between scene timing windows (cross-file)
+ok    rule bites: entity without a placement (cross-file)
+ok    rule bites: camera word index past the narration (cross-file)
+ok    rule bites: entity without any content once assets exist (cross-file)
+ok    rule bites: claim narrated but judged unsupported by the reviewer
+ok    rule bites: narrated claim missing from the evidence review (strict)
+ok    rule bites: same-session review is not independent (strict)
+ok    rule bites: validated Short judged not standalone
+ok    rule bites: alignment that runs backwards
+ok    rule bites: alignment word past the end of the audio
+ok    rule bites: estimated alignment source is not accepted
+
+SELFTEST PASSED (30 rules proven)
+
+> youtube-studio@3.0.0 test:engine
+> tsx --test tests/engine/*.test.ts
+
+TAP version 13
+# Subtest: dissolve 16:9: centre to centre, same size
+ok 1 - dissolve 16:9: centre to centre, same size
+  ---
+  duration_ms: 5.859173
+  type: 'test'
+  ...
+# Subtest: match_geometry 16:9: centre to centre, same size
+ok 2 - match_geometry 16:9: centre to centre, same size
+  ---
+  duration_ms: 4.135292
+  type: 'test'
+  ...
+# Subtest: focus_bridge 16:9: centre to centre, same size
+ok 3 - focus_bridge 16:9: centre to centre, same size
+  ---
+  duration_ms: 2.535075
+  type: 'test'
+  ...
+# Subtest: truthful_morph 16:9: centre to centre, same size
+ok 4 - truthful_morph 16:9: centre to centre, same size
+  ---
+  duration_ms: 2.882038
+  type: 'test'
+  ...
+# Subtest: match_movement 16:9: centre to centre, same size
+ok 5 - match_movement 16:9: centre to centre, same size
+  ---
+  duration_ms: 2.098466
+  type: 'test'
+  ...
+# Subtest: nested_scale 16:9: centre to centre, same size
+ok 6 - nested_scale 16:9: centre to centre, same size
+  ---
+  duration_ms: 1.419753
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 16:9: centre to centre, same size
+ok 7 - occlusion_reveal 16:9: centre to centre, same size
+  ---
+  duration_ms: 1.068491
+  type: 'test'
+  ...
+# Subtest: depth_through_object 16:9: centre to centre, same size
+ok 8 - depth_through_object 16:9: centre to centre, same size
+  ---
+  duration_ms: 1.014913
+  type: 'test'
+  ...
+# Subtest: dissolve 16:9: travels and grows
+ok 9 - dissolve 16:9: travels and grows
+  ---
+  duration_ms: 0.940928
+  type: 'test'
+  ...
+# Subtest: match_geometry 16:9: travels and grows
+ok 10 - match_geometry 16:9: travels and grows
+  ---
+  duration_ms: 3.764871
+  type: 'test'
+  ...
+# Subtest: focus_bridge 16:9: travels and grows
+ok 11 - focus_bridge 16:9: travels and grows
+  ---
+  duration_ms: 1.09076
+  type: 'test'
+  ...
+# Subtest: truthful_morph 16:9: travels and grows
+ok 12 - truthful_morph 16:9: travels and grows
+  ---
+  duration_ms: 1.605856
+  type: 'test'
+  ...
+# Subtest: match_movement 16:9: travels and grows
+ok 13 - match_movement 16:9: travels and grows
+  ---
+  duration_ms: 0.609486
+  type: 'test'
+  ...
+# Subtest: nested_scale 16:9: travels and grows
+ok 14 - nested_scale 16:9: travels and grows
+  ---
+  duration_ms: 0.676649
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 16:9: travels and grows
+ok 15 - occlusion_reveal 16:9: travels and grows
+  ---
+  duration_ms: 1.020512
+  type: 'test'
+  ...
+# Subtest: depth_through_object 16:9: travels and grows
+ok 16 - depth_through_object 16:9: travels and grows
+  ---
+  duration_ms: 1.072261
+  type: 'test'
+  ...
+# Subtest: dissolve 16:9: travels and shrinks
+ok 17 - dissolve 16:9: travels and shrinks
+  ---
+  duration_ms: 0.567383
+  type: 'test'
+  ...
+# Subtest: match_geometry 16:9: travels and shrinks
+ok 18 - match_geometry 16:9: travels and shrinks
+  ---
+  duration_ms: 0.838375
+  type: 'test'
+  ...
+# Subtest: focus_bridge 16:9: travels and shrinks
+ok 19 - focus_bridge 16:9: travels and shrinks
+  ---
+  duration_ms: 0.90052
+  type: 'test'
+  ...
+# Subtest: truthful_morph 16:9: travels and shrinks
+ok 20 - truthful_morph 16:9: travels and shrinks
+  ---
+  duration_ms: 1.298254
+  type: 'test'
+  ...
+# Subtest: match_movement 16:9: travels and shrinks
+ok 21 - match_movement 16:9: travels and shrinks
+  ---
+  duration_ms: 0.507912
+  type: 'test'
+  ...
+# Subtest: nested_scale 16:9: travels and shrinks
+ok 22 - nested_scale 16:9: travels and shrinks
+  ---
+  duration_ms: 0.49493
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 16:9: travels and shrinks
+ok 23 - occlusion_reveal 16:9: travels and shrinks
+  ---
+  duration_ms: 0.496387
+  type: 'test'
+  ...
+# Subtest: depth_through_object 16:9: travels and shrinks
+ok 24 - depth_through_object 16:9: travels and shrinks
+  ---
+  duration_ms: 0.451236
+  type: 'test'
+  ...
+# Subtest: dissolve 16:9: near a corner
+ok 25 - dissolve 16:9: near a corner
+  ---
+  duration_ms: 0.426002
+  type: 'test'
+  ...
+# Subtest: match_geometry 16:9: near a corner
+ok 26 - match_geometry 16:9: near a corner
+  ---
+  duration_ms: 0.829693
+  type: 'test'
+  ...
+# Subtest: focus_bridge 16:9: near a corner
+ok 27 - focus_bridge 16:9: near a corner
+  ---
+  duration_ms: 1.126812
+  type: 'test'
+  ...
+# Subtest: truthful_morph 16:9: near a corner
+ok 28 - truthful_morph 16:9: near a corner
+  ---
+  duration_ms: 0.772333
+  type: 'test'
+  ...
+# Subtest: match_movement 16:9: near a corner
+ok 29 - match_movement 16:9: near a corner
+  ---
+  duration_ms: 0.436523
+  type: 'test'
+  ...
+# Subtest: nested_scale 16:9: near a corner
+ok 30 - nested_scale 16:9: near a corner
+  ---
+  duration_ms: 0.688651
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 16:9: near a corner
+ok 31 - occlusion_reveal 16:9: near a corner
+  ---
+  duration_ms: 0.491078
+  type: 'test'
+  ...
+# Subtest: depth_through_object 16:9: near a corner
+ok 32 - depth_through_object 16:9: near a corner
+  ---
+  duration_ms: 0.537863
+  type: 'test'
+  ...
+# Subtest: dissolve 16:9: extreme ratio (clamped)
+ok 33 - dissolve 16:9: extreme ratio (clamped)
+  ---
+  duration_ms: 0.766115
+  type: 'test'
+  ...
+# Subtest: match_geometry 16:9: extreme ratio (clamped)
+ok 34 - match_geometry 16:9: extreme ratio (clamped)
+  ---
+  duration_ms: 0.692767
+  type: 'test'
+  ...
+# Subtest: focus_bridge 16:9: extreme ratio (clamped)
+ok 35 - focus_bridge 16:9: extreme ratio (clamped)
+  ---
+  duration_ms: 0.749484
+  type: 'test'
+  ...
+# Subtest: truthful_morph 16:9: extreme ratio (clamped)
+ok 36 - truthful_morph 16:9: extreme ratio (clamped)
+  ---
+  duration_ms: 0.745374
+  type: 'test'
+  ...
+# Subtest: match_movement 16:9: extreme ratio (clamped)
+ok 37 - match_movement 16:9: extreme ratio (clamped)
+  ---
+  duration_ms: 0.420244
+  type: 'test'
+  ...
+# Subtest: nested_scale 16:9: extreme ratio (clamped)
+ok 38 - nested_scale 16:9: extreme ratio (clamped)
+  ---
+  duration_ms: 0.880352
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 16:9: extreme ratio (clamped)
+ok 39 - occlusion_reveal 16:9: extreme ratio (clamped)
+  ---
+  duration_ms: 0.482831
+  type: 'test'
+  ...
+# Subtest: depth_through_object 16:9: extreme ratio (clamped)
+ok 40 - depth_through_object 16:9: extreme ratio (clamped)
+  ---
+  duration_ms: 0.420272
+  type: 'test'
+  ...
+# Subtest: anchored operators fall back to dissolve when an anchor is missing (16:9)
+ok 41 - anchored operators fall back to dissolve when an anchor is missing (16:9)
+  ---
+  duration_ms: 0.241326
+  type: 'test'
+  ...
+# Subtest: dissolve 9:16: centre to centre, same size
+ok 42 - dissolve 9:16: centre to centre, same size
+  ---
+  duration_ms: 0.414266
+  type: 'test'
+  ...
+# Subtest: match_geometry 9:16: centre to centre, same size
+ok 43 - match_geometry 9:16: centre to centre, same size
+  ---
+  duration_ms: 0.616241
+  type: 'test'
+  ...
+# Subtest: focus_bridge 9:16: centre to centre, same size
+ok 44 - focus_bridge 9:16: centre to centre, same size
+  ---
+  duration_ms: 0.671441
+  type: 'test'
+  ...
+# Subtest: truthful_morph 9:16: centre to centre, same size
+ok 45 - truthful_morph 9:16: centre to centre, same size
+  ---
+  duration_ms: 0.672778
+  type: 'test'
+  ...
+# Subtest: match_movement 9:16: centre to centre, same size
+ok 46 - match_movement 9:16: centre to centre, same size
+  ---
+  duration_ms: 1.927777
+  type: 'test'
+  ...
+# Subtest: nested_scale 9:16: centre to centre, same size
+ok 47 - nested_scale 9:16: centre to centre, same size
+  ---
+  duration_ms: 0.467603
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 9:16: centre to centre, same size
+ok 48 - occlusion_reveal 9:16: centre to centre, same size
+  ---
+  duration_ms: 0.430841
+  type: 'test'
+  ...
+# Subtest: depth_through_object 9:16: centre to centre, same size
+ok 49 - depth_through_object 9:16: centre to centre, same size
+  ---
+  duration_ms: 0.402579
+  type: 'test'
+  ...
+# Subtest: dissolve 9:16: travels and grows
+ok 50 - dissolve 9:16: travels and grows
+  ---
+  duration_ms: 0.397447
+  type: 'test'
+  ...
+# Subtest: match_geometry 9:16: travels and grows
+ok 51 - match_geometry 9:16: travels and grows
+  ---
+  duration_ms: 0.616986
+  type: 'test'
+  ...
+# Subtest: focus_bridge 9:16: travels and grows
+ok 52 - focus_bridge 9:16: travels and grows
+  ---
+  duration_ms: 0.663638
+  type: 'test'
+  ...
+# Subtest: truthful_morph 9:16: travels and grows
+ok 53 - truthful_morph 9:16: travels and grows
+  ---
+  duration_ms: 0.981072
+  type: 'test'
+  ...
+# Subtest: match_movement 9:16: travels and grows
+ok 54 - match_movement 9:16: travels and grows
+  ---
+  duration_ms: 0.370315
+  type: 'test'
+  ...
+# Subtest: nested_scale 9:16: travels and grows
+ok 55 - nested_scale 9:16: travels and grows
+  ---
+  duration_ms: 0.430787
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 9:16: travels and grows
+ok 56 - occlusion_reveal 9:16: travels and grows
+  ---
+  duration_ms: 0.389761
+  type: 'test'
+  ...
+# Subtest: depth_through_object 9:16: travels and grows
+ok 57 - depth_through_object 9:16: travels and grows
+  ---
+  duration_ms: 0.449705
+  type: 'test'
+  ...
+# Subtest: dissolve 9:16: travels and shrinks
+ok 58 - dissolve 9:16: travels and shrinks
+  ---
+  duration_ms: 0.3459
+  type: 'test'
+  ...
+# Subtest: match_geometry 9:16: travels and shrinks
+ok 59 - match_geometry 9:16: travels and shrinks
+  ---
+  duration_ms: 0.629352
+  type: 'test'
+  ...
+# Subtest: focus_bridge 9:16: travels and shrinks
+ok 60 - focus_bridge 9:16: travels and shrinks
+  ---
+  duration_ms: 0.911797
+  type: 'test'
+  ...
+# Subtest: truthful_morph 9:16: travels and shrinks
+ok 61 - truthful_morph 9:16: travels and shrinks
+  ---
+  duration_ms: 0.604232
+  type: 'test'
+  ...
+# Subtest: match_movement 9:16: travels and shrinks
+ok 62 - match_movement 9:16: travels and shrinks
+  ---
+  duration_ms: 0.39993
+  type: 'test'
+  ...
+# Subtest: nested_scale 9:16: travels and shrinks
+ok 63 - nested_scale 9:16: travels and shrinks
+  ---
+  duration_ms: 0.419086
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 9:16: travels and shrinks
+ok 64 - occlusion_reveal 9:16: travels and shrinks
+  ---
+  duration_ms: 0.38247
+  type: 'test'
+  ...
+# Subtest: depth_through_object 9:16: travels and shrinks
+ok 65 - depth_through_object 9:16: travels and shrinks
+  ---
+  duration_ms: 0.509138
+  type: 'test'
+  ...
+# Subtest: dissolve 9:16: near a corner
+ok 66 - dissolve 9:16: near a corner
+  ---
+  duration_ms: 0.699108
+  type: 'test'
+  ...
+# Subtest: match_geometry 9:16: near a corner
+ok 67 - match_geometry 9:16: near a corner
+  ---
+  duration_ms: 0.612638
+  type: 'test'
+  ...
+# Subtest: focus_bridge 9:16: near a corner
+ok 68 - focus_bridge 9:16: near a corner
+  ---
+  duration_ms: 0.65898
+  type: 'test'
+  ...
+# Subtest: truthful_morph 9:16: near a corner
+ok 69 - truthful_morph 9:16: near a corner
+  ---
+  duration_ms: 0.617077
+  type: 'test'
+  ...
+# Subtest: match_movement 9:16: near a corner
+ok 70 - match_movement 9:16: near a corner
+  ---
+  duration_ms: 0.378563
+  type: 'test'
+  ...
+# Subtest: nested_scale 9:16: near a corner
+ok 71 - nested_scale 9:16: near a corner
+  ---
+  duration_ms: 0.405312
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 9:16: near a corner
+ok 72 - occlusion_reveal 9:16: near a corner
+  ---
+  duration_ms: 0.766306
+  type: 'test'
+  ...
+# Subtest: depth_through_object 9:16: near a corner
+ok 73 - depth_through_object 9:16: near a corner
+  ---
+  duration_ms: 0.438622
+  type: 'test'
+  ...
+# Subtest: dissolve 9:16: extreme ratio (clamped)
+ok 74 - dissolve 9:16: extreme ratio (clamped)
+  ---
+  duration_ms: 0.345184
+  type: 'test'
+  ...
+# Subtest: match_geometry 9:16: extreme ratio (clamped)
+ok 75 - match_geometry 9:16: extreme ratio (clamped)
+  ---
+  duration_ms: 0.594778
+  type: 'test'
+  ...
+# Subtest: focus_bridge 9:16: extreme ratio (clamped)
+ok 76 - focus_bridge 9:16: extreme ratio (clamped)
+  ---
+  duration_ms: 0.596421
+  type: 'test'
+  ...
+# Subtest: truthful_morph 9:16: extreme ratio (clamped)
+ok 77 - truthful_morph 9:16: extreme ratio (clamped)
+  ---
+  duration_ms: 0.666443
+  type: 'test'
+  ...
+# Subtest: match_movement 9:16: extreme ratio (clamped)
+ok 78 - match_movement 9:16: extreme ratio (clamped)
+  ---
+  duration_ms: 0.374086
+  type: 'test'
+  ...
+# Subtest: nested_scale 9:16: extreme ratio (clamped)
+ok 79 - nested_scale 9:16: extreme ratio (clamped)
+  ---
+  duration_ms: 4.656095
+  type: 'test'
+  ...
+# Subtest: occlusion_reveal 9:16: extreme ratio (clamped)
+ok 80 - occlusion_reveal 9:16: extreme ratio (clamped)
+  ---
+  duration_ms: 0.434572
+  type: 'test'
+  ...
+# Subtest: depth_through_object 9:16: extreme ratio (clamped)
+ok 81 - depth_through_object 9:16: extreme ratio (clamped)
+  ---
+  duration_ms: 0.447829
+  type: 'test'
+  ...
+# Subtest: anchored operators fall back to dissolve when an anchor is missing (9:16)
+ok 82 - anchored operators fall back to dissolve when an anchor is missing (9:16)
+  ---
+  duration_ms: 0.084239
+  type: 'test'
+  ...
+# Subtest: easing tokens start at 0, end at 1 and never run backwards
+ok 83 - easing tokens start at 0, end at 1 and never run backwards
+  ---
+  duration_ms: 0.529966
+  type: 'test'
+  ...
+# Subtest: matrix helpers: scaleAbout keeps its centre, mul composes right to left, lerpLog is geometric
+ok 84 - matrix helpers: scaleAbout keeps its centre, mul composes right to left, lerpLog is geometric
+  ---
+  duration_ms: 0.941775
+  type: 'test'
+  ...
+1..84
+# tests 84
+# suites 0
+# pass 84
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 339.233546
+
+> youtube-studio@3.0.0 test:py
+> python3 -m pytest tests -q
+
+........................................................................ [ 80%]
+.................                                                        [100%]
+89 passed in 777.15s (0:12:57)
+EXIT 0

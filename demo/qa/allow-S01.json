@@ -1,0 +1,131 @@
+{
+  "target": "S01",
+  "fps": 30,
+  "durationS": 14.16,
+  "layout": "portrait",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [],
+  "freeze": [
+    {
+      "fromS": 6.29,
+      "toS": 8.155,
+      "kind": "hold",
+      "reason": "let the tall frame sit for the same beat",
+      "scene": "s02"
+    },
+    {
+      "fromS": 10.115,
+      "toS": 14.16,
+      "kind": "hold",
+      "reason": "let the viewer read the chart before the next idea",
+      "scene": "s03"
+    },
+    {
+      "fromS": 2.0,
+      "toS": 3.05,
+      "kind": "rest",
+      "maxS": 1.2,
+      "scene": "s01",
+      "reason": "the plan schedules no entrance, exit, camera move or transition here"
+    },
+    {
+      "fromS": 3.55,
+      "toS": 4.24,
+      "kind": "rest",
+      "maxS": 1.2,
+      "scene": "s01",
+      "reason": "the plan schedules no entrance, exit, camera move or transition here"
+    },
+    {
+      "fromS": 6.29,
+      "toS": 8.105,
+      "kind": "rest",
+      "maxS": 1.2,
+      "scene": "s02",
+      "reason": "the plan schedules no entrance, exit, camera move or transition here"
+    },
+    {
+      "fromS": 10.115,
+      "toS": 14.16,
+      "kind": "rest",
+      "maxS": 1.2,
+      "scene": "s03",
+      "reason": "the plan schedules no entrance, exit, camera move or transition here"
+    }
+  ],
+  "silence": [
+    {
+      "fromS": 1.99,
+      "toS": 2.27,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 4.88,
+      "toS": 4.98,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 8.1,
+      "toS": 8.23,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 12.18,
+      "toS": 12.53,
+      "reason": "closing line join",
+      "declaredMs": 0
+    }
+  ],
+  "transitions": [
+    {
+      "id": "s01>s02",
+      "type": "truthful_morph",
+      "startS": 4.24,
+      "endS": 5.64,
+      "from": "s01",
+      "to": "s02",
+      "easing": "standard",
+      "downgradedFrom": null
+    }
+  ],
+  "plannedCutsS": [
+    8.155
+  ],
+  "sampleTimesS": [
+    4.94
+  ],
+  "scheduledMotionS": [
+    [
+      0.0,
+      2.0
+    ],
+    [
+      3.05,
+      3.55
+    ],
+    [
+      4.24,
+      5.64
+    ],
+    [
+      5.79,
+      6.29
+    ],
+    [
+      8.105,
+      10.115
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.731
+  },
+  "warnings": []
+}

@@ -1,0 +1,141 @@
+{
+  "project": "demo",
+  "idea": "Smoke test: one frame, two shapes",
+  "purpose": "smoke",
+  "madeAt": "2026-10-30T10:38:27",
+  "targets": {
+    "long": {
+      "file": "out/full-video.mp4",
+      "video": {
+        "w": 640,
+        "h": 360,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 12.7,
+        "bytes": 810704
+      },
+      "sha256": "65fddcdb82ccfbb61a3e15430f28fba1af5776ac381c15cf0cab23d68e0cb7cc",
+      "media": "PASSED",
+      "motion": "PASSED",
+      "counts": {
+        "media": {
+          "pass": 18,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 14,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 2
+        }
+      },
+      "transitions": [
+        {
+          "id": "s01>s02",
+          "type": "truthful_morph",
+          "downgradedFrom": null,
+          "rationale": "the same frame becomes the tall version of itself"
+        },
+        {
+          "id": "s03>s04",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        }
+      ],
+      "warnings": []
+    },
+    "S01": {
+      "file": "out/short-01.mp4",
+      "video": {
+        "w": 360,
+        "h": 640,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 14.167,
+        "bytes": 754657
+      },
+      "sha256": "2dd9703267950d3a6eab87c90f3be446dbc3e4f6a116e2da4c153a7ca71dd46b",
+      "media": "PASSED",
+      "motion": "PASSED",
+      "counts": {
+        "media": {
+          "pass": 19,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 8,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        }
+      },
+      "transitions": [
+        {
+          "id": "s01>s02",
+          "type": "truthful_morph",
+          "downgradedFrom": null,
+          "rationale": "the same frame becomes the tall version of itself"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "humanNeeded": [],
+  "notes": [
+    "voice: ElevenLabs unavailable (no ELEVENLABS_API_KEY); FALLBACK to the free local voice flite (robotic, for drafts and tests)"
+  ],
+  "voice": {
+    "stack": "flite",
+    "voice": "slt",
+    "model": "flite (ffmpeg libflite)",
+    "quality": "robotic; no emotion; for pipeline tests, drafts and the free path",
+    "takes": 1,
+    "shortLines": [
+      {
+        "short": "S01",
+        "kind": "opening",
+        "file": "audio/shorts/S01/opening.wav",
+        "chars": 29
+      },
+      {
+        "short": "S01",
+        "kind": "closing",
+        "file": "audio/shorts/S01/closing.wav",
+        "chars": 23
+      }
+    ],
+    "totalChars": 276
+  },
+  "alignment": {
+    "source": "dtw_reference",
+    "coverage": 1.0,
+    "quality": {
+      "medianConf": 0.936,
+      "notes": [
+        "dtw_reference: reference voice flite/slt; median cost per frame 2.50"
+      ]
+    }
+  },
+  "spend": [],
+  "pendingPaid": [],
+  "downgrades": {},
+  "previewGate": null,
+  "engine": {
+    "version": "3.0.0-dom",
+    "sha256": "e7a36b414076f1bb97b0b6f51442b85e822c3c78e5a3d517d3cdb62a9e02dca4",
+    "backend": "browser",
+    "chromium": "153.0.8010.12",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  }
+}

@@ -1,0 +1,29 @@
+  voice: ElevenLabs unavailable (no ELEVENLABS_API_KEY); FALLBACK to the free local voice flite (robotic, for drafts and tests)
+project /home/claude/youtube-system/videos/demo
+targets long, S01 · voice stack flite · 640x360
+  skip   validate  (inputs unchanged)
+  skip   visuals  (inputs unchanged)
+  skip   voice  (inputs unchanged)
+  skip   assemble  (inputs unchanged)
+  skip   align  (inputs unchanged)
+  skip   short:S01  (inputs unchanged)
+  skip   plan:long  (inputs unchanged)
+  skip   lint:long  (inputs unchanged)
+  skip   mix:long  (inputs unchanged)
+  skip   render:long  (inputs unchanged)
+  skip   captions:long  (inputs unchanged)
+  skip   plan:S01  (inputs unchanged)
+  skip   lint:S01  (inputs unchanged)
+  skip   mix:S01  (inputs unchanged)
+  skip   render:S01  (inputs unchanged)
+  skip   captions:S01  (inputs unchanged)
+  skip   allow:long  (inputs unchanged)
+  skip   qa:long  (inputs unchanged)
+  skip   motion:long  (inputs unchanged)
+  QA long: media PASSED, motion PASSED
+  skip   allow:S01  (inputs unchanged)
+  skip   qa:S01  (inputs unchanged)
+  skip   motion:S01  (inputs unchanged)
+  QA S01: media PASSED, motion PASSED
+
+QA verdicts: long: PASSED, S01: PASSED

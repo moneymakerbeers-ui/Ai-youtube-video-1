@@ -1,0 +1,156 @@
+{
+  "subject": "/home/claude/youtube-system/videos/demo/out/full-video.mp4",
+  "kind": "",
+  "overall": "PASSED",
+  "summary": {
+    "pass": 18,
+    "fail": 0,
+    "blocked": 0,
+    "warn": 0,
+    "info": 1
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "blackdetect, the stillness instrument (incl. a 1 px/frame crawling square), silencedetect, signalstats and ebur128 found exactly the known events in synthetic media"
+    },
+    {
+      "id": "probe.size",
+      "status": "pass",
+      "value": "640x360",
+      "detail": "expected 640x360 (from the plan)"
+    },
+    {
+      "id": "probe.codec",
+      "status": "pass",
+      "value": "h264/yuv420p",
+      "detail": "expected h264 + yuv420p"
+    },
+    {
+      "id": "probe.color",
+      "status": "pass",
+      "value": "bt709/tv",
+      "detail": "expected bt709 / tv tags"
+    },
+    {
+      "id": "probe.fps",
+      "status": "pass",
+      "value": "30/1 vs 30/1",
+      "detail": "constant frame rate expected = 30"
+    },
+    {
+      "id": "probe.duration",
+      "status": "pass",
+      "value": 12.7,
+      "detail": "plan duration 12.7s"
+    },
+    {
+      "id": "probe.audio",
+      "status": "pass",
+      "value": "aac 48000Hz 2ch",
+      "detail": "expected aac at 44.1/48 kHz"
+    },
+    {
+      "id": "av.duration",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "audio and video lengths differ by 0.000s (max 0.1)"
+    },
+    {
+      "id": "decode",
+      "status": "pass",
+      "value": 381,
+      "detail": "381 frames decoded without a diagnostic (plan: 381)"
+    },
+    {
+      "id": "black",
+      "status": "pass",
+      "value": 2,
+      "detail": "2 black span(s), all inside declared windows"
+    },
+    {
+      "id": "flash",
+      "status": "pass",
+      "value": 0,
+      "detail": "heuristic for the 3-flashes rule (large mean-luma swings in 1 s), not a conformance test",
+      "heuristic": true
+    },
+    {
+      "id": "cuts",
+      "status": "pass",
+      "value": 0,
+      "detail": "every large frame change is a planned cut or inside a planned transition",
+      "heuristic": true
+    },
+    {
+      "id": "freeze.source",
+      "status": "pass",
+      "value": 2,
+      "detail": "2 still span(s) in the scene graph at the renderer (before encoding), all declared holds or planned rests"
+    },
+    {
+      "id": "freeze",
+      "status": "pass",
+      "value": 3,
+      "detail": "3 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 16 levels on the same pooled picture (\u00b10.3s); threshold 8 levels on a 96-px pooled picture (codec noise in still frames: 6)"
+    },
+    {
+      "id": "silence",
+      "status": "pass",
+      "value": 0,
+      "detail": "no silence of 0.7 s or more"
+    },
+    {
+      "id": "loudness",
+      "status": "pass",
+      "value": {
+        "integratedLufs": -14.0,
+        "lra": 1.2,
+        "truePeakDbtp": -4.2
+      },
+      "detail": "engineering target -14.0\u00b11.5 LUFS, true peak \u2264 -1.0 dBTP (calibrate by ear and against the channel; not a YouTube requirement)"
+    },
+    {
+      "id": "narration",
+      "status": "pass",
+      "value": 47,
+      "detail": "all 47 aligned words carry speech energy (speech median -11 dBFS, floor -46)"
+    },
+    {
+      "id": "sync",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "the audio in the file is offset +0 ms from master-long.wav (max \u00b150 ms)"
+    },
+    {
+      "id": "sheets",
+      "status": "info",
+      "value": 3,
+      "detail": "view these with Read; contact-sheet tile n covers startS + n*everyS"
+    }
+  ],
+  "file": "/home/claude/youtube-system/videos/demo/out/full-video.mp4",
+  "sheets": [
+    {
+      "file": "/home/claude/youtube-system/videos/demo/qa/sheets/long_sheet_01.jpg",
+      "startS": 0.0,
+      "everyS": 5.0,
+      "tile": "6x4"
+    },
+    {
+      "file": "/home/claude/youtube-system/videos/demo/qa/sheets/long_risk_00_2.6s.jpg",
+      "aroundS": 2.59,
+      "frames": "6 frames across 1.2s"
+    },
+    {
+      "file": "/home/claude/youtube-system/videos/demo/qa/sheets/long_risk_01_9.7s.jpg",
+      "aroundS": 9.68,
+      "frames": "6 frames across 1.2s"
+    }
+  ],
+  "probe": {
+    "duration": "12.700000"
+  }
+}

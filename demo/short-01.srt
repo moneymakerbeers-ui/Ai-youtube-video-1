@@ -1,0 +1,39 @@
+1
+00:00:00,030 --> 00:00:01,950
+Watch one frame change shape.
+
+2
+00:00:02,300 --> 00:00:03,560
+A frame can be wide,
+
+3
+00:00:03,670 --> 00:00:04,820
+like a cinema screen.
+
+4
+00:00:05,060 --> 00:00:06,220
+Or it can be tall,
+
+5
+00:00:06,330 --> 00:00:07,730
+like a phone held in one
+
+6
+00:00:07,730 --> 00:00:08,330
+hand.
+
+7
+00:00:08,260 --> 00:00:10,115
+The same numbers fit both shapes,
+
+8
+00:00:10,115 --> 00:00:11,480
+so we hold still and let
+
+9
+00:00:11,480 --> 00:00:12,130
+you read them.
+
+10
+00:00:12,570 --> 00:00:14,110
+Same frame, two shapes.

@@ -1,0 +1,35 @@
+{
+  "shorts": [
+    {
+      "id": "S01",
+      "status": "validated",
+      "title": "One frame, two shapes",
+      "question": "What happens to a picture when the frame turns from wide to tall?",
+      "minimumContext": [
+        "A frame is the outline of a picture."
+      ],
+      "payoff": "The same frame becomes tall and the same numbers still fit.",
+      "sceneIds": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "delta": {
+        "openingLine": "Watch one frame change shape.",
+        "closingLine": "Same frame, two shapes.",
+        "portraitRestage": "every scene is re-laid-out for 9:16 (frame up, labels under it)",
+        "addedVisual": "none"
+      },
+      "targetDurationS": 22,
+      "validation": {
+        "independentOpening": true,
+        "oneQuestion": true,
+        "minimumContext": true,
+        "completeExplanation": true,
+        "cleanPayoff": true,
+        "sourceLinked": true,
+        "deltaDefined": true
+      }
+    }
+  ]
+}

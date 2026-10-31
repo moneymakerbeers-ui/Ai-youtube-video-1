@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "fps": 30,
+  "opening": {
+    "fadeInMs": 300,
+    "leadSilenceMs": 0
+  },
+  "ending": {
+    "fadeOutMs": 400,
+    "holdBlackMs": 0,
+    "tailSilenceMs": 0
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "main",
+      "claimIds": [],
+      "narration": "A frame can be wide, like a cinema screen.",
+      "intent": "show it",
+      "retentionBeat": "orient",
+      "presentation": "diagram",
+      "visualIntensity": 3,
+      "transition": {
+        "type": "truthful_morph",
+        "rationale": "the same frame becomes the tall version of itself",
+        "anchorFrom": {
+          "entityId": "e_frame"
+        },
+        "anchorTo": {
+          "entityId": "e_frame2"
+        },
+        "durationMs": 1400
+      },
+      "voice": {
+        "intent": "say it plainly",
+        "emotion": "neutral-clear",
+        "intensity": 0,
+        "pace": "steady",
+        "emphasisWords": [],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 0
+      },
+      "entities": [
+        {
+          "id": "e_frame",
+          "role": "diagram",
+          "visual": {
+            "component": "aspect_frame",
+            "props": {
+              "ratioW": 16,
+              "ratioH": 9
+            }
+          },
+          "enter": {
+            "style": "draw",
+            "durationMs": 2000
+          }
+        },
+        {
+          "id": "e_t",
+          "role": "label",
+          "text": "Wide",
+          "enterAtWord": 3
+        }
+      ],
+      "layouts": {
+        "landscape": {
+          "placements": {
+            "e_frame": {
+              "x": 0.5,
+              "y": 0.4,
+              "w": 0.4
+            },
+            "e_t": {
+              "x": 0.8,
+              "y": 0.4,
+              "w": 0.16,
+              "z": 2
+            }
+          },
+          "camera": [],
+          "hold": {
+            "reason": "let the wide frame sit before it becomes the tall one"
+          }
+        },
+        "portrait": {
+          "placements": {
+            "e_frame": {
+              "x": 0.5,
+              "y": 0.3,
+              "w": 0.84
+            },
+            "e_t": {
+              "x": 0.5,
+              "y": 0.5,
+              "w": 0.3,
+              "z": 2
+            }
+          },
+          "camera": []
+        }
+      },
+      "shortIds": [
+        "S01"
+      ],
+      "signature": {
+        "before": "a wide 16:9 outline",
+        "after": "the same outline as a tall 9:16 one",
+        "track": "the rounded outline"
+      }
+    },
+    {
+      "id": "s02",
+      "section": "main",
+      "claimIds": [],
+      "narration": "Or it can be tall, like a phone held in one hand.",
+      "intent": "show it",
+      "retentionBeat": "develop",
+      "presentation": "diagram",
+      "visualIntensity": 1,
+      "transition": {
+        "type": "cut"
+      },
+      "voice": {
+        "intent": "say it plainly",
+        "emotion": "neutral-clear",
+        "intensity": 0,
+        "pace": "steady",
+        "emphasisWords": [],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 0
+      },
+      "entities": [
+        {
+          "id": "e_frame2",
+          "role": "diagram",
+          "visual": {
+            "component": "aspect_frame",
+            "props": {
+              "ratioW": 9,
+              "ratioH": 16
+            }
+          },
+          "enter": {
+            "style": "draw",
+            "durationMs": 900
+          }
+        },
+        {
+          "id": "e_t2",
+          "role": "label",
+          "text": "Tall",
+          "enterAtWord": 4
+        }
+      ],
+      "layouts": {
+        "landscape": {
+          "placements": {
+            "e_frame2": {
+              "x": 0.5,
+              "y": 0.4,
+              "w": 0.4
+            },
+            "e_t2": {
+              "x": 0.8,
+              "y": 0.4,
+              "w": 0.16,
+              "z": 2
+            }
+          },
+          "camera": [],
+          "hold": {
+            "reason": "let the tall frame sit for the same beat"
+          }
+        },
+        "portrait": {
+          "placements": {
+            "e_frame2": {
+              "x": 0.5,
+              "y": 0.33,
+              "w": 0.62
+            },
+            "e_t2": {
+              "x": 0.5,
+              "y": 0.58,
+              "w": 0.3,
+              "z": 2
+            }
+          },
+          "camera": [],
+          "hold": {
+            "reason": "let the tall frame sit for the same beat"
+          }
+        }
+      },
+      "shortIds": [
+        "S01"
+      ]
+    },
+    {
+      "id": "s03",
+      "section": "main",
+      "claimIds": [],
+      "narration": "The same numbers fit both shapes, so we hold still and let you read them.",
+      "intent": "show it",
+      "retentionBeat": "develop",
+      "presentation": "diagram",
+      "visualIntensity": 1,
+      "transition": {
+        "type": "dissolve",
+        "durationMs": 500
+      },
+      "voice": {
+        "intent": "say it plainly",
+        "emotion": "neutral-clear",
+        "intensity": 0,
+        "pace": "steady",
+        "emphasisWords": [],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 0
+      },
+      "entities": [
+        {
+          "id": "e_bars",
+          "role": "diagram",
+          "visual": {
+            "component": "bars",
+            "props": {
+              "values": [
+                3,
+                7,
+                5
+              ],
+              "labels": [
+                "A",
+                "B",
+                "C"
+              ],
+              "accent": 1
+            }
+          },
+          "enter": {
+            "style": "draw",
+            "durationMs": 1200
+          }
+        },
+        {
+          "id": "e_n",
+          "role": "number",
+          "text": "7",
+          "enterAtWord": 2
+        }
+      ],
+      "layouts": {
+        "landscape": {
+          "placements": {
+            "e_bars": {
+              "x": 0.5,
+              "y": 0.42,
+              "w": 0.5
+            },
+            "e_n": {
+              "x": 0.85,
+              "y": 0.22,
+              "w": 0.12,
+              "z": 2
+            }
+          },
+          "camera": [
+            {
+              "from": {
+                "x": 0.5,
+                "y": 0.5,
+                "scale": 1
+              },
+              "to": {
+                "x": 0.55,
+                "y": 0.5,
+                "scale": 1.12
+              },
+              "startWord": 0,
+              "endWord": 5,
+              "reason": "push toward the tallest bar",
+              "easing": "emphasized"
+            }
+          ],
+          "hold": {
+            "reason": "let the viewer read the chart before the next idea"
+          }
+        },
+        "portrait": {
+          "placements": {
+            "e_bars": {
+              "x": 0.36,
+              "y": 0.34,
+              "w": 0.56
+            },
+            "e_n": {
+              "x": 0.75,
+              "y": 0.3,
+              "w": 0.17,
+              "z": 2
+            }
+          },
+          "camera": [
+            {
+              "from": {
+                "x": 0.5,
+                "y": 0.5,
+                "scale": 1
+              },
+              "to": {
+                "x": 0.5,
+                "y": 0.5,
+                "scale": 1.06
+              },
+              "startWord": 0,
+              "endWord": 5,
+              "reason": "gentle push toward the chart",
+              "easing": "emphasized"
+            }
+          ],
+          "hold": {
+            "reason": "let the viewer read the chart before the next idea"
+          }
+        }
+      },
+      "shortIds": [
+        "S01"
+      ]
+    },
+    {
+      "id": "s04",
+      "section": "main",
+      "claimIds": [],
+      "narration": "And now the wave keeps moving while the number counts up.",
+      "intent": "show it",
+      "retentionBeat": "settle",
+      "presentation": "diagram",
+      "visualIntensity": 1,
+      "transition": {
+        "type": "cut"
+      },
+      "voice": {
+        "intent": "say it plainly",
+        "emotion": "neutral-clear",
+        "intensity": 0,
+        "pace": "steady",
+        "emphasisWords": [],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 0
+      },
+      "entities": [
+        {
+          "id": "e_w",
+          "role": "diagram",
+          "visual": {
+            "component": "wave",
+            "props": {
+              "cycles": 3
+            }
+          },
+          "enter": {
+            "style": "draw",
+            "durationMs": 900
+          }
+        },
+        {
+          "id": "e_c",
+          "role": "number",
+          "visual": {
+            "component": "counter",
+            "props": {
+              "from": 0,
+              "to": 100,
+              "suffix": "%"
+            }
+          },
+          "enter": {
+            "style": "fade",
+            "durationMs": 400
+          }
+        }
+      ],
+      "layouts": {
+        "landscape": {
+          "placements": {
+            "e_w": {
+              "x": 0.5,
+              "y": 0.33,
+              "w": 0.7
+            },
+            "e_c": {
+              "x": 0.5,
+              "y": 0.64,
+              "w": 0.3,
+              "z": 2
+            }
+          },
+          "camera": []
+        }
+      },
+      "shortIds": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "smoke",
+  "palette": {
+    "bg": "#0e1424",
+    "bg2": "#18213b",
+    "fg": "#f2f5ff",
+    "muted": "#9aa6c8",
+    "accent": "#ffb454",
+    "accent2": "#5ad1c4",
+    "line": "#42507d"
+  },
+  "fonts": {
+    "display": "sans-serif",
+    "body": "sans-serif",
+    "files": []
+  },
+  "caption": {
+    "style": "karaoke",
+    "position": "bottom",
+    "sizeAt1080": 54,
+    "maxWords": 6
+  },
+  "grade": {
+    "contrast": 1.04,
+    "saturation": 1.02,
+    "vignette": 0.25,
+    "grain": 0.02,
+    "tintOpacity": 0
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "subject": "/home/claude/youtube-system/videos/demo/out/short-01.mp4",
+  "kind": "motion",
+  "overall": "PASSED",
+  "summary": {
+    "pass": 8,
+    "fail": 0,
+    "blocked": 0,
+    "warn": 0,
+    "info": 1
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "the motion instruments classified a good eased dissolve, a hard pop, a white flash and a frozen middle correctly"
+    },
+    {
+      "id": "motion.s01>s02.boundary",
+      "status": "pass",
+      "value": 0.1,
+      "detail": "truthful_morph: the change at the window edges (0.1 levels at frame +43) is in line with the window's own motion (median 1.3)"
+    },
+    {
+      "id": "motion.s01>s02.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 0.3,
+        "step": 0.7
+      },
+      "detail": "truthful_morph: no flash or exposure jump (largest frame step 0.7 levels, largest excursion 0.3)"
+    },
+    {
+      "id": "motion.s01>s02.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "truthful_morph: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.s01>s02.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "truthful_morph: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.s01>s02.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s01>s02.anchor",
+      "status": "pass",
+      "value": 42,
+      "detail": "truthful_morph: anchors land, stay locked and travel monotonically over 42 frames"
+    },
+    {
+      "id": "motion.s01>s02.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s01>s02.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/claude/youtube-system/videos/demo/render/previews/S01/tr-s01-s02-strip.png (10 frames) and play /home/claude/youtube-system/videos/demo/render/previews/S01/tr-s01-s02.mp4; the numbers above are heuristics, the eyes decide"
+    }
+  ],
+  "file": "/home/claude/youtube-system/videos/demo/out/short-01.mp4",
+  "transitions": [
+    {
+      "id": "s01>s02",
+      "type": "truthful_morph",
+      "startS": 4.24,
+      "endS": 5.64,
+      "preview": "/home/claude/youtube-system/videos/demo/render/previews/S01/tr-s01-s02.mp4",
+      "strip": "/home/claude/youtube-system/videos/demo/render/previews/S01/tr-s01-s02-strip.png"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "youtube-studio",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic YouTube production engine: one scene file renders the 16:9 video and the recomposed 9:16 Shorts.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "browsers": "playwright install chromium",
+    "doctor": "python3 tools/doctor.py",
+    "typecheck": "tsc -p tsconfig.json",
+    "validate": "tsx schema/validate.ts",
+    "selftest": "tsx schema/validate.ts selftest",
+    "test:engine": "tsx --test tests/engine/*.test.ts",
+    "test:py": "python3 -m pytest tests -q",
+    "test": "npm run typecheck && npm run selftest && npm run test:engine && npm run test:py"
+  },
+  "dependencies": {
+    "esbuild": "0.28.2",
+    "playwright": "1.63.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.3",
+    "tsx": "4.23.12",
+    "typescript": "6.0.3"
+  }
+}

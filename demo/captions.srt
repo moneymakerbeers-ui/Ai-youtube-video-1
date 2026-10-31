@@ -1,0 +1,39 @@
+1
+00:00:00,030 --> 00:00:01,290
+A frame can be wide,
+
+2
+00:00:01,400 --> 00:00:02,550
+like a cinema screen.
+
+3
+00:00:02,640 --> 00:00:03,800
+Or it can be tall,
+
+4
+00:00:03,910 --> 00:00:05,310
+like a phone held in one
+
+5
+00:00:05,310 --> 00:00:05,910
+hand.
+
+6
+00:00:05,760 --> 00:00:07,500
+The same numbers fit both shapes,
+
+7
+00:00:07,610 --> 00:00:08,980
+so we hold still and let
+
+8
+00:00:08,980 --> 00:00:09,630
+you read them.
+
+9
+00:00:09,720 --> 00:00:11,350
+And now the wave keeps moving
+
+10
+00:00:11,350 --> 00:00:12,580
+while the number counts up.

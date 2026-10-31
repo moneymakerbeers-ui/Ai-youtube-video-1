@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npm test)",
+      "Bash(npm ls *)",
+      "Bash(npx tsx *)",
+      "Bash(npx tsc *)",
+      "Bash(npx playwright install chromium)",
+      "Bash(node *)",
+      "Bash(python3 *)",
+      "Bash(python *)",
+      "Bash(ffmpeg *)",
+      "Bash(ffprobe *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(ln *)"
+    ],
+    "deny": [
+      "Bash(sudo *)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}

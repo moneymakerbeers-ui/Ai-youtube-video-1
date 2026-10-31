@@ -1,0 +1,19 @@
+{
+  "videoIdea": "Smoke test: one frame, two shapes",
+  "purpose": "smoke",
+  "targetDurationMin": [
+    0.25,
+    0.5
+  ],
+  "shortsTarget": [
+    1,
+    1
+  ],
+  "maxPaidSpend": {
+    "higgsfieldCredits": 0,
+    "elevenlabsChars": 0,
+    "otherUsd": 0
+  },
+  "sensitivity": "normal",
+  "voiceProfile": "flite (free, robotic)"
+}

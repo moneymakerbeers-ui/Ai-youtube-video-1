@@ -1,0 +1,110 @@
+{
+  "target": "long",
+  "fps": 30,
+  "durationS": 12.7,
+  "layout": "landscape",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [
+    {
+      "fromS": 0.0,
+      "toS": 0.3,
+      "reason": "opening fade-in from black (300 ms, scenes.opening.fadeInMs)",
+      "mustExist": true
+    },
+    {
+      "fromS": 12.3,
+      "toS": 12.7,
+      "reason": "ending fade-out and black hold (400+0 ms, scenes.ending)",
+      "mustExist": false
+    }
+  ],
+  "freeze": [
+    {
+      "fromS": 3.87,
+      "toS": 5.695,
+      "kind": "hold",
+      "reason": "let the tall frame sit for the same beat",
+      "scene": "s02"
+    },
+    {
+      "fromS": 7.5,
+      "toS": 9.425,
+      "kind": "hold",
+      "reason": "let the viewer read the chart before the next idea",
+      "scene": "s03"
+    },
+    {
+      "fromS": 3.87,
+      "toS": 5.645,
+      "kind": "rest",
+      "maxS": 1.2,
+      "scene": "s02",
+      "reason": "the plan schedules no entrance, exit, camera move or transition here"
+    },
+    {
+      "fromS": 7.5,
+      "toS": 9.425,
+      "kind": "rest",
+      "maxS": 1.2,
+      "scene": "s03",
+      "reason": "the plan schedules no entrance, exit, camera move or transition here"
+    }
+  ],
+  "silence": [],
+  "transitions": [
+    {
+      "id": "s01>s02",
+      "type": "truthful_morph",
+      "startS": 1.895,
+      "endS": 3.295,
+      "from": "s01",
+      "to": "s02",
+      "easing": "standard",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s03>s04",
+      "type": "dissolve",
+      "startS": 9.425,
+      "endS": 9.925,
+      "from": "s03",
+      "to": "s04",
+      "easing": "standard",
+      "downgradedFrom": null
+    }
+  ],
+  "plannedCutsS": [
+    5.695
+  ],
+  "sampleTimesS": [
+    2.59,
+    9.68
+  ],
+  "scheduledMotionS": [
+    [
+      0.0,
+      3.295
+    ],
+    [
+      3.37,
+      3.87
+    ],
+    [
+      5.645,
+      7.5
+    ],
+    [
+      9.425,
+      12.7
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.778
+  },
+  "warnings": []
+}

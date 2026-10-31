@@ -1,0 +1,783 @@
+{
+  "version": 1,
+  "target": "S01",
+  "layout": "portrait",
+  "fps": 30,
+  "width": 360,
+  "height": 640,
+  "durationS": 14.16,
+  "durationFrames": 425,
+  "timingSource": "alignment",
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.731
+  },
+  "audio": {
+    "file": "audio/shorts/S01/narration.wav",
+    "sha256": "e29378fbcbcfae2465c0af26243c55e6599e4754c241ef70a2a88f7cd739de60",
+    "durationS": 14.16
+  },
+  "opening": {
+    "fadeInMs": 0,
+    "leadSilenceMs": 0
+  },
+  "ending": {
+    "fadeOutMs": 0,
+    "holdBlackMs": 0,
+    "tailSilenceMs": 0
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "startS": 0.0,
+      "endS": 4.94,
+      "layout": "portrait",
+      "entities": [
+        {
+          "id": "e_frame",
+          "enterS": 0.0,
+          "exitS": null,
+          "enterStyle": "draw",
+          "enterMs": 2000
+        },
+        {
+          "id": "e_t",
+          "enterS": 3.05,
+          "exitS": null,
+          "enterStyle": "fade",
+          "enterMs": 500
+        }
+      ],
+      "camera": [],
+      "transitionOut": {
+        "type": "truthful_morph",
+        "startS": 4.24,
+        "endS": 5.64,
+        "easing": "standard",
+        "anchorFrom": {
+          "entityId": "e_frame"
+        },
+        "anchorTo": {
+          "entityId": "e_frame2"
+        },
+        "rationale": "the same frame becomes the tall version of itself"
+      }
+    },
+    {
+      "id": "s02",
+      "startS": 4.94,
+      "endS": 8.155,
+      "layout": "portrait",
+      "entities": [
+        {
+          "id": "e_frame2",
+          "enterS": 4.94,
+          "exitS": null,
+          "enterStyle": "draw",
+          "enterMs": 0,
+          "viaTransition": true
+        },
+        {
+          "id": "e_t2",
+          "enterS": 5.79,
+          "exitS": null,
+          "enterStyle": "fade",
+          "enterMs": 500
+        }
+      ],
+      "camera": [],
+      "hold": {
+        "fromS": 6.29,
+        "toS": 8.155,
+        "reason": "let the tall frame sit for the same beat"
+      }
+    },
+    {
+      "id": "s03",
+      "startS": 8.155,
+      "endS": 14.16,
+      "layout": "portrait",
+      "entities": [
+        {
+          "id": "e_bars",
+          "enterS": 8.155,
+          "exitS": null,
+          "enterStyle": "draw",
+          "enterMs": 1200
+        },
+        {
+          "id": "e_n",
+          "enterS": 8.69,
+          "exitS": null,
+          "enterStyle": "fade",
+          "enterMs": 500
+        }
+      ],
+      "camera": [
+        {
+          "fromS": 8.26,
+          "toS": 10.115,
+          "from": {
+            "x": 0.5,
+            "y": 0.5,
+            "scale": 1
+          },
+          "to": {
+            "x": 0.5,
+            "y": 0.5,
+            "scale": 1.06
+          },
+          "easing": "emphasized"
+        }
+      ],
+      "hold": {
+        "fromS": 10.115,
+        "toS": 14.16,
+        "reason": "let the viewer read the chart before the next idea"
+      }
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "w": "Watch",
+      "s": 0.03,
+      "e": 0.4,
+      "sceneId": "s01"
+    },
+    {
+      "i": 1,
+      "w": "one",
+      "s": 0.4,
+      "e": 0.61,
+      "sceneId": "s01"
+    },
+    {
+      "i": 2,
+      "w": "frame",
+      "s": 0.7,
+      "e": 1.02,
+      "sceneId": "s01"
+    },
+    {
+      "i": 3,
+      "w": "change",
+      "s": 1.02,
+      "e": 1.52,
+      "sceneId": "s01"
+    },
+    {
+      "i": 4,
+      "w": "shape.",
+      "s": 1.52,
+      "e": 1.95,
+      "sceneId": "s01"
+    },
+    {
+      "i": 5,
+      "w": "A",
+      "s": 2.3,
+      "e": 2.38,
+      "sceneId": "s01"
+    },
+    {
+      "i": 6,
+      "w": "frame",
+      "s": 2.51,
+      "e": 2.78,
+      "sceneId": "s01"
+    },
+    {
+      "i": 7,
+      "w": "can",
+      "s": 2.8,
+      "e": 3.05,
+      "sceneId": "s01"
+    },
+    {
+      "i": 8,
+      "w": "be",
+      "s": 3.05,
+      "e": 3.24,
+      "sceneId": "s01"
+    },
+    {
+      "i": 9,
+      "w": "wide,",
+      "s": 3.24,
+      "e": 3.56,
+      "sceneId": "s01"
+    },
+    {
+      "i": 10,
+      "w": "like",
+      "s": 3.67,
+      "e": 3.97,
+      "sceneId": "s01"
+    },
+    {
+      "i": 11,
+      "w": "a",
+      "s": 3.97,
+      "e": 4.07,
+      "sceneId": "s01"
+    },
+    {
+      "i": 12,
+      "w": "cinema",
+      "s": 4.07,
+      "e": 4.45,
+      "sceneId": "s01"
+    },
+    {
+      "i": 13,
+      "w": "screen.",
+      "s": 4.45,
+      "e": 4.82,
+      "sceneId": "s01"
+    },
+    {
+      "i": 14,
+      "w": "Or",
+      "s": 5.06,
+      "e": 5.26,
+      "sceneId": "s02"
+    },
+    {
+      "i": 15,
+      "w": "it",
+      "s": 5.26,
+      "e": 5.38,
+      "sceneId": "s02"
+    },
+    {
+      "i": 16,
+      "w": "can",
+      "s": 5.38,
+      "e": 5.64,
+      "sceneId": "s02"
+    },
+    {
+      "i": 17,
+      "w": "be",
+      "s": 5.64,
+      "e": 5.79,
+      "sceneId": "s02"
+    },
+    {
+      "i": 18,
+      "w": "tall,",
+      "s": 5.79,
+      "e": 6.22,
+      "sceneId": "s02"
+    },
+    {
+      "i": 19,
+      "w": "like",
+      "s": 6.33,
+      "e": 6.63,
+      "sceneId": "s02"
+    },
+    {
+      "i": 20,
+      "w": "a",
+      "s": 6.63,
+      "e": 6.71,
+      "sceneId": "s02"
+    },
+    {
+      "i": 21,
+      "w": "phone",
+      "s": 6.8,
+      "e": 7.09,
+      "sceneId": "s02"
+    },
+    {
+      "i": 22,
+      "w": "held",
+      "s": 7.09,
+      "e": 7.4,
+      "sceneId": "s02"
+    },
+    {
+      "i": 23,
+      "w": "in",
+      "s": 7.4,
+      "e": 7.56,
+      "sceneId": "s02"
+    },
+    {
+      "i": 24,
+      "w": "one",
+      "s": 7.56,
+      "e": 7.73,
+      "sceneId": "s02"
+    },
+    {
+      "i": 25,
+      "w": "hand.",
+      "s": 7.73,
+      "e": 8.05,
+      "sceneId": "s02"
+    },
+    {
+      "i": 26,
+      "w": "The",
+      "s": 8.26,
+      "e": 8.39,
+      "sceneId": "s03"
+    },
+    {
+      "i": 27,
+      "w": "same",
+      "s": 8.39,
+      "e": 8.69,
+      "sceneId": "s03"
+    },
+    {
+      "i": 28,
+      "w": "numbers",
+      "s": 8.69,
+      "e": 9.12,
+      "sceneId": "s03"
+    },
+    {
+      "i": 29,
+      "w": "fit",
+      "s": 9.22,
+      "e": 9.34,
+      "sceneId": "s03"
+    },
+    {
+      "i": 30,
+      "w": "both",
+      "s": 9.34,
+      "e": 9.58,
+      "sceneId": "s03"
+    },
+    {
+      "i": 31,
+      "w": "shapes,",
+      "s": 9.58,
+      "e": 10.115,
+      "sceneId": "s03"
+    },
+    {
+      "i": 32,
+      "w": "so",
+      "s": 10.115,
+      "e": 10.33,
+      "sceneId": "s03"
+    },
+    {
+      "i": 33,
+      "w": "we",
+      "s": 10.33,
+      "e": 10.51,
+      "sceneId": "s03"
+    },
+    {
+      "i": 34,
+      "w": "hold",
+      "s": 10.51,
+      "e": 10.75,
+      "sceneId": "s03"
+    },
+    {
+      "i": 35,
+      "w": "still",
+      "s": 10.75,
+      "e": 11.15,
+      "sceneId": "s03"
+    },
+    {
+      "i": 36,
+      "w": "and",
+      "s": 11.15,
+      "e": 11.27,
+      "sceneId": "s03"
+    },
+    {
+      "i": 37,
+      "w": "let",
+      "s": 11.27,
+      "e": 11.48,
+      "sceneId": "s03"
+    },
+    {
+      "i": 38,
+      "w": "you",
+      "s": 11.48,
+      "e": 11.66,
+      "sceneId": "s03"
+    },
+    {
+      "i": 39,
+      "w": "read",
+      "s": 11.66,
+      "e": 11.95,
+      "sceneId": "s03"
+    },
+    {
+      "i": 40,
+      "w": "them.",
+      "s": 11.95,
+      "e": 12.13,
+      "sceneId": "s03"
+    },
+    {
+      "i": 41,
+      "w": "Same",
+      "s": 12.57,
+      "e": 12.91,
+      "sceneId": "s03"
+    },
+    {
+      "i": 42,
+      "w": "frame,",
+      "s": 12.98,
+      "e": 13.27,
+      "sceneId": "s03"
+    },
+    {
+      "i": 43,
+      "w": "two",
+      "s": 13.38,
+      "e": 13.66,
+      "sceneId": "s03"
+    },
+    {
+      "i": 44,
+      "w": "shapes.",
+      "s": 13.66,
+      "e": 14.11,
+      "sceneId": "s03"
+    }
+  ],
+  "captions": [
+    {
+      "startS": 0.03,
+      "endS": 1.95,
+      "text": "Watch one frame change shape.",
+      "words": [
+        {
+          "w": "Watch",
+          "s": 0.03,
+          "e": 0.4
+        },
+        {
+          "w": "one",
+          "s": 0.4,
+          "e": 0.61
+        },
+        {
+          "w": "frame",
+          "s": 0.7,
+          "e": 1.02
+        },
+        {
+          "w": "change",
+          "s": 1.02,
+          "e": 1.52
+        },
+        {
+          "w": "shape.",
+          "s": 1.52,
+          "e": 1.95
+        }
+      ]
+    },
+    {
+      "startS": 2.3,
+      "endS": 3.56,
+      "text": "A frame can be wide,",
+      "words": [
+        {
+          "w": "A",
+          "s": 2.3,
+          "e": 2.38
+        },
+        {
+          "w": "frame",
+          "s": 2.51,
+          "e": 2.78
+        },
+        {
+          "w": "can",
+          "s": 2.8,
+          "e": 3.05
+        },
+        {
+          "w": "be",
+          "s": 3.05,
+          "e": 3.24
+        },
+        {
+          "w": "wide,",
+          "s": 3.24,
+          "e": 3.56
+        }
+      ]
+    },
+    {
+      "startS": 3.67,
+      "endS": 4.82,
+      "text": "like a cinema screen.",
+      "words": [
+        {
+          "w": "like",
+          "s": 3.67,
+          "e": 3.97
+        },
+        {
+          "w": "a",
+          "s": 3.97,
+          "e": 4.07
+        },
+        {
+          "w": "cinema",
+          "s": 4.07,
+          "e": 4.45
+        },
+        {
+          "w": "screen.",
+          "s": 4.45,
+          "e": 4.82
+        }
+      ]
+    },
+    {
+      "startS": 5.06,
+      "endS": 6.22,
+      "text": "Or it can be tall,",
+      "words": [
+        {
+          "w": "Or",
+          "s": 5.06,
+          "e": 5.26
+        },
+        {
+          "w": "it",
+          "s": 5.26,
+          "e": 5.38
+        },
+        {
+          "w": "can",
+          "s": 5.38,
+          "e": 5.64
+        },
+        {
+          "w": "be",
+          "s": 5.64,
+          "e": 5.79
+        },
+        {
+          "w": "tall,",
+          "s": 5.79,
+          "e": 6.22
+        }
+      ]
+    },
+    {
+      "startS": 6.33,
+      "endS": 7.73,
+      "text": "like a phone held in one",
+      "words": [
+        {
+          "w": "like",
+          "s": 6.33,
+          "e": 6.63
+        },
+        {
+          "w": "a",
+          "s": 6.63,
+          "e": 6.71
+        },
+        {
+          "w": "phone",
+          "s": 6.8,
+          "e": 7.09
+        },
+        {
+          "w": "held",
+          "s": 7.09,
+          "e": 7.4
+        },
+        {
+          "w": "in",
+          "s": 7.4,
+          "e": 7.56
+        },
+        {
+          "w": "one",
+          "s": 7.56,
+          "e": 7.73
+        }
+      ]
+    },
+    {
+      "startS": 7.73,
+      "endS": 8.05,
+      "text": "hand.",
+      "words": [
+        {
+          "w": "hand.",
+          "s": 7.73,
+          "e": 8.05
+        }
+      ]
+    },
+    {
+      "startS": 8.26,
+      "endS": 10.115,
+      "text": "The same numbers fit both shapes,",
+      "words": [
+        {
+          "w": "The",
+          "s": 8.26,
+          "e": 8.39
+        },
+        {
+          "w": "same",
+          "s": 8.39,
+          "e": 8.69
+        },
+        {
+          "w": "numbers",
+          "s": 8.69,
+          "e": 9.12
+        },
+        {
+          "w": "fit",
+          "s": 9.22,
+          "e": 9.34
+        },
+        {
+          "w": "both",
+          "s": 9.34,
+          "e": 9.58
+        },
+        {
+          "w": "shapes,",
+          "s": 9.58,
+          "e": 10.115
+        }
+      ]
+    },
+    {
+      "startS": 10.115,
+      "endS": 11.48,
+      "text": "so we hold still and let",
+      "words": [
+        {
+          "w": "so",
+          "s": 10.115,
+          "e": 10.33
+        },
+        {
+          "w": "we",
+          "s": 10.33,
+          "e": 10.51
+        },
+        {
+          "w": "hold",
+          "s": 10.51,
+          "e": 10.75
+        },
+        {
+          "w": "still",
+          "s": 10.75,
+          "e": 11.15
+        },
+        {
+          "w": "and",
+          "s": 11.15,
+          "e": 11.27
+        },
+        {
+          "w": "let",
+          "s": 11.27,
+          "e": 11.48
+        }
+      ]
+    },
+    {
+      "startS": 11.48,
+      "endS": 12.13,
+      "text": "you read them.",
+      "words": [
+        {
+          "w": "you",
+          "s": 11.48,
+          "e": 11.66
+        },
+        {
+          "w": "read",
+          "s": 11.66,
+          "e": 11.95
+        },
+        {
+          "w": "them.",
+          "s": 11.95,
+          "e": 12.13
+        }
+      ]
+    },
+    {
+      "startS": 12.57,
+      "endS": 14.11,
+      "text": "Same frame, two shapes.",
+      "words": [
+        {
+          "w": "Same",
+          "s": 12.57,
+          "e": 12.91
+        },
+        {
+          "w": "frame,",
+          "s": 12.98,
+          "e": 13.27
+        },
+        {
+          "w": "two",
+          "s": 13.38,
+          "e": 13.66
+        },
+        {
+          "w": "shapes.",
+          "s": 13.66,
+          "e": 14.11
+        }
+      ]
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 1.99,
+      "toS": 2.27,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 4.88,
+      "toS": 4.98,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 8.1,
+      "toS": 8.23,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 12.18,
+      "toS": 12.53,
+      "reason": "closing line join",
+      "declaredMs": 0
+    }
+  ],
+  "warnings": []
+}
