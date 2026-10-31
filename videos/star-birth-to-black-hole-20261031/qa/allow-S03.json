@@ -1,0 +1,86 @@
+{
+  "target": "S03",
+  "fps": 30,
+  "durationS": 51.562,
+  "layout": "portrait",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [],
+  "freeze": [],
+  "silence": [
+    {
+      "fromS": 8.387,
+      "toS": 8.667,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 12.707,
+      "toS": 13.368,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 24.268,
+      "toS": 24.629,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 29.709,
+      "toS": 29.989,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 39.009,
+      "toS": 39.872,
+      "reason": "scene join",
+      "declaredMs": 0
+    }
+  ],
+  "transitions": [
+    {
+      "id": "s06>s07",
+      "type": "nested_scale",
+      "startS": 12.007,
+      "endS": 13.807,
+      "from": "s06",
+      "to": "s07",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s10>s11",
+      "type": "dissolve",
+      "startS": 38.971,
+      "endS": 39.671,
+      "from": "s10",
+      "to": "s11",
+      "easing": "standard",
+      "downgradedFrom": null
+    }
+  ],
+  "plannedCutsS": [
+    24.338,
+    29.709
+  ],
+  "sampleTimesS": [
+    12.91,
+    39.32
+  ],
+  "scheduledMotionS": [
+    [
+      -0.05,
+      51.562
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.734
+  },
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+{
+  "target": "S03",
+  "master": "audio/master-S03.wav",
+  "sha256": "b5094207eddcd6c903dd081c57df4646677cdd9f27c6be8973ddb25ff22ce567",
+  "durationS": 51.562,
+  "planDurationS": 51.562,
+  "before": {
+    "I": -20.77,
+    "TP": -6.39,
+    "LRA": 3.6
+  },
+  "after": {
+    "I": -14.0,
+    "LRA": 3.6,
+    "TP": -1.5
+  },
+  "targetLufs": -14.0,
+  "targetTruePeak": -1.5,
+  "music": null,
+  "ok": true
+}

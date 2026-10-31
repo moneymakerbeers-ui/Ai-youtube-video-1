@@ -8,9 +8,10 @@
 5. Iron Kills Stars: The Road From Nebula to Black Hole
 
 ## Thumbnail concepts (Test & Compare set if the channel is eligible — verify in Studio)
-A. Split frame: real Webb Pillars (left) → illustrated black hole (right), arrow between, text "DUST → BLACK HOLE". (out/thumbnails/thumb-a.jpg)
-B. Illustrated black hole full-bleed, small inset of the real pillars, text "HOW STARS END".
-C. Onion cutaway with a glowing iron core, text "IRON KILLS STARS".
+Rendered by tools/thumbnail.py from frames of the video itself (1280×720, < 2 MB, headline "HOW STARS DIE"):
+A. out/thumbnail-1.jpg — the illustrated black hole (5:25) ← recommended
+B. out/thumbnail-2.jpg — the real Webb Pillars of Creation (0:05)
+C. out/thumbnail-3.jpg — the illustrated supernova (4:07)
 
 ## Description
 Every black hole made by a dying star began as a cold cloud of gas and dust. This video follows one heavyweight star through its whole life — collapse, ignition, millions of years of balance, the iron core that ends it, the supernova, and the black hole left behind — using real images from the James Webb, Hubble and Chandra telescopes and the Event Horizon Telescope.

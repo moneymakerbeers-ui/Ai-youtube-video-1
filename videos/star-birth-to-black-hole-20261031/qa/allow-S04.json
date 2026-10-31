@@ -1,0 +1,50 @@
+{
+  "target": "S04",
+  "fps": 30,
+  "durationS": 58.599,
+  "layout": "portrait",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [],
+  "freeze": [],
+  "silence": [
+    {
+      "fromS": 3.39,
+      "toS": 3.67,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 19.54,
+      "toS": 20.022,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 36.052,
+      "toS": 36.359,
+      "reason": "scene join",
+      "declaredMs": 0
+    }
+  ],
+  "transitions": [],
+  "plannedCutsS": [
+    19.676,
+    36.1
+  ],
+  "sampleTimesS": [],
+  "scheduledMotionS": [
+    [
+      -0.05,
+      58.599
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.734
+  },
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+{
+  "target": "S02",
+  "master": "audio/master-S02.wav",
+  "sha256": "6a305c5c36106b57eed114d9b41f30b38871b24e0077ce01e0e8fb303b674524",
+  "durationS": 33.47,
+  "planDurationS": 33.47,
+  "before": {
+    "I": -20.64,
+    "TP": -6.8,
+    "LRA": 3.4
+  },
+  "after": {
+    "I": -14.0,
+    "LRA": 2.9,
+    "TP": -1.5
+  },
+  "targetLufs": -14.0,
+  "targetTruePeak": -1.5,
+  "music": null,
+  "ok": true
+}

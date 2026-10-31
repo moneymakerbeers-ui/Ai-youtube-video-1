@@ -35,3 +35,5 @@
 
 ## Spend (Higgsfield credits; ceiling 38 approved by the creator)
 - images: 12 (6 × 2)
+- narration (Knox, 42 takes/lines incl. one creator-approved retry): 22.35
+- **total 34.35 / 38 credits** (equals the provider's balance change 46.97 → 12.62)

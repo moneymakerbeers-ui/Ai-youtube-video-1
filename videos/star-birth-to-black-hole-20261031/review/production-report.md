@@ -1,28 +1,43 @@
 # Production report - star-birth-to-black-hole-20261031
 
-Idea: How a star is born from the very first moment until it dies and becomes a black hole  ·  purpose: **production**  ·  made 2026-10-31T16:49:32
+Idea: How a star is born from the very first moment until it dies and becomes a black hole  ·  purpose: **production**  ·  made 2026-10-31T17:51:24
 
 ## Gate verdicts
 
 | target | file | media QA | motion QA | length | size |
 |---|---|---|---|---|---|
-| S01 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S02 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S03 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S04 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S05 | MISSING | NOT RUN | NOT RUN | - s | -x- |
+| long | out/full-video.mp4 | PASSED | PASSED | 476.267 s | 1920x1080 |
+| S01 | out/short-01.mp4 | PASSED | PASSED | 51.067 s | 1080x1920 |
+| S02 | out/short-02.mp4 | PASSED | PASSED | 33.467 s | 1080x1920 |
+| S03 | out/short-03.mp4 | PASSED | PASSED | 51.567 s | 1080x1920 |
+| S04 | out/short-04.mp4 | PASSED | PASSED | 58.6 s | 1080x1920 |
+| S05 | out/short-05.mp4 | PASSED | PASSED | 39.7 s | 1080x1920 |
 
 A verdict is the gate's own result on the delivered file. WARN items are heuristics and are listed under "A person still has to look at". PASSED never means the video is good, only that none of these checks found a defect.
 
 ## Transitions
 
+- long s02>s03: **dissolve**
+- long s06>s07: **nested_scale**
+- long s10>s11: **dissolve**
+- long s19>s20: **dissolve**
+- long s22>s23: **occlusion_reveal**
+- long s25>s26: **dissolve**
+- long s30>s31: **dissolve**
+- long s36>s37: **dissolve**
+- long s38>s39: **dissolve**
 - S01 s22>s23: **occlusion_reveal**
 - S03 s06>s07: **nested_scale**
 - S03 s10>s11: **dissolve**
 
 ## Render
 
-- no render trace found
+- long: 14288 frames at 30 fps, 79.1 ms/frame with 4 worker(s) = 1130.5 s of capture on this machine; a 60 fps render would take about 37.7 min
+- S01: 1532 frames at 30 fps, 84.4 ms/frame with 4 worker(s) = 129.3 s of capture on this machine; a 60 fps render would take about 4.3 min
+- S02: 1004 frames at 30 fps, 75.5 ms/frame with 4 worker(s) = 75.8 s of capture on this machine; a 60 fps render would take about 2.5 min
+- S03: 1547 frames at 30 fps, 81.3 ms/frame with 4 worker(s) = 125.8 s of capture on this machine; a 60 fps render would take about 4.2 min
+- S04: 1758 frames at 30 fps, 81.5 ms/frame with 4 worker(s) = 143.2 s of capture on this machine; a 60 fps render would take about 4.8 min
+- S05: 1191 frames at 30 fps, 71.4 ms/frame with 4 worker(s) = 85 s of capture on this machine; a 60 fps render would take about 2.8 min
 
 ## Voice and alignment
 
@@ -42,6 +57,9 @@ Creative preview gate: approved 2026-10-31T13:36:04 (creator chose 'cheaper appr
 
 ## A person still has to look at
 
+- long: motion.s10>s11.audio (heuristic warning) - abrupt audio at 101.73s click 10.5
+- long: motion.s22>s23.smooth (heuristic warning) - a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)
+- S01: motion.s22>s23.smooth (heuristic warning) - a frame step is 6.8 levels above its neighbours' typical 7.6 (a jerk; smaller than a pop)
 - evidence: C01_pillars.evidence[0]: does this passage state the claim? ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb. -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C01_pillars.evidence[1]: does this passage state the claim? NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording). -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C02_cloud.evidence[0]: does this passage state the claim? Gives the mass range (upper end 10 million solar masses) and size. -> read the quote next to the claim text and confirm it says the same thing
@@ -110,3 +128,7 @@ Creative preview gate: approved 2026-10-31T13:36:04 (creator chose 'cheaper appr
 - evidence: C27_n6946.evidence[2]: does this passage state the claim? Status: unconfirmed candidate. -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C28_enrich.evidence[0]: does this passage state the claim? States the claim directly. -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C28_enrich.evidence[1]: does this passage state the claim? Independent Chandra page. -> read the quote next to the claim text and confirm it says the same thing
+
+## Reproduce
+
+Engine 3.0.0-dom (browser, Chromium 153.0.8010.12); `python tools/pipeline.py run --project /home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031` reproduces these files byte for byte on the same versions and worker count (the render is reproducible).

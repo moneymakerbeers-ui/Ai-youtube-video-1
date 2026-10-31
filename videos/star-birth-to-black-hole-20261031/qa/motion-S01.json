@@ -1,0 +1,91 @@
+{
+  "subject": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/short-01.mp4",
+  "kind": "motion",
+  "overall": "PASSED",
+  "summary": {
+    "pass": 8,
+    "fail": 0,
+    "blocked": 0,
+    "warn": 1,
+    "info": 1
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "the motion instruments classified a good eased dissolve, a hard pop, a white flash and a frozen middle correctly"
+    },
+    {
+      "id": "motion.s22>s23.boundary",
+      "status": "pass",
+      "value": 0.2,
+      "detail": "occlusion_reveal: the change at the window edges (0.2 levels at frame +30) is in line with the window's own motion (median 0.5)"
+    },
+    {
+      "id": "motion.s22>s23.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 0.1,
+        "step": 13.4
+      },
+      "detail": "occlusion_reveal: no flash or exposure jump (largest frame step 13.4 levels, largest excursion 0.1)"
+    },
+    {
+      "id": "motion.s22>s23.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "occlusion_reveal: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.s22>s23.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "occlusion_reveal: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.s22>s23.smooth",
+      "status": "warn",
+      "value": 6.8,
+      "detail": "a frame step is 6.8 levels above its neighbours' typical 7.6 (a jerk; smaller than a pop)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s22>s23.ghost",
+      "status": "pass",
+      "value": 0.05,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s22>s23.anchor",
+      "status": "pass",
+      "value": 30,
+      "detail": "occlusion_reveal: anchors land, stay locked and travel monotonically over 30 frames"
+    },
+    {
+      "id": "motion.s22>s23.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s22>s23.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S01/tr-s22-s23-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S01/tr-s22-s23.mp4; the numbers above are heuristics, the eyes decide"
+    }
+  ],
+  "file": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/short-01.mp4",
+  "transitions": [
+    {
+      "id": "s22>s23",
+      "type": "occlusion_reveal",
+      "startS": 38.175,
+      "endS": 39.175,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S01/tr-s22-s23.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S01/tr-s22-s23-strip.png"
+    }
+  ]
+}

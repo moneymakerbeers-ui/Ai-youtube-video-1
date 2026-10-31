@@ -2,17 +2,134 @@
   "project": "star-birth-to-black-hole-20261031",
   "idea": "How a star is born from the very first moment until it dies and becomes a black hole",
   "purpose": "production",
-  "madeAt": "2026-10-31T16:49:32",
+  "madeAt": "2026-10-31T17:51:24",
   "targets": {
-    "S01": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
+    "long": {
+      "file": "out/full-video.mp4",
+      "video": {
+        "w": 1920,
+        "h": 1080,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 476.267,
+        "bytes": 383233813
+      },
+      "sha256": "68493d29ea2d7171cb4f819f88d076197ed3238cf846b0675758ccad88e09f2c",
+      "media": "PASSED",
+      "motion": "PASSED",
       "counts": {
-        "media": null,
-        "motion": null
+        "media": {
+          "pass": 18,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 57,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 2,
+          "info": 9
+        }
+      },
+      "transitions": [
+        {
+          "id": "s02>s03",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s06>s07",
+          "type": "nested_scale",
+          "downgradedFrom": null,
+          "rationale": "the protostar is literally the inside of the collapsing clump: zooming into its centre shows the same object one scale down"
+        },
+        {
+          "id": "s10>s11",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s19>s20",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s22>s23",
+          "type": "occlusion_reveal",
+          "downgradedFrom": null,
+          "rationale": "the shock wave really starts at the collapsed core and moves outward, so the explosion is revealed from the core's position"
+        },
+        {
+          "id": "s25>s26",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s30>s31",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s36>s37",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s38>s39",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        }
+      ],
+      "warnings": [
+        {
+          "id": "motion.s10>s11.audio",
+          "detail": "abrupt audio at 101.73s click 10.5"
+        },
+        {
+          "id": "motion.s22>s23.smooth",
+          "detail": "a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)"
+        }
+      ]
+    },
+    "S01": {
+      "file": "out/short-01.mp4",
+      "video": {
+        "w": 1080,
+        "h": 1920,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 51.067,
+        "bytes": 21575427
+      },
+      "sha256": "65c5d86dedf0fc45fbd86280d5285ef5149dcae3d3fd8838a3a6ac24689c1a68",
+      "media": "PASSED",
+      "motion": "PASSED",
+      "counts": {
+        "media": {
+          "pass": 19,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 8,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 1,
+          "info": 1
+        }
       },
       "transitions": [
         {
@@ -22,30 +139,75 @@
           "rationale": "the shock wave really starts at the collapsed core and moves outward, so the explosion is revealed from the core's position"
         }
       ],
-      "warnings": []
+      "warnings": [
+        {
+          "id": "motion.s22>s23.smooth",
+          "detail": "a frame step is 6.8 levels above its neighbours' typical 7.6 (a jerk; smaller than a pop)"
+        }
+      ]
     },
     "S02": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
+      "file": "out/short-02.mp4",
+      "video": {
+        "w": 1080,
+        "h": 1920,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 33.467,
+        "bytes": 9364740
+      },
+      "sha256": "8224b67a02333b98507af39e4b26a9789d0e686760a39bd3d05a9f5d439e2210",
+      "media": "PASSED",
+      "motion": "PASSED",
       "counts": {
-        "media": null,
-        "motion": null
+        "media": {
+          "pass": 19,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 0,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        }
       },
       "transitions": [],
       "warnings": []
     },
     "S03": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
+      "file": "out/short-03.mp4",
+      "video": {
+        "w": 1080,
+        "h": 1920,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 51.567,
+        "bytes": 36456176
+      },
+      "sha256": "37cde30cd99596fdf2a9af7b81a10521b5ca0e9a905b19e76f36e34bcafeaabb",
+      "media": "PASSED",
+      "motion": "PASSED",
       "counts": {
-        "media": null,
-        "motion": null
+        "media": {
+          "pass": 19,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 15,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 2
+        }
       },
       "transitions": [
         {
@@ -64,33 +226,76 @@
       "warnings": []
     },
     "S04": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
+      "file": "out/short-04.mp4",
+      "video": {
+        "w": 1080,
+        "h": 1920,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 58.6,
+        "bytes": 23070591
+      },
+      "sha256": "0e913aadba34ef83fa506a7d04de7059db53c355c9f330294e37ffb19c099eb1",
+      "media": "PASSED",
+      "motion": "PASSED",
       "counts": {
-        "media": null,
-        "motion": null
+        "media": {
+          "pass": 19,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 0,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        }
       },
       "transitions": [],
       "warnings": []
     },
     "S05": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
+      "file": "out/short-05.mp4",
+      "video": {
+        "w": 1080,
+        "h": 1920,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 39.7,
+        "bytes": 14558231
+      },
+      "sha256": "8daef982aab82646fc992be7006c787df94b5425909ae2687a3ec95fb1ed294b",
+      "media": "PASSED",
+      "motion": "PASSED",
       "counts": {
-        "media": null,
-        "motion": null
+        "media": {
+          "pass": 19,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 0,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        }
       },
       "transitions": [],
       "warnings": []
     }
   },
   "humanNeeded": [
+    "long: motion.s10>s11.audio (heuristic warning) - abrupt audio at 101.73s click 10.5",
+    "long: motion.s22>s23.smooth (heuristic warning) - a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)",
+    "S01: motion.s22>s23.smooth (heuristic warning) - a frame step is 6.8 levels above its neighbours' typical 7.6 (a jerk; smaller than a pop)",
     "evidence: C01_pillars.evidence[0]: does this passage state the claim? ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb. -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C01_pillars.evidence[1]: does this passage state the claim? NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording). -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C02_cloud.evidence[0]: does this passage state the claim? Gives the mass range (upper end 10 million solar masses) and size. -> read the quote next to the claim text and confirm it says the same thing",
@@ -272,5 +477,11 @@
     "at": "2026-10-31T13:36:04",
     "note": "creator chose 'cheaper approval, ceiling 38' (Knox via Higgsfield + nano_banana_2 2k illustrations)"
   },
-  "engine": null
+  "engine": {
+    "version": "3.0.0-dom",
+    "sha256": "4bdfda497eb0d2b5dc2849666f934b608019d2bcdd44d70ebc1cf87a069406d1",
+    "backend": "browser",
+    "chromium": "153.0.8010.12",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  }
 }

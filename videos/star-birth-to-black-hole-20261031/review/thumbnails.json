@@ -1,0 +1,49 @@
+{
+  "text": "HOW STARS DIE",
+  "times": [
+    325.22,
+    4.64,
+    247.27
+  ],
+  "thumbnails": [
+    {
+      "file": "out/thumbnail-1.jpg",
+      "kb": 225,
+      "headlinePx": 138,
+      "checks": {
+        "size": true,
+        "underTwoMB": true,
+        "words": true,
+        "contrast": true,
+        "headlineHeight": true
+      },
+      "ok": true
+    },
+    {
+      "file": "out/thumbnail-2.jpg",
+      "kb": 301,
+      "headlinePx": 138,
+      "checks": {
+        "size": true,
+        "underTwoMB": true,
+        "words": true,
+        "contrast": true,
+        "headlineHeight": true
+      },
+      "ok": true
+    },
+    {
+      "file": "out/thumbnail-3.jpg",
+      "kb": 204,
+      "headlinePx": 138,
+      "checks": {
+        "size": true,
+        "underTwoMB": true,
+        "words": true,
+        "contrast": true,
+        "headlineHeight": true
+      },
+      "ok": true
+    }
+  ]
+}

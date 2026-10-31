@@ -1,0 +1,158 @@
+{
+  "subject": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/short-02.mp4",
+  "kind": "",
+  "overall": "PASSED",
+  "summary": {
+    "pass": 19,
+    "fail": 0,
+    "blocked": 0,
+    "warn": 0,
+    "info": 1
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "blackdetect, the stillness instrument (incl. a 1 px/frame crawling square), silencedetect, signalstats and ebur128 found exactly the known events in synthetic media"
+    },
+    {
+      "id": "probe.size",
+      "status": "pass",
+      "value": "1080x1920",
+      "detail": "expected 1080x1920 (from the plan)"
+    },
+    {
+      "id": "probe.codec",
+      "status": "pass",
+      "value": "h264/yuv420p",
+      "detail": "expected h264 + yuv420p"
+    },
+    {
+      "id": "probe.color",
+      "status": "pass",
+      "value": "bt709/tv",
+      "detail": "expected bt709 / tv tags"
+    },
+    {
+      "id": "probe.fps",
+      "status": "pass",
+      "value": "30/1 vs 30/1",
+      "detail": "constant frame rate expected = 30"
+    },
+    {
+      "id": "probe.duration",
+      "status": "pass",
+      "value": 33.467,
+      "detail": "plan duration 33.47s"
+    },
+    {
+      "id": "short.length",
+      "status": "pass",
+      "value": 33.47,
+      "detail": "a Short must be <= 180s"
+    },
+    {
+      "id": "probe.audio",
+      "status": "pass",
+      "value": "aac 48000Hz 2ch",
+      "detail": "expected aac at 44.1/48 kHz"
+    },
+    {
+      "id": "av.duration",
+      "status": "pass",
+      "value": 0.001,
+      "detail": "audio and video lengths differ by 0.001s (max 0.1)"
+    },
+    {
+      "id": "decode",
+      "status": "pass",
+      "value": 1004,
+      "detail": "1004 frames decoded without a diagnostic (plan: 1004)"
+    },
+    {
+      "id": "black",
+      "status": "pass",
+      "value": 0,
+      "detail": "no black frames, none declared"
+    },
+    {
+      "id": "flash",
+      "status": "pass",
+      "value": 0,
+      "detail": "heuristic for the 3-flashes rule (large mean-luma swings in 1 s), not a conformance test",
+      "heuristic": true
+    },
+    {
+      "id": "cuts",
+      "status": "pass",
+      "value": 0,
+      "detail": "every large frame change is a planned cut or inside a planned transition",
+      "heuristic": true
+    },
+    {
+      "id": "freeze.source",
+      "status": "pass",
+      "value": 0,
+      "detail": "the scene graph at the renderer (before encoding) never holds still long enough to matter"
+    },
+    {
+      "id": "freeze",
+      "status": "pass",
+      "value": 14,
+      "detail": "14 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
+    },
+    {
+      "id": "silence",
+      "status": "pass",
+      "value": 0,
+      "detail": "no silence of 0.7 s or more"
+    },
+    {
+      "id": "loudness",
+      "status": "pass",
+      "value": {
+        "integratedLufs": -14.0,
+        "lra": 2.9,
+        "truePeakDbtp": -1.5
+      },
+      "detail": "engineering target -14.0\u00b11.5 LUFS, true peak \u2264 -1.0 dBTP (calibrate by ear and against the channel; not a YouTube requirement)"
+    },
+    {
+      "id": "narration",
+      "status": "pass",
+      "value": 85,
+      "detail": "all 85 aligned words carry speech energy (speech median -12 dBFS, floor -47)"
+    },
+    {
+      "id": "sync",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "the audio in the file is offset +0 ms from master-S02.wav (max \u00b150 ms)"
+    },
+    {
+      "id": "sheets",
+      "status": "info",
+      "value": 2,
+      "detail": "view these with Read; contact-sheet tile n covers startS + n*everyS"
+    }
+  ],
+  "file": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/short-02.mp4",
+  "sheets": [
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/qa/sheets/S02_sheet_01.jpg",
+      "startS": 0.0,
+      "everyS": 1.5,
+      "tile": "8x2"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/qa/sheets/S02_sheet_02.jpg",
+      "startS": 24.0,
+      "everyS": 1.5,
+      "tile": "8x2"
+    }
+  ],
+  "probe": {
+    "duration": "33.466667"
+  }
+}

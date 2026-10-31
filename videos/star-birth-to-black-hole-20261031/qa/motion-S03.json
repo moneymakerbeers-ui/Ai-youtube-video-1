@@ -1,0 +1,146 @@
+{
+  "subject": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/short-03.mp4",
+  "kind": "motion",
+  "overall": "PASSED",
+  "summary": {
+    "pass": 15,
+    "fail": 0,
+    "blocked": 0,
+    "warn": 0,
+    "info": 2
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "the motion instruments classified a good eased dissolve, a hard pop, a white flash and a frozen middle correctly"
+    },
+    {
+      "id": "motion.s06>s07.boundary",
+      "status": "pass",
+      "value": 0.8,
+      "detail": "nested_scale: the change at the window edges (0.8 levels at frame +0) is in line with the window's own motion (median 7.8)"
+    },
+    {
+      "id": "motion.s06>s07.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 18.7,
+        "step": 3.8
+      },
+      "detail": "nested_scale: no flash or exposure jump (largest frame step 3.8 levels, largest excursion 18.7)"
+    },
+    {
+      "id": "motion.s06>s07.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "nested_scale: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.s06>s07.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "nested_scale: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.s06>s07.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s06>s07.ghost",
+      "status": "pass",
+      "value": -0.02,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s06>s07.anchor",
+      "status": "pass",
+      "value": 54,
+      "detail": "nested_scale: anchors land, stay locked and travel monotonically over 54 frames"
+    },
+    {
+      "id": "motion.s06>s07.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s06>s07.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S03/tr-s06-s07-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S03/tr-s06-s07.mp4; the numbers above are heuristics, the eyes decide"
+    },
+    {
+      "id": "motion.s10>s11.boundary",
+      "status": "pass",
+      "value": 0.2,
+      "detail": "dissolve: the change at the window edges (0.2 levels at frame +21) is in line with the window's own motion (median 2.9)"
+    },
+    {
+      "id": "motion.s10>s11.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 0.0,
+        "step": 8.6
+      },
+      "detail": "dissolve: no flash or exposure jump (largest frame step 8.6 levels, largest excursion 0.0)"
+    },
+    {
+      "id": "motion.s10>s11.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "dissolve: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.s10>s11.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "dissolve: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.s10>s11.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s10>s11.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.s10>s11.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S03/tr-s10-s11-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S03/tr-s10-s11.mp4; the numbers above are heuristics, the eyes decide"
+    }
+  ],
+  "file": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/short-03.mp4",
+  "transitions": [
+    {
+      "id": "s06>s07",
+      "type": "nested_scale",
+      "startS": 12.007,
+      "endS": 13.807,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S03/tr-s06-s07.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S03/tr-s06-s07-strip.png"
+    },
+    {
+      "id": "s10>s11",
+      "type": "dissolve",
+      "startS": 38.971,
+      "endS": 39.671,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S03/tr-s10-s11.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/S03/tr-s10-s11-strip.png"
+    }
+  ]
+}
