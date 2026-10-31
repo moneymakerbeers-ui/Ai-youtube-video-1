@@ -51,12 +51,18 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Webb",
      "enter": {
       "style": "rise",
       "durationMs": 450
      },
-     "enterAtWord": 3
+     "enterAtWord": 3,
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
+     }
     }
    ],
    "layouts": {
@@ -70,9 +76,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       }
@@ -106,7 +112,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       }
@@ -183,10 +189,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Webb",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
      }
     }
    ],
@@ -201,9 +213,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       }
@@ -237,7 +249,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       }
@@ -358,12 +370,18 @@
     {
      "id": "e_ill",
      "role": "context",
-     "text": "Illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
      },
-     "enterAtWord": 11
+     "enterAtWord": 11,
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     }
     },
     {
      "id": "e_q",
@@ -417,13 +435,13 @@
       "e_ill": {
        "x": 0.73,
        "y": 0.2,
-       "w": 0.16,
+       "w": 0.1833,
        "z": 3,
        "depth": 1.0
       },
       "e_q": {
        "x": 0.5,
-       "y": 0.75,
+       "y": 0.13,
        "w": 0.5,
        "z": 3,
        "depth": 1.0
@@ -474,7 +492,7 @@
       "e_ill": {
        "x": 0.5,
        "y": 0.47,
-       "w": 0.318,
+       "w": 0.3261,
        "z": 3,
        "depth": 1.0
       },
@@ -547,10 +565,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Webb",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
      }
     },
     {
@@ -575,9 +599,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -618,7 +642,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -697,10 +721,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Webb",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
      }
     },
     {
@@ -725,9 +755,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -768,7 +798,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -862,10 +892,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
      }
     },
     {
@@ -895,9 +931,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -938,7 +974,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -1028,10 +1064,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
      }
     },
     {
@@ -1056,9 +1098,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -1099,7 +1141,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -1182,10 +1224,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
      }
     },
     {
@@ -1210,9 +1258,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -1253,7 +1301,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -1337,10 +1385,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Webb",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
      }
     },
     {
@@ -1365,9 +1419,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -1408,7 +1462,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -1533,15 +1587,15 @@
       },
       "e_temp": {
        "x": 0.5,
-       "y": 0.48,
+       "y": 0.52,
        "w": 0.6,
        "z": 2,
        "depth": 0.0
       },
       "e_l": {
        "x": 0.5,
-       "y": 0.25,
-       "w": 0.4,
+       "y": 0.15,
+       "w": 0.36,
        "z": 2,
        "depth": 1.0
       }
@@ -1627,10 +1681,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
      }
     },
     {
@@ -1665,9 +1725,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -1715,7 +1775,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -1964,10 +2024,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · SDO",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · SDO"
+      }
      }
     },
     {
@@ -1997,14 +2063,14 @@
       "e_sun": {
        "x": 0.5,
        "y": 0.5,
-       "w": 0.62,
+       "w": 0.48,
        "z": 1,
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -2052,7 +2118,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -2190,22 +2256,22 @@
       },
       "e_two": {
        "x": 0.5,
-       "y": 0.48,
-       "w": 0.7,
+       "y": 0.52,
+       "w": 0.56,
        "z": 2,
        "depth": 0.0
       },
       "e_m": {
        "x": 0.5,
-       "y": 0.15,
-       "w": 0.3,
+       "y": 0.09,
+       "w": 0.26,
        "z": 3,
        "depth": 1.0
       },
       "e_f": {
        "x": 0.5,
-       "y": 0.75,
-       "w": 0.42,
+       "y": 0.19,
+       "w": 0.36,
        "z": 3,
        "depth": 1.0
       }
@@ -2336,8 +2402,8 @@
       },
       "e_life": {
        "x": 0.5,
-       "y": 0.5,
-       "w": 0.82,
+       "y": 0.47,
+       "w": 0.6,
        "z": 2,
        "depth": 0.0
       }
@@ -2413,10 +2479,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Hubble",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Hubble"
+      }
      }
     },
     {
@@ -2441,9 +2513,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -2484,7 +2556,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -2703,10 +2775,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
      }
     },
     {
@@ -2731,9 +2809,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -2774,7 +2852,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -2909,15 +2987,15 @@
        "depth": 0.0
       },
       "e_onion": {
-       "x": 0.42,
-       "y": 0.5,
-       "w": 0.5,
+       "x": 0.38,
+       "y": 0.48,
+       "w": 0.44,
        "z": 2,
        "depth": 0.0
       },
       "e_n": {
-       "x": 0.79,
-       "y": 0.5,
+       "x": 0.8,
+       "y": 0.48,
        "w": 0.3,
        "z": 3,
        "depth": 1.0
@@ -3027,7 +3105,7 @@
        ],
        "revealOver": 0.01,
        "stop": 6,
-       "ironAt": 0.62
+       "ironAtS": 7.46
       }
      },
      "enterAtWord": 0
@@ -3064,22 +3142,22 @@
        "depth": 0.0
       },
       "e_onion": {
-       "x": 0.42,
-       "y": 0.5,
-       "w": 0.5,
+       "x": 0.38,
+       "y": 0.48,
+       "w": 0.44,
        "z": 2,
        "depth": 0.0
       },
       "e_t": {
-       "x": 0.79,
+       "x": 0.8,
        "y": 0.36,
        "w": 0.3,
        "z": 3,
        "depth": 1.0
       },
       "e_d": {
-       "x": 0.79,
-       "y": 0.64,
+       "x": 0.8,
+       "y": 0.6,
        "w": 0.3,
        "z": 3,
        "depth": 1.0
@@ -3212,15 +3290,15 @@
       },
       "e_core": {
        "x": 0.5,
-       "y": 0.47,
-       "w": 0.42,
+       "y": 0.54,
+       "w": 0.36,
        "z": 2,
        "depth": 0.0
       },
       "e_c": {
        "x": 0.5,
-       "y": 0.75,
-       "w": 0.4,
+       "y": 0.11,
+       "w": 0.36,
        "z": 3,
        "depth": 1.0
       }
@@ -3486,10 +3564,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
      }
     },
     {
@@ -3514,9 +3598,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -3557,7 +3641,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -3640,10 +3724,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Hubble",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Hubble"
+      }
      }
     },
     {
@@ -3663,21 +3753,21 @@
       "e_gal": {
        "x": 0.5,
        "y": 0.5,
-       "w": 0.75,
-       "z": 1,
+       "w": 1.0,
+       "z": 0,
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
       "e_l": {
-       "x": 0.5,
-       "y": 0.75,
-       "w": 0.34,
+       "x": 0.3,
+       "y": 0.62,
+       "w": 0.3,
        "z": 3,
        "depth": 1.0
       }
@@ -3711,7 +3801,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -3950,21 +4040,17 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Hubble",
-     "enter": {
-      "style": "rise",
-      "durationMs": 450
-     }
-    },
-    {
-     "id": "e_l",
-     "role": "number",
-     "text": "6 light-years wide",
      "enter": {
       "style": "rise",
       "durationMs": 450
      },
-     "enterAtWord": 16
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Hubble"
+      }
+     }
     }
    ],
    "layouts": {
@@ -3978,17 +4064,10 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
-       "depth": 1.0
-      },
-      "e_l": {
-       "x": 0.5,
-       "y": 0.75,
-       "w": 0.3,
-       "z": 3,
        "depth": 1.0
       }
      },
@@ -4021,15 +4100,8 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
-       "depth": 1.0
-      },
-      "e_l": {
-       "x": 0.5,
-       "y": 0.64,
-       "w": 0.62,
-       "z": 3,
        "depth": 1.0
       }
      },
@@ -4105,10 +4177,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Chandra",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Chandra"
+      }
      }
     },
     {
@@ -4154,23 +4232,23 @@
     "landscape": {
      "placements": {
       "e_cas": {
-       "x": 0.35,
+       "x": 0.33,
        "y": 0.5,
-       "w": 0.56,
+       "w": 0.54,
        "z": 1,
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
       "e_key": {
-       "x": 0.81,
+       "x": 0.79,
        "y": 0.52,
-       "w": 0.34,
+       "w": 0.4,
        "z": 3,
        "depth": 0.0
       }
@@ -4204,7 +4282,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -4355,22 +4433,22 @@
       },
       "e_bars": {
        "x": 0.5,
-       "y": 0.5,
-       "w": 0.7,
+       "y": 0.52,
+       "w": 0.54,
        "z": 2,
        "depth": 0.0
       },
       "e_t": {
        "x": 0.5,
-       "y": 0.14,
-       "w": 0.48,
+       "y": 0.1,
+       "w": 0.44,
        "z": 3,
        "depth": 1.0
       },
       "e_y": {
-       "x": 0.5,
-       "y": 0.75,
-       "w": 0.26,
+       "x": 0.86,
+       "y": 0.52,
+       "w": 0.2,
        "z": 3,
        "depth": 1.0
       }
@@ -4580,10 +4658,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
      }
     },
     {
@@ -4618,9 +4702,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -4668,7 +4752,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -4764,16 +4848,22 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · EHT",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · EHT"
+      }
      }
     },
     {
      "id": "e_s",
      "role": "label",
-     "text": "supermassive: 6.5 billion Suns",
+     "text": "6.5 billion Suns",
      "enter": {
       "style": "rise",
       "durationMs": 450
@@ -4782,8 +4872,8 @@
     },
     {
      "id": "e_n",
-     "role": "context",
-     "text": "not a star's black hole",
+     "role": "label",
+     "text": "supermassive",
      "enter": {
       "style": "rise",
       "durationMs": 450
@@ -4797,26 +4887,26 @@
       "e_eht": {
        "x": 0.5,
        "y": 0.5,
-       "w": 0.56,
-       "z": 1,
+       "w": 1.0,
+       "z": 0,
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
       "e_s": {
-       "x": 0.18,
+       "x": 0.17,
        "y": 0.5,
-       "w": 0.3,
+       "w": 0.28,
        "z": 3,
        "depth": 1.0
       },
       "e_n": {
-       "x": 0.82,
+       "x": 0.83,
        "y": 0.5,
        "w": 0.28,
        "z": 3,
@@ -4852,7 +4942,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -4941,10 +5031,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "NASA illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "NASA illustration"
+      }
      }
     },
     {
@@ -4969,9 +5065,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -5012,7 +5108,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -5097,10 +5193,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "NASA illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "NASA illustration"
+      }
      }
     },
     {
@@ -5135,9 +5237,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -5185,7 +5287,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -5276,10 +5378,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "ESO illustration",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "ESO illustration"
+      }
      }
     },
     {
@@ -5314,9 +5422,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       },
@@ -5364,7 +5472,7 @@
       "e_tag": {
        "x": 0.5,
        "y": 0.105,
-       "w": 0.5035,
+       "w": 0.4179,
        "z": 5,
        "depth": 1.0
       },
@@ -5453,15 +5561,6 @@
      "assetId": "r_n6946"
     },
     {
-     "id": "e_tag",
-     "role": "context",
-     "text": "Real image · Hubble",
-     "enter": {
-      "style": "rise",
-      "durationMs": 450
-     }
-    },
-    {
      "id": "e_a",
      "role": "label",
      "text": "before",
@@ -5491,13 +5590,6 @@
        "w": 0.86,
        "z": 1,
        "depth": 0.0
-      },
-      "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
-       "z": 5,
-       "depth": 1.0
       },
       "e_a": {
        "x": 0.27,
@@ -5539,13 +5631,6 @@
        "w": 1.0,
        "z": 1,
        "depth": 0.0
-      },
-      "e_tag": {
-       "x": 0.5,
-       "y": 0.105,
-       "w": 0.5035,
-       "z": 5,
-       "depth": 1.0
       },
       "e_a": {
        "x": 0.25,
@@ -5633,25 +5718,6 @@
      "assetId": "r_n6946"
     },
     {
-     "id": "e_tag",
-     "role": "context",
-     "text": "Real image · Hubble",
-     "enter": {
-      "style": "rise",
-      "durationMs": 450
-     }
-    },
-    {
-     "id": "e_q",
-     "role": "subject",
-     "text": "a failed supernova?",
-     "enter": {
-      "style": "rise",
-      "durationMs": 450
-     },
-     "enterAtWord": 3
-    },
-    {
      "id": "e_d",
      "role": "label",
      "text": "still debated",
@@ -5671,20 +5737,6 @@
        "w": 0.86,
        "z": 1,
        "depth": 0.0
-      },
-      "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
-       "z": 5,
-       "depth": 1.0
-      },
-      "e_q": {
-       "x": 0.5,
-       "y": 0.14,
-       "w": 0.34,
-       "z": 3,
-       "depth": 1.0
       },
       "e_d": {
        "x": 0.5,
@@ -5719,20 +5771,6 @@
        "w": 1.0,
        "z": 1,
        "depth": 0.0
-      },
-      "e_tag": {
-       "x": 0.5,
-       "y": 0.105,
-       "w": 0.5035,
-       "z": 5,
-       "depth": 1.0
-      },
-      "e_q": {
-       "x": 0.5,
-       "y": 0.22,
-       "w": 0.7,
-       "z": 3,
-       "depth": 1.0
       },
       "e_d": {
        "x": 0.5,
@@ -5888,44 +5926,44 @@
        "depth": 0.0
       },
       "e_r0": {
-       "x": 0.1,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.2,
+       "y": 0.25,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t0": {
-       "x": 0.1,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.2,
+       "y": 0.44,
+       "w": 0.085,
        "z": 2,
        "depth": 1.0
       },
       "e_r1": {
-       "x": 0.26,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t1": {
-       "x": 0.26,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.5,
+       "y": 0.44,
+       "w": 0.153,
        "z": 2,
        "depth": 1.0
       },
       "e_r2": {
-       "x": 0.42000000000000004,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.8,
+       "y": 0.25,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t2": {
-       "x": 0.42000000000000004,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.8,
+       "y": 0.44,
+       "w": 0.068,
        "z": 2,
        "depth": 1.0
       }
@@ -6131,86 +6169,86 @@
        "depth": 0.0
       },
       "e_r0": {
-       "x": 0.1,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.2,
+       "y": 0.25,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t0": {
-       "x": 0.1,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.2,
+       "y": 0.44,
+       "w": 0.085,
        "z": 2,
        "depth": 1.0
       },
       "e_r1": {
-       "x": 0.26,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t1": {
-       "x": 0.26,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.5,
+       "y": 0.44,
+       "w": 0.153,
        "z": 2,
        "depth": 1.0
       },
       "e_r2": {
-       "x": 0.42000000000000004,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.8,
+       "y": 0.25,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t2": {
-       "x": 0.42000000000000004,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.8,
+       "y": 0.44,
+       "w": 0.068,
        "z": 2,
        "depth": 1.0
       },
       "e_r3": {
-       "x": 0.58,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.2,
+       "y": 0.63,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t3": {
-       "x": 0.58,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.2,
+       "y": 0.75,
+       "w": 0.17,
        "z": 2,
        "depth": 1.0
       },
       "e_r4": {
-       "x": 0.74,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.5,
+       "y": 0.63,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t4": {
-       "x": 0.74,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.5,
+       "y": 0.75,
+       "w": 0.153,
        "z": 2,
        "depth": 1.0
       },
       "e_r5": {
-       "x": 0.9,
-       "y": 0.46,
-       "w": 0.145,
+       "x": 0.8,
+       "y": 0.63,
+       "w": 0.26,
        "z": 1,
        "depth": 0.0
       },
       "e_t5": {
-       "x": 0.9,
-       "y": 0.6,
-       "w": 0.145,
+       "x": 0.8,
+       "y": 0.75,
+       "w": 0.17,
        "z": 2,
        "depth": 1.0
       }
@@ -6279,10 +6317,16 @@
     {
      "id": "e_tag",
      "role": "context",
-     "text": "Real image · Webb",
      "enter": {
       "style": "rise",
       "durationMs": 450
+     },
+     "need": "provenance tag on a translucent pill",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
      }
     }
    ],
@@ -6297,9 +6341,9 @@
        "depth": 0.0
       },
       "e_tag": {
-       "x": 0.7957,
-       "y": 0.09,
-       "w": 0.2686,
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
        "z": 5,
        "depth": 1.0
       }

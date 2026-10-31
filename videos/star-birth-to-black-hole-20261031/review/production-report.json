@@ -2,84 +2,82 @@
   "project": "star-birth-to-black-hole-20261031",
   "idea": "How a star is born from the very first moment until it dies and becomes a black hole",
   "purpose": "production",
-  "madeAt": "2026-10-31T13:52:20",
+  "madeAt": "2026-10-31T14:08:03",
   "targets": {
     "long": {
-      "file": null,
-      "video": null,
-      "sha256": null,
+      "file": "out/full-video.mp4",
+      "video": {
+        "w": 640,
+        "h": 360,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 476.263,
+        "bytes": 53411118
+      },
+      "sha256": "ba5524276b15c762a1ea922f0f97dce595bded37e962bacd07757599deac0ea8",
       "media": "NOT RUN",
       "motion": "NOT RUN",
       "counts": {
         "media": null,
         "motion": null
       },
-      "transitions": [],
-      "warnings": []
-    },
-    "S01": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [],
-      "warnings": []
-    },
-    "S02": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [],
-      "warnings": []
-    },
-    "S03": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [],
-      "warnings": []
-    },
-    "S04": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [],
-      "warnings": []
-    },
-    "S05": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [],
+      "transitions": [
+        {
+          "id": "s02>s03",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s06>s07",
+          "type": "nested_scale",
+          "downgradedFrom": null,
+          "rationale": "the protostar is literally the inside of the collapsing clump: zooming into its centre shows the same object one scale down"
+        },
+        {
+          "id": "s10>s11",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s19>s20",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s22>s23",
+          "type": "occlusion_reveal",
+          "downgradedFrom": null,
+          "rationale": "the shock wave really starts at the collapsed core and moves outward, so the explosion is revealed from the core's position"
+        },
+        {
+          "id": "s25>s26",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s30>s31",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s36>s37",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        },
+        {
+          "id": "s38>s39",
+          "type": "dissolve",
+          "downgradedFrom": null,
+          "rationale": null
+        }
+      ],
       "warnings": []
     }
   },
@@ -237,7 +235,7 @@
       "approved": true,
       "unit": "credits",
       "ceiling": 38.0,
-      "spent": 33.7,
+      "spent": 34.35,
       "inFlight": 0.0
     },
     {

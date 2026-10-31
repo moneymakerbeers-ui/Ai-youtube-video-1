@@ -10,3 +10,4 @@ Nothing recorded yet.
 - observed: on-screen text scales with the camera; push-ins > 1.2× carry corner tags off-frame. Keep tags near the centre or the push small; labels at depth 1.
 - observed: landscape captions occupy ~0.82–0.93 of the height; keep labels above 0.78 (portrait above ~0.7).
 - hypothesis: real telescope images (CC BY 4.0 / NASA) + a few labelled AI illustrations is the best quality-per-credit mix for astronomy topics.
+- observed: 1080p render was 2 fps with 4 pages in ONE Chromium (single GPU/raster process pegged one core). One browser per worker → ~4 fps; JPEG q95 frame hand-off (RENDER_FRAME_FORMAT=jpeg) → ~12 fps. PSNR vs the PNG path 45 dB, SSIM 0.98 (visually identical after H.264).

@@ -63,12 +63,17 @@ async function main(): Promise<number> {
 
   // ── browser ──
   const workers = Math.max(1, Number(arg("--workers", "2")));
-  const browser = await chromium.launch({ args: ["--force-color-profile=srgb", "--font-render-hinting=none", "--disable-lcd-text", "--hide-scrollbars", "--disable-background-timer-throttling", "--disable-renderer-backgrounding", "--disable-partial-raster", ...EXTRA_FLAGS] }).catch((e) => { throw new Fail(4, `could not launch Chromium (run: npx playwright install chromium): ${e.message}`); });
+  // One browser process per worker: headless Chromium rasterises in its single GPU/compositor process, so pages that share one browser
+  // queue behind one CPU core. Separate browsers parallelise the raster; the frame-to-page assignment stays fixed (reproducible output).
+  const launch = () => chromium.launch({ args: ["--force-color-profile=srgb", "--font-render-hinting=none", "--disable-lcd-text", "--hide-scrollbars", "--disable-background-timer-throttling", "--disable-renderer-backgrounding", "--disable-partial-raster", ...EXTRA_FLAGS] }).catch((e) => { throw new Fail(4, `could not launch Chromium (run: npx playwright install chromium): ${e.message}`); });
+  const browser = await launch();
+  const extraBrowsers: Awaited<ReturnType<typeof launch>>[] = [];
   const pages: Page[] = [];
   let initInfo: { warnings: string[]; describe: unknown; version: string } | null = null;
   try {
     for (let i = 0; i < (dump ? 1 : workers); i++) {
-      const ctx = await browser.newContext({ viewport: { width: plan.width, height: plan.height }, deviceScaleFactor: 1 });
+      const b = i === 0 ? browser : (extraBrowsers[extraBrowsers.push(await launch()) - 1]);
+      const ctx = await b.newContext({ viewport: { width: plan.width, height: plan.height }, deviceScaleFactor: 1 });
       const page = await ctx.newPage();
       page.on("pageerror", (e) => console.error("[page error]", e.message));
       page.on("console", (m) => m.type() === "error" && console.error("[page console]", m.text()));
@@ -82,7 +87,10 @@ async function main(): Promise<number> {
     for (const w of warn) console.error(`${BLOCKING.test(w) ? "BLOCKING" : "warn"}: ${w}`);
     if (blocking.length && !allow) throw new Fail(3, `${blocking.length} blocking problem(s) in the scene graph; fix them or pass --allow-placeholders for a preview`);
 
-    const shot = (p: Page) => p.screenshot({ type: "png", animations: "disabled", caret: "initial" });
+    // RENDER_FRAME_FORMAT=jpeg trades a lossless PNG hand-off for a q95 JPEG (several times faster to encode in software Chromium at 1080p;
+    // the frame is re-encoded to 4:2:0 H.264 anyway). Default stays png (the tested, bit-exact path).
+    const frameFmt = process.env.RENDER_FRAME_FORMAT === "jpeg" ? "jpeg" : "png";
+    const shot = (p: Page) => (frameFmt === "jpeg" ? p.screenshot({ type: "jpeg", quality: 95, animations: "disabled", caret: "initial" }) : p.screenshot({ type: "png", animations: "disabled", caret: "initial" }));
 
     // ── dump mode: stills ──
     if (dump) {
@@ -115,7 +123,7 @@ async function main(): Promise<number> {
       `[prb]${crop}scale=in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p,scale=${POOL}:-2:flags=area,format=gray,tblend=all_mode=difference,signalstats,metadata=print:key=lavfi.signalstats.YMAX:file=${probeName}[m]`;
     const ffArgs = [
       "-hide_banner", "-v", "error", "-y",
-      "-f", "image2pipe", "-framerate", String(fps), "-c:v", "png", "-i", "pipe:0", ...audioArgs,
+      "-f", "image2pipe", "-framerate", String(fps), "-c:v", frameFmt === "jpeg" ? "mjpeg" : "png", "-i", "pipe:0", ...audioArgs,
       "-filter_complex", graph,
       "-map", "[v]", ...(audioPath ? ["-map", "1:a:0"] : []),
       "-c:v", "libx264", "-preset", preset!, "-crf", crf!, "-pix_fmt", "yuv420p", "-g", String(fps * 2), "-bf", "2",
@@ -247,6 +255,7 @@ async function main(): Promise<number> {
     console.log(`trace: ${traceFile} · identical-frame runs ≥3: ${runs.length} · render warnings: ${warns.size}`);
     return 0;
   } finally {
+    for (const b of extraBrowsers) await b.close().catch(() => undefined);
     await browser.close().catch(() => undefined);
     await srv.close();
   }

@@ -240,7 +240,7 @@
   {
    "id": "r_sun",
    "kind": "image",
-   "file": "assets/r_sun.jpg",
+   "file": "assets/r_sun.png",
    "route": "retrieved",
    "provenance": {
     "tool": "curl",
@@ -256,7 +256,8 @@
    "height": 1888,
    "usedBy": [
     "s13"
-   ]
+   ],
+   "hasAlpha": true
   },
   {
    "id": "g_clump",

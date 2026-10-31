@@ -1,23 +1,26 @@
 # Production report - star-birth-to-black-hole-20261031
 
-Idea: How a star is born from the very first moment until it dies and becomes a black hole  ·  purpose: **production**  ·  made 2026-10-31T13:52:20
+Idea: How a star is born from the very first moment until it dies and becomes a black hole  ·  purpose: **production**  ·  made 2026-10-31T14:08:03
 
 ## Gate verdicts
 
 | target | file | media QA | motion QA | length | size |
 |---|---|---|---|---|---|
-| long | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S01 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S02 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S03 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S04 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S05 | MISSING | NOT RUN | NOT RUN | - s | -x- |
+| long | out/full-video.mp4 | NOT RUN | NOT RUN | 476.263 s | 640x360 |
 
 A verdict is the gate's own result on the delivered file. WARN items are heuristics and are listed under "A person still has to look at". PASSED never means the video is good, only that none of these checks found a defect.
 
 ## Transitions
 
-- none (cuts only)
+- long s02>s03: **dissolve**
+- long s06>s07: **nested_scale**
+- long s10>s11: **dissolve**
+- long s19>s20: **dissolve**
+- long s22>s23: **occlusion_reveal**
+- long s25>s26: **dissolve**
+- long s30>s31: **dissolve**
+- long s36>s37: **dissolve**
+- long s38>s39: **dissolve**
 
 ## Render
 
@@ -33,7 +36,7 @@ A verdict is the gate's own result on the delivered file. WARN items are heurist
 | service | approved | ceiling | spent | in flight |
 |---|---|---|---|---|
 | elevenlabs | no | 0.0 chars | 0.0 | 0.0 |
-| higgsfield | yes | 38.0 credits | 33.7 | 0.0 |
+| higgsfield | yes | 38.0 credits | 34.35 | 0.0 |
 | music | no | 0.0 usd | 0.0 | 0.0 |
 | stock | no | 0.0 usd | 0.0 | 0.0 |
 

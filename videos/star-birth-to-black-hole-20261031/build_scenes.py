@@ -91,7 +91,7 @@ S("s03", "open", ["C06_balance"],
    txt("e_la", "Start: a cloud", at=1), txt("e_lb", "End: a black hole", at=11), txt("e_ill", ILLU, "context", at=11),
    txt("e_q", "Gravity vs. pressure", "subject", at=17)],
   {"e_stars": STAR_L, "e_a": P(0.27, 0.42, 0.38, 1), "e_b": P(0.73, 0.42, 0.38, 1), "e_la": P(0.27, 0.72, 0.3, 2), "e_lb": P(0.73, 0.72, 0.32, 2),
-   "e_ill": P(0.73, 0.2, 0.16, 3), "e_q": P(0.5, 0.87, 0.5, 3)},
+   "e_ill": P(0.73, 0.2, 0.16, 3), "e_q": P(0.5, 0.13, 0.5, 3)},
   {"e_stars": STAR_P, "e_a": P(0.5, 0.26, 0.86, 1), "e_b": P(0.5, 0.6, 0.86, 1), "e_la": P(0.5, 0.425, 0.7, 2), "e_lb": P(0.5, 0.765, 0.7, 2),
    "e_ill": P(0.5, 0.47, 0.4, 3), "e_q": P(0.5, 0.135, 0.8, 3)},
   voice=V("hand over the core question, then the thread", "curious", 1, "steady", ["darkest", "tug-of-war", "completely"], pa=300),
@@ -166,7 +166,7 @@ S("s10", "ignition", ["C05_ignition"],
   "build to the threshold", "develop", "diagram",
   [starfield(), vis("e_temp", "thermo", {"to": 15, "unit": "million °", "label": "core temperature"}, "a core-temperature readout climbing to about 15 million degrees", role="number", at=11),
    txt("e_l", "core temperature", "context", at=9)],
-  {"e_stars": STAR_L, "e_temp": P(0.5, 0.48, 0.6, 2), "e_l": P(0.5, 0.25, 0.4, 2)},
+  {"e_stars": STAR_L, "e_temp": P(0.5, 0.52, 0.6, 2), "e_l": P(0.5, 0.15, 0.36, 2)},
   {"e_stars": STAR_P, "e_temp": P(0.5, 0.45, 0.9, 2), "e_l": P(0.5, 0.3, 0.7, 2)},
   voice=V("build anticipation without hype", "curious", 1, "steady", ["fifteen million"], pa=250),
   transition={"type": "dissolve", "durationMs": 700})
@@ -195,7 +195,7 @@ S("s13", "balance", ["C07_mainseq"],
   "name the stable phase and anchor it to the Sun", "settle", "archival",
   [img("e_sun", "r_sun", "real Solar Dynamics Observatory image of the Sun"), txt("e_tag", "Real image · SDO", "context"), txt("e_l", "main sequence", "subject", at=11),
    txt("e_h", "the Sun: about halfway", "label", at=24)],
-  {"e_sun": P(0.5, 0.5, 0.62, 1), "e_tag": TAG_L, "e_l": P(0.18, 0.2, 0.3, 3), "e_h": P(0.8, 0.82, 0.34, 3)},
+  {"e_sun": P(0.5, 0.5, 0.48, 1), "e_tag": TAG_L, "e_l": P(0.18, 0.2, 0.3, 3), "e_h": P(0.8, 0.82, 0.34, 3)},
   {"e_sun": P(0.5, 0.47, 1.0, 1), "e_tag": TAG_P, "e_l": P(0.5, 0.2, 0.7, 3), "e_h": P(0.5, 0.76, 0.76, 3)},
   voice=V("settle", "warm-explanatory", 0, "steady", ["main sequence", "halfway"]),
   cam_l=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.06, "a gentle push on the Sun while the stable phase is named")],
@@ -207,7 +207,7 @@ S("s14", "mass", ["C08_mass_rate"],
   "introduce the deciding variable", "develop", "diagram",
   [starfield(), vis("e_two", "twostars", {}, "a small Sun-like star and a much larger heavy star, the heavy one burning brighter", at=0),
    txt("e_m", "mass decides", "subject", at=7), txt("e_f", "heavier → burns faster", "label", at=10)],
-  {"e_stars": STAR_L, "e_two": P(0.5, 0.48, 0.7, 2), "e_m": P(0.5, 0.15, 0.3, 3), "e_f": P(0.5, 0.85, 0.42, 3)},
+  {"e_stars": STAR_L, "e_two": P(0.5, 0.52, 0.56, 2), "e_m": P(0.5, 0.09, 0.26, 3), "e_f": P(0.5, 0.19, 0.36, 3)},
   {"e_stars": STAR_P, "e_two": P(0.5, 0.46, 0.96, 2), "e_m": P(0.5, 0.2, 0.6, 3), "e_f": P(0.5, 0.72, 0.8, 3)},
   voice=V("make mass the key", "warm-explanatory", 1, "steady", ["mass", "faster"], pb=150))
 S("s15", "mass", ["C08_mass_rate"],
@@ -215,7 +215,7 @@ S("s15", "mass", ["C08_mass_rate"],
   "show the contrast with honest bars", "evidence", "diagram",
   [starfield(), vis("e_life", "lifebars", {"a": {"label": "the Sun", "value": 10000, "text": "≈10 billion years"}, "b": {"label": "a massive star", "value": 5, "text": "a few million years"}},
                     "two lifetime bars on one linear scale: the Sun ~10 billion years vs a massive star a few million", at=0)],
-  {"e_stars": STAR_L, "e_life": P(0.5, 0.5, 0.82, 2)},
+  {"e_stars": STAR_L, "e_life": P(0.5, 0.47, 0.6, 2)},
   {"e_stars": STAR_P, "e_life": P(0.5, 0.47, 0.94, 2)},
   voice=V("let the contrast land", "matter-of-fact", 1, "steady", ["ten billion", "few million"]))
 S("s16", "mass", ["C09_whitedwarf"],
@@ -253,17 +253,17 @@ S("s19", "onion", ["C13_chain"],
   [starfield(), vis("e_onion", "onion", {"shells": ["H", "He", "C", "Ne", "O", "Si", "Fe"], "revealOver": 9.5, "stop": 6},
                     "a cutaway of the star's core growing layers: hydrogen, helium, carbon, neon, oxygen, silicon", at=0),
    txt("e_n", "each layer: a heavier fuel", "context", at=9)],
-  {"e_stars": STAR_L, "e_onion": P(0.42, 0.5, 0.5, 2), "e_n": P(0.79, 0.5, 0.3, 3)},
+  {"e_stars": STAR_L, "e_onion": P(0.38, 0.48, 0.44, 2), "e_n": P(0.8, 0.48, 0.3, 3)},
   {"e_stars": STAR_P, "e_onion": P(0.5, 0.42, 0.96, 2), "e_n": P(0.5, 0.74, 0.7, 3)},
   voice=V("list the chain with rhythm", "warm-explanatory", 1, "steady", ["carbon", "neon", "oxygen", "silicon"]),
   transition={"type": "dissolve", "durationMs": 500})
 S("s20", "onion", ["C13_chain"],
   "Each new fuel buys the star less time than the one before. And when silicon finally fuses into iron, the star runs out of fuel in a matter of days.",
   "the clock speeds up; land on iron", "payoff", "diagram",
-  [starfield(), vis("e_onion", "onion", {"shells": ["H", "He", "C", "Ne", "O", "Si", "Fe"], "revealOver": 0.01, "stop": 6, "ironAt": 0.62},
+  [starfield(), vis("e_onion", "onion", {"shells": ["H", "He", "C", "Ne", "O", "Si", "Fe"], "revealOver": 0.01, "stop": 6, "ironAtS": 5.0},
                     "the same cutaway; an iron core appears at the centre", at=0),
    txt("e_t", "less time with each fuel", "label", at=0), txt("e_d", "iron: fuel runs out in days", "label", at=16)],
-  {"e_stars": STAR_L, "e_onion": P(0.42, 0.5, 0.5, 2), "e_t": P(0.79, 0.36, 0.3, 3), "e_d": P(0.79, 0.64, 0.3, 3)},
+  {"e_stars": STAR_L, "e_onion": P(0.38, 0.48, 0.44, 2), "e_t": P(0.8, 0.36, 0.3, 3), "e_d": P(0.8, 0.6, 0.3, 3)},
   {"e_stars": STAR_P, "e_onion": P(0.5, 0.42, 0.96, 2), "e_t": P(0.5, 0.16, 0.7, 3), "e_d": P(0.5, 0.74, 0.8, 3)},
   voice=V("tighten", "measured-concern", 1, "steady", ["less time", "iron", "days"], pa=300))
 
@@ -273,7 +273,7 @@ S("s21", "collapse", ["C14_iron"],
   "the reason the star dies", "develop", "diagram",
   [starfield(), vis("e_core", "ironcore", {}, "the iron core alone; outward pressure arrows fade while inward gravity arrows remain", at=0),
    txt("e_c", "iron fusion costs energy", "label", at=5)],
-  {"e_stars": STAR_L, "e_core": P(0.5, 0.47, 0.42, 2), "e_c": P(0.5, 0.87, 0.4, 3)},
+  {"e_stars": STAR_L, "e_core": P(0.5, 0.54, 0.36, 2), "e_c": P(0.5, 0.11, 0.36, 3)},
   {"e_stars": STAR_P, "e_core": P(0.5, 0.42, 0.9, 2), "e_c": P(0.5, 0.72, 0.8, 3)},
   voice=V("state the dead end plainly", "measured-concern", 1, "steady", ["dead end", "costs"]))
 S("s22", "collapse", ["C15_collapse"],
@@ -303,7 +303,7 @@ S("s24", "collapse", ["C17_outshine"],
   "scale of the event, with real evidence", "evidence", "archival",
   [img("e_gal", "r_sn_hubble", "real Hubble image: a distant galaxy with a supernova as bright as its core"), txt("e_tag", "Real image · Hubble", "context"),
    txt("e_l", "one exploding star", "label", at=3)],
-  {"e_gal": P(0.5, 0.5, 0.75, 1), "e_tag": TAG_L, "e_l": P(0.5, 0.88, 0.34, 3)},
+  {"e_gal": FULL_L, "e_tag": TAG_L, "e_l": P(0.3, 0.62, 0.3, 3)},
   {"e_gal": P(0.5, 0.45, 1.0, 1), "e_tag": TAG_P, "e_l": P(0.5, 0.72, 0.66, 3)},
   voice=V("settle after the peak", "reflective", 1, "steady", ["entire galaxy"]),
   cam_l=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.08, "a gentle push so the bright point and its galaxy read together")],
@@ -323,8 +323,8 @@ S("s25", "evidence", ["C18_crab"],
 S("s26", "evidence", ["C18_crab"],
   "Today, in that spot, we find the Crab Nebula: the expanding wreckage of that explosion, six light-years wide.",
   "the remnant of that star", "payoff", "archival",
-  [img("e_crab", "r_crab", "real Hubble mosaic of the Crab Nebula"), txt("e_tag", "Real image · Hubble", "context"), txt("e_l", "6 light-years wide", "number", at=16)],
-  {"e_crab": FULL_L, "e_tag": TAG_L, "e_l": P(0.5, 0.88, 0.3, 3)}, {"e_crab": P(0.5, 0.5, 3.0), "e_tag": TAG_P, "e_l": P(0.5, 0.72, 0.62, 3)},
+  [img("e_crab", "r_crab", "real Hubble mosaic of the Crab Nebula"), txt("e_tag", "Real image · Hubble", "context")],
+  {"e_crab": FULL_L, "e_tag": TAG_L}, {"e_crab": P(0.5, 0.5, 3.0), "e_tag": TAG_P},
   voice=V("reveal the remnant", "quiet-wonder", 2, "steady", ["Crab Nebula"]),
   cam_l=[cam(0.5, 0.5, 1.15, 0.5, 0.5, 1.0, "pull-back reveals the full width of the wreckage")],
   cam_p=[cam(0.5, 0.5, 1.12, 0.5, 0.5, 1.0, "pull-back reveals the wreckage")])
@@ -333,7 +333,7 @@ S("s27", "evidence", ["C19_casa"],
   "elements made by stars, made visible", "evidence", "archival",
   [img("e_cas", "r_casa", "real Chandra X-ray element map of Cassiopeia A"), txt("e_tag", "Real image · Chandra", "context"),
    vis("e_key", "legend", {"items": [["silicon", "#ff5a4a"], ["sulfur", "#ffd84a"], ["calcium", "#4adf6a"], ["iron", "#b47aff"], ["blast wave", "#5a8cff"]], "cols": 2}, "a colour key naming each element", at=13)],
-  {"e_cas": P(0.35, 0.5, 0.56, 1), "e_tag": TAG_L, "e_key": P(0.81, 0.52, 0.34, 3)},
+  {"e_cas": P(0.33, 0.5, 0.54, 1), "e_tag": TAG_L, "e_key": P(0.79, 0.52, 0.4, 3)},
   {"e_cas": P(0.5, 0.31, 0.9, 1), "e_tag": TAG_P, "e_key": P(0.5, 0.64, 0.9, 3)},
   voice=V("explain the map", "curious", 1, "steady", ["silicon", "sulfur", "calcium", "iron"]),
   cam_l=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.05, "a gentle push while the colours are named")],
@@ -344,7 +344,7 @@ S("s28", "evidence", ["C20_elements"],
   [starfield(), vis("e_bars", "elementbars", {"items": [["oxygen", 100, "all"], ["calcium", 50, "about half"], ["iron", 40, "about 40%"]]},
                     "three bars: share of each element made by exploding massive stars", at=3),
    txt("e_t", "made by exploding massive stars", "context", at=9), txt("e_y", "in your bones", "label", at=31)],
-  {"e_stars": STAR_L, "e_bars": P(0.5, 0.5, 0.7, 2), "e_t": P(0.5, 0.14, 0.48, 3), "e_y": P(0.5, 0.88, 0.26, 3)},
+  {"e_stars": STAR_L, "e_bars": P(0.5, 0.52, 0.54, 2), "e_t": P(0.5, 0.1, 0.44, 3), "e_y": P(0.86, 0.52, 0.2, 3)},
   {"e_stars": STAR_P, "e_bars": P(0.5, 0.45, 0.94, 2), "e_t": P(0.5, 0.17, 0.86, 3), "e_y": P(0.5, 0.74, 0.5, 3)},
   voice=V("make it personal", "warm-explanatory", 2, "steady", ["all", "your bones"], pa=400))
 
@@ -371,8 +371,8 @@ S("s31", "blackhole", ["C23_eht", "C21_remnant"],
   "This is the first image of a black hole's shadow, from the Event Horizon Telescope in 2019. That one is a giant in the galaxy M87, six and a half billion times the Sun's mass. Black holes left behind by dying stars are far smaller.",
   "real evidence that black holes exist, with an honest scale caveat", "evidence", "archival",
   [img("e_eht", "r_eht", "real Event Horizon Telescope image of the M87 black hole shadow"), txt("e_tag", "Real image · EHT", "context"),
-   txt("e_s", "supermassive: 6.5 billion Suns", "label", at=17), txt("e_n", "not a star's black hole", "context", at=28)],
-  {"e_eht": P(0.5, 0.5, 0.56, 1), "e_tag": TAG_L, "e_s": P(0.18, 0.5, 0.3, 3), "e_n": P(0.82, 0.5, 0.28, 3)},
+   txt("e_s", "6.5 billion Suns", "label", at=17), txt("e_n", "supermassive", "label", at=28)],
+  {"e_eht": FULL_L, "e_tag": TAG_L, "e_s": P(0.17, 0.5, 0.28, 3), "e_n": P(0.83, 0.5, 0.28, 3)},
   {"e_eht": P(0.5, 0.43, 1.0, 1), "e_tag": TAG_P, "e_s": P(0.5, 0.74, 0.86, 3), "e_n": P(0.5, 0.8, 0.7, 3)},
   voice=V("show proof, correct scale", "matter-of-fact", 1, "steady", ["first image", "far smaller"], pron=[("M87", "M eighty-seven")]),
   cam_l=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.06, "a gentle push on the shadow")],
@@ -413,20 +413,20 @@ S("s34", "finding", ["C26_gaiabh3"],
 S("s35", "vanish", ["C27_n6946"],
   "Some astronomers think a giant star may skip the explosion entirely. In 2009, a red supergiant about twenty-five times the Sun's mass, in another galaxy, flared weakly and then seemed to disappear.",
   "an open question, told honestly", "develop", "archival",
-  [img("e_van", "r_n6946", "real Hubble before/after images of the star N6946-BH1"), txt("e_tag", "Real image · Hubble", "context"),
+  [img("e_van", "r_n6946", "real Hubble before/after images of the star N6946-BH1"),
    txt("e_a", "before", "label", at=0), txt("e_b", "after", "label", at=25)],
-  {"e_van": P(0.5, 0.5, 0.86, 1), "e_tag": TAG_L, "e_a": P(0.27, 0.86, 0.12, 3), "e_b": P(0.73, 0.86, 0.12, 3)},
-  {"e_van": P(0.5, 0.45, 1.0, 1), "e_tag": TAG_P, "e_a": P(0.25, 0.64, 0.3, 3), "e_b": P(0.75, 0.64, 0.3, 3)},
+  {"e_van": P(0.5, 0.5, 0.86, 1), "e_a": P(0.27, 0.86, 0.12, 3), "e_b": P(0.73, 0.86, 0.12, 3)},
+  {"e_van": P(0.5, 0.45, 1.0, 1), "e_a": P(0.25, 0.64, 0.3, 3), "e_b": P(0.75, 0.64, 0.3, 3)},
   voice=V("introduce a mystery without hype", "curious", 1, "steady", ["skip", "disappear"]),
   cam_l=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.05, "a gentle push while the before/after is compared")],
   cam_p=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.04, "gentle push on the comparison")])
 S("s36", "vanish", ["C27_n6946"],
   "One explanation is a failed supernova: a star collapsing straight into a black hole, with almost no explosion. But newer telescope data complicate that picture, and astronomers are still debating it.",
   "keep uncertainty visible", "settle", "archival",
-  [img("e_van", "r_n6946", "same Hubble before/after images"), txt("e_tag", "Real image · Hubble", "context"), txt("e_q", "a failed supernova?", "subject", at=3),
+  [img("e_van", "r_n6946", "same Hubble before/after images"),
    txt("e_d", "still debated", "label", at=24)],
-  {"e_van": P(0.5, 0.5, 0.86, 1), "e_tag": TAG_L, "e_q": P(0.5, 0.14, 0.34, 3), "e_d": P(0.5, 0.86, 0.24, 3)},
-  {"e_van": P(0.5, 0.45, 1.0, 1), "e_tag": TAG_P, "e_q": P(0.5, 0.22, 0.7, 3), "e_d": P(0.5, 0.72, 0.5, 3)},
+  {"e_van": P(0.5, 0.5, 0.86, 1), "e_d": P(0.5, 0.86, 0.24, 3)},
+  {"e_van": P(0.5, 0.45, 1.0, 1), "e_d": P(0.5, 0.72, 0.5, 3)},
   voice=V("say what is not known", "matter-of-fact", 0, "steady", ["still debating"], pa=500, notes="no drama; the limit of knowledge is the point"),
   cam_l=[cam(0.5, 0.5, 1.05, 0.5, 0.5, 1.1, "continues the slow push")],
   cam_p=[cam(0.5, 0.5, 1.04, 0.5, 0.5, 1.08, "continues the slow push")], transition={"type": "dissolve", "durationMs": 700})
@@ -443,13 +443,9 @@ def recap_entities(first_words):
 def recap_place(port=False):
     pl = {"e_stars": STAR_P if port else STAR_L}
     for i in range(6):
-        if port:
-            col, row = i % 2, i // 2
-            x, y = 0.28 + 0.44 * col, 0.2 + 0.24 * row
-            pl[f"e_r{i}"] = P(x, y, 0.4, 1); pl[f"e_t{i}"] = P(x, y + 0.085, 0.4, 2)
-        else:
-            x = 0.1 + 0.16 * i
-            pl[f"e_r{i}"] = P(x, 0.46, 0.145, 1); pl[f"e_t{i}"] = P(x, 0.6, 0.145, 2)
+        col, row = i % 3, i // 3
+        x, y = 0.2 + 0.3 * col, 0.25 + 0.38 * row
+        pl[f"e_r{i}"] = P(x, y, 0.26, 1); pl[f"e_t{i}"] = P(x, y + 0.19, round(0.017 * len(RECAP[i][1]), 4), 2)
     return pl
 S("s37", "close", ["C06_balance"],
   "So that's the whole journey. A cold cloud collapses. A protostar ignites. For millions of years, pressure holds gravity back.",
@@ -539,10 +535,15 @@ for sc in scenes:
         if k in ltexts and v["y"] > 0.78: v["y"] = 0.75   # landscape captions own the band below ~0.8
     for e in sc["entities"]:
         if e["id"] in ("e_tag", "e_ill") and e.get("text"):
-            n = len(e["text"])
-            wl = round(n * 0.0158, 4)
-            if e["id"] == "e_tag": lt["placements"]["e_tag"].update({"w": wl, "x": round(0.93 - wl / 2, 4), "y": 0.09})
-            if pt and e["id"] in pt["placements"]: pt["placements"][e["id"]]["w"] = round(min(0.86, n * 0.0265), 4)
+            label = e.pop("text"); n = len(label)
+            e["role"] = "context"; e["need"] = "provenance tag on a translucent pill"
+            if not NO_ASSETS: e["visual"] = {"component": "tag", "props": {"text": label}}
+            wl = round((36 * n + 80) * 0.000358, 4)
+            lay = lt["placements"][e["id"]]
+            if e["id"] == "e_tag": lay.update({"w": wl, "x": round(0.94 - wl / 2, 4), "y": 0.085})
+            else: lay["w"] = wl
+            lay["depth"] = 1.0
+            if pt and e["id"] in pt["placements"]: pt["placements"][e["id"]].update({"w": round(min(0.8, (36 * n + 80) * 0.000637), 4), "depth": 1.0})
     for lay in sc["layouts"].values():
         for k, v in lay["placements"].items():
             if k in ltexts: v["depth"] = 1.0   # labels follow the camera less (parallax), so pushes never carry them off-frame
@@ -557,6 +558,15 @@ if os.path.exists(_al) and not NO_ASSETS:
         for sc in scenes:
             x = _b[sc["id"]]
             sc["timing"] = {"startS": x["startS"], "endS": x["endS"], "firstWord": x["firstWord"], "lastWord": x["lastWord"]}
+
+    # the iron shell appears on the word "iron" (scene-relative seconds from the alignment)
+    for sc in scenes:
+        if sc["id"] == "s20" and not NO_ASSETS:
+            words = json.load(open(_al))["words"]
+            ws = [w for w in words if w.get("scene") == "s20"]
+            iw = next(w for w in ws if w["w"].lower().startswith("iron"))
+            for e in sc["entities"]:
+                if e["id"] == "e_onion": e["visual"]["props"]["ironAtS"] = round(iw["s"] - ws[0]["s"], 2)
 doc = {"schemaVersion": 1, "fps": 30, "opening": {"fadeInMs": 400, "leadSilenceMs": 500}, "ending": {"fadeOutMs": 1200, "holdBlackMs": 600, "tailSilenceMs": 1200}, "scenes": scenes}
 json.dump(doc, open(os.path.join(HERE, "scenes.json"), "w"), indent=1, ensure_ascii=False)
 json.dump({"shorts": shorts}, open(os.path.join(HERE, "shorts.json"), "w"), indent=1, ensure_ascii=False)

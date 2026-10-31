@@ -75,8 +75,8 @@ const thermo: VisualDef = {
     const track = s("rect", { x: 80, y: 330, width: 840, height: 26, rx: 13, fill: init.palette.bg2, stroke: init.palette.line, "stroke-width": 3 }, svg);
     void track;
     const bar = s("rect", { x: 80, y: 330, width: 0, height: 26, rx: 13, fill: init.palette.accent }, svg);
-    const t = text(svg, 500, 250, "0", 210, init.palette.fg, init, 800);
-    const u = text(svg, 500, 120, unit, 64, init.palette.accent, init, 700);
+    const t = text(svg, 500, 285, "0", 190, init.palette.fg, init, 800);
+    const u = text(svg, 500, 70, unit, 60, init.palette.accent, init, 700);
     void u;
     return {
       update(ctx) {
@@ -355,4 +355,18 @@ const fork: VisualDef = {
   },
 };
 
-export default [starfield, glowdot, thermo, balance, twostars, lifebars, fatechart, onion, ironcore, collapse, legend, elementbars, fork];
+/** a provenance tag ("Real image · Webb" / "Illustration") on a translucent pill, readable on any background */
+const tag: VisualDef = {
+  id: "tag",
+  aspect: (p) => 110 / (36 * str(p.text, "").length + 80),
+  create(host, props, init) {
+    const t = str(props.text, "");
+    const W = 36 * t.length + 80;
+    const svg = s("svg", { viewBox: `0 0 ${W} 110`, width: "100%", height: "100%" }, host);
+    s("rect", { x: 2, y: 2, width: W - 4, height: 106, rx: 53, fill: init.palette.bg, "fill-opacity": 0.62, stroke: init.palette.line, "stroke-opacity": 0.6, "stroke-width": 2 }, svg);
+    text(svg, W / 2, 76, t, 60, init.palette.fg, init, 600);
+    return { update() {} };
+  },
+};
+
+export default [tag, starfield, glowdot, thermo, balance, twostars, lifebars, fatechart, onion, ironcore, collapse, legend, elementbars, fork];
