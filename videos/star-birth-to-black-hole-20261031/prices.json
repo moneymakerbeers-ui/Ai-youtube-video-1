@@ -1,0 +1,80 @@
+{
+  "measuredAt": "2026-10-31T13:10:00Z",
+  "source": "Higgsfield MCP get_cost previews (free, no job submitted)",
+  "dollarsPerCredit": null,
+  "balanceAtPreflight": {
+    "credits": 46.97,
+    "plan": "pro"
+  },
+  "items": [
+    {
+      "service": "higgsfield",
+      "model": "text2speech_v2",
+      "params": {
+        "variant": "elevenlabs",
+        "voice": "Knox preset"
+      },
+      "textChars": 91,
+      "credits": 0.3
+    },
+    {
+      "service": "higgsfield",
+      "model": "text2speech_v2",
+      "params": {
+        "variant": "elevenlabs",
+        "voice": "Knox preset"
+      },
+      "textChars": 919,
+      "credits": 2.85,
+      "note": "\u22480.0031 credits/char; long video ~6000 chars \u2248 19 credits"
+    },
+    {
+      "service": "higgsfield",
+      "model": "gpt_image_2_5",
+      "params": {
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9"
+      },
+      "credits": 2.75
+    },
+    {
+      "service": "higgsfield",
+      "model": "gpt_image_2_5",
+      "params": {
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "16:9"
+      },
+      "credits": 1
+    },
+    {
+      "service": "higgsfield",
+      "model": "nano_banana_2",
+      "params": {
+        "resolution": "2k",
+        "aspect_ratio": "16:9"
+      },
+      "credits": 2
+    },
+    {
+      "service": "higgsfield",
+      "model": "cinematic_studio_2_5",
+      "params": {
+        "resolution": "2k",
+        "aspect_ratio": "16:9"
+      },
+      "credits": 2
+    },
+    {
+      "service": "elevenlabs-direct",
+      "credits": "unknown",
+      "note": "no ELEVENLABS_API_KEY in this environment; direct API not usable"
+    },
+    {
+      "service": "stock/archival",
+      "usd": 0,
+      "note": "NASA (public domain policy), ESA/Webb, ESA/Hubble, ESO (CC BY 4.0) reachable over HTTPS"
+    }
+  ]
+}

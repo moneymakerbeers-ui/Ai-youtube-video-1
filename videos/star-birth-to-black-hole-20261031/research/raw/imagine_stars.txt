@@ -1,0 +1,113 @@
+SOURCE: https://imagine.gsfc.nasa.gov/science/objects/stars1.html
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Imagine the Universe!
+Skip navigation and go straight to page content. 
+National Aeronautics and Space Administration
+Goddard Space Flight Center
+Home
+Science
+Astronomer's Toolbox
+Cosmic Objects
+Big Questions
+Featured Science
+Observatories
+Learning Centers
+Satellite Showcase
+How Scientists Get Data
+Detection Technology
+History of High Energy Observatories
+Special Exhibits
+Coloring Pages
+Scientist Profiles
+You Be the Astrophysicist
+Cosmic Distance Scale
+Educators
+Lesson Plans
+Materials
+Programs
+Ask An Astrophysicist
+Resources
+Other Resources
+Dictionary
+Search
+Advanced
+Basic
+Stars
+A star is a sphere of gas held together by its own gravity. The closest star to Earth is our very own Sun, so we have an example nearby that astronomers can study in detail. The lessons we learn about the Sun can be applied to other stars.
+Tell me more about the Sun
+A star's life is a constant struggle against the force of gravity. Gravity constantly works to try and cause the star to collapse. The star's core, however is very hot which creates pressure within the gas. This pressure counteracts the force of gravity, putting the star into what is called hydrostatic equilibrium. A star is okay as long as the star has this equilibrium between gravity pulling the star inwards and pressure pushing the star outwards.
+ Diagram showing the lifecycles of Sun-like and massive stars. Click image for larger version. (Credit: NASA and the Night Sky Network)
+During most a star's lifetime, the interior heat and radiation is provided by nuclear reactions in the star's core. This phase of the star's life is called the main sequence.
+Before a star reaches the main sequence, the star is contracting and its core is not yet hot or dense enough to begin nuclear reactions. So, until it reaches the main sequence, hydrostatic support is provided by the heat generated from the contraction.
+At some point, the star will run out of material in its core for those nuclear reactions. When the star runs out of nuclear fuel, it comes to the end of its time on the main sequence. If the star is large enough, it can go through a series of less-efficient nuclear reactions to produce internal heat. However, eventually these reactions will no longer generate sufficient heat to support the star agains its own gravity and the star will collapse.
+Stellar Evolution
+A star is born, lives, and dies, much like everything else in nature. Using observations of stars in all phases of their lives, astronomers have constructed a lifecycle that all stars appear to go through. The fate and life of a star depends primarily on it's mass.
+ Hubble image of the Eagle Nebula, a stellar nursery. (Credit: NASA/ESA/Hubble Heritage Team)
+All stars begin their lives from the collapse of material in a giant molecular cloud. These clouds are clouds that form between the stars and consist primarily of molecular gas and dust. Turbulence within the cloud causes knots to form which can then collapse under it's own gravitational attraction. As the knot collapses, the material at the center begins to heat up. That hot core is called a protostar and will eventually become a star.
+The cloud doesn't collapse into just one large star, but different knots of material will each become it's own protostar. This is why these clouds of material are often called stellar nuseries – they are places where many stars form.
+As the protostar gains mass, its core gets hotter and more dense. At some point, it will be hot enough and dense enough for hydrogen to start fusing into helium. It needs to be 15 million Kelvin in the core for fusion to begin. When the protostar starts fusing hydrogen, it enters the "main sequence" phase of its life.
+Stars on the main sequence are those that are fusing hydrogen into helium in their cores. The radiation and heat from this reaction keep the force of gravity from collapsing the star during this phase of the star's life. This is also the longest phase of a star's life. Our sun will spend about 10 billion years on the main sequence. However, a more massive star uses its fuel faster, and may only be on the main sequence for millions of years.
+Eventually the core of the star runs out of hydrogen. When that happens, the star can no longer hold up against gravity. Its inner layers start to collapse, which squishes the core, increasing the pressure and temperature in the core of the star. While the core collapses, the outer layers of material in the star to expand outward. The star expands to larger than it has ever been – a few hundred times bigger! At this point the star is called a red giant.
+What happens next depends on how the mass of the star.
+The Fate of Medium-Sized Stars
+ Hubble image of planetary nebula IC 418, also known as the Spirograph Nebula. (Credit: NASA/Hubble Heritage Team)
+When a medium-sized star (up to about 7 times the mass of the Sun) reaches the red giant phase of its life, the core will have enough heat and pressure to cause helium to fuse into carbon, giving the core a brief reprieve from its collapse.
+Once the helium in the core is gone, the star will shed most of its mass, forming a cloud of material called a planetary nebula. The core of the star will cool and shrink, leaving behind a small, hot ball called a white dwarf. A white dwarf doesn't collapse against gravity because of the pressure of electrons repelling each other in its core.
+The Fate of Massive Stars
+A red giant star with more than 7 times the mass of the Sun is fated for a more spectacular ending.
+ Chandra X-ray image of supernova remnant Cassiopeia A. The colors show different wavelengths of X-rays being emitted by the matter that has been ejected from the central star. In the center is a neutron star. (Credit: NASA/CSC/SAO)
+These high-mass stars go through some of the same steps as the medium-mass stars. First, the outer layers swell out into a giant star, but even bigger, forming a red supergiant. Next, the core starts to shrink, becoming very hot and dense. Then, fusion of helium into carbon begins in the core. When the supply of helium runs out, the core will contract again, but since the core has more mass, it will become hot and dense enough to fuse carbon into neon. In fact, when the supply of carbon is used up, other fusion reactions occur, until the core is filled with iron atoms.
+Up to this point, the fusion reactions put out energy, allowing the star to fight gravity. However, fusing iron requires an input of energy, rather than producing excess energy. With a core full of iron, the star will lose the fight against gravity.
+The core temperature rises to over 100 billion degrees as the iron atoms are crushed together. The repulsive force between the positively-charged nuclei overcomes the force of gravity, and the core recoils out from the heart of the star in an explosive shock wave. In one of the most spectacular events in the Universe, the shock propels the material away from the star in a tremendous explosion called a supernova. The material spews off into interstellar space.
+About 75% of the mass of the star is ejected into space in the supernova. The fate of the left-over core depends on its mass. If the left-over core is about 1.4 to 5 times the mass of our Sun, it will collapse into a neutron star. If the core is larger, it will collapse into a black hole. To turn into a neutron star, a star must start with about 7 to 20 times the mass of the Sun before the supernova. Only stars with more than 20 times the mass of the Sun will become black holes.
+ Updated: February 2014
+Additional Links
+Quiz me about this topic!
+Cool fact about this topic!
+Try this!
+FAQs on Stars
+Give me additional resources!
+Related Topics
+The Sun
+The Solar Corona
+Eta Carinae, a Home-Grown Mystery
+For Educators
+NCTM & NSES Standards
+Life Cycles of Stars Booklet
+Show me related lesson plans
+Home
+Science
+Astronomer's Toolbox
+Cosmic Objects
+Big Questions
+Featured Science
+Observatories
+Learning Centers
+Satellite Showcase
+How Scientists Get Data
+Detection Technology
+History of High Energy Observatories
+Special Exhibits
+Coloring Pages
+Scientist Profiles
+You Be the Astrophysicist
+Cosmic Distance Scale
+Educators
+Lesson Plans
+Materials
+Programs
+Ask An Astrophysicist
+Resources
+Other Resources
+Dictionary
+Search
+A service of the High Energy Astrophysics Science Archive Research Center (HEASARC), Dr. Andy Ptak (Director), within the Astrophysics Science Division (ASD) at NASA/GSFC
+The Imagine Team
+Project Leader: Dr. Barbara Mattson
+Curator: J.D. Myers
+NASA Official: Dr. Andy Ptak
+Privacy Policy & Important Notices
+Contact NASA
+Contact Us
+Page Last Updated: Thu, Sep 23, 2021

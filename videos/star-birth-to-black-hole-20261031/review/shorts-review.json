@@ -1,0 +1,57 @@
+{
+ "reviewedAt": "2026-10-31T13:24:10Z",
+ "reviewer": {
+  "kind": "independent_agent",
+  "note": "separate agent, round 2 after fixes; judged each validated Short as openingLine + narration of its sceneIds in order + closingLine, as a viewer who has seen nothing else"
+ },
+ "verdicts": [
+  {
+   "shortId": "S01",
+   "verdict": "pass",
+   "standalone": true,
+   "problems": []
+  },
+  {
+   "shortId": "S02",
+   "verdict": "pass",
+   "standalone": true,
+   "problems": [
+    {
+     "quote": "Some of the calcium in your bones was forged this way.",
+     "problem": "Minor and optional: 'forged' is a little stronger than the source's 'come from these explosions'; it is acceptable because the sentence says 'some'.",
+     "fix": "Optional: 'Some of the calcium in your bones came from these explosions.'"
+    }
+   ]
+  },
+  {
+   "shortId": "S03",
+   "verdict": "pass",
+   "standalone": true,
+   "problems": []
+  },
+  {
+   "shortId": "S04",
+   "verdict": "pass",
+   "standalone": true,
+   "problems": [
+    {
+     "quote": "Black holes trap their own light: nothing escapes them.",
+     "problem": "Minor: 'their own light' suggests black holes make light of their own; C22's wording is that nothing, not even light, can escape.",
+     "fix": "Optional: 'Nothing escapes a black hole, not even light.'"
+    }
+   ]
+  },
+  {
+   "shortId": "S05",
+   "verdict": "pass",
+   "standalone": true,
+   "problems": [
+    {
+     "quote": "astronomers say it would be the first time anyone has seen a black hole being born",
+     "problem": "Minor: the attribution comes from a 2017 NASA release (gsfc_vanished.txt). It is attributed and conditional, so it stays within the evidence, but it is dated.",
+     "fix": "None required; optionally re-check that no candidate has been confirmed since."
+    }
+   ]
+  }
+ ]
+}

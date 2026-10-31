@@ -1,0 +1,140 @@
+asset: r_sun
+source page: https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0304.jpg
+source file: sdo_0304.jpg
+credit: NASA/SDO and the AIA science team
+license: NASA SDO: not copyrighted unless noted, attribution requested
+shows: SDO/AIA 304 Å image of the Sun, 2026-10-31 13:09 UT (timestamp cropped out)
+retrieved: 2026-10-31 (curl)
+processing: crop (0.039, 0.029, 0.961, 0.951), resize to (1888, 1888)
+
+===== licence / usage page text =====
+SOURCE: https://sdo.gsfc.nasa.gov/data/rules.php
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+SDO | Solar Dynamics Observatory
+ Home (current)
+ Mission
+Status
+ Where is SDO?
+Spacecraft
+ About SDO
+ Spacecraft Specs
+ Instruments
+Science
+ Definitive Publications
+ All Publications
+ Science
+ SDO & Space Weather
+ SDO Meetings
+ SDO Calendar
+ Science Talks
+Project & Launch
+ Project
+ SDO Launch
+ Data
+Latest HMIB Image
+ The Sun Now
+ AIA/HMI Browse Data
+ Daily Movies
+ Browse Data Dashboard
+External Data Site
+ EVE Data 
+ Synoptic Maps
+ HMI & AIA Channels
+ Best Practice
+ Ways to access Data
+ Data Rules
+ News & Resources
+ Mission Blog - All 
+ Media Resources
+ Site Feeds
+ Talks
+ Acronyms
+ SDO Calendar
+Observation Events
+ Comet Lovejoy Event
+ 2012 Venus Transit
+ 2016 Mercury Transit Event
+ 2019 Mercury Transit Event
+SDO Outreach
+ SDO for Families
+ SDO for Educators
+ Gallery
+Local Galleries
+ SDO Gallery
+ SDO First Light
+ Integration, Testing, & Launch
+ Ultra HD
+ Animations & Features
+External Gallery
+ Science Visualization Studio 
+Information
+ Printing Tips
+ Copyright Permissions
+ RSS
+This is not an exhaustive list. For a comprehensive list of SDO RSS Feeds follow the link below
+ All RSS Feeds
+SDO Data Feeds
+ AIA 193
+ AIA 171
+ HMI Magnetogram
+SDO Daily Movie Feeds
+ AIA 0171
+ AIA 0193
+ HMI Colorized Intensitygram - Flattened
+SDO PFSS Data Feeds
+ PFSS 0171
+ PFSS 0193
+SDO | Data
+The Sun Now
+AIA/HMI Browse Data
+EVE L2 Browse Data
+Daily Movies
+Browse Data Dashboard
+Synoptic Maps
+HMI & AIA Channels
+Best Practice
+Ways to Access Data
+Data Rules
+Data Rights and Rules for Data Use
+Copyrights
+SDO images and movies are not copyrighted unless explicitly noted. The use of SDO images for non-commercial purposes and public
+ education and information efforts is strongly encouraged and requires no expressed authorization. It is requested, however, that any such use properly attributes the source of the images or data as:
+ "Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams."
+The SDO science investigators agree to abide the Rules of the Road developed
+ for the Sun-Earth Connection and its successor, the Heliophysics Division.
+ These are: 
+The Principal Investigators (PI) shall make available to the science
+ data user community (Users) the same access methods to reach the data and
+ tools as the PI uses.
+The PI shall notify Users of updates to processing software and
+ calibrations via metadata and other appropriate documentation.
+Users shall consult with the PI to ensure that the Users are
+ accessing the most recent available versions of the data and analysis
+ routines.
+Browse products are not intended for science analysis or publication
+ and should not be used for those purposes without consent of the PI.
+Users shall acknowledge the sources of data used in all publications
+ and reports.
+Users shall include in publications the information necessary to
+ allow others to access the particular data used.
+Users shall transmit to the PI a copy of each manuscript that uses
+ the PI's data upon submission of that manuscript for consideration of
+ publication.
+Users are encouraged to make tools of general utility widely
+ available to the community.
+Users are also encouraged to make available value-added data
+ products. Users producing such products must notify the PI and must clearly
+ label the product as being different from the original PI-produced data
+ product. Producers of value-added products should contact the PI to ensure
+ that such products are based on the most recent versions of the data and
+ analysis routines. With mutual agreement, Users may work with the PI to
+ enhance the instrument data processing system, by integrating their products
+ and tools.
+The editors and referees of scientific journals should avail themselves
+ of the expertise of the PI while a data set is still unfamiliar to the
+ community, and when it is uncertain whether authors have employed the most
+ up-to-date data and calibrations.
+NASA Official: Michael Kirk
+Webmaster: Apexa Patel
+Accessibility

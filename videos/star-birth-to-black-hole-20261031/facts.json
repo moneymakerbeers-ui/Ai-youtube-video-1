@@ -1,0 +1,1634 @@
+{
+  "claims": [
+    {
+      "id": "C01_pillars",
+      "text": "Webb's image of the Pillars of Creation shows a region where new stars are forming within dense clouds of gas and dust.",
+      "spokenWording": "a place where stars are being born right now: the Pillars of Creation, seen by the James Webb Space Telescope",
+      "sources": [
+        {
+          "title": "Webb: Pillars of Creation (weic2216) - ESA/Webb",
+          "url": "https://esawebb.org/news/weic2216/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "NASA's Webb Takes Star-Filled Portrait of Pillars of Creation - NASA",
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-takes-star-filled-portrait-of-pillars-of-creation/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "the iconic Pillars of Creation – where new stars are forming"
+          },
+          "quote": "the iconic Pillars of Creation – where new stars are forming within dense clouds of gas and dust",
+          "snapshot": "research/sources/webb_pillars.txt",
+          "snapshotSha256": "bae2cd5871789a4359eecab4e67b77d7d362cec65c36684b6f3295f491889157",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "These columns are made up of cool interstellar gas and dust"
+          },
+          "quote": "These columns are made up of cool interstellar gas and dust",
+          "snapshot": "research/sources/nasa_pillars.txt",
+          "snapshotSha256": "22c9ce65cc2c11f5286ade28b66a32b6826854d1113fe3168ab1717677347e73",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording).",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C02_cloud",
+      "text": "Stars form in cold molecular clouds of 1,000 to 10 million solar masses spanning up to hundreds of light-years; cold gas clumps, clumps grow by collision or accretion, and gravity makes some collapse.",
+      "spokenWording": "These clouds can hold up to ten million times the mass of the Sun, and stretch hundreds of light-years across. They are cold, and cold gas clumps together.",
+      "sources": [
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Molecular clouds range from 1,000 to 10 million times the ma"
+          },
+          "quote": "Molecular clouds range from 1,000 to 10 million times the mass of the Sun and can span as much as hundreds of light-years.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Gives the mass range (upper end 10 million solar masses) and size.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Molecular clouds are cold which causes gas to clump, creatin"
+          },
+          "quote": "Molecular clouds are cold which causes gas to clump, creating high-density pockets. Some of these clumps can collide with each other or collect more matter, strengthening their gravitational force as their mass grows. Eventually, gravity causes some of these clumps to collapse.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Supports cold-gas clumping, growth by collision/accretion and gravitational collapse.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "All stars begin their lives from the collapse of material in"
+          },
+          "quote": "All stars begin their lives from the collapse of material in a giant molecular cloud.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Independent NASA HEASARC page: stars begin from collapse in molecular clouds.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C03_protostar",
+      "text": "As a clump collapses the material heats up and a protostar (a baby star) forms; before fusion its energy comes from the heat of the collapse.",
+      "spokenWording": "a hot, dense knot forms: a protostar. A baby star. It isn't burning anything yet. Its glow comes from the heat of its own collapse.",
+      "sources": [
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "friction causes the material to heat up, which eventually le"
+          },
+          "quote": "friction causes the material to heat up, which eventually leads to the development of a protostar – a baby star.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Collapse heats material; a protostar ('baby star') forms.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "At first, most of the protostar’s energy comes from heat rel"
+          },
+          "quote": "At first, most of the protostar’s energy comes from heat released by its initial collapse.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Supports 'its glow comes from the heat of its own collapse'.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "Before a star reaches the main sequence, the star is contrac"
+          },
+          "quote": "Before a star reaches the main sequence, the star is contracting and its core is not yet hot or dense enough to begin nuclear reactions.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Supports 'it isn't burning anything yet'.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C04_jets",
+      "text": "Young stars shoot out jets; Webb's Rho Ophiuchi image shows huge red bipolar jets that occur when a star first bursts through its natal dust envelope; the region is 390 light-years away (nearest star-forming region).",
+      "spokenWording": "In this Webb image of a nearby nursery, the red streaks are jets, launched as young stars first burst out of their dusty cocoons.",
+      "sources": [
+        {
+          "title": "Webb celebrates first year of science with close-up on birth of Sun-like stars (weic2316) - ESA/Webb",
+          "url": "https://esawebb.org/news/weic2316/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Webb: Pillars of Creation (weic2216) - ESA/Webb",
+          "url": "https://esawebb.org/news/weic2216/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Huge red bipolar jets of molecular hydrogen dominate the ima"
+          },
+          "quote": "Huge red bipolar jets of molecular hydrogen dominate the image, appearing horizontally across the upper third and vertically on the right. These occur when a star first bursts through its natal envelope of cosmic dust, shooting out a pair of opposing jets into space.",
+          "snapshot": "research/sources/webb_rhooph.txt",
+          "snapshotSha256": "b7efc069467cd506f136ff9b348d9e747f0398faf4ef15d830b909cf6be9a8ff",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Describes the red jets and when they occur.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "Young stars periodically shoot out jets that collide with cl"
+          },
+          "quote": "Young stars periodically shoot out jets that collide with clouds of material",
+          "snapshot": "research/sources/webb_pillars.txt",
+          "snapshotSha256": "bae2cd5871789a4359eecab4e67b77d7d362cec65c36684b6f3295f491889157",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Independent page: young stars shoot out jets.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C05_ignition",
+      "text": "When the protostar's core reaches about 15 million kelvin, hydrogen fuses into helium; fusion releases energy and the star enters the main sequence.",
+      "spokenWording": "At about fifteen million degrees ... Hydrogen nuclei are squeezed together so hard that they fuse into helium. That's nuclear fusion, and it releases energy.",
+      "sources": [
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "It needs to be 15 million Kelvin in the core for fusion to b"
+          },
+          "quote": "It needs to be 15 million Kelvin in the core for fusion to begin.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Gives the ~15 million K threshold (narration says 'about fifteen million degrees'; kelvin and °C differ negligibly at this scale).",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "immense pressures and temperatures in the star’s core squeez"
+          },
+          "quote": "immense pressures and temperatures in the star’s core squeeze the nuclei of hydrogen atoms together to form helium, a process called nuclear fusion. Nuclear fusion releases energy",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Supports squeezing hydrogen nuclei into helium and energy release.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C06_balance",
+      "text": "A star's life is a struggle between gravity pulling inward and pressure from its hot core pushing outward (hydrostatic equilibrium); fusion's energy keeps the star from collapsing.",
+      "spokenWording": "Gravity pulls every layer of the star inward. The heat from fusion pushes outward. As long as the two stay balanced, the star is stable.",
+      "sources": [
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "A star is okay as long as the star has this equilibrium betw"
+          },
+          "quote": "A star is okay as long as the star has this equilibrium between gravity pulling the star inwards and pressure pushing the star outwards.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "States the balance of gravity and pressure.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "Nuclear fusion releases energy, which heats the star and pre"
+          },
+          "quote": "Nuclear fusion releases energy, which heats the star and prevents it from further collapsing under the force of gravity.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Fusion heat holds the star up.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C07_mainseq",
+      "text": "Stable hydrogen fusion is the main sequence, the longest phase of a star's life; the Sun is roughly midway through it.",
+      "spokenWording": "Astronomers call this the main sequence. It's the longest phase of a star's life, and our Sun is roughly halfway through its own.",
+      "sources": [
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "This is the longest phase of a star’s life."
+          },
+          "quote": "This is the longest phase of a star’s life.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Main sequence is the longest phase.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Our Sun is roughly midway through its main sequence stage."
+          },
+          "quote": "Our Sun is roughly midway through its main sequence stage.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Sun is roughly halfway.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "This is also the longest phase of a star's life."
+          },
+          "quote": "This is also the longest phase of a star's life.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Independent confirmation.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C08_mass_rate",
+      "text": "More massive stars must burn fuel faster to keep from collapsing under their own weight; the Sun spends about 10 billion years on the main sequence while some massive stars live only a few million years.",
+      "spokenWording": "A heavier star has to burn its fuel much faster, just to hold up its own weight. The Sun will spend about ten billion years on the main sequence. Some massive stars live for only a few million.",
+      "sources": [
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "More massive stars must burn fuel at a higher rate to genera"
+          },
+          "quote": "More massive stars must burn fuel at a higher rate to generate the energy that keeps them from collapsing under their own weight.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Heavier stars burn faster to hold up their weight.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "some massive stars will live for only a few million years"
+          },
+          "quote": "some massive stars will live for only a few million years",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Few-million-year lifetimes.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "Our sun will spend about 10 billion years on the main sequen"
+          },
+          "quote": "Our sun will spend about 10 billion years on the main sequence.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Sun's ~10 billion years.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "The fate and life of a star depends primarily on it's mass."
+          },
+          "quote": "The fate and life of a star depends primarily on it's mass.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Supports 'depends, above all, on mass'.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C09_whitedwarf",
+      "text": "Lower-mass stars like the Sun shed their outer layers and end as a white dwarf, a roughly Earth-sized stellar cinder that cools over billions of years.",
+      "spokenWording": "Stars like the Sun finish quietly, as a white dwarf: a cooling cinder about the size of Earth.",
+      "sources": [
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Supernovae - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "All that’s left of the star is its core, now called a white "
+          },
+          "quote": "All that’s left of the star is its core, now called a white dwarf, a roughly Earth-sized stellar cinder that gradually cools over billions of years.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "White dwarf: Earth-sized cooling cinder.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "(This will be the fate of our Sun, in several billion years."
+          },
+          "quote": "(This will be the fate of our Sun, in several billion years.)",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "The Sun follows this path.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "A white dwarf is the endpoint for stars of up to about 8 tim"
+          },
+          "quote": "A white dwarf is the endpoint for stars of up to about 8 times that of the Sun.",
+          "snapshot": "research/sources/imagine_sn.txt",
+          "snapshotSha256": "e2eaed3ee24c7ce98f809b12f9fb3dd828bfc00623fc2aa46375117bc56a3a04",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Independent: white-dwarf endpoint below ~8 solar masses.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C10_sn_threshold",
+      "text": "Stars of about 8 or more solar masses end their lives as supernovae.",
+      "spokenWording": "Stars born with more than about eight times the Sun's mass end their lives by exploding.",
+      "sources": [
+        {
+          "title": "Supernovae - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Black Hole Types - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes/types/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Stars which are 8 times or more massive than our Sun end the"
+          },
+          "quote": "Stars which are 8 times or more massive than our Sun end their lives in a most spectacular way; they go supernova.",
+          "snapshot": "research/sources/imagine_sn.txt",
+          "snapshotSha256": "e2eaed3ee24c7ce98f809b12f9fb3dd828bfc00623fc2aa46375117bc56a3a04",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "8 solar mass threshold.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "When a star with more than eight times the Sun’s mass runs o"
+          },
+          "quote": "When a star with more than eight times the Sun’s mass runs out of fuel, its core collapses, rebounds, and explodes as a supernova.",
+          "snapshot": "research/sources/nasa_bh_types.txt",
+          "snapshotSha256": "683d90ec494f187e7ded4a45f5384769cd91d9311c88c1f3713c99fceea776da",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Independent NASA page, same threshold.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified",
+      "note": "Narration no longer says 'only': white dwarfs in binaries can also explode (Type Ia), which the video does not discuss."
+    },
+    {
+      "id": "C11_bh_threshold",
+      "text": "Roughly 20 or more solar masses is usually given as the starting mass for a star whose core becomes a black hole; NASA pages differ (15 vs 20), and Gaia BH3 shows the models are still being revised.",
+      "spokenWording": "to leave a black hole behind, a star probably needs around twenty times the Sun's mass, or more. Exactly where that line sits is still being studied.",
+      "sources": [
+        {
+          "title": "Black Hole Types - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes/types/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Supernovae - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "If it had around 20 times the Sun’s mass or more, the star’s"
+          },
+          "quote": "If it had around 20 times the Sun’s mass or more, the star’s core collapses into a stellar-mass black hole.",
+          "snapshot": "research/sources/nasa_bh_types.txt",
+          "snapshotSha256": "683d90ec494f187e7ded4a45f5384769cd91d9311c88c1f3713c99fceea776da",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Around 20 solar masses or more.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "Only stars with more than 20 times the mass of the Sun will "
+          },
+          "quote": "Only stars with more than 20 times the mass of the Sun will become black holes.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Same threshold, older NASA page.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 2,
+          "locator": {
+            "kind": "quote",
+            "value": "if the original star is very massive indeed (say 15 or more "
+          },
+          "quote": "if the original star is very massive indeed (say 15 or more times the mass of our Sun), even the neutrons cannot survive the core collapse...and a black hole forms.",
+          "snapshot": "research/sources/imagine_sn.txt",
+          "snapshotSha256": "e2eaed3ee24c7ce98f809b12f9fb3dd828bfc00623fc2aa46375117bc56a3a04",
+          "snapshotKind": "extracted",
+          "supports": "partial",
+          "interpretation": "A sibling NASA page gives 15 — the line is uncertain, hence hedged wording.",
+          "uncertainty": "minor"
+        }
+      ],
+      "status": "contested",
+      "note": "Hedged in narration ('probably', 'around', 'still being studied')."
+    },
+    {
+      "id": "C12_supergiant",
+      "text": "When core hydrogen runs out the core contracts and heats while the outer layers swell; a high-mass star becomes a red supergiant.",
+      "spokenWording": "When the hydrogen in its core runs out, gravity squeezes the core, the core heats up, and the outer layers swell. The star becomes a red supergiant.",
+      "sources": [
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "First, the outer layers swell out into a giant star, but eve"
+          },
+          "quote": "First, the outer layers swell out into a giant star, but even bigger, forming a red supergiant.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "High-mass stars become red supergiants.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Its inner layers start to collapse, which squishes the core,"
+          },
+          "quote": "Its inner layers start to collapse, which squishes the core, increasing the pressure and temperature in the core of the star. While the core collapses, the outer layers of material in the star to expand outward.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Core squeezed and heated, outer layers expand.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "At the beginning of the end of a star’s life, its core runs "
+          },
+          "quote": "At the beginning of the end of a star’s life, its core runs out of hydrogen to convert into helium.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Trigger: core hydrogen runs out.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C13_chain",
+      "text": "Massive stars fuse helium to carbon, carbon to neon, and further elements (oxygen, neon, magnesium, silicon) up to iron; each new fuel lasts less time and the final silicon-to-iron stage ends in days.",
+      "spokenWording": "Helium fuses into carbon. Carbon into neon. Then oxygen, then silicon. Each new fuel buys the star less time than the one before. And when silicon finally fuses into iron, the star runs out of fuel in a matter of days.",
+      "sources": [
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Fusion converts carbon into heavier elements like oxygen, ne"
+          },
+          "quote": "Fusion converts carbon into heavier elements like oxygen, neon, and magnesium, which will become future fuel for the core. For the largest stars, this chain continues until silicon fuses into iron.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "The chain up to silicon to iron.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "each new fuel buys it less and less time"
+          },
+          "quote": "each new fuel buys it less and less time",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Each fuel buys less time.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "By the time silicon fuses into iron, the star runs out of fu"
+          },
+          "quote": "By the time silicon fuses into iron, the star runs out of fuel in a matter of days.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Final stage lasts days.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "Then, fusion of helium into carbon begins in the core."
+          },
+          "quote": "Then, fusion of helium into carbon begins in the core.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Helium to carbon.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "it will become hot and dense enough to fuse carbon into neon"
+          },
+          "quote": "it will become hot and dense enough to fuse carbon into neon",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Carbon to neon.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C14_iron",
+      "text": "Fusing iron requires energy instead of releasing it, so a core of iron can no longer support the star against gravity.",
+      "spokenWording": "Iron is a dead end. Fusing iron doesn't release energy; it costs energy. So nothing is left to push back against gravity.",
+      "sources": [
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Cassiopeia A: The Elements of Life - NASA Chandra",
+          "url": "https://chandra.harvard.edu/photo/2017/casa_life/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "fusing iron requires an input of energy, rather than produci"
+          },
+          "quote": "fusing iron requires an input of energy, rather than producing excess energy. With a core full of iron, the star will lose the fight against gravity.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Iron costs energy; the star loses to gravity.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "further nucleosynthesis would consume rather than produce en"
+          },
+          "quote": "further nucleosynthesis would consume rather than produce energy, so gravity then caused the star to implode",
+          "snapshot": "research/sources/chandra_casa_life.txt",
+          "snapshotSha256": "029a011b43444673b1dbd1685c6ec367d6221965dce103063f7c04238d35ff25",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Independent Chandra page.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 2,
+          "locator": {
+            "kind": "quote",
+            "value": "doing so requires energy instead of releasing it"
+          },
+          "quote": "doing so requires energy instead of releasing it",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Third NASA page.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C15_collapse",
+      "text": "The final core collapse happens in less than a second and the core temperature rises above 100 billion degrees.",
+      "spokenWording": "In less than a second, the core collapses. Its temperature soars past one hundred billion degrees.",
+      "sources": [
+        {
+          "title": "Supernovae - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "In less than a second, the star begins the final phase of gr"
+          },
+          "quote": "In less than a second, the star begins the final phase of gravitational collapse. The core temperature rises to over 100 billion degrees as the iron atoms are crushed together.",
+          "snapshot": "research/sources/imagine_sn.txt",
+          "snapshotSha256": "e2eaed3ee24c7ce98f809b12f9fb3dd828bfc00623fc2aa46375117bc56a3a04",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Under one second; over 100 billion degrees.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "The core temperature rises to over 100 billion degrees as th"
+          },
+          "quote": "The core temperature rises to over 100 billion degrees as the iron atoms are crushed together.",
+          "snapshot": "research/sources/imagine_stars.txt",
+          "snapshotSha256": "6e1dc65cf751c05ad0732e5051b44a86d031185b6d09fbd3b7f8134a27809ee6",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Same statement on sibling page (same institution).",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified",
+      "note": "Both pages are NASA HEASARC; counted as one institutional source."
+    },
+    {
+      "id": "C16_rebound",
+      "text": "The collapsing iron core rebounds, sending a shock wave outward through the star: a supernova; the core survives as a neutron star or black hole.",
+      "spokenWording": "Then the core rebounds, and a shock wave races outward through the star. That is a supernova.",
+      "sources": [
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Black Hole Types - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes/types/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "The star’s iron core collapses until forces between the nucl"
+          },
+          "quote": "The star’s iron core collapses until forces between the nuclei push the brakes, then it rebounds. This change creates a shock wave that travels outward through the star. The result is a huge explosion called a supernova.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Rebound, shock wave, supernova.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "The core survives as an incredibly dense remnant, either a n"
+          },
+          "quote": "The core survives as an incredibly dense remnant, either a neutron star or a black hole.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Remnant types.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C17_outshine",
+      "text": "A supernova often briefly outshines an entire galaxy before fading over several weeks or months.",
+      "spokenWording": "For a while, this one dying star can outshine its entire galaxy, before fading over weeks or months.",
+      "sources": [
+        {
+          "title": "Distant Supernova 3 - After Outburst (opo0412i) - ESA/Hubble",
+          "url": "https://esahubble.org/images/opo0412i",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Supernovae are extremely luminous and cause a burst of radia"
+          },
+          "quote": "Supernovae are extremely luminous and cause a burst of radiation that often briefly outshines an entire galaxy, before fading from view over several weeks or months.",
+          "snapshot": "research/sources/esahubble_sn.txt",
+          "snapshotSha256": "e881f8664c0e0027026cb5f8766fa005bfb062680730e8fcd14211f5d0374701",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Direct statement.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C18_crab",
+      "text": "In 1054 Chinese astronomers recorded a 'guest star' visible in daytime for nearly a month; it was the supernova that produced the Crab Nebula, a six-light-year-wide remnant.",
+      "spokenWording": "In the year ten fifty-four, Chinese astronomers recorded a 'guest star' visible in the daytime sky for nearly a month. ... the Crab Nebula: the expanding wreckage of that explosion, six light-years wide.",
+      "sources": [
+        {
+          "title": "Messier 1 (The Crab Nebula) - NASA Science",
+          "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "In 1054, Chinese astronomers took notice of a “guest star” t"
+          },
+          "quote": "In 1054, Chinese astronomers took notice of a “guest star” that was, for nearly a month, visible in the daytime sky. The “guest star” they observed was actually a supernova explosion, which gave rise to the Crab Nebula, a six-light-year-wide remnant of the violent event.",
+          "snapshot": "research/sources/nasa_crab.txt",
+          "snapshotSha256": "0552bc863383cc771475ecb010f2b332035a64946abd252b24136158d8fcce93",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "All parts of the claim.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C19_casa",
+      "text": "Chandra's X-ray image of Cassiopeia A maps silicon, sulfur, calcium and iron ejected by the supernova.",
+      "spokenWording": "This is Cassiopeia A, the remains of an exploded star, mapped in X-rays. The colors show silicon, sulfur, calcium and iron, thrown out into space.",
+      "sources": [
+        {
+          "title": "Cassiopeia A: The Elements of Life - NASA Chandra",
+          "url": "https://chandra.harvard.edu/photo/2017/casa_life/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "A new image from NASA's Chandra X-ray Observatory shows the "
+          },
+          "quote": "A new image from NASA's Chandra X-ray Observatory shows the location of different elements in the remains of the explosion: silicon (red), sulfur (yellow), calcium (green) and iron (purple).",
+          "snapshot": "research/sources/chandra_casa_life.txt",
+          "snapshotSha256": "029a011b43444673b1dbd1685c6ec367d6221965dce103063f7c04238d35ff25",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Elements mapped in the image.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C20_elements",
+      "text": "All the oxygen in the Solar System comes from exploding massive stars, as does about half the calcium and about 40% of the iron; calcium helps form bones.",
+      "spokenWording": "all the oxygen in our solar system came from exploding massive stars, along with about half the calcium and about forty percent of the iron. Some of the calcium in your bones came from these explosions.",
+      "sources": [
+        {
+          "title": "Cassiopeia A: The Elements of Life - NASA Chandra",
+          "url": "https://chandra.harvard.edu/photo/2017/casa_life/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "All of the oxygen in the Solar System comes from exploding m"
+          },
+          "quote": "All of the oxygen in the Solar System comes from exploding massive stars. About half of the calcium and about 40% of the iron also come from these explosions",
+          "snapshot": "research/sources/chandra_casa_life.txt",
+          "snapshotSha256": "029a011b43444673b1dbd1685c6ec367d6221965dce103063f7c04238d35ff25",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Element fractions as stated by NASA/Chandra.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "calcium helps form and maintain healthy bones and teeth"
+          },
+          "quote": "calcium helps form and maintain healthy bones and teeth",
+          "snapshot": "research/sources/chandra_casa_life.txt",
+          "snapshotSha256": "029a011b43444673b1dbd1685c6ec367d6221965dce103063f7c04238d35ff25",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Calcium in bones.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Oxygen is the most abundant element in the human body (about"
+          },
+          "quote": "Oxygen is the most abundant element in the human body (about 65% by mass)",
+          "snapshot": "research/sources/chandra_casa_life.txt",
+          "snapshotSha256": "029a011b43444673b1dbd1685c6ec367d6221965dce103063f7c04238d35ff25",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Supports the Short's line that oxygen is about two thirds of body weight.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "Material cast into the cosmos by supernovae and other stella"
+          },
+          "quote": "Material cast into the cosmos by supernovae and other stellar events will enrich future molecular clouds",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "context",
+          "interpretation": "Supernova material spreads into future clouds.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C21_remnant",
+      "text": "If the star was near the supernova threshold the core becomes a city-sized superdense neutron star; with around 20+ solar masses it becomes a stellar-mass black hole.",
+      "spokenWording": "If the star was near the lower limit, it becomes a neutron star, about the size of a city. If the star was heavy enough, nothing can stop the collapse.",
+      "sources": [
+        {
+          "title": "Black Hole Types - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes/types/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Supernovae - Imagine the Universe (NASA GSFC HEASARC)",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "If it was near the threshold, it creates a city-sized, super"
+          },
+          "quote": "If it was near the threshold, it creates a city-sized, superdense neutron star.",
+          "snapshot": "research/sources/nasa_bh_types.txt",
+          "snapshotSha256": "683d90ec494f187e7ded4a45f5384769cd91d9311c88c1f3713c99fceea776da",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "City-sized neutron star.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "even the neutrons cannot survive the core collapse...and a b"
+          },
+          "quote": "even the neutrons cannot survive the core collapse...and a black hole forms",
+          "snapshot": "research/sources/imagine_sn.txt",
+          "snapshotSha256": "e2eaed3ee24c7ce98f809b12f9fb3dd828bfc00623fc2aa46375117bc56a3a04",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "For heavy enough stars nothing halts collapse.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C22_horizon",
+      "text": "A black hole is so dense that at its event horizon nothing, not even light, can escape.",
+      "spokenWording": "its gravity is so strong that not even light can escape. That boundary is the event horizon.",
+      "sources": [
+        {
+          "title": "Black Holes - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Astronomers Capture First Image of a Black Hole (eso1907) - ESO",
+          "url": "https://www.eso.org/public/news/eso1907/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "A black hole is so dense that gravity just beneath its surfa"
+          },
+          "quote": "A black hole is so dense that gravity just beneath its surface, the event horizon, is strong enough that nothing – not even light – can escape.",
+          "snapshot": "research/sources/nasa_bh.txt",
+          "snapshotSha256": "162d8608dce6d8f3a640e4bad80ea864406fc030a0a2eb87ca5fe2d21f61a169",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Direct statement.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "a completely dark object from which light cannot escape"
+          },
+          "quote": "a completely dark object from which light cannot escape",
+          "snapshot": "research/sources/eso_eht.txt",
+          "snapshotSha256": "e8fcbba7586745c9e371655fff2a2106fd5e67936bf5f691b88e76f7a169550f",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Independent ESO statement.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C23_eht",
+      "text": "In April 2019 the Event Horizon Telescope revealed the first image of a black hole's shadow, in galaxy M87; that black hole has 6.5 billion solar masses and lies 55 million light-years away.",
+      "spokenWording": "This is the first image of a black hole's shadow, from the Event Horizon Telescope in 2019. That one is a giant in the galaxy M87, six and a half billion times the Sun's mass. Black holes left behind by dying stars are far smaller.",
+      "sources": [
+        {
+          "title": "Astronomers Capture First Image of a Black Hole (eso1907) - ESO",
+          "url": "https://www.eso.org/public/news/eso1907/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Black Hole Types - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes/types/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "unveiling the first direct visual evidence of a supermassive"
+          },
+          "quote": "unveiling the first direct visual evidence of a supermassive black hole and its shadow",
+          "snapshot": "research/sources/eso_eht.txt",
+          "snapshotSha256": "e8fcbba7586745c9e371655fff2a2106fd5e67936bf5f691b88e76f7a169550f",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "First image of a black hole's shadow.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "This black hole resides 55 million light-years from Earth an"
+          },
+          "quote": "This black hole resides 55 million light-years from Earth and has a mass 6.5 billion times that of the Sun",
+          "snapshot": "research/sources/eso_eht.txt",
+          "snapshotSha256": "e8fcbba7586745c9e371655fff2a2106fd5e67936bf5f691b88e76f7a169550f",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Mass and distance.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "10 April 2019"
+          },
+          "quote": "10 April 2019",
+          "snapshot": "research/sources/eso_eht.txt",
+          "snapshotSha256": "e8fcbba7586745c9e371655fff2a2106fd5e67936bf5f691b88e76f7a169550f",
+          "snapshotKind": "extracted",
+          "supports": "context",
+          "interpretation": "Release date of eso1907.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "The masses of these newly born objects can range from a few "
+          },
+          "quote": "The masses of these newly born objects can range from a few to hundreds of times the Sun’s mass",
+          "snapshot": "research/sources/nasa_bh_types.txt",
+          "snapshotSha256": "683d90ec494f187e7ded4a45f5384769cd91d9311c88c1f3713c99fceea776da",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Star-made black holes: a few to hundreds of solar masses, far below 6.5 billion.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C24_binaries",
+      "text": "Nearly all stellar-mass black holes observed so far were found paired with stars; in X-ray binaries the black hole pulls gas off the star into a disk hot enough to emit X-rays.",
+      "spokenWording": "Nearly every black hole left behind by a dead star that we've found so far is paired with a living star. ... a black hole pulls gas off its companion, into a disk hot enough to glow in X-rays.",
+      "sources": [
+        {
+          "title": "Black Hole Types - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes/types/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Nearly all the stellar-mass black holes observed so far have"
+          },
+          "quote": "Nearly all the stellar-mass black holes observed so far have been found because they’re paired with stars.",
+          "snapshot": "research/sources/nasa_bh_types.txt",
+          "snapshotSha256": "683d90ec494f187e7ded4a45f5384769cd91d9311c88c1f3713c99fceea776da",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "States the claim directly.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "the black hole pulls gas off the star into a disk that heats"
+          },
+          "quote": "the black hole pulls gas off the star into a disk that heats up enough to produce X-rays",
+          "snapshot": "research/sources/nasa_bh_types.txt",
+          "snapshotSha256": "683d90ec494f187e7ded4a45f5384769cd91d9311c88c1f3713c99fceea776da",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "X-ray binaries mechanism.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C25_cygx1",
+      "text": "A 2021 study (Miller-Jones et al., Science) found the black hole in the X-ray binary Cygnus X-1 has 21.2 ± 2.2 solar masses.",
+      "spokenWording": "A 2021 study puts that black hole at about twenty-one times the mass of the Sun.",
+      "sources": [
+        {
+          "title": "Miller-Jones et al. 2021, Cygnus X-1 contains a 21-solar mass black hole (Science; arXiv:2102.09091)",
+          "url": "https://arxiv.org/abs/2102.09091",
+          "type": "peer_reviewed",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Sleeping giant surprises Gaia scientists - ESA (16/04/2024)",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "this implies a black hole mass of $21.2\\pm2.2$ solar masses"
+          },
+          "quote": "this implies a black hole mass of $21.2\\pm2.2$ solar masses",
+          "snapshot": "research/sources/arxiv_cygx1.txt",
+          "snapshotSha256": "7a03f211104741480d9f9458555434c48fd70abd2b18c4371c68f6f05782e13f",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Peer-reviewed mass estimate.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "black hole X-ray binary Cygnus X-1"
+          },
+          "quote": "black hole X-ray binary Cygnus X-1",
+          "snapshot": "research/sources/arxiv_cygx1.txt",
+          "snapshotSha256": "7a03f211104741480d9f9458555434c48fd70abd2b18c4371c68f6f05782e13f",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Cyg X-1 is an X-ray binary (supports the gas-pulling scene).",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "a black hole in an X-ray binary in the Cygnus constellation "
+          },
+          "quote": "a black hole in an X-ray binary in the Cygnus constellation (Cyg X-1), whose mass is estimated to be around 20 times that of the Sun",
+          "snapshot": "research/sources/esa_gaiabh3.txt",
+          "snapshotSha256": "3fad3118a4187d73bace36ceffa783e7231be21be6982576d4fdc9c78b19b55a",
+          "snapshotKind": "extracted",
+          "supports": "partial",
+          "interpretation": "ESA gives ~20; consistent within uncertainty.",
+          "uncertainty": "minor"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C26_gaiabh3",
+      "text": "In April 2024 ESA's Gaia data revealed Gaia BH3, a dormant black hole of about 33 solar masses, found from the wobble of an old giant star 1,926 light-years away; the first stellar-origin black hole this big seen in the Milky Way.",
+      "spokenWording": "in 2024, the Gaia mission noticed an old star wobbling around something unseen, less than two thousand light-years away. It is a black hole about thirty-three times the Sun's mass, the biggest star-made black hole found in our galaxy when it was announced.",
+      "sources": [
+        {
+          "title": "Sleeping giant surprises Gaia scientists - ESA (16/04/2024)",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "A large black hole, with a mass of nearly 33 times the mass "
+          },
+          "quote": "A large black hole, with a mass of nearly 33 times the mass of the Sun, was hiding in the constellation Aquila, less than 2000 light-years from Earth. This is the first time a black hole of stellar origin this big has been spotted within the Milky Way.",
+          "snapshot": "research/sources/esa_gaiabh3.txt",
+          "snapshotSha256": "3fad3118a4187d73bace36ceffa783e7231be21be6982576d4fdc9c78b19b55a",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Mass, distance, record.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "their attention fell on an old giant star in the constellati"
+          },
+          "quote": "their attention fell on an old giant star in the constellation Aquila",
+          "snapshot": "research/sources/esa_gaiabh3.txt",
+          "snapshotSha256": "3fad3118a4187d73bace36ceffa783e7231be21be6982576d4fdc9c78b19b55a",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "An old star.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "By analysing in detail the wobble in the star’s path"
+          },
+          "quote": "By analysing in detail the wobble in the star’s path",
+          "snapshot": "research/sources/esa_gaiabh3.txt",
+          "snapshotSha256": "3fad3118a4187d73bace36ceffa783e7231be21be6982576d4fdc9c78b19b55a",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Found by the star's wobble.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Sleeping giant surprises Gaia scientists"
+          },
+          "quote": "Sleeping giant surprises Gaia scientists",
+          "snapshot": "research/sources/esa_gaiabh3.txt",
+          "snapshotSha256": "3fad3118a4187d73bace36ceffa783e7231be21be6982576d4fdc9c78b19b55a",
+          "snapshotKind": "extracted",
+          "supports": "context",
+          "interpretation": "Article title; the page is dated 16/04/2024 (2024).",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C27_n6946",
+      "text": "N6946-BH1, a ~25 solar-mass red supergiant, had a weak outburst in 2009 and then largely disappeared in optical light; it was proposed as a failed supernova (direct collapse to a black hole), but JWST data show the earlier observations blend at least 3 sources and the interpretation remains debated.",
+      "spokenWording": "In 2009, a red supergiant about twenty-five times the Sun's mass, in another galaxy, flared weakly and then seemed to disappear. One explanation is a failed supernova ... newer telescope data complicate that picture, and astronomers are still debating it.",
+      "sources": [
+        {
+          "title": "Adams et al. 2017, The search for failed supernovae with the LBT: confirmation of a disappearing star (MNRAS; arXiv:1609.01283)",
+          "url": "https://arxiv.org/abs/1609.01283",
+          "type": "peer_reviewed",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Beasor et al. 2024, JWST reveals a luminous infrared source at the position of the failed supernova candidate N6946-BH1 (arXiv:2309.16121)",
+          "url": "https://arxiv.org/abs/2309.16121",
+          "type": "peer_reviewed",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Star Gives Birth to Possible Black Hole in Hubble and Spitzer Images - NASA SVS",
+          "url": "https://svs.gsfc.nasa.gov/12621/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "This $\\sim 25~M_{\\odot}$ red supergiant experienced a weak $"
+          },
+          "quote": "This $\\sim 25~M_{\\odot}$ red supergiant experienced a weak $\\sim 10^{6}~L_{\\odot}$ optical outburst in 2009 and is now at least 5 magnitudes fainter than the progenitor in the optical",
+          "snapshot": "research/sources/arxiv_n6946.txt",
+          "snapshotSha256": "738e2bf6cbde07a7e717b444408a26ba99c4530e63de683b185ffc22ff8bb50c",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "~25 solar-mass red supergiant, weak 2009 outburst, then optical disappearance.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "all previous observations of BH1 (pre- and post-disappearanc"
+          },
+          "quote": "all previous observations of BH1 (pre- and post-disappearance) are actually a blend of at least 3 sources",
+          "snapshot": "research/sources/arxiv_n6946_jwst.txt",
+          "snapshotSha256": "7de31046142133d621d2c0a8724a0c78ab3a0ccfdc5827e2a30198ebd03eeea0",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Newer JWST data complicate the picture.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 2,
+          "locator": {
+            "kind": "quote",
+            "value": "If confirmed, this would be the first time anyone has witnes"
+          },
+          "quote": "If confirmed, this would be the first time anyone has witnessed the birth of a black hole and the first discovery of a failed supernova.",
+          "snapshot": "research/sources/gsfc_vanished.txt",
+          "snapshotSha256": "27c3ae4b403fb0f82c7771339fdbf6b0152a2a79c7ef51e0641cd736217c1872",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Status: unconfirmed candidate.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "contested",
+      "note": "Narration hedges: 'seemed to', 'one explanation', 'still debating'."
+    },
+    {
+      "id": "C28_enrich",
+      "text": "Material cast out by supernovae enriches future molecular clouds and is incorporated into the next generation of stars.",
+      "spokenWording": "The gas the star threw away drifts back out, and enriches the next clouds.",
+      "sources": [
+        {
+          "title": "Stars - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        },
+        {
+          "title": "Supernovas & Supernova Remnants - NASA Chandra field guide",
+          "url": "https://chandra.harvard.edu/xray_sources/supernovas.html",
+          "type": "institution",
+          "accessed": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "sourceIndex": 0,
+          "locator": {
+            "kind": "quote",
+            "value": "Material cast into the cosmos by supernovae and other stella"
+          },
+          "quote": "Material cast into the cosmos by supernovae and other stellar events will enrich future molecular clouds and become incorporated into the next generation of stars.",
+          "snapshot": "research/sources/nasa_stars.txt",
+          "snapshotSha256": "b2ad64f32c16117b22eab91a8d6e9ea152ac8ee37e0a3478e367710860986f26",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "States the claim directly.",
+          "uncertainty": "none"
+        },
+        {
+          "sourceIndex": 1,
+          "locator": {
+            "kind": "quote",
+            "value": "supernovas are the primary means for seeding the galaxy with"
+          },
+          "quote": "supernovas are the primary means for seeding the galaxy with many elements",
+          "snapshot": "research/sources/chandra_sn_guide.txt",
+          "snapshotSha256": "2f5af4bf5cb3e2dc623202c711f63c379f3fbbccdd8f75c528c812c047bfb825",
+          "snapshotKind": "extracted",
+          "supports": "direct",
+          "interpretation": "Independent Chandra page.",
+          "uncertainty": "none"
+        }
+      ],
+      "status": "verified"
+    }
+  ]
+}

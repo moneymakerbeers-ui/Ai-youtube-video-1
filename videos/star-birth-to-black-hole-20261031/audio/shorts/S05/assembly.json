@@ -1,0 +1,70 @@
+{
+  "audio": {
+    "file": "audio/shorts/S05/narration.wav",
+    "sha256": "dbf208bd20a994006fed506cc6a6e5ba47f87f65bf9d4fb90a9de211f6523fb1",
+    "durationS": 39.707,
+    "sr": 24000
+  },
+  "segments": [
+    {
+      "id": "S05_opening",
+      "startS": 0.0,
+      "endS": 5.288,
+      "sceneIds": [
+        "S05_opening"
+      ],
+      "kind": "opening"
+    },
+    {
+      "id": "s35",
+      "startS": 5.568,
+      "endS": 19.938,
+      "sceneIds": [
+        "s35"
+      ],
+      "kind": "scene",
+      "srcStartS": 414.466,
+      "srcEndS": 428.846
+    },
+    {
+      "id": "s36",
+      "startS": 20.278,
+      "endS": 32.238,
+      "sceneIds": [
+        "s36"
+      ],
+      "kind": "scene",
+      "srcStartS": 429.186,
+      "srcEndS": 441.206
+    },
+    {
+      "id": "S05_closing",
+      "startS": 32.588,
+      "endS": 39.707,
+      "sceneIds": [
+        "S05_closing"
+      ],
+      "kind": "closing"
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 5.288,
+      "toS": 5.568,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 19.938,
+      "toS": 20.278,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 32.238,
+      "toS": 32.588,
+      "reason": "closing line join",
+      "declaredMs": 0
+    }
+  ]
+}

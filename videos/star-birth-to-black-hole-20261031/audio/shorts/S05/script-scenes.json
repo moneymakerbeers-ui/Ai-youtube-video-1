@@ -1,0 +1,20 @@
+{
+  "scenes": [
+    {
+      "id": "S05_opening",
+      "narration": "Most giant stars die in a huge explosion. But maybe not all of them."
+    },
+    {
+      "id": "s35",
+      "narration": "Some astronomers think a giant star may skip the explosion entirely. In 2009, a red supergiant about twenty-five times the Sun's mass, in another galaxy, flared weakly and then seemed to disappear."
+    },
+    {
+      "id": "s36",
+      "narration": "One explanation is a failed supernova: a star collapsing straight into a black hole, with almost no explosion. But newer telescope data complicate that picture, and astronomers are still debating it."
+    },
+    {
+      "id": "S05_closing",
+      "narration": "If the failed-supernova idea is confirmed, astronomers say it would be the first time anyone has seen a black hole being born."
+    }
+  ]
+}

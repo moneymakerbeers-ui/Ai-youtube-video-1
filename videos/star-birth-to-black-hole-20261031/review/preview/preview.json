@@ -1,0 +1,40 @@
+{
+  "createdAt": "2026-10-31T13:34:33",
+  "fingerprint": "62887145a74c7087eaf857819dca33ffc680c74903d940e6d2b5c76f0657631b",
+  "size": {
+    "landscape": "960x540",
+    "portrait": "540x960"
+  },
+  "timing": "estimated from the text; no narration exists yet",
+  "selection": {
+    "landscape": {
+      "hero": "s02",
+      "technical": "s27",
+      "transition": "s06>s07"
+    },
+    "portrait": {
+      "hero": "s02",
+      "technical": "s27",
+      "transition": "s06>s07"
+    }
+  },
+  "files": {
+    "hero-landscape": "review/preview/hero-landscape.png",
+    "technical-landscape": "review/preview/technical-landscape.png",
+    "transition-landscape": "review/preview/transition-s06-s07-landscape.mp4",
+    "hero-portrait": "review/preview/hero-portrait.png",
+    "technical-portrait": "review/preview/technical-portrait.png",
+    "transition-portrait": "review/preview/transition-s06-s07-portrait.mp4",
+    "voice-sample": "review/preview/voice-sample.wav",
+    "contact": "review/preview/contact.png"
+  },
+  "voiceSample": {
+    "status": "MADE",
+    "stack": "flite",
+    "voice": "slt",
+    "chars": 139,
+    "file": "review/preview/voice-sample.wav",
+    "meaning": "the free local draft voice (robotic): NOT the voice of a polished video; approve it only if the free path is what you want"
+  },
+  "notes": []
+}

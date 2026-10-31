@@ -1,0 +1,125 @@
+SOURCE: https://svs.gsfc.nasa.gov/12621/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+NASA SVS | Star Gives Birth to Possible Black Hole in Hubble and Spitzer Images
+ Scientific Visualization Studio
+ Galleries
+ Help
+ Search
+ 12581: Webb Telescope Acoustic Testing Social Medi...
+ 4544: 2015-2016 El Niño: Daily Sea Surface Tempera...
+Star Gives Birth to Possible Black Hole in Hubble and Spitzer Images
+Released Thursday, May 25, 2017
+ ID: 12621
+ View full credits
+ Music credit: "High Heelz" by Donn Wilkerson [BMI] and Lance Sumner [BMI]; Killer Tracks BMI; Killer Tracks Production MusicWatch this video on the NASA Goddard YouTube channel.
+ Download
+Movies
+ Hubble_black_hole_birth_H264.mp4 (1920x1080) [228.3 MB]
+ Hubble_black_hole_birth_H264.webm (1920x1080) [26.8 MB]
+ Hubble_black_hole_birth_APR422.mov (1920x1080) [5.8 GB]
+Captions
+ Hubble_black_hole_birth.en_US.srt [4.7 KB]
+ Hubble_black_hole_birth.en_US.vtt [4.7 KB]
+Images
+ Hubble_black_hole_birth_thumbnail.png (1920x1080) [3.4 MB]
+ Hubble_black_hole_birth_thumbnail_print.jpg (1024x576) [163.2 KB]
+ Hubble_black_hole_birth_thumbnail_searchweb.png (320x180) [126.7 KB]
+ Hubble_black_hole_birth_thumbnail_thm.png (80x40) [7.9 KB]
+Music credit: "High Heelz" by Donn Wilkerson [BMI] and Lance Sumner [BMI]; Killer Tracks BMI; Killer Tracks Production Music
+Watch this video on the NASA Goddard YouTube channel.
+A team of astronomers at The Ohio State University watched a star disappear and possibly become a black hole. Instead of becoming a black hole through the expected process of a supernova, the black hole candidate formed through a "failed supernova." The team used NASA's Hubble and Spitzer Space Telescopes and the Large Binocular Telescope to observe and monitor the star throughout the past decade. If confirmed, this would be the first time anyone has witnessed the birth of a black hole and the first discovery of a failed supernova. 
+Read the NASA web feature here.
+Find the full image release package at HubbleSite.org.
+Read the full science paper in the Monthly Notices of the Royal Astronomical Society.
+ Animated graph - Visible and infrared lightcurve of the star/black hole N6946-BH1
+ Download
+Movies
+ N6946-BH1_Lightcurve_VisIR_1080APR.mov (1920x1080) [685.8 MB]
+ N6946-BH1_Lightcurve_VisIR_1080H264.mp4 (1920x1080) [21.5 MB]
+ N6946-BH1_Lightcurve_VisIR_1080H264.webm (1920x1080) [2.2 MB]
+ N6946-BH1_Lightcurve_VisIR.mov (3840x2160) [892.4 MB]
+ N6946-BH1_Lightcurve_VisIR_4kH264.mp4 (3840x2160) [19.5 MB]
+Images
+ N6946-BH1_Lightcurve_VisIR_1080H264.00330_print.jpg (1024x576) [77.6 KB]
+Animated graph - Visible and infrared lightcurve of the star/black hole N6946-BH1
+ Animated graph - Visible lightcurve of the star/black hole N6946-BH1 with Hubble image insets
+ Download
+Movies
+ N6946-BH1_Lightcurve_Vis-1080APR.mov (1920x1080) [669.6 MB]
+ N6946-BH1_Lightcurve_Vis-1080H264.mp4 (1920x1080) [23.0 MB]
+ N6946-BH1_Lightcurve_Vis-1080H264.webm (1920x1080) [2.2 MB]
+ N6946-BH1_Lightcurve_Vis-4kH264.mp4 (3840x2160) [23.4 MB]
+ N6946-BH1_Lightcurve_Vis-Insets.mov (3840x2160) [1.0 GB]
+Images
+ N6946-BH1_Lightcurve_Vis-1080H264.00210_print.jpg (1024x576) [84.4 KB]
+Animated graph - Visible lightcurve of the star/black hole N6946-BH1 with Hubble image insets
+ Universe
+ Astronomy
+ Astrophysics
+ Black Hole
+ Black Hole Birth
+ Black Hole Formation
+ Chandra
+ Failed Supernova
+ Hubble Space Telescope
+ Infrared
+ James Webb Space Telescope
+ Large Binocular Telescope
+ N6946-BH1
+ NGC 6946
+ Spitzer
+ Star
+ Supernova
+Credits
+Please give credit for this item to:
+ NASA's Goddard Space Flight Center
+ Producer
+ Katrina Jackson
+ (USRA)
+ Host
+ Katrina Jackson
+ (USRA)
+ Editor
+ Katrina Jackson
+ (USRA)
+ Animator
+ Walt Feimer
+ (KBR Wyle Services, LLC)
+ Scientist
+ Scott Adams
+ (CalTech)
+Missions
+ This page is related to the following missions:
+ Hubble
+Related
+ ID: 12907 
+ Produced Video
+ Hubble Views a Galaxy Lacking Dark Matter
+ ID: 12724 
+ Produced Video
+ Hubble Sees First-Time Icy Visitor Comet K2
+ ID: 12539 
+ Produced Video
+ Hubble Detects a Rogue Supermassive Black Hole
+ ID: 11191 
+ Produced Video
+ A New Black Hole?
+Sources
+ ID: 20228 
+ Animation
+ Massive Black Hole Shreds Passing Star (Animation Only)
+Used as a Source In
+ ID: 12937 
+ Produced Video
+ Hubble's 28th Anniversary
+Release date
+ This page was originally published on Thursday, May 25, 2017.
+ This page was last updated on Wednesday, May 3, 2023 at 1:47 PM EDT.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+ Privacy Policy and Important Notices
+ Reproduction Guidelines
+ NASA Official: 
+ Site Curator:

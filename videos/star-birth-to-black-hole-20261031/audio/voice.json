@@ -1,0 +1,58 @@
+{
+  "stack": "file",
+  "voice": "externally supplied",
+  "model": "unknown",
+  "quality": "as supplied",
+  "takes": 34,
+  "shortLines": [
+    {
+      "short": "S01",
+      "kind": "opening",
+      "file": "audio/shorts/S01/opening.wav",
+      "chars": 127
+    },
+    {
+      "short": "S01",
+      "kind": "closing",
+      "file": "audio/shorts/S01/closing.wav",
+      "chars": 47
+    },
+    {
+      "short": "S02",
+      "kind": "opening",
+      "file": "audio/shorts/S02/opening.wav",
+      "chars": 57
+    },
+    {
+      "short": "S02",
+      "kind": "closing",
+      "file": "audio/shorts/S02/closing.wav",
+      "chars": 59
+    },
+    {
+      "short": "S03",
+      "kind": "opening",
+      "file": "audio/shorts/S03/opening.wav",
+      "chars": 101
+    },
+    {
+      "short": "S04",
+      "kind": "opening",
+      "file": "audio/shorts/S04/opening.wav",
+      "chars": 45
+    },
+    {
+      "short": "S05",
+      "kind": "opening",
+      "file": "audio/shorts/S05/opening.wav",
+      "chars": 68
+    },
+    {
+      "short": "S05",
+      "kind": "closing",
+      "file": "audio/shorts/S05/closing.wav",
+      "chars": 126
+    }
+  ],
+  "totalChars": 6504
+}

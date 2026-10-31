@@ -1,0 +1,106 @@
+{
+  "audio": {
+    "file": "audio/shorts/S03/narration.wav",
+    "sha256": "5c70d78de9a43363dd64f077bdbe5c74cb57128b5c803429a9e44f8e32861038",
+    "durationS": 51.562,
+    "sr": 24000
+  },
+  "segments": [
+    {
+      "id": "S03_opening",
+      "startS": 0.0,
+      "endS": 8.387,
+      "sceneIds": [
+        "S03_opening"
+      ],
+      "kind": "opening"
+    },
+    {
+      "id": "s06",
+      "startS": 8.667,
+      "endS": 12.707,
+      "sceneIds": [
+        "s06"
+      ],
+      "kind": "scene",
+      "srcStartS": 57.799,
+      "srcEndS": 61.879
+    },
+    {
+      "id": "s07",
+      "startS": 13.368,
+      "endS": 24.268,
+      "sceneIds": [
+        "s07"
+      ],
+      "kind": "scene",
+      "srcStartS": 62.54,
+      "srcEndS": 73.48
+    },
+    {
+      "id": "s08",
+      "startS": 24.629,
+      "endS": 29.709,
+      "sceneIds": [
+        "s08"
+      ],
+      "kind": "scene",
+      "srcStartS": 73.841,
+      "srcEndS": 78.941
+    },
+    {
+      "id": "s10",
+      "startS": 29.989,
+      "endS": 39.009,
+      "sceneIds": [
+        "s10"
+      ],
+      "kind": "scene",
+      "srcStartS": 92.689,
+      "srcEndS": 101.649
+    },
+    {
+      "id": "s11",
+      "startS": 39.872,
+      "endS": 51.562,
+      "sceneIds": [
+        "s11"
+      ],
+      "kind": "scene",
+      "srcStartS": 102.512,
+      "srcEndS": 114.212
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 8.387,
+      "toS": 8.667,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 12.707,
+      "toS": 13.368,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 24.268,
+      "toS": 24.629,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 29.709,
+      "toS": 29.989,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 39.009,
+      "toS": 39.872,
+      "reason": "scene join",
+      "declaredMs": 0
+    }
+  ]
+}

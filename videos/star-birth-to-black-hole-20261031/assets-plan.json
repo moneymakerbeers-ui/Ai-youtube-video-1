@@ -1,0 +1,283 @@
+{
+ "jobs": [
+  {
+   "assetId": "r_pillars",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_carina",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_rhooph",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_helix",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_crab",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_sn_hubble",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_n6946",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_eht",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_gaiabh3_art",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "CC BY 4.0",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_casa",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "NASA/Chandra: no copyright asserted, credit requested",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_cygx1_art",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "NASA/Chandra: no copyright asserted, credit requested",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "r_sun",
+   "route": "retrieved",
+   "why": "a real observation exists; provenance beats illustration",
+   "priority": "hero",
+   "costCredits": 0,
+   "license": "NASA SDO: not copyrighted unless noted, attribution requested",
+   "aspect": "16:9 crop + recomposed tall placement",
+   "fallback": "code backdrop"
+  },
+  {
+   "assetId": "g_clump",
+   "route": "generated_image",
+   "why": "no photograph can show this (inside a cloud, a star's surface up close, a stellar black hole); labelled Illustration",
+   "priority": "hero",
+   "costCredits": 2.75,
+   "model": "gpt_image_2_5 high 2k 16:9",
+   "aspect": "subject centred, dark margins: survives 16:9 and the 9:16 centre strip",
+   "fallback": "code-drawn glow/diagram (glowdot, onion, collapse)"
+  },
+  {
+   "assetId": "g_protostar",
+   "route": "generated_image",
+   "why": "no photograph can show this (inside a cloud, a star's surface up close, a stellar black hole); labelled Illustration",
+   "priority": "hero",
+   "costCredits": 2.75,
+   "model": "gpt_image_2_5 high 2k 16:9",
+   "aspect": "subject centred, dark margins: survives 16:9 and the 9:16 centre strip",
+   "fallback": "code-drawn glow/diagram (glowdot, onion, collapse)"
+  },
+  {
+   "assetId": "g_ignite",
+   "route": "generated_image",
+   "why": "no photograph can show this (inside a cloud, a star's surface up close, a stellar black hole); labelled Illustration",
+   "priority": "hero",
+   "costCredits": 2.75,
+   "model": "gpt_image_2_5 high 2k 16:9",
+   "aspect": "subject centred, dark margins: survives 16:9 and the 9:16 centre strip",
+   "fallback": "code-drawn glow/diagram (glowdot, onion, collapse)"
+  },
+  {
+   "assetId": "g_supergiant",
+   "route": "generated_image",
+   "why": "no photograph can show this (inside a cloud, a star's surface up close, a stellar black hole); labelled Illustration",
+   "priority": "hero",
+   "costCredits": 2.75,
+   "model": "gpt_image_2_5 high 2k 16:9",
+   "aspect": "subject centred, dark margins: survives 16:9 and the 9:16 centre strip",
+   "fallback": "code-drawn glow/diagram (glowdot, onion, collapse)"
+  },
+  {
+   "assetId": "g_supernova",
+   "route": "generated_image",
+   "why": "no photograph can show this (inside a cloud, a star's surface up close, a stellar black hole); labelled Illustration",
+   "priority": "hero",
+   "costCredits": 2.75,
+   "model": "gpt_image_2_5 high 2k 16:9",
+   "aspect": "subject centred, dark margins: survives 16:9 and the 9:16 centre strip",
+   "fallback": "code-drawn glow/diagram (glowdot, onion, collapse)"
+  },
+  {
+   "assetId": "g_blackhole",
+   "route": "generated_image",
+   "why": "no photograph can show this (inside a cloud, a star's surface up close, a stellar black hole); labelled Illustration",
+   "priority": "hero",
+   "costCredits": 2.75,
+   "model": "gpt_image_2_5 high 2k 16:9",
+   "aspect": "subject centred, dark margins: survives 16:9 and the 9:16 centre strip",
+   "fallback": "code-drawn glow/diagram (glowdot, onion, collapse)"
+  },
+  {
+   "assetId": "starfield",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "glowdot",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "thermo",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "balance",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "twostars",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "lifebars",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "fatechart",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "onion",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "ironcore",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "collapse",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "legend",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "elementbars",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "fork",
+   "route": "code",
+   "why": "exact diagrams, numbers and labels belong in code",
+   "priority": "support",
+   "costCredits": 0
+  },
+  {
+   "assetId": "narration",
+   "route": "generated_audio",
+   "why": "creator asked for the Knox voice (ElevenLabs engine via Higgsfield text2speech_v2)",
+   "priority": "hero",
+   "costCredits": 20.2,
+   "chars": 6512
+  }
+ ]
+}

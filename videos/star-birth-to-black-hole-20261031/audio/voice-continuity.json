@@ -1,0 +1,316 @@
+{
+  "takes": [
+    {
+      "takeId": "t01",
+      "loudDb": -22.01,
+      "f0Hz": 125.0,
+      "voicedFrames": 190,
+      "pitchFrames": 120,
+      "intensity": 1,
+      "emotion": "quiet-wonder"
+    },
+    {
+      "takeId": "t02",
+      "loudDb": -23.57,
+      "f0Hz": 125.0,
+      "voicedFrames": 468,
+      "pitchFrames": 281,
+      "intensity": 1,
+      "emotion": "curious"
+    },
+    {
+      "takeId": "t03",
+      "loudDb": -23.56,
+      "f0Hz": 124.0,
+      "voicedFrames": 456,
+      "pitchFrames": 226,
+      "intensity": 0,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t04",
+      "loudDb": -22.67,
+      "f0Hz": 119.4,
+      "voicedFrames": 97,
+      "pitchFrames": 59,
+      "intensity": 1,
+      "emotion": "quiet-wonder"
+    },
+    {
+      "takeId": "t05",
+      "loudDb": -23.82,
+      "f0Hz": 117.2,
+      "voicedFrames": 182,
+      "pitchFrames": 90,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t06",
+      "loudDb": -21.95,
+      "f0Hz": 121.2,
+      "voicedFrames": 116,
+      "pitchFrames": 75,
+      "intensity": 0,
+      "emotion": "matter-of-fact"
+    },
+    {
+      "takeId": "t07",
+      "loudDb": -24.29,
+      "f0Hz": 142.9,
+      "voicedFrames": 469,
+      "pitchFrames": 252,
+      "intensity": 1,
+      "emotion": "curious"
+    },
+    {
+      "takeId": "t08",
+      "loudDb": -23.92,
+      "f0Hz": 117.6,
+      "voicedFrames": 232,
+      "pitchFrames": 117,
+      "intensity": 2,
+      "emotion": "quiet-wonder"
+    },
+    {
+      "takeId": "t09",
+      "loudDb": -23.53,
+      "f0Hz": 117.6,
+      "voicedFrames": 182,
+      "pitchFrames": 118,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t10",
+      "loudDb": -23.86,
+      "f0Hz": 122.1,
+      "voicedFrames": 281,
+      "pitchFrames": 140,
+      "intensity": 0,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t11",
+      "loudDb": -22.57,
+      "f0Hz": 119.4,
+      "voicedFrames": 217,
+      "pitchFrames": 141,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t12",
+      "loudDb": -22.34,
+      "f0Hz": 134.5,
+      "voicedFrames": 185,
+      "pitchFrames": 117,
+      "intensity": 1,
+      "emotion": "matter-of-fact"
+    },
+    {
+      "takeId": "t13",
+      "loudDb": -23.83,
+      "f0Hz": 117.6,
+      "voicedFrames": 206,
+      "pitchFrames": 109,
+      "intensity": 1,
+      "emotion": "reflective"
+    },
+    {
+      "takeId": "t14",
+      "loudDb": -21.93,
+      "f0Hz": 137.9,
+      "voicedFrames": 384,
+      "pitchFrames": 261,
+      "intensity": 1,
+      "emotion": "matter-of-fact"
+    },
+    {
+      "takeId": "t15",
+      "loudDb": -23.54,
+      "f0Hz": 128.0,
+      "voicedFrames": 520,
+      "pitchFrames": 283,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t16",
+      "loudDb": -21.53,
+      "f0Hz": 118.5,
+      "voicedFrames": 239,
+      "pitchFrames": 177,
+      "intensity": 1,
+      "emotion": "measured-concern"
+    },
+    {
+      "takeId": "t17",
+      "loudDb": -23.0,
+      "f0Hz": 135.6,
+      "voicedFrames": 202,
+      "pitchFrames": 119,
+      "intensity": 1,
+      "emotion": "measured-concern"
+    },
+    {
+      "takeId": "t18",
+      "loudDb": -23.91,
+      "f0Hz": 128.0,
+      "voicedFrames": 168,
+      "pitchFrames": 92,
+      "intensity": 2,
+      "emotion": "urgent"
+    },
+    {
+      "takeId": "t19",
+      "loudDb": -23.77,
+      "f0Hz": 115.5,
+      "voicedFrames": 171,
+      "pitchFrames": 88,
+      "intensity": 3,
+      "emotion": "quiet-wonder"
+    },
+    {
+      "takeId": "t20",
+      "loudDb": -23.12,
+      "f0Hz": 128.0,
+      "voicedFrames": 191,
+      "pitchFrames": 120,
+      "intensity": 1,
+      "emotion": "reflective"
+    },
+    {
+      "takeId": "t21",
+      "loudDb": -22.84,
+      "f0Hz": 134.5,
+      "voicedFrames": 232,
+      "pitchFrames": 135,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t22",
+      "loudDb": -23.93,
+      "f0Hz": 124.5,
+      "voicedFrames": 164,
+      "pitchFrames": 94,
+      "intensity": 2,
+      "emotion": "quiet-wonder"
+    },
+    {
+      "takeId": "t23",
+      "loudDb": -23.96,
+      "f0Hz": 122.1,
+      "voicedFrames": 252,
+      "pitchFrames": 132,
+      "intensity": 1,
+      "emotion": "curious"
+    },
+    {
+      "takeId": "t24",
+      "loudDb": -22.11,
+      "f0Hz": 132.2,
+      "voicedFrames": 302,
+      "pitchFrames": 186,
+      "intensity": 2,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t25",
+      "loudDb": -25.69,
+      "f0Hz": 122.1,
+      "voicedFrames": 247,
+      "pitchFrames": 123,
+      "intensity": 1,
+      "emotion": "curious"
+    },
+    {
+      "takeId": "t26",
+      "loudDb": -23.79,
+      "f0Hz": 111.9,
+      "voicedFrames": 337,
+      "pitchFrames": 201,
+      "intensity": 3,
+      "emotion": "quiet-wonder"
+    },
+    {
+      "takeId": "t27",
+      "loudDb": -23.23,
+      "f0Hz": 123.1,
+      "voicedFrames": 411,
+      "pitchFrames": 228,
+      "intensity": 1,
+      "emotion": "matter-of-fact"
+    },
+    {
+      "takeId": "t28",
+      "loudDb": -23.43,
+      "f0Hz": 119.4,
+      "voicedFrames": 294,
+      "pitchFrames": 165,
+      "intensity": 1,
+      "emotion": "curious"
+    },
+    {
+      "takeId": "t29",
+      "loudDb": -23.66,
+      "f0Hz": 133.3,
+      "voicedFrames": 353,
+      "pitchFrames": 173,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t30",
+      "loudDb": -23.26,
+      "f0Hz": 123.1,
+      "voicedFrames": 471,
+      "pitchFrames": 269,
+      "intensity": 2,
+      "emotion": "curious"
+    },
+    {
+      "takeId": "t31",
+      "loudDb": -21.88,
+      "f0Hz": 142.9,
+      "voicedFrames": 311,
+      "pitchFrames": 204,
+      "intensity": 1,
+      "emotion": "curious"
+    },
+    {
+      "takeId": "t32",
+      "loudDb": -24.11,
+      "f0Hz": 117.6,
+      "voicedFrames": 269,
+      "pitchFrames": 136,
+      "intensity": 0,
+      "emotion": "matter-of-fact"
+    },
+    {
+      "takeId": "t33",
+      "loudDb": -24.2,
+      "f0Hz": 122.1,
+      "voicedFrames": 389,
+      "pitchFrames": 208,
+      "intensity": 1,
+      "emotion": "reflective"
+    },
+    {
+      "takeId": "t34",
+      "loudDb": -23.02,
+      "f0Hz": 126.0,
+      "voicedFrames": 278,
+      "pitchFrames": 164,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    }
+  ],
+  "findings": [],
+  "thresholds": {
+    "maxDb": 3.0,
+    "maxPitchRel": 0.25
+  },
+  "kind": "heuristic"
+}

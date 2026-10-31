@@ -6,22 +6,55 @@ import pytest
 from conftest import ROOT, make_project, py, run, work_root
 
 
-def test_whisper_engine_is_blocked_not_guessed(tmp_path):
+def _has_whisper():
+    try:
+        import faster_whisper  # noqa: F401
+        return True
+    except ImportError:
+        return False
+
+
+def test_whisper_engine_fails_closed_without_speech_or_package(tmp_path):
+    """No package -> BLOCKED (exit 3). With the package, audio that does not say the script must FAIL (exit 4), never pass with guessed times."""
     wav = tmp_path / "a.wav"
     run(["ffmpeg", "-v", "error", "-nostdin", "-y", "-f", "lavfi", "-i", "sine=frequency=220:duration=1", "-ar", "24000", wav], check=True)
     p = py("align.py", "--audio", wav, "--text", "hello world", "--out", tmp_path / "al.json", "--engine", "whisper")
-    assert p.returncode == 3, p.stdout + p.stderr
-    assert "BLOCKED" in p.stderr and "not implemented" in p.stderr
+    if _has_whisper():
+        assert p.returncode == 4, p.stdout + p.stderr
+        assert "FAILED" in p.stderr and "matched" in p.stderr
+    else:
+        assert p.returncode == 3, p.stdout + p.stderr
+        assert "BLOCKED" in p.stderr
 
 
-def test_auto_alignment_never_selects_whisper_even_when_it_is_installed(monkeypatch):
+@pytest.mark.skipif(not _has_whisper(), reason="faster-whisper not installed")
+def test_whisper_engine_aligns_real_speech_to_the_script(tmp_path):
+    text = "The stars are born in cold clouds of gas and dust, and the heaviest of them end as black holes."
+    wav = tmp_path / "s.wav"
+    run(["ffmpeg", "-v", "error", "-nostdin", "-y", "-f", "lavfi", "-i", f"flite=text='{text}':voice=slt", "-ar", "24000", wav], check=True)
+    p = py("align.py", "--audio", wav, "--text", text, "--out", tmp_path / "al.json", "--engine", "whisper", timeout=900)
+    if p.returncode == 3:
+        pytest.skip("whisper model could not be loaded here: " + p.stderr[-300:])
+    assert p.returncode == 0, p.stdout + p.stderr
+    doc = json.loads((tmp_path / "al.json").read_text())
+    assert doc["source"] == "whisper" and doc["coverage"] == 1.0
+    ws = doc["words"]
+    assert [w["w"] for w in ws] == text.split()
+    assert all(b["s"] >= a["s"] for a, b in zip(ws, ws[1:])) and ws[-1]["e"] <= doc["audio"]["durationS"] + 0.05
+    assert sum(1 for w in ws if w["conf"] > 0.3) >= 0.85 * len(ws), "most words must come from recognised speech, not interpolation"
+
+
+def test_auto_alignment_never_selects_whisper_implicitly(monkeypatch):
     monkeypatch.delenv("ELEVENLABS_API_KEY", raising=False)
+    monkeypatch.delenv("ALIGN_ENGINE", raising=False)
     monkeypatch.setitem(sys.modules, "faster_whisper", type(sys)("faster_whisper"))
     sys.path.insert(0, str(ROOT / "tools"))
     align = importlib.import_module("align")
-    assert align.pick_engine("auto") == "dtw", "an unimplemented engine must never be what `auto` picks"
+    assert align.pick_engine("auto") == "dtw", "auto must not switch engines just because a package is installed"
     monkeypatch.setenv("ELEVENLABS_API_KEY", "x")
     assert align.pick_engine("auto") == "elevenlabs"
+    monkeypatch.setenv("ALIGN_ENGINE", "whisper")
+    assert align.pick_engine("auto") == "whisper", "an explicit project choice is honoured"
 
 
 def test_config_fps_is_honoured_and_auto_means_30():

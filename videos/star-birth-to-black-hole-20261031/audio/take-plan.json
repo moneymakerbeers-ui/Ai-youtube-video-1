@@ -1,0 +1,478 @@
+{
+  "stack": "file",
+  "takes": [
+    {
+      "takeId": "t01",
+      "sceneIds": [
+        "s01"
+      ],
+      "text": "This is a real photograph of a place where stars are being born right now. The Pillars of Creation, seen by the James Webb Space Telescope.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "quiet-wonder",
+      "chars": 139,
+      "file": "audio/takes/t01.wav"
+    },
+    {
+      "takeId": "t02",
+      "sceneIds": [
+        "s02",
+        "s03"
+      ],
+      "text": "Inside these columns of cold gas and dust, new stars are forming. Give one of them enough mass, and its life could end as a black hole. So how does a soft cloud of dust become the darkest object in the universe? The answer is a tug-of-war that lasts millions of years. And for the heaviest stars, gravity wins completely.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "curious",
+      "chars": 321,
+      "file": "audio/takes/t02.wav"
+    },
+    {
+      "takeId": "t03",
+      "sceneIds": [
+        "s04",
+        "s05"
+      ],
+      "text": "It starts in a molecular cloud. These clouds can hold up to ten million times the mass of the Sun, and stretch hundreds of light-years across. They are cold, and cold gas clumps together. Some clumps collide, or gather more matter, and their gravity grows stronger.",
+      "pace": "steady",
+      "intensity": 0,
+      "emotion": "warm-explanatory",
+      "chars": 265,
+      "file": "audio/takes/t03.wav"
+    },
+    {
+      "takeId": "t04",
+      "sceneIds": [
+        "s06"
+      ],
+      "text": "Eventually, gravity takes over, and one clump begins to collapse.",
+      "pace": "slower",
+      "intensity": 1,
+      "emotion": "quiet-wonder",
+      "chars": 65,
+      "file": "audio/takes/t04.wav"
+    },
+    {
+      "takeId": "t05",
+      "sceneIds": [
+        "s07"
+      ],
+      "text": "As the gas falls inward, it heats up. At the center, a hot, dense knot forms: a protostar. A baby star.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "warm-explanatory",
+      "chars": 103,
+      "file": "audio/takes/t05.wav"
+    },
+    {
+      "takeId": "t06",
+      "sceneIds": [
+        "s08"
+      ],
+      "text": "It isn't burning anything yet. Its glow comes from the heat of its own collapse.",
+      "pace": "steady",
+      "intensity": 0,
+      "emotion": "matter-of-fact",
+      "chars": 80,
+      "file": "audio/takes/t06.wav"
+    },
+    {
+      "takeId": "t07",
+      "sceneIds": [
+        "s09",
+        "s10"
+      ],
+      "text": "Young stars also fire jets of gas into space. In this Webb image of a nearby nursery, the red streaks are jets, launched as young stars first burst out of their dusty cocoons. The protostar keeps gaining mass, and its core gets hotter and denser. At about fifteen million degrees, something new happens.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "curious",
+      "chars": 303,
+      "file": "audio/takes/t07.wav"
+    },
+    {
+      "takeId": "t08",
+      "sceneIds": [
+        "s11"
+      ],
+      "text": "Hydrogen nuclei are squeezed together so hard that they fuse into helium. That's nuclear fusion, and it releases energy. In this moment, a star is born.",
+      "pace": "slower",
+      "intensity": 2,
+      "emotion": "quiet-wonder",
+      "chars": 152,
+      "file": "audio/takes/t08.wav"
+    },
+    {
+      "takeId": "t09",
+      "sceneIds": [
+        "s12"
+      ],
+      "text": "Now the real story begins. Gravity pulls every layer of the star inward. The heat from fusion pushes outward.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "warm-explanatory",
+      "chars": 109,
+      "file": "audio/takes/t09.wav"
+    },
+    {
+      "takeId": "t10",
+      "sceneIds": [
+        "s13"
+      ],
+      "text": "As long as both stay balanced, the star is stable. Astronomers call this the main sequence. It's the longest phase of a star's life, and our Sun is roughly halfway through its own.",
+      "pace": "steady",
+      "intensity": 0,
+      "emotion": "warm-explanatory",
+      "chars": 180,
+      "file": "audio/takes/t10.wav"
+    },
+    {
+      "takeId": "t11",
+      "sceneIds": [
+        "s14"
+      ],
+      "text": "How long that balance lasts depends, above all, on mass. A heavier star has to burn its fuel much faster, just to hold up its own weight.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "warm-explanatory",
+      "chars": 137,
+      "file": "audio/takes/t11.wav"
+    },
+    {
+      "takeId": "t12",
+      "sceneIds": [
+        "s15"
+      ],
+      "text": "The Sun will spend about ten billion years on the main sequence. Some massive stars live for only a few million.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "matter-of-fact",
+      "chars": 112,
+      "file": "audio/takes/t12.wav"
+    },
+    {
+      "takeId": "t13",
+      "sceneIds": [
+        "s16"
+      ],
+      "text": "Mass also decides the ending. Stars like the Sun finish quietly, as a white dwarf: a cooling cinder about the size of Earth.",
+      "pace": "slower",
+      "intensity": 1,
+      "emotion": "reflective",
+      "chars": 124,
+      "file": "audio/takes/t13.wav"
+    },
+    {
+      "takeId": "t14",
+      "sceneIds": [
+        "s17"
+      ],
+      "text": "Stars born with more than about eight times the Sun's mass end their lives by exploding. And to leave a black hole behind, a star probably needs around twenty times the Sun's mass, or more. Exactly where that line sits is still being studied.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "matter-of-fact",
+      "chars": 242,
+      "file": "audio/takes/t14.wav"
+    },
+    {
+      "takeId": "t15",
+      "sceneIds": [
+        "s18",
+        "s19"
+      ],
+      "text": "So let's follow one of those heavyweights. When the hydrogen in its core runs out, gravity squeezes the core, the core heats up, and the outer layers swell. The star becomes a red supergiant. Inside, it starts burning the ashes of the last fire. Helium fuses into carbon. Carbon into neon. Then oxygen, then silicon.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "warm-explanatory",
+      "chars": 316,
+      "file": "audio/takes/t15.wav"
+    },
+    {
+      "takeId": "t16",
+      "sceneIds": [
+        "s20"
+      ],
+      "text": "Each new fuel buys the star less time than the one before. And when silicon finally fuses into iron, the star runs out of fuel in a matter of days.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "measured-concern",
+      "chars": 147,
+      "file": "audio/takes/t16.wav"
+    },
+    {
+      "takeId": "t17",
+      "sceneIds": [
+        "s21"
+      ],
+      "text": "Iron is a dead end. Fusing iron doesn't release energy; it costs energy. So nothing is left to push back against gravity.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "measured-concern",
+      "chars": 121,
+      "file": "audio/takes/t17.wav"
+    },
+    {
+      "takeId": "t18",
+      "sceneIds": [
+        "s22"
+      ],
+      "text": "In less than a second, the core collapses. Its temperature soars past one hundred billion degrees.",
+      "pace": "faster",
+      "intensity": 2,
+      "emotion": "urgent",
+      "chars": 98,
+      "file": "audio/takes/t18.wav"
+    },
+    {
+      "takeId": "t19",
+      "sceneIds": [
+        "s23"
+      ],
+      "text": "Then the core rebounds, and a shock wave races outward through the star. That is a supernova.",
+      "pace": "slower",
+      "intensity": 3,
+      "emotion": "quiet-wonder",
+      "chars": 93,
+      "file": "audio/takes/t19.wav"
+    },
+    {
+      "takeId": "t20",
+      "sceneIds": [
+        "s24"
+      ],
+      "text": "For a while, this one dying star can outshine its entire galaxy, before fading over weeks or months.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "reflective",
+      "chars": 100,
+      "file": "audio/takes/t20.wav"
+    },
+    {
+      "takeId": "t21",
+      "sceneIds": [
+        "s25"
+      ],
+      "text": "We have seen this happen. In the year ten fifty-four, Chinese astronomers recorded a 'guest star', visible in the daytime sky for nearly a month.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "warm-explanatory",
+      "chars": 145,
+      "file": "audio/takes/t21.wav"
+    },
+    {
+      "takeId": "t22",
+      "sceneIds": [
+        "s26"
+      ],
+      "text": "Today, in that spot, we find the Crab Nebula: the expanding wreckage of that explosion, six light-years wide.",
+      "pace": "steady",
+      "intensity": 2,
+      "emotion": "quiet-wonder",
+      "chars": 109,
+      "file": "audio/takes/t22.wav"
+    },
+    {
+      "takeId": "t23",
+      "sceneIds": [
+        "s27"
+      ],
+      "text": "This is Cassiopeia A, the remains of an exploded star, mapped in X-rays. The colors show silicon, sulfur, calcium and iron, thrown out into space.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "curious",
+      "chars": 146,
+      "file": "audio/takes/t23.wav"
+    },
+    {
+      "takeId": "t24",
+      "sceneIds": [
+        "s28"
+      ],
+      "text": "According to NASA, all the oxygen in our solar system came from exploding massive stars, along with about half the calcium and about forty percent of the iron. Some of the calcium in your bones came from these explosions.",
+      "pace": "steady",
+      "intensity": 2,
+      "emotion": "warm-explanatory",
+      "chars": 221,
+      "file": "audio/takes/t24.wav"
+    },
+    {
+      "takeId": "t25",
+      "sceneIds": [
+        "s29"
+      ],
+      "text": "But what about the core? It survives the blast as an incredibly dense remnant. If the star was near the lower limit, it becomes a neutron star, about the size of a city.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "curious",
+      "chars": 169,
+      "file": "audio/takes/t25.wav"
+    },
+    {
+      "takeId": "t26",
+      "sceneIds": [
+        "s30"
+      ],
+      "text": "If the star was heavy enough, nothing can stop the collapse. The core falls in until its gravity is so strong that not even light can escape. That boundary is the event horizon. A black hole is born.",
+      "pace": "slower",
+      "intensity": 3,
+      "emotion": "quiet-wonder",
+      "chars": 199,
+      "file": "audio/takes/t26.wav"
+    },
+    {
+      "takeId": "t27",
+      "sceneIds": [
+        "s31"
+      ],
+      "text": "This is the first image of a black hole's shadow, from the Event Horizon Telescope in 2019. That one is a giant in the galaxy M eighty-seven, six and a half billion times the Sun's mass. Black holes left behind by dying stars are far smaller.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "matter-of-fact",
+      "chars": 242,
+      "file": "audio/takes/t27.wav"
+    },
+    {
+      "takeId": "t28",
+      "sceneIds": [
+        "s32"
+      ],
+      "text": "If light can't escape, how do we know they're there? Because they pull on their neighbors. Nearly every black hole left behind by a dead star that we've found so far is paired with a living star.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "curious",
+      "chars": 195,
+      "file": "audio/takes/t28.wav"
+    },
+    {
+      "takeId": "t29",
+      "sceneIds": [
+        "s33"
+      ],
+      "text": "In Cygnus X-1, a black hole pulls gas off its companion, into a disk hot enough to glow in X-rays. A 2021 study puts that black hole at about twenty-one times the mass of the Sun.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "warm-explanatory",
+      "chars": 179,
+      "file": "audio/takes/t29.wav"
+    },
+    {
+      "takeId": "t30",
+      "sceneIds": [
+        "s34"
+      ],
+      "text": "And in 2024, the Gaia mission noticed an old star wobbling around something unseen, less than two thousand light-years away. It is a black hole about thirty-three times the Sun's mass, the biggest star-made black hole found in our galaxy when it was announced.",
+      "pace": "steady",
+      "intensity": 2,
+      "emotion": "curious",
+      "chars": 260,
+      "file": "audio/takes/t30.wav"
+    },
+    {
+      "takeId": "t31",
+      "sceneIds": [
+        "s35"
+      ],
+      "text": "Some astronomers think a giant star may skip the explosion entirely. In 2009, a red supergiant about twenty-five times the Sun's mass, in another galaxy, flared weakly and then seemed to disappear.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "curious",
+      "chars": 197,
+      "file": "audio/takes/t31.wav"
+    },
+    {
+      "takeId": "t32",
+      "sceneIds": [
+        "s36"
+      ],
+      "text": "One explanation is a failed supernova: a star collapsing straight into a black hole, with almost no explosion. But newer telescope data complicate that picture, and astronomers are still debating it.",
+      "pace": "steady",
+      "intensity": 0,
+      "emotion": "matter-of-fact",
+      "chars": 199,
+      "file": "audio/takes/t32.wav"
+    },
+    {
+      "takeId": "t33",
+      "sceneIds": [
+        "s37",
+        "s38"
+      ],
+      "text": "So that's the whole journey. A cold cloud collapses. A protostar ignites. For millions of years, pressure holds gravity back. Then the fuel runs out, the core collapses, the star explodes, and what's left can fall into a black hole.",
+      "pace": "steady",
+      "intensity": 1,
+      "emotion": "reflective",
+      "chars": 232,
+      "file": "audio/takes/t33.wav"
+    },
+    {
+      "takeId": "t34",
+      "sceneIds": [
+        "s39"
+      ],
+      "text": "But the story doesn't end in the dark. The gas the star threw away drifts back out, and enriches the next clouds. Clouds like these, where new stars are being born right now.",
+      "pace": "slower",
+      "intensity": 1,
+      "emotion": "warm-explanatory",
+      "chars": 174,
+      "file": "audio/takes/t34.wav"
+    }
+  ],
+  "shortLines": [
+    {
+      "short": "S01",
+      "kind": "opening",
+      "text": "A giant star holds itself up against its own gravity by fusing heavier and heavier elements in its core. Until it reaches iron.",
+      "file": "audio/shorts/S01/opening.wav",
+      "chars": 127
+    },
+    {
+      "short": "S01",
+      "kind": "closing",
+      "text": "And what's left behind can become a black hole.",
+      "file": "audio/shorts/S01/closing.wav",
+      "chars": 47
+    },
+    {
+      "short": "S02",
+      "kind": "opening",
+      "text": "The oxygen in your next breath came from exploding stars.",
+      "file": "audio/shorts/S02/opening.wav",
+      "chars": 57
+    },
+    {
+      "short": "S02",
+      "kind": "closing",
+      "text": "And oxygen alone is about two thirds of your body's weight.",
+      "file": "audio/shorts/S02/closing.wav",
+      "chars": 59
+    },
+    {
+      "short": "S03",
+      "kind": "opening",
+      "text": "Every star begins inside a cold, dark cloud of gas and dust, where the gas gathers into dense clumps.",
+      "file": "audio/shorts/S03/opening.wav",
+      "chars": 101
+    },
+    {
+      "short": "S04",
+      "kind": "opening",
+      "text": "Nothing escapes a black hole, not even light.",
+      "file": "audio/shorts/S04/opening.wav",
+      "chars": 45
+    },
+    {
+      "short": "S05",
+      "kind": "opening",
+      "text": "Most giant stars die in a huge explosion. But maybe not all of them.",
+      "file": "audio/shorts/S05/opening.wav",
+      "chars": 68
+    },
+    {
+      "short": "S05",
+      "kind": "closing",
+      "text": "If the failed-supernova idea is confirmed, astronomers say it would be the first time anyone has seen a black hole being born.",
+      "file": "audio/shorts/S05/closing.wav",
+      "chars": 126
+    }
+  ],
+  "note": "text is what the synthesiser receives (respellings applied); captions use scenes.json narration",
+  "totalChars": 6504
+}

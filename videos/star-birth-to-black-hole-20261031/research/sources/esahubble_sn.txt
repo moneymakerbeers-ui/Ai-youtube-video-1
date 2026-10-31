@@ -1,0 +1,324 @@
+SOURCE: https://esahubble.org/images/opo0412i
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Distant Supernova 3 - After Outburst | ESA/Hubble
+ Contact
+ Subscribe to Hubble News
+ Site Map
+ Open Menu
+Home
+News
+Press Releases
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+Announcements
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+Picture of the Week
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+Images
+View All
+Top 100
+Top 100 Large Size (ZIP file, 1.2GB)
+Top 100 Original Size (ZIP file, 4.7GB)
+Categories
+Anniversary
+Cosmology
+Exoplanets
+Galaxies
+Illustrations
+James Webb Space Telescope
+Launch/Servicing Missions
+Miscellaneous
+Nebulae
+ Quasars & Black Holes
+Solar System
+Spacecraft
+Star Clusters
+Stars
+Image Formats
+Picture of the Month
+Picture of the Week
+Advanced Search
+Usage of Images and Videos
+Videos
+View All
+Categories
+3D Animations
+Cosmology
+Fulldome
+Exoplanets
+Eyes on the Skies DVD
+Galaxies
+HD Videos
+Hubble 15 Years DVD
+Hubble Images Videos
+Hubblecast
+James Webb Space Telescope
+Miscellaneous
+Nebulae
+Quasars & Black Holes
+Solar System
+Spacecraft
+Space Sparks
+Star Clusters
+Stars
+Video Formats
+Advanced Search
+Usage of Images and Videos
+Newsletters
+ESA/Hubble News
+Science Announcements
+ESA/Hubble/Webb Science Newsletter
+Subscribe to the ESA/Hubble/Webb Science Newsletter
+Initiatives
+Word Bank
+Calendars
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+Art and Science
+Our Place in Space
+30th Anniversary Creations
+Anniversaries
+35th Anniversary
+31st Anniversary
+30th Anniversary
+25th Anniversary
+Ode to Hubble Competition
+Fulldome Clips
+Symposium
+Image Unveilings Across Europe
+Resources
+20th Anniversary
+Events and Exhibitions
+Hubble Pop Culture Contest
+15th Anniversary
+News Release
+Movie DVD
+Partners
+Hubble Day Events
+Educational Material
+Soundtrack 
+Hubble Anniversary Book
+Outlets/resellers
+About the Production Team
+Poster
+Planetarium Show Package
+Credits
+Exhibitions
+Our Place in Space
+OPiS room description
+Applications
+FITS Liberator
+News
+Download
+User Guide (PDF)
+Image processing introduction 
+FITS for education
+Example data sets and links to archives
+User's Gallery
+Known issues and FAQ
+Download past versions
+Documents
+Step-by-step guide to making your own images
+Projects
+Hidden Treasures
+Public Resources
+Virtual Meeting Backgrounds
+About
+General
+Fact Sheet
+Instruments
+WFC3
+ACS
+COS
+STIS
+NICMOS
+FGS
+WFPC2
+WFPC1
+COSTAR
+FOC
+FOS
+GHRS
+HSP
+Operations
+Institutions
+Solar Panels
+Gyroscopes
+Batteries
+Soft Capture
+Science
+The Hubble Deep Fields 
+Age and size of the Universe
+The lives of stars
+The solar neighbourhood
+Exoplanets and proto-planetary discs
+Black Holes, Quasars, and Active Galaxies
+Formation of stars
+Composition of the Universe
+Gravitational lenses
+Multi-messenger astronomy
+Europe & Hubble
+History
+Timeline
+Launch 1990
+Servicing Mission 1
+Servicing Mission 2
+Servicing Mission 3A
+Servicing Mission 3B
+Servicing Mission 4
+IMAX Camera
+Tools
+Thermal
+Crew
+ACS Repair
+STIS Repair
+SM4 Timeline
+ESA
+The scientist behind the name
+The mother of Hubble
+Hubble's mirror problem
+FAQ
+Glossary
+ESA/Hubble Team
+ESA/Hubble Outreach Team
+Further Information
+Press Kits
+For Scientists
+Newsworthy Results
+Press
+Usage of ESA/Hubble Images and Videos
+Press Kits
+Subscribe to ESA/Hubble News
+Interview Possibilities
+Press Mailing List
+Video Formats
+Image Formats
+Distant Supernova 3 - After Outburst
+Supernovae are extremely luminous and cause a burst of radiation that often briefly outshines an entire galaxy, before fading from view over several weeks or months. During this short interval a supernova can radiate as much energy as the Sun is expected to emit over its entire life span.
+Credit:
+NASA/ESA and A. Riess (STScI)
+ Usage of ESA/Hubble Images and Videos
+ Are you a journalist? Subscribe to the ESA/Hubble Media Newsletter.
+About the Image
+NASA press release
+Id:opo0412i
+Type:Observation
+Release date:20 February 2004, 18:00
+Size:200 x 200 px
+About the Object
+Name:Distant supernovae
+Type:Early Universe : Star : Evolutionary Stage : Supernova
+Category:Stars
+Image Formats
+Fullsize Original
+ 153.0 KB
+Large JPEG
+ 22.8 KB
+Screensize JPEG
+ 116.4 KB
+Colours & filters
+BandWavelengthTelescope
+Optical
+B435 nm
+ Hubble Space Telescope
+ACS
+Optical
+V606 nm
+ Hubble Space Telescope
+ACS
+Infrared
+I775 nm
+ Hubble Space Telescope
+ACS
+Infrared
+Z850 nm
+ Hubble Space Telescope
+ACS
+Infrared
+J1.1 μm
+ Hubble Space Telescope
+NICMOS
+Infrared
+H1.6 μm
+ Hubble Space Telescope
+NICMOS
+ Privacy policy
+ Website developed and operated by Enciso Systems
+ Accelerated by CDN77

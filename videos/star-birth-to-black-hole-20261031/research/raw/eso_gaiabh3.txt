@@ -1,0 +1,497 @@
+SOURCE: https://www.eso.org/public/news/eso2405/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Groundbreaking survey reveals secrets of planet birth around dozens of stars | ESO
+ Select Language (en)
+ (en)
+ International English
+ Czechia
+ Dansk
+ Deutsch
+ Deutsch (Belgien)
+ Deutsch (Schweiz)
+ Deutsch (Österreich)
+ English (Australia)
+ English (Ireland)
+ English (UK)
+ Español
+ Español (Chile)
+ Français
+ Français (Belgique)
+ Français (Suisse)
+ Italiano
+ Italiano (Svizzera)
+ Nederlands
+ Nederlands (België)
+ Polski
+ Português
+ Suomi
+ Svenska
+ Science
+ User Portal
+ Subscribe
+ Contact
+ Site Map
+ Open Menu
+About
+ Organisation
+ Mission-Vision-Values-Strategy
+ Director General
+ ESO's Governing Bodies
+ Member States and Partners
+ Austria
+ Belgium
+ Czechia
+ Denmark
+ Finland
+ France
+ Germany
+ Ireland
+ Italy
+ Netherlands
+ Poland
+ Portugal
+ Spain
+ Sweden
+ Switzerland
+ United Kingdom
+ Australia (Partner)
+ ESO & Chile
+ ESO Representation Office in Chile
+ Travel and Contacts
+ Travel to ESO Headquarters
+ Travel to Vitacura Office
+ Travel to Guesthouse
+ Travel to La Silla
+ Travel to La Serena
+ Travel to Paranal
+ Travel to Antofagasta
+ Travel to Chajnantor
+ Travel to ELT Armazones
+ Visits to ESO Sites
+ Weekend Visits to Paranal
+ Weekend Visits to La Silla
+ Night Visits to Paranal
+ Night Visits to La Silla
+ Media Visits
+ Virtual Visits
+ ESO and Society
+ Architecture at ESO
+ Timeline
+ Sustainability
+ Environmental sustainability at ESO
+ ESO and the UN's Sustainable Development Goals
+ Diversity, Equity and Inclusion
+ Dark skies preservation
+ Terms and Conditions
+Images
+ Advanced Search
+ Image Comparisons
+ Picture of the Week
+ Usage of ESO Images and Videos
+Videos
+ Advanced Search
+ Usage of ESO Videos and Images
+ Video Formats
+News
+ Press Releases
+ Announcements
+ ESOblog
+ Press Room
+ Media Visits
+ Copyright Notice
+ ESO Newsletters
+ESOshop
+ Shop Products
+ Annual Reports
+ Apparel
+ Books
+ Brochures
+ Calendars
+ CAPjournals
+ Conferences
+ DVDs/Bluray/CDs
+ ESO Supernova Activities
+ Flyers
+ Handouts
+ Maps
+ Merchandise
+ Mounted Images
+ Postcards
+ Posters
+ Reports
+ Stickers
+ View shopping cart
+ Checkout
+ Information
+ Bulk Orders
+ Purchasing Steps
+ Payment
+ Shipping
+ Staff Shopping
+ Terms & Conditions
+ Free Orders for Educators and Media
+Telescopes & Instruments
+ Paranal Observatory
+ Very Large Telescope
+ VLT Instruments
+ 4LGSF
+ BlueMUSE
+ CUBES
+ CRIRES+
+ ESPRESSO
+ ERIS
+ FLAMES
+ FORS1 and FORS2
+ HAWK-I
+ KMOS
+ MAVIS
+ MOONS
+ MUSE
+ SPHERE
+ UVES
+ X-shooter
+ VLT Interferometer
+ GRAVITY+
+ GRAVITY
+ MATISSE
+ NAOMI
+ PIONIER
+ Auxiliary Telescopes
+ Survey Telescopes
+ VISTA
+ The VISTA mirror
+ 4MOST
+ The VISTA surveys
+ The VISTA consortium
+ VST
+ The VST mirrors
+ OmegaCAM
+ The VST surveys
+ SPECULOOS
+ NGTS
+ Cherenkov Telescope Array Observatory
+ OASIS
+ PoET
+ La Silla Observatory
+ Swedish–ESO Submillimetre Telescope
+ New Technology Telescope
+ EFOSC2
+ SOXS
+ ESO 3.6-metre telescope
+ HARPS
+ NIRPS
+ MPG/ESO 2.2-metre telescope
+ FEROS
+ GROND
+ WFI
+ Swiss 1.2-metre Leonhard Euler Telescope
+ CORALIE
+ Rapid Eye Mount telescope
+ TRAnsiting Planets and PlanetesImals Small Telescope–South
+ Danish 1.54-metre telescope
+ DFOSC
+ Télescope à Action Rapide pour les Objets Transitoires
+ ESO 1-metre Schmidt telescope
+ ESO 1.52-metre telescope
+ ESO 1-metre telescope
+ FIDEOS
+ ESO 0.5-metre telescope
+ Coudé Auxiliary Telescope
+ MarLy 1-metre telescope
+ Dutch 0.9-metre telescope
+ Swiss T70 telescope
+ Bochum 0.61-metre telescope
+ Danish 0.5-metre telescope
+ Grand Prisme Objectif telescope
+ Swiss 0.4-metre telescope
+ Marseille 0.36-metre telescope
+ GRB Monitoring System
+ MASCARA
+ BlackGEM
+ ExTrA
+ Test-Bed Telescope
+ ALMA
+ Antennas
+ Transporters
+ Interferometry
+ Receiver Bands
+ ALMA Residencia
+ Wideband Sensitivity Upgrade
+ APEX
+ ELT
+ Technology for Telescopes
+ Active Optics
+ Adaptive Optics
+ Integral Field Units
+ Interferometry
+ Spectroscopy
+ Polarimetry
+ Instruments
+Discoveries
+ ESO Key Astronomical Discoveries
+ Exoplanets
+ Gravitational Wave Sources
+ Black Holes
+ First image of a black hole
+ First image of the Milky Way central black hole
+ More about the black hole at the galactic centre
+ Gamma-Ray Bursts
+ Science Archive
+Events
+ Exhibitions
+ ESO Permanent Exhibitions
+ Open House Day
+Outreach
+ Education
+ Teacher Schools
+ ALMA Kids
+ Partnerships
+ ESO Science Outreach Network
+ Social Media
+ Webcams
+ ESO Supernova
+ AI Disclaimer
+Products
+ Audiovisual and multimedia
+ 3D models
+ Music
+ Planetarium shows
+ Presentations
+ Soundscapes
+ Virtual Backgrounds
+ Virtual Tours
+ Print products
+ Annual Reports
+ Books
+ Brochures
+ Calendars
+ Flyers
+ Maps
+ Press kits
+ Postcards
+ Stickers
+ Printed posters
+ Paper models
+ Merchandise
+ Merchandise
+ Apparel
+ Mounted images
+ Electronic products
+ Electronic posters
+ Virtual Backgrounds
+ Exhibition material
+ Logos
+ Order in ESOshop
+Business@ESO
+ Procurement at ESO
+ Industry Events
+ Technology Transfer
+ Technology Developed by Industries
+ Novel technologies by ESO
+ ESO know-how
+ Projects
+ Contact Information
+Career Opportunities
+ Recruitment
+ Employment Conditions
+ International Staff Members
+ Local Staff Members (Spanish / English)
+ Fellows
+ Students
+ Paid Associates
+ Working at ESO
+ Respectful Workplace Policy
+ Other Information
+ European
+Southern
+Observatory
+Press Release
+Groundbreaking survey reveals secrets of planet birth around dozens of stars
+5 March 2024
+ Planet-forming discs in three clouds of the Milky Way
+ (Credit: ESO/C. Ginski, A. Garufi, P.-G. Valegård et al.)
+In a series of studies, a team of astronomers has shed new light on the fascinating and complex process of planet formation. The stunning images, captured using the European Southern Observatory's Very Large Telescope (ESO’s VLT) in Chile, represent one of the largest ever surveys of planet-forming discs. The research brings together observations of more than 80 young stars that might have planets forming around them, providing astronomers with a wealth of data and unique insights into how planets arise in different regions of our galaxy.
+“This is really a shift in our field of study,” says Christian Ginski, a lecturer at the University of Galway, Ireland, and lead author of one of three new papers published today in Astronomy & Astrophysics. “We’ve gone from the intense study of individual star systems to this huge overview of entire star-forming regions.”
+To date more than 5000 planets have been discovered orbiting stars other than the Sun, often within systems markedly different from our own Solar System. To understand where and how this diversity arises, astronomers must observe the dust- and gas-rich discs that envelop young stars — the very cradles of planet formation. These are best found in huge gas clouds where the stars themselves are forming.
+Much like mature planetary systems, the new images showcase the extraordinary diversity of planet-forming discs. “Some of these discs show huge spiral arms, presumably driven by the intricate ballet of orbiting planets,” says Ginski. “Others show rings and large cavities carved out by forming planets, while yet others seem smooth and almost dormant among all this bustle of activity,” adds Antonio Garufi, an astronomer at the Arcetri Astrophysical Observatory, Italian National Institute for Astrophysics (INAF), and lead author of one of the papers.
+The team studied a total of 86 stars across three different star-forming regions of our galaxy: Taurus and Chamaeleon I, both around 600 light-years from Earth, and Orion, a gas-rich cloud about 1600 light-years from us that is known to be the birthplace of several stars more massive than the Sun. The observations were gathered by a large international team, comprising scientists from more than 10 countries.
+The team was able to glean several key insights from the dataset. For example, in Orion they found that stars in groups of two or more were less likely to have large planet-forming discs. This is a significant result given that, unlike our Sun, most stars in our galaxy have companions. As well as this, the uneven appearance of the discs in this region suggests the possibility of massive planets embedded within them, which could be causing the discs to warp and become misaligned.
+While planet-forming discs can extend for distances hundreds of times greater than the distance between Earth and the Sun, their location several hundreds of light-years from us makes them appear as tiny pinpricks in the night sky. To observe the discs, the team employed the sophisticated Spectro-Polarimetric High-contrast Exoplanet REsearch instrument (SPHERE) mounted on ESO’s VLT. SPHERE’s state-of-the-art extreme adaptive optics system corrects for the turbulent effects of Earth’s atmosphere, yielding crisp images of the discs. This meant the team were able to image discs around stars with masses as low as half the mass of the Sun, which are typically too faint for most other instruments available today. Additional data for the survey were obtained using the VLT’s X-shooter instrument, which allowed astronomers to determine how young and how massive the stars are. The Atacama Large Millimeter/submillimeter Array (ALMA), in which ESO is a partner, on the other hand, helped the team understand more about the amount of dust surrounding some of the stars.
+As technology advances, the team hopes to delve even deeper into the heart of planet-forming systems. The large 39-metre mirror of ESO’s forthcoming Extremely Large Telescope (ELT), for example, will enable the team to study the innermost regions around young stars, where rocky planets like our own might be forming. 
+For now, these spectacular images provide researchers with a treasure trove of data to help unpick the mysteries of planet formation. “It is almost poetic that the processes that mark the start of the journey towards forming planets and ultimately life in our own Solar System should be so beautiful,” concludes Per-Gunnar Valegård, a doctoral student at the University of Amsterdam, the Netherlands, who led the Orion study. Valegård, who is also a part-time teacher at the International School Hilversum in the Netherlands, hopes the images will inspire his pupils to become scientists in the future.
+More information
+This research was presented in three papers to appear in Astronomy & Astrophysics. The data presented were gathered as part of the SPHERE consortium guaranteed time programme, as well as the DESTINYS (Disk Evolution Study Through Imaging of Nearby Young Stars) ESO Large Programme.
+“The SPHERE view of the Chamaeleon I star-forming region: The full census of planet-forming disks with GTO and DESTINYS programs” (https://www.aanda.org/10.1051/0004-6361/202244005)
+The team is composed of C. Ginski (University of Galway, Ireland; Leiden Observatory, Leiden University, the Netherlands [Leiden]; Anton Pannekoek Institute for Astronomy, University of Amsterdam, the Netherlands [API]), R. Tazaki (API), M. Benisty (Univ. Grenoble Alpes, CNRS, IPAG, France [Grenoble]), A. Garufi (INAF, Osservatorio Astrofisico di Arcetri, Italy), C. Dominik (API), Á. Ribas (European Southern Observatory, Chile [ESO Chile]), N. Engler (ETH Zurich, Institute for Particle Physics and Astrophysics, Switzerland), J. Hagelberg (Geneva Observatory, University of Geneva, Switzerland), R. G. van Holstein (ESO Chile), T. Muto (Division of Liberal Arts, Kogakuin University, Japan), P. Pinilla (Max-Planck-Institut für Astronomie, Germany [MPIA]; Mullard Space Science Laboratory, University College London, UK), K. Kanagawa (Department of Earth and Planetary Sciences, Tokyo Institute of Technology, Japan), S. Kim (Department of Astronomy, Tsinghua University, China), N. Kurtovic (MPIA), M. Langlois (Centre de Recherche Astrophysique de Lyon, CNRS, UCBL, France), J. Milli (Grenoble), M. Momose (College of Science, Ibaraki University, Japan [Ibaraki]), R. Orihara (Ibaraki), N. Pawellek (Department of Astrophysics, University of Vienna, Austria), T. O. B. Schmidt (Hamburger Sternwarte, Germany), F. Snik (Leiden), and Z. Wahhaj (ESO Chile).
+“The SPHERE view of the Taurus star-forming region: The full census of planet-forming disks with GTO and DESTINYS programs” (https://www.aanda.org/10.1051/0004-6361/202347586)
+The team is composed of A. Garufi (INAF, Osservatorio Astrofisico di Arcetri, Italy [INAF Arcetri]), C. Ginski (University of Galway, Ireland), R. G. van Holstein (European Southern Observatory, Chile [ESO Chile]), M. Benisty (Laboratoire Lagrange, Université Côte d’Azur, Observatoire de la Côte d’Azur, CNRS, France; Univ. Grenoble Alpes, CNRS, IPAG, France [Grenoble]), C. F. Manara (European Southern Observatory, Germany), S. Pérez (Millennium Nucleus on Young Exoplanets and their Moons [YEMS]; Departamento de Física, Universidad de Santiago de Chile, Chile [Santiago]), P. Pinilla (Mullard Space Science Laboratory, University College London, UK), A. Ribas (Institute of Astronomy, University of Cambridge, UK), P. Weber (YEMS, Santiago), J. Williams (Institute for Astronomy, University of Hawai‘i, USA), L. Cieza (Instituto de Estudios Astrofísicos, Facultad de Ingeniería y Ciencias, Universidad Diego Portales, Chile [Diego Portales]; YEMS), C. Dominik (Anton Pannekoek Institute for Astronomy, University of Amsterdam, the Netherlands [API]), S. Facchini (Dipartimento di Fisica, Università degli Studi di Milano, Italy), J. Huang (Department of Astronomy, Columbia University, USA), A. Zurlo (Diego Portales; YEMS), J. Bae (Department of Astronomy, University of Florida, USA), J. Hagelberg (Observatoire de Genève, Université de Genève, Switzerland), Th. Henning (Max Planck Institute for Astronomy, Germany [MPIA]), M. R. Hogerheijde (Leiden Observatory, Leiden University, the Netherlands; API), M. Janson (Department of Astronomy, Stockholm University, Sweden), F. Ménard (Grenoble), S. Messina (INAF - Osservatorio Astrofisico di Catania, Italy), M. R. Meyer (Department of Astronomy, The University of Michigan, USA), C. Pinte (School of Physics and Astronomy, Monash University, Australia; Grenoble), S. Quanz (ETH Zürich, Department of Physics, Switzerland [Zürich]), E. Rigliaco (Osservatorio Astronomico di Padova, Italy [Padova]), V. Roccatagliata (INAF Arcetri), H. M. Schmid (Zürich), J. Szulágyi (Zürich), R. van Boekel (MPIA), Z. Wahhaj (ESO Chile), J. Antichi (INAF Arcetri), A. Baruffolo (Padova), and T. Moulin (Grenoble).
+“Disk Evolution Study Through Imaging of Nearby Young Stars (DESTINYS): The SPHERE view of the Orion star-forming region” (https://www.aanda.org/10.1051/0004-6361/202347452)
+The team is composed of P.-G. Valegård (Anton Pannekoek Institute for Astronomy, University of Amsterdam, the Netherlands [API]), C. Ginski (University of Galway, Ireland), A. Derkink (API), A. Garufi (INAF, Osservatorio Astrofisico di Arcetri, Italy), C. Dominik (API), Á. Ribas (Institute of Astronomy, University of Cambridge, UK), J. P. Williams (Institute for Astronomy, University of Hawai‘i, USA), M. Benisty (University of Grenoble Alps, CNRS, IPAG, France), T. Birnstiel (University Observatory, Faculty of Physics, Ludwig-Maximilians-Universität München, Germany [LMU]; Exzellenzcluster ORIGINS, Germany), S. Facchini (Dipartimento di Fisica, Università degli Studi di Milano, Italy), G. Columba (Department of Physics and Astronomy "Galileo Galilei" - University of Padova, Italy; INAF – Osservatorio Astronomico di Padova, Italy), M. Hogerheijde (API; Leiden Observatory, Leiden University, the Netherlands [Leiden]), R. G. van Holstein (European Southern Observatory, Chile), J. Huang (Department of Astronomy, Columbia University, USA), M. Kenworthy (Leiden), C. F. Manara (European Southern Observatory, Germany), P. Pinilla (Mullard Space Science Laboratory, University College London, UK), Ch. Rab (LMU; Max-Planck-Institut für extraterrestrische Physik, Germany), R. Sulaiman (Department of Physics, American University of Beirut, Lebanon), A. Zurlo (Instituto de Estudios Astrofísicos, Facultad de Ingeniería y Ciencias, Universidad Diego Portales, Chile; Escuela de Ingeniería Industrial, Facultad de Ingeniería y Ciencias, Universidad Diego Portales, Chile; Millennium Nucleus on Young Exoplanets and their Moons).
+The European Southern Observatory (ESO) enables scientists worldwide to discover the secrets of the Universe for the benefit of all. We design, build and operate world-class observatories on the ground — which astronomers use to tackle exciting questions and spread the fascination of astronomy — and promote international collaboration for astronomy. Established as an intergovernmental organisation in 1962, today ESO is supported by 16 Member States (Austria, Belgium, Czechia, Denmark, France, Finland, Germany, Ireland, Italy, the Netherlands, Poland, Portugal, Spain, Sweden, Switzerland and the United Kingdom), along with the host state of Chile and with Australia as a Strategic Partner. ESO’s headquarters and its visitor centre and planetarium, the ESO Supernova, are located close to Munich in Germany, while the Chilean Atacama Desert, a marvellous place with unique conditions to observe the sky, hosts our telescopes. ESO operates three observing sites: La Silla, Paranal and Chajnantor. At Paranal, ESO operates the Very Large Telescope and its Very Large Telescope Interferometer, as well as survey telescopes such as VISTA. Also at Paranal ESO will host and operate the Cherenkov Telescope Array South, the world’s largest and most sensitive gamma-ray observatory. Together with international partners, ESO operates ALMA on Chajnantor, a facility that observes the skies in the millimetre and submillimetre range. At Cerro Armazones, near Paranal, we are building “the world’s biggest eye on the sky” — ESO’s Extremely Large Telescope. From our offices in Santiago, Chile we support our operations in the country and engage with Chilean partners and society. 
+The Atacama Large Millimeter/submillimeter Array (ALMA), an international astronomy facility, is a partnership of ESO, the U.S. National Science Foundation (NSF) and the National Institutes of Natural Sciences (NINS) of Japan in cooperation with the Republic of Chile. ALMA is funded by ESO on behalf of its Member States, by NSF in cooperation with the National Research Council of Canada (NRC) and the National Science and Technology Council (NSTC) in Taiwan and by NINS in cooperation with the Academia Sinica (AS) in Taiwan and the Korea Astronomy and Space Science Institute (KASI). ALMA construction and operations are led by ESO on behalf of its Member States; by the National Radio Astronomy Observatory (NRAO), managed by Associated Universities, Inc. (AUI), on behalf of North America; and by the National Astronomical Observatory of Japan (NAOJ) on behalf of East Asia. The Joint ALMA Observatory (JAO) provides the unified leadership and management of the construction, commissioning and operation of ALMA. 
+Links
+Research papers: Chamaeleon, Taurus, Orion
+Photos of the VLT
+Find out more about ESO's Extremely Large Telescope on our dedicated website and press kit
+For journalists: subscribe to receive our releases under embargo in your language
+For scientists: got a story? Pitch your research
+Contacts
+Christian Ginski
+University of Galway
+Galway, Ireland
+Email: christian.ginski@universityofgalway.ie
+Antonio Garufi
+INAF’s Arcetri Astrophysical Observatory
+Florence, Italy
+Email: antonio.garufi@inaf.it
+Per-Gunnar Valegård
+University of Amsterdam
+Email: p.g.valegard@uva.nl
+Bárbara Ferreira
+ESO Media Manager
+Garching bei München, Germany
+Tel: +49 89 3200 6670
+Cell: +49 151 241 664 00
+Email: press@eso.org
+Connect with ESO on social media
+ Usage of ESO Images, Videos, Web texts and Music
+ Are you a journalist? Subscribe to the ESO Media Newsletter in your language.
+About the Release
+Release No.:eso2405
+Type:Milky Way : Star : Circumstellar Material : Disk : Protoplanetary
+Facility:Atacama Large Millimeter/submillimeter Array, Very Large Telescope
+Instruments:SPHERE, X-shooter
+Science data:2024A&A...685A..54V
+2024A&A...685A..53G
+2024A&A...685A..52G
+Images
+PR Image eso2405a
+Planet-forming discs in three clouds of the Milky Way 
+PR Image eso2405b
+Planet-forming discs in the Orion cloud 
+PR Image eso2405c
+Planet-forming discs in the Taurus cloud 
+PR Image eso2405d
+Planet-forming discs in the Chamaeleon cloud 
+PR Image eso2405e
+The MWC 758 planet-forming disc as seen by SPHERE and ALMA 
+Videos
+PR Video eso2405a
+Survey reveals secrets of planet birth around dozens of stars | ESOcast Light 
+ Send us your comments!
+ Subscribe to receive news from ESO in your language
+ Accelerated by CDN77
+ Terms & Conditions
+ Cookie Settings and Policy
+Our use of Cookies
+We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.
+ You can manage your cookie preferences and find out more by visiting 'Cookie Settings and Policy'.
+ Accept All
+ Accept Only Essential Cookies
+ Cookie Settings and Policy
+ESO Cookies Policy
+The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.
+This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.
+What are cookies?
+Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.
+Categories of cookies we use
+Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+csrftoken
+XSRF protection token. We use this cookie to protect against cross-site request forgery attacks.
+1st party
+Stored
+1 year
+user_privacy
+Your privacy choices. We use this cookie to save your privacy preferences.
+1st party
+Stored
+6 months
+_grecaptcha
+We use reCAPTCHA to protect our forms against spam and abuse. reCAPTCHA sets a necessary cookie when executed for the purpose of providing its risk analysis. We use www.recaptcha.net instead of www.google.com in order to avoid unnecessary cookies from Google.
+3rd party
+Stored
+6 months
+Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+Settings
+preferred_language
+Language settings. We use this cookie to remember your preferred language settings.
+1st party
+Stored
+1 year
+ON | OFF
+sessionid
+ESO Shop. We use this cookie to store your session information on the ESO Shop. This is just an identifier which is used on the server in order to allow you to purchase items in our shop.
+1st party
+Stored
+2 weeks
+ON | OFF
+Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.
+Matomo Cookies:
+This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.
+On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.
+ON | OFF
+Matomo cookies settings:
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+Settings
+_pk_id
+Stores a unique visitor ID.
+1st party
+Stored
+13 months
+_pk_ses
+Session cookie temporarily stores data for the visit.
+1st party
+Stored
+30 minutes
+_pk_ref
+Stores attribution information (the referrer that brought the visitor to the website).
+1st party
+Stored
+6 months
+_pk_testcookie
+Temporary cookie to check if a visitor’s browser supports cookies (set in Internet Explorer only).
+1st party
+Stored
+Temporary cookie that expires almost immediately after being set.
+Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.
+Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.
+YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.
+Cookies can also be classified based on the following elements.
+Regarding the domain, there are:
+First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;
+Third-party cookies, set by a domain other than the one you are currently visiting.
+As for their duration, cookies can be:
+Browser-session cookies, which are deleted when the user closes the browser;
+Stored cookies, which stay on the user's device for a predetermined period of time.
+How to manage cookies
+Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.
+In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:
+Brave
+Chrome
+Edge
+Firefox
+Safari
+Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.
+You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).
+Updates to the ESO Cookies Policy
+The ESO Cookies Policy may be subject to future updates, which will be made available on this page.
+Additional information
+For any queries related to cookies, please contact: pdprATesoDOTorg.
+As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department.
+ Save
+ Cancel

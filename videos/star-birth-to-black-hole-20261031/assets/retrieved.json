@@ -1,0 +1,110 @@
+{
+ "r_pillars": {
+  "file": "assets/r_pillars.jpg",
+  "width": 2560,
+  "height": 1440,
+  "credit": "NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI)",
+  "license": "CC BY 4.0",
+  "page": "https://esawebb.org/images/weic2216b/",
+  "shows": "Webb NIRCam: Pillars of Creation (heads of the pillars)"
+ },
+ "r_carina": {
+  "file": "assets/r_carina.jpg",
+  "width": 2560,
+  "height": 1440,
+  "credit": "NASA, ESA, CSA, and STScI",
+  "license": "CC BY 4.0",
+  "page": "https://esawebb.org/images/weic2205a/",
+  "shows": "Webb NIRCam: 'Cosmic Cliffs' edge of NGC 3324 in Carina, a molecular-cloud star-forming region"
+ },
+ "r_rhooph": {
+  "file": "assets/r_rhooph.jpg",
+  "width": 2560,
+  "height": 1440,
+  "credit": "NASA, ESA, CSA, STScI, K. Pontoppidan (STScI), A. Pagan (STScI)",
+  "license": "CC BY 4.0",
+  "page": "https://esawebb.org/images/weic2316a/",
+  "shows": "Webb NIRCam: Rho Ophiuchi, red bipolar jets from young stars"
+ },
+ "r_helix": {
+  "file": "assets/r_helix.jpg",
+  "width": 2000,
+  "height": 2000,
+  "credit": "NASA, NOAO, ESA, the Hubble Helix Nebula Team, M. Meixner (STScI), and T.A. Rector (NRAO)",
+  "license": "CC BY 4.0",
+  "page": "https://esahubble.org/images/heic0307a/",
+  "shows": "Helix Nebula: shed outer layers around a white dwarf"
+ },
+ "r_crab": {
+  "file": "assets/r_crab.jpg",
+  "width": 2400,
+  "height": 2400,
+  "credit": "NASA, ESA and Allison Loll/Jeff Hester (Arizona State University); acknowledgement Davide De Martin (ESA/Hubble)",
+  "license": "CC BY 4.0",
+  "page": "https://esahubble.org/images/heic0515a/",
+  "shows": "Hubble mosaic of the Crab Nebula (remnant of SN 1054)"
+ },
+ "r_sn_hubble": {
+  "file": "assets/r_sn_hubble.jpg",
+  "width": 2560,
+  "height": 1440,
+  "credit": "NASA/ESA, The Hubble Key Project Team and The High-Z Supernova Search Team",
+  "license": "CC BY 4.0",
+  "page": "https://esahubble.org/images/opo9919i/",
+  "shows": "Hubble: Supernova 1994D (bright point, lower left) in galaxy NGC 4526"
+ },
+ "r_n6946": {
+  "file": "assets/r_n6946.jpg",
+  "width": 1800,
+  "height": 1200,
+  "credit": "NASA, ESA, and C. Kochanek (OSU)",
+  "license": "CC BY 4.0",
+  "page": "https://esahubble.org/images/opo1719b/",
+  "shows": "Hubble before (2007) / after (2015) images of N6946-BH1"
+ },
+ "r_eht": {
+  "file": "assets/r_eht.jpg",
+  "width": 2560,
+  "height": 1440,
+  "credit": "EHT Collaboration",
+  "license": "CC BY 4.0",
+  "page": "https://www.eso.org/public/images/eso1907a/",
+  "shows": "Event Horizon Telescope image of the M87* black hole shadow (supermassive)"
+ },
+ "r_gaiabh3_art": {
+  "file": "assets/r_gaiabh3_art.jpg",
+  "width": 2560,
+  "height": 1440,
+  "credit": "ESO/L. Calçada/Space Engine (spaceengine.org)",
+  "license": "CC BY 4.0",
+  "page": "https://www.eso.org/public/images/eso2408a/",
+  "shows": "ARTIST'S IMPRESSION of the Gaia BH3 system (illustration, not a photograph)"
+ },
+ "r_casa": {
+  "file": "assets/r_casa.jpg",
+  "width": 864,
+  "height": 864,
+  "credit": "NASA/CXC/SAO",
+  "license": "NASA/Chandra: no copyright asserted, credit requested",
+  "page": "https://chandra.harvard.edu/photo/2017/casa_life/",
+  "shows": "Chandra X-ray element map of Cassiopeia A: Si red, S yellow, Ca green, Fe purple"
+ },
+ "r_cygx1_art": {
+  "file": "assets/r_cygx1_art.jpg",
+  "width": 1728,
+  "height": 972,
+  "credit": "Illustration: NASA/CXC/M.Weiss",
+  "license": "NASA/Chandra: no copyright asserted, credit requested",
+  "page": "https://chandra.harvard.edu/photo/2011/cygx1/",
+  "shows": "ILLUSTRATION of Cygnus X-1: black hole with accretion disk pulling gas from a blue supergiant companion"
+ },
+ "r_sun": {
+  "file": "assets/r_sun.jpg",
+  "width": 1888,
+  "height": 1888,
+  "credit": "NASA/SDO and the AIA science team",
+  "license": "NASA SDO: not copyrighted unless noted, attribution requested",
+  "page": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0304.jpg",
+  "shows": "SDO/AIA 304 Å image of the Sun, 2026-10-31 13:09 UT (timestamp cropped out)"
+ }
+}

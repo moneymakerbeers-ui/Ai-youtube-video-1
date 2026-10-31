@@ -1,0 +1,102 @@
+SOURCE: https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Imagine the Universe!
+Skip navigation and go straight to page content. 
+National Aeronautics and Space Administration
+Goddard Space Flight Center
+Home
+Science
+Astronomer's Toolbox
+Cosmic Objects
+Big Questions
+Featured Science
+Observatories
+Learning Centers
+Satellite Showcase
+How Scientists Get Data
+Detection Technology
+History of High Energy Observatories
+Special Exhibits
+Coloring Pages
+Scientist Profiles
+You Be the Astrophysicist
+Cosmic Distance Scale
+Educators
+Lesson Plans
+Materials
+Programs
+Ask An Astrophysicist
+Resources
+Other Resources
+Dictionary
+Search
+Advanced
+Basic
+ Animation of a supernova explosion, ending in a pulsing neutron star
+Supernovae
+A supernova (the plural is supernovae) is the explosion of a star. They are extremely important for understanding our Galaxy. They heat up the interstellar medium, distribute heavy elements throughout the Galaxy, and accelerate cosmic rays. But what causes a star to explode? And is there more than one type of supernova?
+Indeed, there seems to be two distinct types of supernovae -- those which occur for a single massive star and those which occur because of mass transfer onto a white dwarf in a binary system. As you will see, however, it is only what gets the process started toward the explosion which differs between the two types.
+Supernovae from Single, Massive Stars
+ The Life Cycle of a Massive Star
+Stars which are 8 times or more massive than our Sun end their lives in a most spectacular way; they go supernova. A supernova explosion will occur when there is no longer enough fuel for the fusion process in the core of the star to create an outward pressure which combats the inward gravitational pull of the star's great mass. First, the star will swell into a red supergiant...at least on the outside. On the inside, the core yields to gravity and begins shrinking. As it shrinks, it grows hotter and denser. A new series of nuclear reactions begin to occur, temporarily halting the collapse of the core. But alas, it is only temporary. When the core contains essentially just iron, it has nothing left to fuse. (Because of iron's nuclear structure, fusing iron does not result in a net yield of energy. Since energy production cannot then be maintained, the star begins to collapse.) Fusion in the core ceases. In less than a second, the star begins the final phase of gravitational collapse. The core temperature rises to over 100 billion degrees as the iron atoms are crushed together. The repulsive force between the nuclei is overcome by the force of gravity. So the core compresses but then recoils. The energy of the recoil is transferred to the envelope of the star, which then explodes and produces a shock wave. As the shock encounters material in the star's outer layers, the material is heated, fusing to form new elements and radioactive isotopes. The shock then propels that matter out into space. The material that is exploded away from the star is now known as a supernova remnant. (Examples in images below.)
+ Cygnus Loop in X-rays
+ Crab Nebula in X-rays
+All that remains of the original star is a small, super-dense core composed almost entirely of neutrons -- a neutron star. Or, if the original star is very massive indeed (say 15 or more times the mass of our Sun), even the neutrons cannot survive the core collapse...and a black hole forms.
+The hot material given off by the supernova, the radioactive isotopes, and the free electrons moving in the strong magnetic field of the neutron star... all of these things produce X-rays and gamma rays. These high-energy photons are used by astrophysicists to study the phenomena of neutron stars and supernovae.
+A White Dwarf Goes Thermonuclear
+Another type of supernova involves the sudden explosion of a white dwarf star in a binary star system. A white dwarf is the endpoint for stars of up to about 8 times that of the Sun. The remaining white dwarf has a mass less than 1.4 times the mass of the Sun, and is about the size of the Earth.
+In a binary star system, the white dwarf's companion star is often a red giant. The stars may be close enough to each other and the red giant large enough, that material may flow from the red giant onto the white dwarf.
+Should the in-falling matter from the companion star cause the white dwarf to approach a mass of 1.4 times that of the Sun (a mass called the Chandrasekhar limit after the scientist who discovered it), the pressure at the center will exceed the threshold for the carbon and oxygen nuclei to start to fuse uncontrollably. This results in a thermonuclear detonation of the entire star. Nothing is left behind, except whatever elements were left over from the white dwarf or forged in the supernova blast. Among the new elements is radioactive nickel, which liberates huge amounts of energy, including visible light. The evolution of these supernovae tend to all be similar.
+Last Modified: September 2009
+Additional Links
+Quiz me about this topic!
+Cool fact about this topic!
+Try This !
+FAQs on Supernovae
+Give me additional resources!
+Related Topics
+White Dwarfs
+Neutron Stars
+Black Holes
+Chandra Links Pulsar to Historic Supermova
+Chandra Views a Supernova Remnant in the Making
+For Educators
+NCTM & NSES Standards
+Life Cycle of Stars Booklet
+Show me related lesson plans
+Home
+Science
+Astronomer's Toolbox
+Cosmic Objects
+Big Questions
+Featured Science
+Observatories
+Learning Centers
+Satellite Showcase
+How Scientists Get Data
+Detection Technology
+History of High Energy Observatories
+Special Exhibits
+Coloring Pages
+Scientist Profiles
+You Be the Astrophysicist
+Cosmic Distance Scale
+Educators
+Lesson Plans
+Materials
+Programs
+Ask An Astrophysicist
+Resources
+Other Resources
+Dictionary
+Search
+A service of the High Energy Astrophysics Science Archive Research Center (HEASARC), Dr. Andy Ptak (Director), within the Astrophysics Science Division (ASD) at NASA/GSFC
+The Imagine Team
+Project Leader: Dr. Barbara Mattson
+Curator: J.D. Myers
+NASA Official: Dr. Andy Ptak
+Privacy Policy & Important Notices
+Contact NASA
+Contact Us
+Page Last Updated: Thu, Sep 23, 2021

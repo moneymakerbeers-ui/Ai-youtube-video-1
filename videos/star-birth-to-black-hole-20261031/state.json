@@ -1,0 +1,88 @@
+{
+  "slug": "star-birth-to-black-hole-20261031",
+  "idea": "How a star is born from the very first moment until it dies and becomes a black hole",
+  "createdAt": "2026-10-31T13:05:43",
+  "stages": {
+    "00-preflight": {
+      "status": "done",
+      "at": "2026-10-31T13:06:36.559993Z",
+      "evidence": [
+        "preflight.md",
+        "tools.json",
+        "prices.json"
+      ]
+    },
+    "01-research-script": {
+      "status": "done",
+      "at": "2026-10-31T13:25:53.034065+00:00",
+      "evidence": [
+        "facts.json",
+        "scenes.json",
+        "shorts.json",
+        "review/evidence-review.json",
+        "review/shorts-review.json"
+      ]
+    },
+    "02-assets": {
+      "status": "done",
+      "at": "2026-10-31T13:38:48.479159+00:00",
+      "evidence": [
+        "style-bible.md",
+        "assets/manifest.json",
+        "credits.md",
+        "review/preview/preview.md"
+      ]
+    },
+    "03-voice": {
+      "status": "done",
+      "at": "2026-10-31T13:52:56.354261+00:00",
+      "evidence": [
+        "audio/takes.json",
+        "audio/alignment.json",
+        "audio/voice.md",
+        "audio/shorts/*/alignment.json"
+      ],
+      "note": "Knox via Higgsfield; x1.18 rubberband; whisper alignment 98.9% matched; long narration 476 s"
+    }
+  },
+  "spendGate": {
+    "status": "approved",
+    "services": {
+      "higgsfield": {
+        "approved": true,
+        "ceiling": 38.0,
+        "unit": "credits",
+        "quote": "Knox voice \u224820.2 cr + 6 nano_banana_2 2k images 12 cr = \u224832.2 cr; ceiling 38 (creator: '\u062a\u0623\u06cc\u06cc\u062f \u0627\u0631\u0632\u0627\u0646\u200c\u062a\u0631\u060c \u0633\u0642\u0641 \u06f3\u06f8')"
+      },
+      "elevenlabs": {
+        "approved": false,
+        "ceiling": 0.0,
+        "unit": "chars"
+      },
+      "music": {
+        "approved": false,
+        "ceiling": 0.0,
+        "unit": "usd"
+      },
+      "stock": {
+        "approved": false,
+        "ceiling": 0.0,
+        "unit": "usd"
+      }
+    },
+    "approvedAt": "2026-10-31T13:36:04"
+  },
+  "ledger": {
+    "higgsfieldCredits": 34.35,
+    "elevenlabsChars": 0.0,
+    "otherUsd": 0.0
+  },
+  "deliverables": {},
+  "blocked": [],
+  "previewGate": {
+    "approved": true,
+    "fingerprint": "62887145a74c7087eaf857819dca33ffc680c74903d940e6d2b5c76f0657631b",
+    "at": "2026-10-31T13:36:04",
+    "note": "creator chose 'cheaper approval, ceiling 38' (Knox via Higgsfield + nano_banana_2 2k illustrations)"
+  }
+}

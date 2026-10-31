@@ -1,0 +1,20 @@
+{
+  "scenes": [
+    {
+      "id": "S02_opening",
+      "narration": "The oxygen in your next breath came from exploding stars."
+    },
+    {
+      "id": "s27",
+      "narration": "This is Cassiopeia A, the remains of an exploded star, mapped in X-rays. The colors show silicon, sulfur, calcium and iron, thrown out into space."
+    },
+    {
+      "id": "s28",
+      "narration": "According to NASA, all the oxygen in our solar system came from exploding massive stars, along with about half the calcium and about forty percent of the iron. Some of the calcium in your bones came from these explosions."
+    },
+    {
+      "id": "S02_closing",
+      "narration": "And oxygen alone is about two thirds of your body's weight."
+    }
+  ]
+}

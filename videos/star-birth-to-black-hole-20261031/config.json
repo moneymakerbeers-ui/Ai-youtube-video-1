@@ -1,0 +1,25 @@
+{
+  "videoIdea": "How a star is born from the very first moment until it dies and becomes a black hole",
+  "purpose": "production",
+  "language": "en-US",
+  "targetDurationMin": [
+    6.5,
+    8.0
+  ],
+  "previewGate": "required",
+  "maxPaidSpend": {
+    "higgsfieldCredits": 38,
+    "elevenlabsChars": 0,
+    "otherUsd": 0,
+    "higgsfieldCeilingRaisedByCreator": true
+  },
+  "shortsTarget": [
+    4,
+    5
+  ],
+  "voiceProfile": "Knox (Higgsfield preset voice 195e386a-cb61-5c1b-a53b-0e2f0669c408) through Higgsfield text2speech_v2, variant elevenlabs \u2014 requested by the creator",
+  "budgetMode": "BALANCED",
+  "sensitivity": "normal",
+  "creativeStyle": "auto",
+  "fps": 30
+}

@@ -1,0 +1,100 @@
+{
+  "short": "S01",
+  "segments": [
+    {
+      "id": "S01_opening",
+      "startS": 0.0,
+      "endS": 8.542,
+      "sceneIds": [
+        "S01_opening"
+      ],
+      "kind": "opening"
+    },
+    {
+      "id": "s20",
+      "startS": 8.822,
+      "endS": 19.952,
+      "sceneIds": [
+        "s20"
+      ],
+      "kind": "scene",
+      "srcStartS": 212.685,
+      "srcEndS": 223.845
+    },
+    {
+      "id": "s21",
+      "startS": 20.626,
+      "endS": 30.076,
+      "sceneIds": [
+        "s21"
+      ],
+      "kind": "scene",
+      "srcStartS": 224.519,
+      "srcEndS": 233.999
+    },
+    {
+      "id": "s22",
+      "startS": 30.504,
+      "endS": 38.424,
+      "sceneIds": [
+        "s22"
+      ],
+      "kind": "scene",
+      "srcStartS": 234.427,
+      "srcEndS": 242.387
+    },
+    {
+      "id": "s23",
+      "startS": 39.165,
+      "endS": 47.385,
+      "sceneIds": [
+        "s23"
+      ],
+      "kind": "scene",
+      "srcStartS": 243.128,
+      "srcEndS": 251.348
+    },
+    {
+      "id": "S01_closing",
+      "startS": 47.735,
+      "endS": 51.057,
+      "sceneIds": [
+        "S01_closing"
+      ],
+      "kind": "closing"
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 8.542,
+      "toS": 8.822,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 19.952,
+      "toS": 20.626,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 30.076,
+      "toS": 30.504,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 38.424,
+      "toS": 39.165,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 47.385,
+      "toS": 47.735,
+      "reason": "closing line join",
+      "declaredMs": 0
+    }
+  ],
+  "note": "assembled from the long narration slices and the Short's own lines; alignment.json measures THIS file"
+}

@@ -1,0 +1,149 @@
+{
+ "reviewedAt": "2026-10-31T13:24:10Z",
+ "reviewer": {
+  "kind": "independent_agent",
+  "note": "separate agent given only file paths; round 2 after the coordinator's fixes: re-opened every cited snapshot in research/sources (all 73 quotes found verbatim), opened the retrieved images r_pillars, r_rhooph, r_casa and r_eht, and compared the evidence against the narration of every scene citing each claim"
+ },
+ "verdicts": [
+  {
+   "claimId": "C01_pillars",
+   "verdict": "supported",
+   "reason": "webb_pillars.txt l.105 'where new stars are forming within dense clouds of gas and dust' and nasa_pillars.txt 'cool interstellar gas and dust' support s01/s02/s39. 'Being born right now' is acceptable present-tense astronomy usage (the light is ~6,500 years old, l.111; formation lasts millions of years). r_pillars = ESA/Webb weic2216b, a near-infrared Webb image, so 'real image' would be more precise than 'real photograph' (optional). IMAGE CHECK (round 2): the licensed real image is in assets/ with a licence record in assets/_licenses/ and I opened the file; it shows what the narration says. But this scene's assetIds is still empty and assets/manifest.json does not exist yet, so the binding of image to scene is not yet checked by the schema."
+  },
+  {
+   "claimId": "C02_cloud",
+   "verdict": "supported",
+   "reason": "nasa_stars.txt l.375 gives 1,000 to 10 million solar masses, 'can span as much as hundreds of light-years', cold gas clumps, clumps collide or collect matter, gravity makes some collapse; s04-s06 say no more than this ('can' governs both size figures)."
+  },
+  {
+   "claimId": "C03_protostar",
+   "verdict": "supported",
+   "reason": "nasa_stars.txt l.375/378 (material heats, protostar = baby star; energy at first from collapse) and imagine_stars.txt (core not yet hot or dense enough for nuclear reactions) support s07/s08. Minor: NASA says 'most' of the energy comes from collapse; 'Its glow comes mostly from...' would match exactly, but the absolute form is backed by imagine_stars."
+  },
+  {
+   "claimId": "C04_jets",
+   "verdict": "supported",
+   "reason": "webb_rhooph.txt: 'Huge red bipolar jets ... occur when a star first bursts through its natal envelope of cosmic dust'; 'nearby' is backed by l.106 'nearest star-forming region ... 390 light-years'. s09 matches the source; r_rhooph (weic2316a) shows the red jets. IMAGE CHECK (round 2): the licensed real image is in assets/ with a licence record in assets/_licenses/ and I opened the file; it shows what the narration says. But this scene's assetIds is still empty and assets/manifest.json does not exist yet, so the binding of image to scene is not yet checked by the schema."
+  },
+  {
+   "claimId": "C05_ignition",
+   "verdict": "supported",
+   "reason": "imagine_stars.txt l.50 'As the protostar gains mass, its core gets hotter and more dense ... 15 million Kelvin in the core for fusion to begin' plus nasa_stars.txt on hydrogen nuclei squeezed into helium releasing energy support s10/s11 word for word ('degrees' vs kelvin is immaterial at this scale)."
+  },
+  {
+   "claimId": "C06_balance",
+   "verdict": "supported",
+   "reason": "imagine_stars.txt equilibrium quote and nasa_stars.txt 'Nuclear fusion releases energy, which heats the star and prevents it from further collapsing' support s03/s12/s37. 'Lasts millions of years' understates the Sun's ~10 billion but is not false; 'millions or even billions of years' would be more informative. 'Darkest object' / 'soft cloud of dust' are rhetorical, not factual claims."
+  },
+  {
+   "claimId": "C07_mainseq",
+   "verdict": "supported",
+   "reason": "nasa_stars.txt 'This is the longest phase of a star's life' and 'Our Sun is roughly midway through its main sequence stage' plus imagine_stars.txt support s13 exactly."
+  },
+  {
+   "claimId": "C08_mass_rate",
+   "verdict": "supported",
+   "reason": "Round 2: s14 now says 'depends, above all, on mass', which matches the newly added quote imagine_stars.txt l.45 'The fate and life of a star depends primarily on it's mass' and nasa_stars.txt l.383 (mass 'determines how rapidly it runs through its supply'). The burn-rate and lifetime figures in s14/s15 are quoted directly (nasa_stars.txt l.383, imagine_stars.txt l.51)."
+  },
+  {
+   "claimId": "C09_whitedwarf",
+   "verdict": "supported",
+   "reason": "nasa_stars.txt 'white dwarf, a roughly Earth-sized stellar cinder that gradually cools' and '(This will be the fate of our Sun...)' support s16; 'finish quietly' is fair relative to a supernova (imagine_stars.txt: the star sheds its mass as a planetary nebula)."
+  },
+  {
+   "claimId": "C10_sn_threshold",
+   "verdict": "supported",
+   "reason": "Round 2: s17 now says 'Stars born with more than about eight times the Sun's mass end their lives by exploding', which is what imagine_sn.txt ('8 times or more massive ... go supernova') and nasa_bh_types.txt l.379 ('more than eight times the Sun's mass ... explodes as a supernova') say. It no longer excludes white-dwarf (Type Ia) explosions. 'Born with' (initial mass) is a fair reading of both sources."
+  },
+  {
+   "claimId": "C11_bh_threshold",
+   "verdict": "supported",
+   "reason": "Contested claim narrated with hedges ('probably', 'around twenty ... or more', 'Exactly where that line sits is still being studied'; s02 'could end'). nasa_bh_types.txt l.379 and imagine_stars.txt l.63 give ~20 solar masses; imagine_sn.txt gives 15+, so the source disagreement itself justifies the hedge. Wording stays within the evidence."
+  },
+  {
+   "claimId": "C12_supergiant",
+   "verdict": "supported",
+   "reason": "nasa_stars.txt (core runs out of hydrogen) and imagine_stars.txt l.53/60 (inner layers collapse, core squished, pressure and temperature rise, outer layers expand; high-mass stars become red supergiants) support every clause of s18."
+  },
+  {
+   "claimId": "C13_chain",
+   "verdict": "supported",
+   "reason": "imagine_stars.txt (helium to carbon, carbon to neon) and nasa_stars.txt l.390 (carbon to oxygen, neon, magnesium 'which will become future fuel'; chain continues until silicon fuses into iron; 'each new fuel buys it less and less time'; 'runs out of fuel in a matter of days') support s19/s20."
+  },
+  {
+   "claimId": "C14_iron",
+   "verdict": "supported",
+   "reason": "imagine_stars.txt 'fusing iron requires an input of energy, rather than producing excess energy. With a core full of iron, the star will lose the fight against gravity' supports s21 directly; Chandra and NASA quotes agree."
+  },
+  {
+   "claimId": "C15_collapse",
+   "verdict": "supported",
+   "reason": "imagine_sn.txt: 'In less than a second, the star begins the final phase of gravitational collapse. The core temperature rises to over 100 billion degrees' matches s22."
+  },
+  {
+   "claimId": "C16_rebound",
+   "verdict": "supported",
+   "reason": "nasa_stars.txt: iron core collapses, 'then it rebounds. This change creates a shock wave that travels outward through the star. The result is a huge explosion called a supernova' and 'The core survives as an incredibly dense remnant, either a neutron star or a black hole' support s23, s29 and the hedged summary in s38 ('can fall into a black hole')."
+  },
+  {
+   "claimId": "C17_outshine",
+   "verdict": "supported",
+   "reason": "esahubble_sn.txt: 'often briefly outshines an entire galaxy, before fading from view over several weeks or months'; s24 says 'can outshine ... before fading over weeks or months', which is within the evidence."
+  },
+  {
+   "claimId": "C18_crab",
+   "verdict": "supported",
+   "reason": "nasa_crab.txt: 1054, Chinese astronomers, 'guest star' visible in the daytime for nearly a month, gave rise to the Crab Nebula, 'a six-light-year-wide remnant'. s25/s26 match; 'expanding' is not in the quote (only the pulsar wisps are called expanding, l.406) but is standard and harmless."
+  },
+  {
+   "claimId": "C19_casa",
+   "verdict": "supported",
+   "reason": "chandra_casa_life.txt l.93: the Chandra image shows 'silicon (red), sulfur (yellow), calcium (green) and iron (purple)' in the remains of the explosion; s27 matches. r_casa is that 2017 Chandra element map. Its blue is the blast wave, not an element, so the on-screen colour key must not imply otherwise. IMAGE CHECK (round 2): the licensed real image is in assets/ with a licence record in assets/_licenses/ and I opened the file; it shows what the narration says. But this scene's assetIds is still empty and assets/manifest.json does not exist yet, so the binding of image to scene is not yet checked by the schema."
+  },
+  {
+   "claimId": "C20_elements",
+   "verdict": "supported",
+   "reason": "chandra_casa_life.txt l.100 (a NASA Chandra page, so 'According to NASA' is fair): all Solar System oxygen comes from exploding massive stars, plus about half the calcium and about 40% of the iron; 'calcium helps form and maintain healthy bones'. s28's 'some of the calcium in your bones' is a sound inference. Round 2: the added quote 'Oxygen is the most abundant element in the human body (about 65% by mass)' supports the S02 lines 'came from exploding stars' and 'about two thirds of your body's weight' (65% is about two thirds)."
+  },
+  {
+   "claimId": "C21_remnant",
+   "verdict": "supported",
+   "reason": "nasa_bh_types.txt l.379 'If it was near the threshold, it creates a city-sized, superdense neutron star' and imagine_sn.txt 'even the neutrons cannot survive the core collapse...and a black hole forms' support s29/s30/s38."
+  },
+  {
+   "claimId": "C22_horizon",
+   "verdict": "supported",
+   "reason": "nasa_bh.txt: 'gravity just beneath its surface, the event horizon, is strong enough that nothing - not even light - can escape' supports s30 exactly."
+  },
+  {
+   "claimId": "C23_eht",
+   "verdict": "supported",
+   "reason": "eso_eht.txt supports 'first image of a black hole's shadow', 2019 (10 April 2019), M87 and 6.5 billion solar masses. Round 2: 'Black holes left behind by dying stars are far smaller' is now backed by the added nasa_bh_types.txt l.382 quote ('a few to hundreds of times the Sun's mass'), and the ambiguous 'single stars' is gone. The extra C21 citation in s31 adds nothing for this sentence but does no harm. r_eht = eso1907a. IMAGE CHECK (round 2): the licensed real image is in assets/ with a licence record in assets/_licenses/ and I opened the file; it shows what the narration says. But this scene's assetIds is still empty and assets/manifest.json does not exist yet, so the binding of image to scene is not yet checked by the schema."
+  },
+  {
+   "claimId": "C24_binaries",
+   "verdict": "supported",
+   "reason": "nasa_bh_types.txt l.383: 'Nearly all the stellar-mass black holes observed so far have been found because they're paired with stars' and 'the black hole pulls gas off the star into a disk that heats up enough to produce X-rays' support s33 and the new s32 wording ('black hole left behind by a dead star' = stellar-mass; 'living star' = star). Bookkeeping only: facts.json C24.spokenWording still quotes the old 'stellar black hole' line."
+  },
+  {
+   "claimId": "C25_cygx1",
+   "verdict": "supported",
+   "reason": "arxiv_cygx1.txt (arXiv 2102.09091, 2021): 'black hole mass of 21.2 +/- 2.2 solar masses' in 'black hole X-ray binary Cygnus X-1'; s33's 'A 2021 study puts that black hole at about twenty-one times the mass of the Sun' is accurately hedged."
+  },
+  {
+   "claimId": "C26_gaiabh3",
+   "verdict": "supported",
+   "reason": "Round 2: s34 now says 'the biggest star-made black hole found in our galaxy when it was announced', which matches esa_gaiabh3.txt (dated 16/04/2024): 'the first time a black hole of stellar origin this big has been spotted within the Milky Way'. The 2024 date, old giant star, wobble, 'less than 2000 light-years' and 'nearly 33' solar masses ('about thirty-three') are all quoted."
+  },
+  {
+   "claimId": "C27_n6946",
+   "verdict": "supported",
+   "reason": "Contested claim correctly hedged: arxiv_n6946.txt (~25 solar-mass red supergiant, weak 2009 outburst, now 5+ magnitudes fainter), arxiv_n6946_jwst.txt ('blend of at least 3 sources'; 'interpretation ... remains uncertain'; matches a stellar merger) and gsfc_vanished.txt support s35/s36 ('Some astronomers think', 'One explanation', 'still debating')."
+  },
+  {
+   "claimId": "C28_enrich",
+   "verdict": "supported",
+   "reason": "nasa_stars.txt: 'Material cast into the cosmos by supernovae ... will enrich future molecular clouds and become incorporated into the next generation of stars' supports s39. 'Drifts back out' is odd wording (the gas was already thrown out); 'drifts out into space' reads better, but it is not a factual overreach."
+  }
+ ]
+}

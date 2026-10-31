@@ -68,3 +68,11 @@ python3 tools/voice.py --project videos/el-check --stack elevenlabs --voice-id <
 python3 tools/ledger.py --project videos/el-check status                                                              # one submission per item
 ```
 For Higgsfield, run one image in Claude Code through stage 02 with a 2-credit ceiling and check `ledger.py status` against the provider's own transaction list before approving more. Record the outcome in `library/lessons.md` and change the row above to TESTED only when it is.
+
+## 6. Update from the first real production run (star-birth-to-black-hole-20261031, 31 Oct 2026, cloud session)
+| integration | status now | evidence (this run) |
+|---|---|---|
+| Higgsfield image generation + **download** | **TESTED** | 6 × nano_banana_2 2k jobs → `ledger intent→submitted→done`; CloudFront result URLs downloaded with curl (HTTP 200) in this environment; provider transactions show 6 × 2 credits |
+| Higgsfield voice (`text2speech_v2`, variant `elevenlabs`, preset "Knox") | **TESTED** | 42 takes/lines generated, downloaded, registered with `voice.py --stack file`; transactions show one charge per job; HTTP 429 refusals at submission created no job and no charge. Rate limit observed: batches of > 3 requests are partly refused (429) |
+| Whisper alignment | **IMPLEMENTED + TESTED** (`tools/align.py --engine whisper` or `ALIGN_ENGINE=whisper`) | faster-whisper small.en word timestamps mapped onto the script with difflib; 1046/1058 words matched on the Knox narration; tests: `test_whisper_engine_fails_closed_without_speech_or_package`, `test_whisper_engine_aligns_real_speech_to_the_script`, `test_auto_alignment_never_selects_whisper_implicitly`. `auto` still never picks it implicitly |
+| ElevenLabs direct API | UNTESTED (no key in this environment) | — |

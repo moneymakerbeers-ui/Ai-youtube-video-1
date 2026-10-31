@@ -1,0 +1,499 @@
+{
+  "audio": {
+    "file": "audio/narration.wav",
+    "sha256": "02f4bfd3e1dd0dc83e54d995472efd3aaf525d4a3f65d3df00322947d490fcd5",
+    "durationS": 476.263,
+    "sr": 24000
+  },
+  "segments": [
+    {
+      "id": "t01",
+      "startS": 0.5,
+      "endS": 9.304,
+      "sceneIds": [
+        "s01"
+      ]
+    },
+    {
+      "id": "t02",
+      "startS": 9.584,
+      "endS": 32.13,
+      "sceneIds": [
+        "s02",
+        "s03"
+      ]
+    },
+    {
+      "id": "t03",
+      "startS": 32.71,
+      "endS": 57.639,
+      "sceneIds": [
+        "s04",
+        "s05"
+      ]
+    },
+    {
+      "id": "t04",
+      "startS": 57.919,
+      "endS": 62.18,
+      "sceneIds": [
+        "s06"
+      ]
+    },
+    {
+      "id": "t05",
+      "startS": 62.66,
+      "endS": 73.681,
+      "sceneIds": [
+        "s07"
+      ]
+    },
+    {
+      "id": "t06",
+      "startS": 73.961,
+      "endS": 79.249,
+      "sceneIds": [
+        "s08"
+      ]
+    },
+    {
+      "id": "t07",
+      "startS": 79.529,
+      "endS": 101.902,
+      "sceneIds": [
+        "s09",
+        "s10"
+      ]
+    },
+    {
+      "id": "t08",
+      "startS": 102.632,
+      "endS": 114.293,
+      "sceneIds": [
+        "s11"
+      ]
+    },
+    {
+      "id": "t09",
+      "startS": 115.073,
+      "endS": 123.751,
+      "sceneIds": [
+        "s12"
+      ]
+    },
+    {
+      "id": "t10",
+      "startS": 124.031,
+      "endS": 137.658,
+      "sceneIds": [
+        "s13"
+      ]
+    },
+    {
+      "id": "t11",
+      "startS": 138.088,
+      "endS": 147.919,
+      "sceneIds": [
+        "s14"
+      ]
+    },
+    {
+      "id": "t12",
+      "startS": 148.199,
+      "endS": 156.944,
+      "sceneIds": [
+        "s15"
+      ]
+    },
+    {
+      "id": "t13",
+      "startS": 157.224,
+      "endS": 167.733,
+      "sceneIds": [
+        "s16"
+      ]
+    },
+    {
+      "id": "t14",
+      "startS": 168.013,
+      "endS": 187.132,
+      "sceneIds": [
+        "s17"
+      ]
+    },
+    {
+      "id": "t15",
+      "startS": 187.712,
+      "endS": 212.525,
+      "sceneIds": [
+        "s18",
+        "s19"
+      ]
+    },
+    {
+      "id": "t16",
+      "startS": 212.805,
+      "endS": 224.059,
+      "sceneIds": [
+        "s20"
+      ]
+    },
+    {
+      "id": "t17",
+      "startS": 224.639,
+      "endS": 234.267,
+      "sceneIds": [
+        "s21"
+      ]
+    },
+    {
+      "id": "t18",
+      "startS": 234.547,
+      "endS": 242.818,
+      "sceneIds": [
+        "s22"
+      ]
+    },
+    {
+      "id": "t19",
+      "startS": 243.248,
+      "endS": 251.655,
+      "sceneIds": [
+        "s23"
+      ]
+    },
+    {
+      "id": "t20",
+      "startS": 252.335,
+      "endS": 261.138,
+      "sceneIds": [
+        "s24"
+      ]
+    },
+    {
+      "id": "t21",
+      "startS": 261.418,
+      "endS": 272.401,
+      "sceneIds": [
+        "s25"
+      ]
+    },
+    {
+      "id": "t22",
+      "startS": 272.681,
+      "endS": 280.41,
+      "sceneIds": [
+        "s26"
+      ]
+    },
+    {
+      "id": "t23",
+      "startS": 280.69,
+      "endS": 293.17,
+      "sceneIds": [
+        "s27"
+      ]
+    },
+    {
+      "id": "t24",
+      "startS": 293.45,
+      "endS": 306.467,
+      "sceneIds": [
+        "s28"
+      ]
+    },
+    {
+      "id": "t25",
+      "startS": 307.147,
+      "endS": 318.632,
+      "sceneIds": [
+        "s29"
+      ]
+    },
+    {
+      "id": "t26",
+      "startS": 319.112,
+      "endS": 337.079,
+      "sceneIds": [
+        "s30"
+      ]
+    },
+    {
+      "id": "t27",
+      "startS": 337.959,
+      "endS": 358.955,
+      "sceneIds": [
+        "s31"
+      ]
+    },
+    {
+      "id": "t28",
+      "startS": 359.236,
+      "endS": 375.168,
+      "sceneIds": [
+        "s32"
+      ]
+    },
+    {
+      "id": "t29",
+      "startS": 375.598,
+      "endS": 391.666,
+      "sceneIds": [
+        "s33"
+      ]
+    },
+    {
+      "id": "t30",
+      "startS": 391.945,
+      "endS": 414.305,
+      "sceneIds": [
+        "s34"
+      ]
+    },
+    {
+      "id": "t31",
+      "startS": 414.586,
+      "endS": 429.026,
+      "sceneIds": [
+        "s35"
+      ]
+    },
+    {
+      "id": "t32",
+      "startS": 429.306,
+      "endS": 441.228,
+      "sceneIds": [
+        "s36"
+      ]
+    },
+    {
+      "id": "t33",
+      "startS": 442.008,
+      "endS": 460.381,
+      "sceneIds": [
+        "s37",
+        "s38"
+      ]
+    },
+    {
+      "id": "t34",
+      "startS": 460.961,
+      "endS": 475.063,
+      "sceneIds": [
+        "s39"
+      ]
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 0.0,
+      "toS": 0.5,
+      "reason": "opening lead silence",
+      "declaredMs": 500
+    },
+    {
+      "fromS": 9.304,
+      "toS": 9.584,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 32.13,
+      "toS": 32.71,
+      "reason": "declared pause",
+      "declaredMs": 300
+    },
+    {
+      "fromS": 57.639,
+      "toS": 57.919,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 62.18,
+      "toS": 62.66,
+      "reason": "declared pause",
+      "declaredMs": 200
+    },
+    {
+      "fromS": 73.681,
+      "toS": 73.961,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 79.249,
+      "toS": 79.529,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 101.902,
+      "toS": 102.632,
+      "reason": "declared pause",
+      "declaredMs": 450
+    },
+    {
+      "fromS": 114.293,
+      "toS": 115.073,
+      "reason": "declared pause",
+      "declaredMs": 500
+    },
+    {
+      "fromS": 123.751,
+      "toS": 124.031,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 137.658,
+      "toS": 138.088,
+      "reason": "declared pause",
+      "declaredMs": 150
+    },
+    {
+      "fromS": 147.919,
+      "toS": 148.199,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 156.944,
+      "toS": 157.224,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 167.733,
+      "toS": 168.013,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 187.132,
+      "toS": 187.712,
+      "reason": "declared pause",
+      "declaredMs": 300
+    },
+    {
+      "fromS": 212.525,
+      "toS": 212.805,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 224.059,
+      "toS": 224.639,
+      "reason": "declared pause",
+      "declaredMs": 300
+    },
+    {
+      "fromS": 234.267,
+      "toS": 234.547,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 242.818,
+      "toS": 243.248,
+      "reason": "declared pause",
+      "declaredMs": 150
+    },
+    {
+      "fromS": 251.655,
+      "toS": 252.335,
+      "reason": "declared pause",
+      "declaredMs": 400
+    },
+    {
+      "fromS": 261.138,
+      "toS": 261.418,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 272.401,
+      "toS": 272.681,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 280.41,
+      "toS": 280.69,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 293.17,
+      "toS": 293.45,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 306.467,
+      "toS": 307.147,
+      "reason": "declared pause",
+      "declaredMs": 400
+    },
+    {
+      "fromS": 318.632,
+      "toS": 319.112,
+      "reason": "declared pause",
+      "declaredMs": 200
+    },
+    {
+      "fromS": 337.079,
+      "toS": 337.959,
+      "reason": "declared pause",
+      "declaredMs": 600
+    },
+    {
+      "fromS": 358.955,
+      "toS": 359.236,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 375.168,
+      "toS": 375.598,
+      "reason": "declared pause",
+      "declaredMs": 150
+    },
+    {
+      "fromS": 391.666,
+      "toS": 391.945,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 414.305,
+      "toS": 414.586,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 429.026,
+      "toS": 429.306,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 441.228,
+      "toS": 442.008,
+      "reason": "declared pause",
+      "declaredMs": 500
+    },
+    {
+      "fromS": 460.381,
+      "toS": 460.961,
+      "reason": "declared pause",
+      "declaredMs": 300
+    },
+    {
+      "fromS": 475.063,
+      "toS": 476.263,
+      "reason": "ending tail silence",
+      "declaredMs": 1200
+    }
+  ]
+}

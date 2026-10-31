@@ -1,0 +1,971 @@
+asset: r_eht
+source page: https://www.eso.org/public/images/eso1907a/
+source file: eso1907a.jpg
+credit: EHT Collaboration
+license: CC BY 4.0
+shows: Event Horizon Telescope image of the M87* black hole shadow (supermassive)
+retrieved: 2026-10-31 (curl)
+processing: crop (0.04, 0.0, 0.96, 0.894), resize to (2560, 1440)
+
+===== licence / usage page text =====
+SOURCE: https://www.eso.org/public/outreach/copyright/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Copyright Notice | ESO
+ Select Language (en)
+ (en)
+ International English
+ Czechia
+ Dansk
+ Deutsch
+ Deutsch (Belgien)
+ Deutsch (Schweiz)
+ Deutsch (Österreich)
+ English (Australia)
+ English (Ireland)
+ English (UK)
+ Español
+ Español (Chile)
+ Français
+ Français (Belgique)
+ Français (Suisse)
+ Italiano
+ Italiano (Svizzera)
+ Nederlands
+ Nederlands (België)
+ Polski
+ Português
+ Suomi
+ Svenska
+ Science
+ User Portal
+ Subscribe
+ Contact
+ Site Map
+ Open Menu
+About
+ Organisation
+ Mission-Vision-Values-Strategy
+ Director General
+ ESO's Governing Bodies
+ Member States and Partners
+ Austria
+ Belgium
+ Czechia
+ Denmark
+ Finland
+ France
+ Germany
+ Ireland
+ Italy
+ Netherlands
+ Poland
+ Portugal
+ Spain
+ Sweden
+ Switzerland
+ United Kingdom
+ Australia (Partner)
+ ESO & Chile
+ ESO Representation Office in Chile
+ Travel and Contacts
+ Travel to ESO Headquarters
+ Travel to Vitacura Office
+ Travel to Guesthouse
+ Travel to La Silla
+ Travel to La Serena
+ Travel to Paranal
+ Travel to Antofagasta
+ Travel to Chajnantor
+ Travel to ELT Armazones
+ Visits to ESO Sites
+ Weekend Visits to Paranal
+ Weekend Visits to La Silla
+ Night Visits to Paranal
+ Night Visits to La Silla
+ Media Visits
+ Virtual Visits
+ ESO and Society
+ Architecture at ESO
+ Timeline
+ Sustainability
+ Environmental sustainability at ESO
+ ESO and the UN's Sustainable Development Goals
+ Diversity, Equity and Inclusion
+ Dark skies preservation
+ Terms and Conditions
+Images
+ Advanced Search
+ Image Comparisons
+ Picture of the Week
+ Usage of ESO Images and Videos
+Videos
+ Advanced Search
+ Usage of ESO Videos and Images
+ Video Formats
+News
+ Press Releases
+ Announcements
+ ESOblog
+ Press Room
+ Media Visits
+ Copyright Notice
+ ESO Newsletters
+ESOshop
+ Shop Products
+ Annual Reports
+ Apparel
+ Books
+ Brochures
+ Calendars
+ CAPjournals
+ Conferences
+ DVDs/Bluray/CDs
+ ESO Supernova Activities
+ Flyers
+ Handouts
+ Maps
+ Merchandise
+ Mounted Images
+ Postcards
+ Posters
+ Reports
+ Stickers
+ View shopping cart
+ Checkout
+ Information
+ Bulk Orders
+ Purchasing Steps
+ Payment
+ Shipping
+ Staff Shopping
+ Terms & Conditions
+ Free Orders for Educators and Media
+Telescopes & Instruments
+ Paranal Observatory
+ Very Large Telescope
+ VLT Instruments
+ 4LGSF
+ BlueMUSE
+ CUBES
+ CRIRES+
+ ESPRESSO
+ ERIS
+ FLAMES
+ FORS1 and FORS2
+ HAWK-I
+ KMOS
+ MAVIS
+ MOONS
+ MUSE
+ SPHERE
+ UVES
+ X-shooter
+ VLT Interferometer
+ GRAVITY+
+ GRAVITY
+ MATISSE
+ NAOMI
+ PIONIER
+ Auxiliary Telescopes
+ Survey Telescopes
+ VISTA
+ The VISTA mirror
+ 4MOST
+ The VISTA surveys
+ The VISTA consortium
+ VST
+ The VST mirrors
+ OmegaCAM
+ The VST surveys
+ SPECULOOS
+ NGTS
+ Cherenkov Telescope Array Observatory
+ OASIS
+ PoET
+ La Silla Observatory
+ Swedish–ESO Submillimetre Telescope
+ New Technology Telescope
+ EFOSC2
+ SOXS
+ ESO 3.6-metre telescope
+ HARPS
+ NIRPS
+ MPG/ESO 2.2-metre telescope
+ FEROS
+ GROND
+ WFI
+ Swiss 1.2-metre Leonhard Euler Telescope
+ CORALIE
+ Rapid Eye Mount telescope
+ TRAnsiting Planets and PlanetesImals Small Telescope–South
+ Danish 1.54-metre telescope
+ DFOSC
+ Télescope à Action Rapide pour les Objets Transitoires
+ ESO 1-metre Schmidt telescope
+ ESO 1.52-metre telescope
+ ESO 1-metre telescope
+ FIDEOS
+ ESO 0.5-metre telescope
+ Coudé Auxiliary Telescope
+ MarLy 1-metre telescope
+ Dutch 0.9-metre telescope
+ Swiss T70 telescope
+ Bochum 0.61-metre telescope
+ Danish 0.5-metre telescope
+ Grand Prisme Objectif telescope
+ Swiss 0.4-metre telescope
+ Marseille 0.36-metre telescope
+ GRB Monitoring System
+ MASCARA
+ BlackGEM
+ ExTrA
+ Test-Bed Telescope
+ ALMA
+ Antennas
+ Transporters
+ Interferometry
+ Receiver Bands
+ ALMA Residencia
+ Wideband Sensitivity Upgrade
+ APEX
+ ELT
+ Technology for Telescopes
+ Active Optics
+ Adaptive Optics
+ Integral Field Units
+ Interferometry
+ Spectroscopy
+ Polarimetry
+ Instruments
+Discoveries
+ ESO Key Astronomical Discoveries
+ Exoplanets
+ Gravitational Wave Sources
+ Black Holes
+ First image of a black hole
+ First image of the Milky Way central black hole
+ More about the black hole at the galactic centre
+ Gamma-Ray Bursts
+ Science Archive
+Events
+ Exhibitions
+ ESO Permanent Exhibitions
+ Open House Day
+Outreach
+ Education
+ Teacher Schools
+ ALMA Kids
+ Partnerships
+ ESO Science Outreach Network
+ Social Media
+ Webcams
+ ESO Supernova
+ AI Disclaimer
+Products
+ Audiovisual and multimedia
+ 3D models
+ Music
+ Planetarium shows
+ Presentations
+ Soundscapes
+ Virtual Backgrounds
+ Virtual Tours
+ Print products
+ Annual Reports
+ Books
+ Brochures
+ Calendars
+ Flyers
+ Maps
+ Press kits
+ Postcards
+ Stickers
+ Printed posters
+ Paper models
+ Merchandise
+ Merchandise
+ Apparel
+ Mounted images
+ Electronic products
+ Electronic posters
+ Virtual Backgrounds
+ Exhibition material
+ Logos
+ Order in ESOshop
+Business@ESO
+ Procurement at ESO
+ Industry Events
+ Technology Transfer
+ Technology Developed by Industries
+ Novel technologies by ESO
+ ESO know-how
+ Projects
+ Contact Information
+Career Opportunities
+ Recruitment
+ Employment Conditions
+ International Staff Members
+ Local Staff Members (Spanish / English)
+ Fellows
+ Students
+ Paid Associates
+ Working at ESO
+ Respectful Workplace Policy
+ Other Information
+ European
+Southern
+Observatory
+ ×
+ Page saved successfully
+ ×
+ Couldn't save page :( Please try again.
+Usage of images, videos, music and web texts
+Summary
+Unless specifically noted, the images, videos, and music distributed on the public ESO website, along with the texts of press releases, announcements, pictures of the week, blog posts and captions, are licensed under a Creative Commons Attribution 4.0 International License, and may on a non-exclusive basis be reproduced without fee provided the credit is clear and visible. The license allows adaptation of the material, but any adaptations do not affect or impair the use of the original ESO material by others under Creative Commons license. Details on how to interpret this are given below for those who need further explanation.
+Conditions
+If you want to use our materials without having to pay, the full image or footage credit must be presented in a clear and readable manner to all users, with the wording unaltered (for example: "ESO/José Francisco (josefrancisco.org)". The credit should not be hidden or disassociated from the image footage. Links should be active if the credit is online. See the "Usage rights Q&A" section on this page for guidance.
+The text of press releases, announcements, pictures of the week and captions should be credited to ESO or, when used by the media, ESO should be mentioned in the article or piece. 
+ESO materials, images and videos may not be used to state or imply the endorsement by ESO or any ESO employee of a commercial product or service;
+We welcome a copy of the product sent to us to be indexed in our archive;
+If an image includes a picture of an identifiable person, using that image for commercial purposes is not permitted.
+The license allows to modify ESO material, provided that you indicate what those modifications are. In particular, you must clearly indicate if you have used AI to modify our content.
+Notes
+Note that this general permission does not extend to the use of ESO's logo, which shall remain protected and may not be used or reproduced without prior and individual written consent of ESO. Owners of external websites wishing to link to the ESO website may use ESO's logo for the link, provided they have obtained prior authorisation from the ESO Department of Communication and on the condition that such use is clearly identifiable as a web link.
+Also note that music, scientific papers, code, and text other than press releases, announcements, pictures of the week, blog posts and captions on this site are not released under the Creative Commons Attribution 4.0 International License and can not be used for non-ESO products. An exception for this is the Music Archive which are released under Creative Commons Attribution 4.0 International License.
+By reproducing ESO material, in part or in full, the user acknowledges the terms on which such use is permitted.
+The European Southern Observatory is an intergovernmental organisation with its Headquarters in Germany. As an international organisation ESO has a legal personality of international law and enjoys certain privileges and immunities.
+Please note that the images on the pages under http://www.eso.org/public/outreach/eduoff/vt-2004/ are copyright of their owners and they are not released under ESO's usual Creative Commons license.
+For information on how Artificial Intelligence (AI) is used in text, images and videos produced by ESO's Department of Communication, please check our AI Disclaimer
+Usage rights Q&A
+Our basic intention is to encourage the use of our images, videos, press releases, announcements, pictures of the week and captions and we take a common-sense approach to crediting: our only concern is that you credit clearly, visibly and unambiguously and that the credit is not separated from the image/footage/text. We understand that the most appropriate way of doing so may vary from case to case. See the Q&A below for some common examples.
+Q: I want to use the footage in a YouTube video. Is it OK just to put the credit in the text description?
+A: No, as this is hidden inside a tab and therefore not visible as we request. Also it is not visible if the video is embedded in another website. In the special case where you cannot credit the video visibly, please include the credit line ‘burned in’ or overlaid on the video, or clearly visible as a credit at the end.
+Q: I want to upload an ESO show to my YouTube channel, or embed this in my blog. Do I need to add a credit ‘burned in’ or overlaid on the video?
+A: If the video in question (e.g. ELT Update or ESO Chasing Starlight) already has a credit at the end, so you do not need to edit it.
+Q: I am a producer for a TV programme and wish to use your images and footage. Do I need to overlay the credit on the image?
+A: You do not need to, provided the credit is clearly visible and reproduced in full at the end of the programme.
+Q: I am making an electronic game. Where should I place the credit?
+A: As long as the credit is clearly visible to all users and reproduced in full, for instance in a splashscreen, all is fine.
+Q: I am a picture editor for a newspaper/magazine. Some of your credits are kind of long. Can’t I just use the first part of the credit?
+A: No. Please reproduce the credit in full. This should normally be on the page which the picture is presented on, or on the facing page.
+Q: I am a picture editor for a News Agency. We prefer to use our own name as credit for the images and not tell anyone from where we got them. Is that ok?
+A: No. Please reproduce the credit in full. This should normally be on the page which the picture is presented on, or on the facing page.
+Q: I want to use a picture on the cover of a book/magazine. Does the credit have to appear on the cover?
+A: No. Provided it is clearly visible and identified as being the credit for the cover image, the credit can appear in another prominent place in your publication. This could, for example, be the back cover, the inside front cover or the editorial page.
+Q: Do I need to contact all the people named in the credit line for permission to use an image or video?
+A: No. Images and videos published on eso.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.
+Q: Do I need to send you a physical copy of any products I have made using your imagery or footage?
+A: No, an electronic copy (e.g. a photograph or a PDF) is fine. And it is in any case not mandatory to send a copy.
+Q: I would like to digitally alter or manipulate an image. Is this OK?
+A: Yes.
+Q: I would like to edit, expand or cut text from ESO. Is this OK?
+A: Yes, providing it is a press release, announcement, picture of the week or caption.
+Q: Can I just overlay the ESO logo instead of the credit?
+A: No. The use of the ESO logo is controlled and it must not be reproduced without permission.
+Q: I am a journalist. I want to use the text of a press release in a news report. Do I need to credit you?
+A: No. News media are excepted from the requirement to credit the text of press releases, announcements, pictures of the week or captions. (You must, however, properly credit any images or videos you use).
+Q: I am an editor of a publishing company. I want to use text from ESO in a book. Do I need to credit you?
+A: No, media including book publishers are exempted from crediting text. Please remember that only press releases, announcements, pictures of the week and captions are released under these terms.
+Q: I want to use text from the ESO website, but it is not part of a press release, announcement, picture of the week or caption. Can I still use this?
+A: No, other texts on the ESO website are not released under Creative Commons.
+Q: How should I credit text taken from ESO?
+A: Please credit us as “ESO”.
+Q: I am an artist and I have produced artwork based on ESO images. Can I sell my artwork for my profit?
+A: Yes, artwork you produced based on ESO images may be sold for your own profit as long as you credit clearly and visibly.
+If you have further questions, or are in any doubt, please contact information@eso.org
+ Send us your comments!
+ Subscribe to receive news from ESO in your language
+ Accelerated by CDN77
+ Terms & Conditions
+ Cookie Settings and Policy
+Our use of Cookies
+We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.
+ You can manage your cookie preferences and find out more by visiting 'Cookie Settings and Policy'.
+ Accept All
+ Accept Only Essential Cookies
+ Cookie Settings and Policy
+ESO Cookies Policy
+The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.
+This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.
+What are cookies?
+Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.
+Categories of cookies we use
+Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+csrftoken
+XSRF protection token. We use this cookie to protect against cross-site request forgery attacks.
+1st party
+Stored
+1 year
+user_privacy
+Your privacy choices. We use this cookie to save your privacy preferences.
+1st party
+Stored
+6 months
+_grecaptcha
+We use reCAPTCHA to protect our forms against spam and abuse. reCAPTCHA sets a necessary cookie when executed for the purpose of providing its risk analysis. We use www.recaptcha.net instead of www.google.com in order to avoid unnecessary cookies from Google.
+3rd party
+Stored
+6 months
+Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+Settings
+preferred_language
+Language settings. We use this cookie to remember your preferred language settings.
+1st party
+Stored
+1 year
+ON | OFF
+sessionid
+ESO Shop. We use this cookie to store your session information on the ESO Shop. This is just an identifier which is used on the server in order to allow you to purchase items in our shop.
+1st party
+Stored
+2 weeks
+ON | OFF
+Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.
+Matomo Cookies:
+This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.
+On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.
+ON | OFF
+Matomo cookies settings:
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+Settings
+_pk_id
+Stores a unique visitor ID.
+1st party
+Stored
+13 months
+_pk_ses
+Session cookie temporarily stores data for the visit.
+1st party
+Stored
+30 minutes
+_pk_ref
+Stores attribution information (the referrer that brought the visitor to the website).
+1st party
+Stored
+6 months
+_pk_testcookie
+Temporary cookie to check if a visitor’s browser supports cookies (set in Internet Explorer only).
+1st party
+Stored
+Temporary cookie that expires almost immediately after being set.
+Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.
+Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.
+YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.
+Cookies can also be classified based on the following elements.
+Regarding the domain, there are:
+First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;
+Third-party cookies, set by a domain other than the one you are currently visiting.
+As for their duration, cookies can be:
+Browser-session cookies, which are deleted when the user closes the browser;
+Stored cookies, which stay on the user's device for a predetermined period of time.
+How to manage cookies
+Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.
+In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:
+Brave
+Chrome
+Edge
+Firefox
+Safari
+Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.
+You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).
+Updates to the ESO Cookies Policy
+The ESO Cookies Policy may be subject to future updates, which will be made available on this page.
+Additional information
+For any queries related to cookies, please contact: pdprATesoDOTorg.
+As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department.
+ Save
+ Cancel
+
+
+===== image page text (credit line) =====
+SOURCE: https://www.eso.org/public/images/eso1907a/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+First Image of a Black Hole | ESO
+ Select Language (en)
+ (en)
+ International English
+ Czechia
+ Dansk
+ Deutsch
+ Deutsch (Belgien)
+ Deutsch (Schweiz)
+ Deutsch (Österreich)
+ English (Australia)
+ English (Ireland)
+ English (UK)
+ Español
+ Español (Chile)
+ Français
+ Français (Belgique)
+ Français (Suisse)
+ Italiano
+ Italiano (Svizzera)
+ Nederlands
+ Nederlands (België)
+ Polski
+ Português
+ Suomi
+ Svenska
+ Science
+ User Portal
+ Subscribe
+ Contact
+ Site Map
+ Open Menu
+About
+ Organisation
+ Mission-Vision-Values-Strategy
+ Director General
+ ESO's Governing Bodies
+ Member States and Partners
+ Austria
+ Belgium
+ Czechia
+ Denmark
+ Finland
+ France
+ Germany
+ Ireland
+ Italy
+ Netherlands
+ Poland
+ Portugal
+ Spain
+ Sweden
+ Switzerland
+ United Kingdom
+ Australia (Partner)
+ ESO & Chile
+ ESO Representation Office in Chile
+ Travel and Contacts
+ Travel to ESO Headquarters
+ Travel to Vitacura Office
+ Travel to Guesthouse
+ Travel to La Silla
+ Travel to La Serena
+ Travel to Paranal
+ Travel to Antofagasta
+ Travel to Chajnantor
+ Travel to ELT Armazones
+ Visits to ESO Sites
+ Weekend Visits to Paranal
+ Weekend Visits to La Silla
+ Night Visits to Paranal
+ Night Visits to La Silla
+ Media Visits
+ Virtual Visits
+ ESO and Society
+ Architecture at ESO
+ Timeline
+ Sustainability
+ Environmental sustainability at ESO
+ ESO and the UN's Sustainable Development Goals
+ Diversity, Equity and Inclusion
+ Dark skies preservation
+ Terms and Conditions
+Images
+ Advanced Search
+ Image Comparisons
+ Picture of the Week
+ Usage of ESO Images and Videos
+Videos
+ Advanced Search
+ Usage of ESO Videos and Images
+ Video Formats
+News
+ Press Releases
+ Announcements
+ ESOblog
+ Press Room
+ Media Visits
+ Copyright Notice
+ ESO Newsletters
+ESOshop
+ Shop Products
+ Annual Reports
+ Apparel
+ Books
+ Brochures
+ Calendars
+ CAPjournals
+ Conferences
+ DVDs/Bluray/CDs
+ ESO Supernova Activities
+ Flyers
+ Handouts
+ Maps
+ Merchandise
+ Mounted Images
+ Postcards
+ Posters
+ Reports
+ Stickers
+ View shopping cart
+ Checkout
+ Information
+ Bulk Orders
+ Purchasing Steps
+ Payment
+ Shipping
+ Staff Shopping
+ Terms & Conditions
+ Free Orders for Educators and Media
+Telescopes & Instruments
+ Paranal Observatory
+ Very Large Telescope
+ VLT Instruments
+ 4LGSF
+ BlueMUSE
+ CUBES
+ CRIRES+
+ ESPRESSO
+ ERIS
+ FLAMES
+ FORS1 and FORS2
+ HAWK-I
+ KMOS
+ MAVIS
+ MOONS
+ MUSE
+ SPHERE
+ UVES
+ X-shooter
+ VLT Interferometer
+ GRAVITY+
+ GRAVITY
+ MATISSE
+ NAOMI
+ PIONIER
+ Auxiliary Telescopes
+ Survey Telescopes
+ VISTA
+ The VISTA mirror
+ 4MOST
+ The VISTA surveys
+ The VISTA consortium
+ VST
+ The VST mirrors
+ OmegaCAM
+ The VST surveys
+ SPECULOOS
+ NGTS
+ Cherenkov Telescope Array Observatory
+ OASIS
+ PoET
+ La Silla Observatory
+ Swedish–ESO Submillimetre Telescope
+ New Technology Telescope
+ EFOSC2
+ SOXS
+ ESO 3.6-metre telescope
+ HARPS
+ NIRPS
+ MPG/ESO 2.2-metre telescope
+ FEROS
+ GROND
+ WFI
+ Swiss 1.2-metre Leonhard Euler Telescope
+ CORALIE
+ Rapid Eye Mount telescope
+ TRAnsiting Planets and PlanetesImals Small Telescope–South
+ Danish 1.54-metre telescope
+ DFOSC
+ Télescope à Action Rapide pour les Objets Transitoires
+ ESO 1-metre Schmidt telescope
+ ESO 1.52-metre telescope
+ ESO 1-metre telescope
+ FIDEOS
+ ESO 0.5-metre telescope
+ Coudé Auxiliary Telescope
+ MarLy 1-metre telescope
+ Dutch 0.9-metre telescope
+ Swiss T70 telescope
+ Bochum 0.61-metre telescope
+ Danish 0.5-metre telescope
+ Grand Prisme Objectif telescope
+ Swiss 0.4-metre telescope
+ Marseille 0.36-metre telescope
+ GRB Monitoring System
+ MASCARA
+ BlackGEM
+ ExTrA
+ Test-Bed Telescope
+ ALMA
+ Antennas
+ Transporters
+ Interferometry
+ Receiver Bands
+ ALMA Residencia
+ Wideband Sensitivity Upgrade
+ APEX
+ ELT
+ Technology for Telescopes
+ Active Optics
+ Adaptive Optics
+ Integral Field Units
+ Interferometry
+ Spectroscopy
+ Polarimetry
+ Instruments
+Discoveries
+ ESO Key Astronomical Discoveries
+ Exoplanets
+ Gravitational Wave Sources
+ Black Holes
+ First image of a black hole
+ First image of the Milky Way central black hole
+ More about the black hole at the galactic centre
+ Gamma-Ray Bursts
+ Science Archive
+Events
+ Exhibitions
+ ESO Permanent Exhibitions
+ Open House Day
+Outreach
+ Education
+ Teacher Schools
+ ALMA Kids
+ Partnerships
+ ESO Science Outreach Network
+ Social Media
+ Webcams
+ ESO Supernova
+ AI Disclaimer
+Products
+ Audiovisual and multimedia
+ 3D models
+ Music
+ Planetarium shows
+ Presentations
+ Soundscapes
+ Virtual Backgrounds
+ Virtual Tours
+ Print products
+ Annual Reports
+ Books
+ Brochures
+ Calendars
+ Flyers
+ Maps
+ Press kits
+ Postcards
+ Stickers
+ Printed posters
+ Paper models
+ Merchandise
+ Merchandise
+ Apparel
+ Mounted images
+ Electronic products
+ Electronic posters
+ Virtual Backgrounds
+ Exhibition material
+ Logos
+ Order in ESOshop
+Business@ESO
+ Procurement at ESO
+ Industry Events
+ Technology Transfer
+ Technology Developed by Industries
+ Novel technologies by ESO
+ ESO know-how
+ Projects
+ Contact Information
+Career Opportunities
+ Recruitment
+ Employment Conditions
+ International Staff Members
+ Local Staff Members (Spanish / English)
+ Fellows
+ Students
+ Paid Associates
+ Working at ESO
+ Respectful Workplace Policy
+ Other Information
+ European
+Southern
+Observatory
+First Image of a Black Hole
+The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration — was designed to capture images of a black hole. In coordinated press conferences across the globe, EHT researchers revealed that they succeeded, unveiling the first direct visual evidence of the supermassive black hole in the centre of Messier 87 and its shadow.
+The shadow of a black hole seen here is the closest we can come to an image of the black hole itself, a completely dark object from which light cannot escape. The black hole’s boundary — the event horizon from which the EHT takes its name — is around 2.5 times smaller than the shadow it casts and measures just under 40 billion km across. While this may sound large, this ring is only about 40 microarcseconds across — equivalent to measuring the length of a credit card on the surface of the Moon.
+Although the telescopes making up the EHT are not physically connected, they are able to synchronize their recorded data with atomic clocks — hydrogen masers — which precisely time their observations. These observations were collected at a wavelength of 1.3 mm during a 2017 global campaign. Each telescope of the EHT produced enormous amounts of data – roughly 350 terabytes per day – which was stored on high-performance helium-filled hard drives. These data were flown to highly specialised supercomputers — known as correlators — at the Max Planck Institute for Radio Astronomy and MIT Haystack Observatory to be combined. They were then painstakingly converted into an image using novel computational tools developed by the collaboration.Credit:
+EHT Collaboration
+Usage of ESO Images, Videos, Web texts and Music
+Are you a journalist? Subscribe to the ESO Media Newsletter in your language.
+About the Image
+Id:eso1907a
+Type:Observation
+Release date:10 April 2019, 15:07
+Related releases:eso2105, eso1907
+Related announcements:ann19043
+Size:7416 x 4320 px
+About the Object
+Name:M87*, Messier 87
+Type:Local Universe : Galaxy : Component : Central Black Hole
+Constellation:Virgo
+Category:Quasars and Black Holes
+Image Formats
+Fullsize Original
+183.4 MB checksum
+Large JPEG
+ 7.7 MB
+Publication TIFF 4K
+ 8.3 MB
+Publication JPEG
+ 403.5 KB
+Screensize JPEG
+ 39.8 KB
+Zoomable
+Zoomable
+Wallpapers
+1024x768
+ 53.8 KB
+1280x1024
+ 72.6 KB
+1600x1200
+ 92.6 KB
+1920x1200
+ 98.5 KB
+2048x1536
+ 144.7 KB
+Coordinates
+Position (RA):12 30 49.42
+Position (Dec):12° 23' 28.04"
+Field of view:0.00 x 0.00 arcminutes
+Orientation:North is 0.0° left of vertical
+View in WorldWide Telescope:
+Colours & filters
+BandWavelengthTelescope
+Millimeter1.3 mmEvent Horizon Telescope
+ Send us your comments!
+ Subscribe to receive news from ESO in your language
+ Accelerated by CDN77
+ Terms & Conditions
+ Cookie Settings and Policy
+Our use of Cookies
+We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.
+ You can manage your cookie preferences and find out more by visiting 'Cookie Settings and Policy'.
+ Accept All
+ Accept Only Essential Cookies
+ Cookie Settings and Policy
+ESO Cookies Policy
+The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.
+This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.
+What are cookies?
+Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.
+Categories of cookies we use
+Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+csrftoken
+XSRF protection token. We use this cookie to protect against cross-site request forgery attacks.
+1st party
+Stored
+1 year
+user_privacy
+Your privacy choices. We use this cookie to save your privacy preferences.
+1st party
+Stored
+6 months
+_grecaptcha
+We use reCAPTCHA to protect our forms against spam and abuse. reCAPTCHA sets a necessary cookie when executed for the purpose of providing its risk analysis. We use www.recaptcha.net instead of www.google.com in order to avoid unnecessary cookies from Google.
+3rd party
+Stored
+6 months
+Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+Settings
+preferred_language
+Language settings. We use this cookie to remember your preferred language settings.
+1st party
+Stored
+1 year
+ON | OFF
+sessionid
+ESO Shop. We use this cookie to store your session information on the ESO Shop. This is just an identifier which is used on the server in order to allow you to purchase items in our shop.
+1st party
+Stored
+2 weeks
+ON | OFF
+Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.
+Matomo Cookies:
+This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.
+On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.
+ON | OFF
+Matomo cookies settings:
+Cookie ID/Name
+Description/Purpose
+Provider (1st party or 3rd party)
+Browser session cookie or Stored cookie?
+Duration
+Settings
+_pk_id
+Stores a unique visitor ID.
+1st party
+Stored
+13 months
+_pk_ses
+Session cookie temporarily stores data for the visit.
+1st party
+Stored
+30 minutes
+_pk_ref
+Stores attribution information (the referrer that brought the visitor to the website).
+1st party
+Stored
+6 months
+_pk_testcookie
+Temporary cookie to check if a visitor’s browser supports cookies (set in Internet Explorer only).
+1st party
+Stored
+Temporary cookie that expires almost immediately after being set.
+Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.
+Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.
+YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.
+Cookies can also be classified based on the following elements.
+Regarding the domain, there are:
+First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;
+Third-party cookies, set by a domain other than the one you are currently visiting.
+As for their duration, cookies can be:
+Browser-session cookies, which are deleted when the user closes the browser;
+Stored cookies, which stay on the user's device for a predetermined period of time.
+How to manage cookies
+Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.
+In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:
+Brave
+Chrome
+Edge
+Firefox
+Safari
+Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.
+You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).
+Updates to the ESO Cookies Policy
+The ESO Cookies Policy may be subject to future updates, which will be made available on this page.
+Additional information
+For any queries related to cookies, please contact: pdprATesoDOTorg.
+As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department.
+ Save
+ Cancel

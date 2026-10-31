@@ -1,0 +1,160 @@
+SOURCE: https://esawebb.org/news/weic2216/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation | ESA/Webb
+ Subscribe to Webb News
+ Home
+ News
+ Press Releases
+ For Scientists
+ Newsworthy Results
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ 2021
+ Announcements
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ Picture of the Month
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ Images
+ All Images
+ Picture of the Month
+ Categories
+ Anniversaries
+ Exoplanets
+ First Images
+ Galaxies
+ Graphics
+ Illustrations
+ Launch
+ MIRI
+ Nebulae
+ NIRCam
+ NIRISS
+ NIRSpec
+ Picture of the Month
+ Quasars and Black Holes
+ Solar System
+ Spacecraft
+ Spectroscopy
+ Stars
+ Videos
+ All Videos
+ Video Formats
+ About
+ General
+ Mission Overview
+ Fact Sheet
+ Instruments
+ MIRI
+ NIRSpec
+ NIRCam
+ NIRISS
+ Sun Shield
+ Mirrors
+ Orbit
+ Spectroscopy with Webb
+ Webb & Other Space Telescopes
+ Webb's Scientific Method
+ Image Processing
+ Webb and Europe
+ International Collaboration
+ Ariane Launcher
+ ESA/Webb Outreach Team
+ Science
+ Other Worlds
+ The Lifecycle of Stars
+ The Early Universe
+ Galaxies Over Time
+ FAQ
+ For Scientists
+ Newsworthy Results
+ Initiatives
+ Webb's First Images
+ Word Bank
+ Public Resources
+ Virtual Meeting Backgrounds
+ ESA Webb Seeing Farther Brochure
+ Calendars
+ 2026
+ 2025
+ 2024
+ 2023
+ Newsletters
+ ESA/Webb Newsletters
+ ESA/Webb News
+ ESA/Hubble/Webb Science Newsletter
+ Science Announcements
+ Media
+ Usage of ESA/Webb Images & Videos
+ Subscribe to the Media Newsletter
+ Contact
+weic2216 — Photo Release
+Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation
+ 19 October 2022
+The NASA/ESA/CSA James Webb Space Telescope has captured a lush, highly detailed landscape – the iconic Pillars of Creation – where new stars are forming within dense clouds of gas and dust. The three-dimensional pillars look like majestic rock formations, but are far more permeable. These columns are made up of cool interstellar gas and dust that appear – at times – semi-transparent in near-infrared light.
+Newly formed protostars are the scene-stealers in this Near-Infrared Camera (NIRCam) image. These are the bright red orbs that typically have diffraction spikes and lie outside one of the dusty pillars. When knots with sufficient mass form within the pillars of gas and dust, they begin to collapse under their own gravity, slowly heat up, and eventually form new stars.
+What about those wavy lines that look like lava? These are ejections from stars that are still forming within the gas and dust. Young stars periodically shoot out jets that collide with clouds of material, like these thick pillars. This sometimes also results in bow shocks, which can form wavy patterns like a boat does as it moves through water. The crimson glow comes from the energetic hydrogen molecules that result from jets and shocks. This is evident in the second and third pillars from the top – the NIRCam image is practically pulsing with their activity. These young stars are estimated to be only a few hundred thousand years old.
+Although it may appear that near-infrared light has allowed Webb to “pierce through” the clouds to reveal great cosmic distances beyond the pillars, there are no galaxies in this view. Instead, a mix of translucent gas and dust known as the interstellar medium stands in the way. It blocks our view of the deeper universe – and is lit up by the collective light from the packed “party” of stars in the region.
+This scene was first imaged by the NASA/ESA Hubble Space Telescope in 1995, and again in 2014, but many other world-class observatories have also stared deeply at this region, like ESA's Herschel Telescope. Each advanced instrument offers researchers tantalising new details about this region, which is practically overflowing with stars.
+Webb’s new view of the Pillars of Creation will help researchers revamp their models of star formation by identifying far more precise star populations, along with the quantities of gas and dust in the region. Over time, they will begin to build a clearer understanding of how stars form and burst out of these dusty clouds over millions of years.
+This tightly cropped image is set within the vast Eagle Nebula, which lies 6,500 light-years away.
+More information
+Webb is the largest, most powerful telescope ever launched into space. Under an international collaboration agreement, ESA provided the telescope’s launch service, using the Ariane 5 launch vehicle. Working with partners, ESA was responsible for the development and qualification of Ariane 5 adaptations for the Webb mission and for the procurement of the launch service by Arianespace. ESA also provided the workhorse spectrograph NIRSpec and 50% of the mid-infrared instrument MIRI, which was designed and built by a consortium of nationally funded European Institutes (The MIRI European Consortium) in partnership with JPL and the University of Arizona.
+Webb is an international partnership between NASA, ESA and the Canadian Space Agency (CSA).
+Image Credit: NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).
+Links
+Collection of Webb’s First Images
+ESA Webb Seeing Farther Interactive Brochure
+Release on ESA website
+Release on STScI website
+Release on NASA website
+Contacts
+ Bethany Downer
+ ESA/Webb Chief Science Communications Officer
+ Email: [email protected]
+ Ninja Menning
+ ESA Newsroom and Media Relations Office
+ Email: [email protected]
+ Usage of ESA/Hubble/Webb Images and Videos
+ Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.
+Search Press Releases
+ About the Release
+Release No.:weic2216
+Images
+ PR Image
+ weic2216a
+ Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation (Cropped)
+ PR Image
+ weic2216b
+ Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation (Full View)
+ PR Image
+ weic2216c
+ Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation (Annotated)
+ PR Image
+ weic2216d
+ Hubble and Webb Showcase the Pillars of Creation (Side by Side)
+Videos
+PR Video weic2216a
+Space Sparks Episode 7: Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation 
+PR Video weic2216b
+Hubble and Webb Showcase the Pillars of Creation 
+PR Video weic2216c
+Pan of the Webb’s Portrait of the Pillars of Creation (NIRCam) 
+PR Video weic2216d
+Zoom into Webb’s View of the Pillars of Creation 
+Slider Tool
+Hubble and Webb Showcase the Pillars of Creation (Slider Tool)
+Follow us on social media
+ Website developed and operated by Enciso Systems
+ Accelerated by CDN77

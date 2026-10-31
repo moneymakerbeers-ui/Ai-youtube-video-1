@@ -8,3 +8,11 @@ tests/.work/
 videos/*/render/
 videos/*/public/
 out/
+.venv/
+videos/*/assets/_orig/
+videos/*/render/
+videos/*/out/*.mp4
+library/cache/
+videos/*/audio/**/*.wav
+videos/*/**/*.mp4
+videos/*/review/preview/*.wav

@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "name": "ffmpeg",
+      "status": "AVAILABLE",
+      "detail": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+      "required": true,
+      "howToFix": "install ffmpeg >= 6 (apt install ffmpeg)"
+    },
+    {
+      "name": "ffprobe",
+      "status": "AVAILABLE",
+      "detail": "ffprobe version 6.1.1-3ubuntu5 Copyright (c) 2007-2023 the FFmpeg developers",
+      "required": true,
+      "howToFix": "comes with ffmpeg"
+    },
+    {
+      "name": "ffmpeg filters (QA + render)",
+      "status": "AVAILABLE",
+      "detail": "all present",
+      "required": true,
+      "howToFix": "use an ffmpeg build with these filters"
+    },
+    {
+      "name": "ffmpeg encoders",
+      "status": "AVAILABLE",
+      "detail": "libx264 + aac present",
+      "required": true,
+      "howToFix": "use an ffmpeg build with libx264"
+    },
+    {
+      "name": "ffmpeg libflite (free local voice)",
+      "status": "AVAILABLE",
+      "detail": "flite filter present",
+      "required": false,
+      "howToFix": "ffmpeg built with --enable-libflite"
+    },
+    {
+      "name": "ffmpeg rubberband (pitch/tempo)",
+      "status": "AVAILABLE",
+      "detail": "present",
+      "required": false,
+      "howToFix": ""
+    },
+    {
+      "name": "node",
+      "status": "AVAILABLE",
+      "detail": "v22.23.4",
+      "required": true,
+      "howToFix": "install Node >= 20"
+    },
+    {
+      "name": "npx",
+      "status": "AVAILABLE",
+      "detail": "/opt/node22/bin/npx",
+      "required": true,
+      "howToFix": "comes with node"
+    },
+    {
+      "name": "tsx (TypeScript runner)",
+      "status": "AVAILABLE",
+      "detail": "tsx v4.23.12",
+      "required": true,
+      "howToFix": "npm ci"
+    },
+    {
+      "name": "typescript",
+      "status": "AVAILABLE",
+      "detail": "Version 6.0.3",
+      "required": true,
+      "howToFix": "npm ci"
+    },
+    {
+      "name": "Chromium via Playwright (renderer)",
+      "status": "AVAILABLE",
+      "detail": "chromium 153.0.8010.12",
+      "required": true,
+      "howToFix": "npm ci && npx playwright install chromium"
+    },
+    {
+      "name": "python",
+      "status": "AVAILABLE",
+      "detail": "3.13.18",
+      "required": true,
+      "howToFix": ""
+    },
+    {
+      "name": "python:numpy",
+      "status": "AVAILABLE",
+      "detail": "2.5.3",
+      "required": true,
+      "howToFix": ""
+    },
+    {
+      "name": "python:scipy",
+      "status": "AVAILABLE",
+      "detail": "1.18.1",
+      "required": true,
+      "howToFix": ""
+    },
+    {
+      "name": "python:PIL",
+      "status": "AVAILABLE",
+      "detail": "12.3.0",
+      "required": true,
+      "howToFix": ""
+    },
+    {
+      "name": "python:pytest",
+      "status": "AVAILABLE",
+      "detail": "9.1.1",
+      "required": false,
+      "howToFix": ""
+    },
+    {
+      "name": "fonts",
+      "status": "MISSING",
+      "detail": "/home/user/Ai-youtube-video-1/library/fonts",
+      "required": false,
+      "howToFix": "library/fonts must hold the font files the style tokens name (the renderer never falls back silently)"
+    },
+    {
+      "name": "disk space",
+      "status": "AVAILABLE",
+      "detail": "29.5 GB free",
+      "required": false,
+      "howToFix": "a 8-minute 1080p60 render plus frames needs ~2 GB"
+    },
+    {
+      "name": "ElevenLabs voice (live)",
+      "status": "UNTESTED",
+      "detail": "ELEVENLABS_API_KEY is not set; this adapter has not been exercised against the live service in this environment",
+      "required": false,
+      "howToFix": "set ELEVENLABS_API_KEY and run a one-line smoke call; paid narration (--stack elevenlabs)"
+    },
+    {
+      "name": "Higgsfield (credits)",
+      "status": "UNTESTED",
+      "detail": "HIGGSFIELD_API_KEY is not set; this adapter has not been exercised against the live service in this environment",
+      "required": false,
+      "howToFix": "set HIGGSFIELD_API_KEY and run a one-line smoke call; paid image/video generation; in Claude sessions it is reached through the Higgsfield MCP tools instead"
+    },
+    {
+      "name": "YouTube upload / Studio",
+      "status": "UNTESTED",
+      "detail": "no upload step exists in this system: it produces youtube.md + files; publishing is manual or through your own tooling",
+      "required": false,
+      "howToFix": ""
+    },
+    {
+      "name": "network: api.elevenlabs.io",
+      "status": "BLOCKED",
+      "detail": "HTTP 405",
+      "required": false,
+      "howToFix": ""
+    },
+    {
+      "name": "network: higgsfield",
+      "status": "BLOCKED",
+      "detail": "HTTP 403",
+      "required": false,
+      "howToFix": ""
+    },
+    {
+      "name": "network: youtube",
+      "status": "AVAILABLE",
+      "detail": "reachable",
+      "required": false,
+      "howToFix": ""
+    },
+    {
+      "name": "network: npm registry",
+      "status": "AVAILABLE",
+      "detail": "reachable",
+      "required": false,
+      "howToFix": ""
+    }
+  ],
+  "summary": {
+    "required_missing": [],
+    "untested": [
+      "ElevenLabs voice (live)",
+      "Higgsfield (credits)",
+      "YouTube upload / Studio"
+    ],
+    "blocked": [
+      "network: api.elevenlabs.io",
+      "network: higgsfield"
+    ]
+  }
+}

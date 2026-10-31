@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """align.py - word-level timing measured on the FINAL audio file (never guessed from words-per-minute).
 
-Engines (pick with --engine; `auto` = elevenlabs if a key exists, else dtw; whisper is NOT implemented and always BLOCKED):
+Engines (pick with --engine; `auto` = ALIGN_ENGINE if set, else elevenlabs if a key exists, else dtw; whisper needs faster-whisper):
   dtw          FREE, local, no model download. Synthesises a reference of the script with the local flite voice and
                warps it onto the real audio with dynamic time warping over MFCC features (the method aeneas uses).
                Accuracy is measured, not assumed: tests/test_align.py builds audio with KNOWN word times (another
                voice, other tempo, random pauses) and asserts median/p90 error. Real human or ElevenLabs speech
                is acoustically further from the flite reference, so treat the error bounds as optimistic.
   elevenlabs   ElevenLabs forced-alignment endpoint (UNTESTED live: needs ELEVENLABS_API_KEY and network).
-  whisper      NOT IMPLEMENTED (no word-to-script mapping exists in this version): selecting it exits 3 BLOCKED with that message.
+  whisper      faster-whisper word timestamps mapped onto the script words (difflib); unmatched words interpolated (conf 0.3); fails if < 85 % match.
+               Select with --engine whisper or ALIGN_ENGINE=whisper (auto never picks it implicitly). Missing package = exit 3 BLOCKED.
 
 usage:
   python tools/align.py --audio audio/narration.wav --assembly audio/assembly.json --scenes scenes.json \
@@ -263,16 +264,97 @@ def align_elevenlabs(audio_path, text):
     return [(w["start"], w["end"], 1.0 - float(w.get("loss", 0.0))) for w in data["words"]]
 
 
-def align_whisper(x, words):
-    # NOT IMPLEMENTED: there is no word-to-script mapping for whisper output in this version. Selecting it is a BLOCKED, never a guess
-    # and never a silent substitute for another engine.
-    raise ModuleNotFoundError("the whisper engine is not implemented in this version (it was only ever a hook); use --engine dtw (free narration with the local voice) or --engine elevenlabs (forced alignment, UNTESTED live)")
+_WHISPER = {}
+
+
+def _whisper_model():
+    """faster-whisper model, loaded once. ALIGN_WHISPER_MODEL picks the size (default small.en). Missing package = BLOCKED, never a guess."""
+    name = os.environ.get("ALIGN_WHISPER_MODEL", "small.en")
+    if name not in _WHISPER:
+        try:
+            from faster_whisper import WhisperModel  # noqa: WPS433
+        except ImportError as e:
+            raise ModuleNotFoundError(f"faster-whisper is not installed ({e}); pip install faster-whisper, or use --engine dtw") from e
+        _WHISPER[name] = WhisperModel(name, device="cpu", compute_type="int8")
+    return _WHISPER[name]
+
+
+_NUM = {"0": "zero", "1": "one", "2": "two", "3": "three", "4": "four", "5": "five", "6": "six", "7": "seven", "8": "eight", "9": "nine", "10": "ten",
+        "20": "twenty", "21": "twentyone", "25": "twentyfive", "33": "thirtythree", "40": "forty", "100": "hundred"}
+
+
+def _wnorm(w):
+    n = norm_word(w).replace("'", "")
+    return _NUM.get(n, n)
+
+
+def align_whisper(x, words, t0=0.0):
+    """Recognise ONE segment (16 kHz mono) with faster-whisper word timestamps, then map the recognised words onto the SCRIPT words with a
+    sequence alignment (difflib on normalised tokens; hyphenated script words are compared without the hyphen). Matched script words take the
+    recognised timing and its probability as confidence; unmatched script words are interpolated between their matched neighbours by
+    character count and get confidence 0.3 (listed in the notes). Returns ([(s, e, conf)], stats)."""
+    import difflib
+
+    model = _whisper_model()
+    segs, _info = model.transcribe(x.astype(np.float32), language="en", word_timestamps=True, beam_size=5, vad_filter=False,
+                                   initial_prompt=" ".join(words)[:800])
+    rec = [(float(w.start), float(w.end), float(w.probability), w.word) for s in segs for w in (s.words or [])]
+    # split recognised tokens that hold several words ("light-years" stays one, "10 million" is already two tokens)
+    a = [_wnorm(w.replace("-", "")) for _, _, _, w in rec]
+    b = [_wnorm(w.replace("-", "")) for w in words]
+    sm = difflib.SequenceMatcher(a=a, b=b, autojunk=False)
+    res = [None] * len(words)
+    for blk in sm.get_matching_blocks():
+        for k in range(blk.size):
+            s, e, pr, _ = rec[blk.a + k]
+            res[blk.b + k] = [s, e, pr]
+    # replace-blocks with equal length (e.g. "M87" vs "M87," variants) map one to one
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag == "replace" and (i2 - i1) == (j2 - j1):
+            for k in range(i2 - i1):
+                s, e, pr, _ = rec[i1 + k]
+                res[j1 + k] = [s, e, min(pr, 0.6)]
+    matched = sum(1 for r in res if r is not None)
+    dur = len(x) / SR
+    # interpolate the gaps by character weight between the neighbours' edges
+    k = 0
+    while k < len(res):
+        if res[k] is not None:
+            k += 1
+            continue
+        j = k
+        while j < len(res) and res[j] is None:
+            j += 1
+        lo = res[k - 1][1] if k > 0 else (rec[0][0] if rec else 0.0)
+        hi = res[j][0] if j < len(res) else (rec[-1][1] if rec else dur)
+        hi = max(hi, lo + 0.06 * (j - k))
+        wts = [max(len(b[q]), 1) for q in range(k, j)]
+        tot, acc = float(sum(wts)), lo
+        for q, wq in zip(range(k, j), wts):
+            span = (hi - lo) * wq / tot
+            res[q] = [acc, acc + span, 0.3]
+            acc += span
+        k = j
+    # monotonic, non-overlapping, inside the segment
+    for q in range(len(res)):
+        res[q][0] = float(np.clip(res[q][0], 0, dur))
+        res[q][1] = float(np.clip(max(res[q][1], res[q][0] + 0.03), 0, dur))
+        if q and res[q][0] < res[q - 1][1]:
+            if res[q][0] < res[q - 1][0]:
+                res[q][0] = res[q - 1][1]
+                res[q][1] = max(res[q][1], res[q][0] + 0.03)
+            else:
+                mid = (res[q][0] + res[q - 1][1]) / 2
+                res[q - 1][1], res[q][0] = mid, mid
+    return [(s + t0, e + t0, c) for s, e, c in res], {"recognised": len(rec), "matched": matched, "scriptWords": len(words)}
 
 
 # ───────────────────────── driver ─────────────────────────
 def pick_engine(requested):
     if requested != "auto":
         return requested
+    if os.environ.get("ALIGN_ENGINE") in ("dtw", "elevenlabs", "whisper"):
+        return os.environ["ALIGN_ENGINE"]  # explicit project/run choice (e.g. whisper for a human-like voice); never implicit
     if os.environ.get("ELEVENLABS_API_KEY"):
         return "elevenlabs"
     return "dtw"  # whisper is not implemented, so `auto` never selects it even when faster-whisper happens to be installed
@@ -364,7 +446,31 @@ def main():
             if len(res) != len(sw):
                 raise RuntimeError(f"ElevenLabs returned {len(res)} words for {len(sw)} script words; the mapping needs review")
         else:
-            res = align_whisper(x, [w for _, w in sw])
+            segs = []
+            if a.assembly:
+                asm = read_json(a.assembly)
+                scene_words = {}
+                for gi, (sid, _w) in enumerate(sw):
+                    scene_words.setdefault(sid, []).append(gi)
+                for seg in asm["segments"]:
+                    segs.append((seg["startS"], seg["endS"], [i for sid in seg["sceneIds"] for i in scene_words[sid]]))
+            else:
+                segs.append((0.0, audio_dur, list(range(len(sw)))))
+            res = [None] * len(sw)
+            m_tot = 0
+            for (s0, s1, idxs) in segs:
+                pad = 0.12
+                a0, a1 = max(s0 - pad, 0), min(s1 + pad, audio_dur)
+                r, st = align_whisper(x[int(a0 * SR) : int(a1 * SR)], [sw[i][1] for i in idxs], t0=a0)
+                m_tot += st["matched"]
+                for i, v in zip(idxs, r):
+                    res[i] = v
+            if any(v is None for v in res):
+                raise RuntimeError("some script words are in no assembly segment")
+            share = m_tot / len(sw)
+            notes.append(f"whisper ({os.environ.get('ALIGN_WHISPER_MODEL', 'small.en')}, faster-whisper word timestamps) mapped onto the script: {m_tot}/{len(sw)} script words matched a recognised word ({share:.1%}); the rest are interpolated between matched neighbours (confidence 0.3)")
+            if share < 0.85:
+                raise RuntimeError(f"only {share:.1%} of the script words matched the recognised speech: the audio may not say the script")
     except (PermissionError, ModuleNotFoundError) as e:
         print(f"BLOCKED: engine {engine} unavailable: {e}", file=sys.stderr)
         return 3

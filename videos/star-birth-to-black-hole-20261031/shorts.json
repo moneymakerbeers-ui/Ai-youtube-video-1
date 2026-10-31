@@ -1,0 +1,181 @@
+{
+ "shorts": [
+  {
+   "id": "S01",
+   "status": "validated",
+   "title": "Why iron kills the biggest stars",
+   "question": "What actually makes a giant star explode?",
+   "minimumContext": [
+    "giant stars stay alive by fusing ever-heavier elements in their core"
+   ],
+   "payoff": "iron fusion costs energy, the core collapses in under a second and rebounds into a supernova",
+   "sceneIds": [
+    "s20",
+    "s21",
+    "s22",
+    "s23"
+   ],
+   "delta": {
+    "openingLine": "A giant star holds itself up against its own gravity by fusing heavier and heavier elements in its core. Until it reaches iron.",
+    "closingLine": "And what's left behind can become a black hole.",
+    "portraitRestage": "onion and core diagrams stacked full-width; labels above and below"
+   },
+   "targetDurationS": 50,
+   "validation": {
+    "independentOpening": true,
+    "oneQuestion": true,
+    "minimumContext": true,
+    "completeExplanation": true,
+    "cleanPayoff": true,
+    "sourceLinked": true,
+    "deltaDefined": true
+   }
+  },
+  {
+   "id": "S02",
+   "status": "validated",
+   "title": "You are made of exploded stars",
+   "question": "Where did the oxygen and calcium in your body come from?",
+   "minimumContext": [
+    "a supernova is a giant star exploding"
+   ],
+   "payoff": "NASA: all the Solar System's oxygen, about half its calcium and ~40% of its iron came from exploding massive stars",
+   "sceneIds": [
+    "s27",
+    "s28"
+   ],
+   "delta": {
+    "openingLine": "The oxygen in your next breath came from exploding stars.",
+    "closingLine": "And oxygen alone is about two thirds of your body's weight.",
+    "portraitRestage": "Chandra image top, colour key below; bars full-width"
+   },
+   "targetDurationS": 40,
+   "validation": {
+    "independentOpening": true,
+    "oneQuestion": true,
+    "minimumContext": true,
+    "completeExplanation": true,
+    "cleanPayoff": true,
+    "sourceLinked": true,
+    "deltaDefined": true
+   }
+  },
+  {
+   "id": "S03",
+   "status": "validated",
+   "title": "The moment a star switches on",
+   "question": "What turns a cloud of gas into a shining star?",
+   "minimumContext": [
+    "stars form inside cold clouds of gas and dust"
+   ],
+   "payoff": "at about fifteen million degrees hydrogen fuses into helium: a star is born",
+   "sceneIds": [
+    "s06",
+    "s07",
+    "s08",
+    "s10",
+    "s11"
+   ],
+   "delta": {
+    "openingLine": "Every star begins inside a cold, dark cloud of gas and dust, where the gas gathers into dense clumps.",
+    "portraitRestage": "illustrations recomposed tall; temperature readout centred"
+   },
+   "targetDurationS": 50,
+   "validation": {
+    "independentOpening": true,
+    "oneQuestion": true,
+    "minimumContext": true,
+    "completeExplanation": true,
+    "cleanPayoff": true,
+    "sourceLinked": true,
+    "deltaDefined": true
+   }
+  },
+  {
+   "id": "S04",
+   "status": "validated",
+   "title": "How do you find something invisible?",
+   "question": "If black holes give off no light, how do we find them?",
+   "minimumContext": [
+    "no light escapes a black hole"
+   ],
+   "payoff": "by their pull on companion stars: Cygnus X-1 (~21 Suns) glows in X-rays; Gaia BH3 (~33 Suns) was found by a wobble",
+   "sceneIds": [
+    "s32",
+    "s33",
+    "s34"
+   ],
+   "delta": {
+    "openingLine": "Nothing escapes a black hole, not even light.",
+    "portraitRestage": "illustrations recomposed tall; numbers stacked"
+   },
+   "targetDurationS": 55,
+   "validation": {
+    "independentOpening": true,
+    "oneQuestion": true,
+    "minimumContext": true,
+    "completeExplanation": true,
+    "cleanPayoff": true,
+    "sourceLinked": true,
+    "deltaDefined": true
+   }
+  },
+  {
+   "id": "S05",
+   "status": "validated",
+   "title": "The giant star that vanished",
+   "question": "Can a giant star turn into a black hole without exploding?",
+   "minimumContext": [
+    "most giant stars die in a supernova explosion"
+   ],
+   "payoff": "N6946-BH1 flared weakly and seemed to vanish; a failed supernova is one explanation, still debated",
+   "sceneIds": [
+    "s35",
+    "s36"
+   ],
+   "delta": {
+    "openingLine": "Most giant stars die in a huge explosion. But maybe not all of them.",
+    "closingLine": "If the failed-supernova idea is confirmed, astronomers say it would be the first time anyone has seen a black hole being born.",
+    "portraitRestage": "before/after stacked tall"
+   },
+   "targetDurationS": 40,
+   "validation": {
+    "independentOpening": true,
+    "oneQuestion": true,
+    "minimumContext": true,
+    "completeExplanation": true,
+    "cleanPayoff": true,
+    "sourceLinked": true,
+    "deltaDefined": true
+   }
+  },
+  {
+   "id": "S06",
+   "status": "rejected",
+   "title": "Why giant stars die young",
+   "question": "Why do heavier stars live shorter lives?",
+   "minimumContext": [
+    "stars burn hydrogen"
+   ],
+   "payoff": "heavier stars burn faster",
+   "sceneIds": [
+    "s14",
+    "s15"
+   ],
+   "delta": {
+    "openingLine": "The biggest stars live the shortest lives."
+   },
+   "targetDurationS": 30,
+   "validation": {
+    "independentOpening": true,
+    "oneQuestion": true,
+    "minimumContext": true,
+    "completeExplanation": false,
+    "cleanPayoff": false,
+    "sourceLinked": true,
+    "deltaDefined": true
+   },
+   "rejectedReason": "two diagram scenes give a fact but no complete visual explanation or payoff a stranger would feel; five stronger Shorts exist"
+  }
+ ]
+}

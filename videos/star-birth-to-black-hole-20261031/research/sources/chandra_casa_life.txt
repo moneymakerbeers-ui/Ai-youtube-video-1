@@ -1,0 +1,240 @@
+SOURCE: https://chandra.harvard.edu/photo/2017/casa_life/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Chandra :: Photo Album :: Cassiopeia A :: December 12, 2017
+NASA's flagship mission for X-ray astronomy. 
+Home
+About Chandra
+Learning
+Field Guide
+Photo Album
+Press Room
+Resources & Multimedia
+Video Series
+Blog
+Research
+Images by Date
+ 2026 
+ 2025 
+ 2024 
+ 2023
+ 2022 
+ 2021 
+ 2020 
+ 2019
+ 2018 
+ 2017 
+ 2016 
+ 2015
+ 2014 
+ 2013 
+ 2012 
+2011
+2010 
+2009 
+2008 
+ 2007
+ 2006 
+ 2005 
+ 2004 
+2003
+2002 
+2001 
+2000 
+ 1999
+Images by Category
+Solar System
+Stars
+Exoplanets
+White Dwarfs
+Supernovas
+Neutron Stars
+Black Holes
+Milky Way Galaxy
+Normal Galaxies
+Quasars
+Galaxy Clusters
+Cosmology/Deep Field
+Miscellaneous
+Images by Interest
+Space Scoop for Kids
+Multiwavelength
+Sky Map
+Constellations
+Photo Blog
+Top Rated Images
+Image Handouts
+Fits Files
+Visual descriptions
+Image Tutorials
+False Color
+Cosmic Distance
+Look-Back Time
+Scale & Distance
+Angular Measurement
+Images & Processing
+AVM/Metadata
+Image Use Policy 
+Web Shortcuts
+Chandra Blog
+RSS Feed
+Image Use Policy
+Questions & Answers
+Glossary of Terms 
+ Chandra Reveals the Elementary Nature of Cassiopeia A
+Visual Description:
+ Text
+A new Chandra image shows the location of several elements produced by the explosion of a massive star.
+Cassiopeia A is a well-known supernova remnant located about 11,000 light years from Earth.
+Supernova remnants and the elements they produce are very hot — millions of degrees — and glow strongly in X-ray light.
+Chandra's sharp X-ray vision allows scientists to determine both the amount and location of these crucial elements objects like Cas A produce.
+Where do most of the elements essential for life on Earth come from? The answer: inside the furnaces of stars and the explosions that mark the end of some stars' lives.
+Astronomers have long studied exploded stars and their remains — known as "supernova remnants" — to better understand exactly how stars produce and then disseminate many of the elements observed on Earth, and in the cosmos at large.
+Due to its unique evolutionary status, Cassiopeia A (Cas A) is one of the most intensely studied of these supernova remnants. A new image from NASA's Chandra X-ray Observatory shows the location of different elements in the remains of the explosion: silicon (red), sulfur (yellow), calcium (green) and iron (purple). Each of these elements produces X-rays within narrow energy ranges, allowing maps of their location to be created. The blue color shows high energy X-ray emission, and the blue outer ring in particular is a representation of the expanding blast wave.
+Location of elements in Cassiopeia A. Credit: NASA/CXC/SAO
+X-ray telescopes such as Chandra are important to study supernova remnants and the elements they produce because these events generate extremely high temperatures — millions of degrees — even thousands of years after the explosion. This means that many supernova remnants, including Cas A, glow most strongly at X-ray wavelengths that are undetectable with other types of telescopes.
+Chandra's sharp X-ray vision allows astronomers to gather detailed information about the elements that objects like Cas A produce. For example, they are not only able to identify many of the elements that are present, but how much of each are being expelled into interstellar space.
+The Chandra data indicate that the supernova that produced Cas A has churned out prodigious amounts of key cosmic ingredients. Cas A has dispersed about 10,000 Earth masses worth of sulfur alone, and about 20,000 Earth masses of silicon. The iron in Cas A has the mass of about 70,000 times that of the Earth, and astronomers detect a whopping one million Earth masses worth of oxygen being ejected into space from Cas A, equivalent to about three times the mass of the Sun. (Even though oxygen is the most abundant element in Cas A, its X-ray emission is spread across a wide range of energies and cannot be isolated in this image, unlike the other elements that are shown.)
+Astronomers have found other elements in Cas A in addition to the ones shown in this new Chandra image. Carbon, nitrogen, phosphorus and hydrogen have also been detected using various telescopes that observe different parts of the electromagnetic spectrum. Combined with the detection of oxygen, this means all of the elements needed to make DNA, the molecule that carries genetic information, are found in Cas A.
+Periodic Table of Elements. Credit: NASA/CXC/K. Divona; Reference: SDSS blog, J. Johnson
+Oxygen is the most abundant element in the human body (about 65% by mass), calcium helps form and maintain healthy bones and teeth, and iron is a vital part of red blood cells that carry oxygen through the body. All of the oxygen in the Solar System comes from exploding massive stars. About half of the calcium and about 40% of the iron also come from these explosions, with the balance of these elements being supplied by explosions of smaller mass, white dwarf stars.
+While the exact date is not confirmed (PDF), many experts think that the stellar explosion that created Cas A occurred around the year 1680 in Earth's timeframe. Astronomers estimate that the doomed star was about five times the mass of the Sun just before it exploded. The star is estimated to have started its life with a mass about 16 times that of the Sun, and lost roughly two-thirds of this mass in a vigorous wind blowing off the star several hundred thousand years before the explosion.
+Earlier in its lifetime, the star began fusing hydrogen and helium in its core into heavier elements through the process known as "nucleosynthesis." The energy made by the fusion of heavier and heavier elements balanced the star against the force of gravity. These reactions continued until they formed iron in the core of the star. At this point, further nucleosynthesis would consume rather than produce energy, so gravity then caused the star to implode and form a dense stellar core known as a neutron star.
+Pre-Supernova Star:
+As it nears the end of its evolution, heavy elements produced by nuclear fusion inside the star are concentrated toward the center of the star. Illustration Credit: NASA/CXC/S. Lee
+The exact means by which a massive explosion is produced after the implosion is complicated, and a subject of intense study, but eventually the infalling material outside the neutron star was transformed by further nuclear reactions as it was expelled outward by the supernova explosion.
+Chandra has repeatedly observed Cas A since the telescope was launched into space in 1999. The different datasets have revealed new information about the neutron star in Cas A, the details of the explosion, and specifics of how the debris is ejected into space.
+NASA's Marshall Space Flight Center in Huntsville, Alabama, manages the Chandra program for NASA's Science Mission Directorate in Washington. The Smithsonian Astrophysical Observatory in Cambridge, Massachusetts, controls Chandra's science and flight operations.
+ Fast Facts for Cassiopeia A:
+ Credit 
+ NASA/CXC/SAO
+Release Date 
+December 12, 2017
+Scale 
+Image is 8.91 arcmin across (about 29 light years) 
+ Category 
+Supernovas & Supernova Remnants
+Observation Date 
+16 pointings between Jan. 2000-Nov. 2010 
+Observation Time 
+ 353 hours (14 days, 17 hours)
+Obs. ID 
+114, 1952, 4634-4639, 5196, 5319, 5320, 6690, 10935, 10936, 12020, 13177
+Instrument 
+ACIS
+Also Known As Cas A
+References Hwang and Laming, 2012, ApJ, 746, 130; arXiv:1111.7316; Lee, et al. 2014, ApJ, 789, 7; arXiv:1304.3973
+Color Code 
+X-rays: Red: Silicon, Yellow: Sulphur, Green: Calcium, Purple: Iron, Blue: Blast Wave/High Energy
+Distance Estimate 
+About 11,000 light years
+Visual Description:
+In the Chandra X-ray image of Cassiopeia A, the remnant of a massive star's explosion appears as a roughly circular shell glowing with vivid colors. Bright streaks and filaments of red, yellow, green, purple and blue swirl through the remnant-each color mapping different elements left over from the supernova: silicon (red), sulfur (yellow), calcium (green), iron (purple), while the energetic, high-energy blast wave is shown in blue outlining the outer edge. This outermost rim forms a jagged, electric-blue boundary, marking the shock front expanding away from the center. Deep inside, the structure is mottled and uneven-gaps, bright knots, and lumpy layers betray the turbulent interior of the disrupted star. The remnant is set against a stark black background.
+A supernova remnant. The debris field left behind after a star exploded.
+About 11,000 light years away.
+X-rays from the Chandra X-ray Observatory.
+The image is about 29 light years across.
+Red: Silicon, Yellow: Sulphur, Green: Calcium, Purple: Iron, Blue: Blast Wave/High Energy.
+In the constellation Cassiopeia.
+The Basics
+ What is it?
+ How Far Away is it?
+ How is it Made?
+ How Big is it?
+ What do the Colors Mean?
+ Where is it Located?
+Rate This Image
+Currently 3.90/5
+ Rating: 3.9/5
+(861 votes cast)
+Download & Share
+JPEG (529.9 kb)
+Large JPEG (3.7 MB)
+Tiff (37.1 MB)
+Handout (pdf)
+Image Feed
+ Share This
+More Information
+ Website: The Elementary Nature of Cassiopeia A
+ Blog: Cassiopeia A
+More Images
+ Image of Cassiopeia A Elements
+Jpg, Tif
+More Images
+Animation & Video
+Tour of Cassiopeia A
+More Animations
+More Releases
+ Cassiopeia A
+(30 Jun 26)
+ Cassiopeia A
+(28 Aug 25)
+ Cassiopeia A
+(16 Apr 25)
+ Cassiopeia A
+(16 Apr 25)
+ Cassiopeia A
+(26 Aug 24)
+ Cassiopeia A
+(22 Jul 24)
+ Cassiopeia A
+(24 Apr 24)
+ Cassiopeia A
+(08 Jan 24)
+ Cassiopeia A
+(18 Oct 22)
+ Cassiopeia A
+(02 Feb 22)
+ Cassiopeia A
+(21 Apr 21)
+ Cassiopeia A
+(26 Aug 19)
+ Cassiopeia A
+(15 Nov 13)
+ Cassiopeia A
+(29 Mar 12)
+ Cassiopeia A
+(23 Feb 11)
+ Cassiopeia A
+(04 Nov 09)
+ Cassiopeia A
+(06 Jan 09)
+ Cassiopeia A
+(06 Jan 09)
+ Cassiopeia A
+(15 Nov 06)
+ Cassiopeia A
+(13 Jun 05)
+ Cassiopeia A
+(23 Aug 04)
+ Cassiopeia A
+(19 Aug 02)
+ Cassiopeia A
+(27 Jun 00)
+ Cassiopeia A
+(21 Dec 99)
+ Cassiopeia A
+(26 Aug 99)
+Related Information
+Supernovas & Supernova Remnants 
+X-ray Astronomy Field Guide
+Questions and Answers
+Chandra Images
+Related Podcast
+Tour: NASA's Chandra Finds Unexpected Fireworks in Aftermath of Stellar Explosions 
+Top Rated Images
+Cosmic Ghost 
+Currently 5.00/5
+Treble Clef Cluster
+Currently 4.50/5
+Celebrating NASA's Chandra and Swift Exploring Space Together
+Currently 4.38/5
+Help | Image Use Policy | Privacy | Accessibility | Glossary | Q & A | CXC Science 
+Chandra X-ray Center, Operated for NASA by
+the Smithsonian Astrophysical Observatory
+This site was developed with funding from NASA under contract NAS8-03060.
+Contact us: cxcpub@cfa.harvard.edu
+Harvard-Smithsonian Center for Astrophysics
+60 Garden Street, Cambridge, MA 02138 USA
+Phone: 617.496.7941 Fax: 617.495.7356
+Tweet

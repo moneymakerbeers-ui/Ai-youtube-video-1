@@ -1,0 +1,153 @@
+SOURCE: https://esawebb.org/news/weic2316/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Webb celebrates first year of science with close-up on the birth of Sun-like stars | ESA/Webb
+ Subscribe to Webb News
+ Home
+ News
+ Press Releases
+ For Scientists
+ Newsworthy Results
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ 2021
+ Announcements
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ Picture of the Month
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ Images
+ All Images
+ Picture of the Month
+ Categories
+ Anniversaries
+ Exoplanets
+ First Images
+ Galaxies
+ Graphics
+ Illustrations
+ Launch
+ MIRI
+ Nebulae
+ NIRCam
+ NIRISS
+ NIRSpec
+ Picture of the Month
+ Quasars and Black Holes
+ Solar System
+ Spacecraft
+ Spectroscopy
+ Stars
+ Videos
+ All Videos
+ Video Formats
+ About
+ General
+ Mission Overview
+ Fact Sheet
+ Instruments
+ MIRI
+ NIRSpec
+ NIRCam
+ NIRISS
+ Sun Shield
+ Mirrors
+ Orbit
+ Spectroscopy with Webb
+ Webb & Other Space Telescopes
+ Webb's Scientific Method
+ Image Processing
+ Webb and Europe
+ International Collaboration
+ Ariane Launcher
+ ESA/Webb Outreach Team
+ Science
+ Other Worlds
+ The Lifecycle of Stars
+ The Early Universe
+ Galaxies Over Time
+ FAQ
+ For Scientists
+ Newsworthy Results
+ Initiatives
+ Webb's First Images
+ Word Bank
+ Public Resources
+ Virtual Meeting Backgrounds
+ ESA Webb Seeing Farther Brochure
+ Calendars
+ 2026
+ 2025
+ 2024
+ 2023
+ Newsletters
+ ESA/Webb Newsletters
+ ESA/Webb News
+ ESA/Hubble/Webb Science Newsletter
+ Science Announcements
+ Media
+ Usage of ESA/Webb Images & Videos
+ Subscribe to the Media Newsletter
+ Contact
+weic2316 — Photo Release
+Webb celebrates first year of science with close-up on the birth of Sun-like stars
+ 12 July 2023
+From our cosmic backyard in the Solar System to distant galaxies near the dawn of time, the NASA/ESA/CSA James Webb Space Telescope has delivered on its promise of revealing the Universe like never before in its first year of science operations. To celebrate the completion of a successful first year, a new Webb image has been released of a small star-forming region in the Rho Ophiuchi cloud complex.
+The new Webb image released today features the nearest star-forming region to us. Its proximity at 390 light-years allows for a highly detailed close-up, with no foreground stars in the intervening space.
+The showcased region contains approximately 50 young stars, all of them similar in mass to the Sun or smaller. The darkest areas are the densest, where thick dust cocoons still-forming protostars. Huge red bipolar jets of molecular hydrogen dominate the image, appearing horizontally across the upper third and vertically on the right. These occur when a star first bursts through its natal envelope of cosmic dust, shooting out a pair of opposing jets into space. In contrast, the star S1 has carved out a glowing cave of dust in the lower half of the image. It is the only star in the image that is significantly more massive than the Sun.
+Some stars in the image display tell-tale shadows indicating protoplanetary discs – potential future planetary systems in the making.
+From its very first deep field image unveiled in July 2022, Webb has delivered on its promise to show us more of the Universe than ever before. However, Webb has revealed much more than distant galaxies in the early Universe.
+Beyond the stunning infrared images, what really has scientists excited are Webb’s crisp spectra — the detailed information that can be gleaned from light by the telescope’s spectroscopic instruments. Webb’s spectra have confirmed the distances of some of the farthest galaxies ever observed, and have discovered the earliest, most distant supermassive black holes. They have identified the compositions of planet atmospheres (or lack thereof) with more detail than ever before, and have narrowed down what kinds of atmospheres may exist on rocky exoplanets for the first time. They also have revealed the chemical makeup of stellar nurseries and protoplanetary disks, detecting water, organic carbon-containing molecules, and more. Already, Webb observations have resulted in hundreds of scientific papers answering longstanding questions and raising new ones to address with Webb.
+The breadth of Webb science is also apparent in its observations of the region of space we are most familiar with — the Solar System. Faint rings of gas giants appear out of the darkness, dotted by moons, while in the background Webb shows distant galaxies. By comparing detections of water and other molecules in our solar system with those found in the disks of other, much younger planetary systems, Webb is helping to build up clues about our own origins – how Earth became the ideal place for life as we know it.
+One year in, Webb’s science mission is really only just getting started. The second year of observations has already been selected, with plans to build on an exciting first year that exceeded expectations.
+More information
+Webb is the largest, most powerful telescope ever launched into space. Under an international collaboration agreement, ESA provided the telescope’s launch service, using the Ariane 5 launch vehicle. Working with partners, ESA was responsible for the development and qualification of Ariane 5 adaptations for the Webb mission and for the procurement of the launch service by Arianespace. ESA also provided the workhorse spectrograph NIRSpec and 50% of the mid-infrared instrument MIRI, which was designed and built by a consortium of nationally funded European Institutes (The MIRI European Consortium) in partnership with JPL and the University of Arizona.
+Webb is an international partnership between NASA, ESA and the Canadian Space Agency (CSA).
+Image Credit: NASA, ESA, CSA
+Links
+Collection of Webb’s First Images
+ESA Webb Seeing Farther Interactive Brochure
+Release on STScI website
+Release on NASA website
+Release on ESA website
+Contacts
+ Bethany Downer
+ ESA/Webb Chief Science Communications Officer
+ Email: [email protected]
+ Ninja Menning
+ ESA Newsroom and Media Relations Office
+ Email: [email protected]
+ Usage of ESA/Hubble/Webb Images and Videos
+ Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.
+Search Press Releases
+ About the Release
+Release No.:weic2316
+Images
+ PR Image
+ weic2316a
+ Rho Ophiuchi cloud complex
+ PR Image
+ weic2316b
+ Rho Ophiuchi cloud complex (annotated)
+Videos
+PR Video weic2316a
+Space Sparks Episode 11: Webb celebrates first year of science with close-up on the birth of sun-like stars 
+PR Video weic2316b
+Space Sparks Episode 12: Webb’s first year in images 
+PR Video weic2316c
+Pan of the Rho Ophiuchi cloud complex 
+PR Video weic2316d
+Zoom into Rho Ophiuchi cloud complex 
+Follow us on social media
+ Website developed and operated by Enciso Systems
+ Accelerated by CDN77

@@ -1,0 +1,147 @@
+{
+  "name": "deep-field-specimen",
+  "palette": {
+    "bg": "#07090f",
+    "bg2": "#121826",
+    "fg": "#f3efe6",
+    "muted": "#aab3c5",
+    "accent": "#ffb45e",
+    "accent2": "#86b9ff",
+    "warn": "#ff6b5b",
+    "line": "#64728f"
+  },
+  "looks": {
+    "nursery": {
+      "accent": "#ff9a6b"
+    },
+    "core": {
+      "accent": "#ffc861",
+      "accent2": "#ff7a4d"
+    },
+    "void": {
+      "accent": "#c9b8ff",
+      "accent2": "#86b9ff"
+    }
+  },
+  "fonts": {
+    "display": "Inter",
+    "body": "Inter",
+    "files": [
+      {
+        "family": "Inter",
+        "file": "library/fonts/Inter/Inter-Regular.otf",
+        "weight": 400
+      },
+      {
+        "family": "Inter",
+        "file": "library/fonts/Inter/Inter-Medium.otf",
+        "weight": 500
+      },
+      {
+        "family": "Inter",
+        "file": "library/fonts/Inter/Inter-SemiBold.otf",
+        "weight": 600
+      },
+      {
+        "family": "Inter",
+        "file": "library/fonts/Inter/Inter-Bold.otf",
+        "weight": 700
+      },
+      {
+        "family": "Inter",
+        "file": "library/fonts/Inter/Inter-ExtraBold.otf",
+        "weight": 800
+      }
+    ]
+  },
+  "type": {
+    "minPxAt1080": 44,
+    "labelMaxPx": 84,
+    "numberMaxPx": 150
+  },
+  "caption": {
+    "style": "karaoke",
+    "position": "bottom",
+    "sizeAt1080": 52,
+    "maxWords": 6,
+    "highlight": "#ffb45e",
+    "background": "rgba(7,9,15,0.62)"
+  },
+  "grade": {
+    "contrast": 1.05,
+    "saturation": 1.04,
+    "vignette": 0.32,
+    "grain": 0.018,
+    "grainFps": 0,
+    "tint": "#ffb45e",
+    "tintOpacity": 0.03
+  },
+  "motion": {
+    "easing": {},
+    "enterMs": 550
+  },
+  "safe": {
+    "portrait": {
+      "top": 0.08,
+      "bottom": 0.18,
+      "left": 0.06,
+      "right": 0.12
+    },
+    "landscape": {
+      "top": 0.05,
+      "bottom": 0.08,
+      "left": 0.05,
+      "right": 0.05
+    }
+  },
+  "textPairs": [
+    [
+      "fg",
+      "bg"
+    ],
+    [
+      "fg",
+      "bg2"
+    ],
+    [
+      "muted",
+      "bg"
+    ],
+    [
+      "muted",
+      "bg2"
+    ],
+    [
+      "accent",
+      "bg"
+    ],
+    [
+      "accent2",
+      "bg"
+    ]
+  ],
+  "graphicPairs": [
+    [
+      "accent",
+      "bg2"
+    ],
+    [
+      "accent2",
+      "bg2"
+    ],
+    [
+      "warn",
+      "bg"
+    ],
+    [
+      "line",
+      "bg"
+    ]
+  ],
+  "dimensions": {
+    "palette family": "cool-night",
+    "texture": "film-grain",
+    "motion language": "slow-drift",
+    "composition": "full-bleed-plate"
+  }
+}

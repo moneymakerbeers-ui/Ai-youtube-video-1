@@ -1,0 +1,132 @@
+SOURCE: https://arxiv.org/abs/2102.09091
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+[2102.09091] Cygnus X-1 contains a 21-solar mass black hole -- implications for massive star winds
+ Skip to main content
+ Search
+ Submit
+ Donate
+Log in 
+ Search arXiv
+ Press Enter to search · Advanced search
+Astrophysics > High Energy Astrophysical Phenomena
+ arXiv:2102.09091 (astro-ph)
+ [Submitted on 18 Feb 2021]
+Title:Cygnus X-1 contains a 21-solar mass black hole -- implications for massive star winds
+Authors:James C.A. Miller-Jones (1), Arash Bahramian (1), Jerome A. Orosz (2), Ilya Mandel (3,4,5), Lijun Gou (6,7), Thomas J. Maccarone (8), Coenraad J. Neijssel (3,4,5), Xueshan Zhao (6,7), Janusz Ziółkowski (9), Mark J. Reid (10), Phil Uttley (11), Xueying Zheng (6,7), Do-Young Byun (12,13), Richard Dodson (14), Victoria Grinberg (15), Taehyun Jung (12,13), Jeong-Sook Kim (12), Benito Marcote (16), Sera Markoff (11,17), María J. Rioja (14,18,19), Anthony P. Rushton (20,21), David M. Russell (22), Gregory R. Sivakoff (23), Alexandra J. Tetarenko (24), Valeriu Tudose (25), Joern Wilms (26) ((1) ICRAR - Curtin University, (2) San Diego State University, (3) Monash University, (4) OzGrav, (5) University of Birmingham, (6) NAOC, (7) University of Chinese Academy of Sciences, (8) Texas Tech University, (9) Nicolaus Copernicus Astronomical Center, (10) Center for Astrophysics | Harvard & Smithsonian, (11) University of Amsterdam, (12) Korea Astronomy and Space Science Institute, (13) University of Science and Technology, Daejeon, (14) ICRAR - University of Western Australia, (15) Universität Tübingen, (16) JIVE, (17) GRAPPA Institute, Amsterdam (18) CSIRO, (19) Observatorio Astronómico Nacional, (20) University of Oxford, (21) University of Southampton, (22) New York University Abu Dhabi, (23) University of Alberta, (24) East Asian Observatory, (25) Institute for Space Sciences, Bucharest-Magurele, (26) Friedrich-Alexander-Universität Erlangen-Nürnberg) 
+View a PDF of the paper titled Cygnus X-1 contains a 21-solar mass black hole -- implications for massive star winds, by James C.A. Miller-Jones (1) and 65 other authors
+ View PDF
+ HTML (experimental)
+ Abstract:The evolution of massive stars is influenced by the mass lost to stellar winds over their lifetimes. These winds limit the masses of the stellar remnants (such as black holes) that the stars ultimately produce. We use radio astrometry to refine the distance to the black hole X-ray binary Cygnus X-1, which we find to be $2.22^{+0.18}_{-0.17}$ kiloparsecs. When combined with previous optical data, this implies a black hole mass of $21.2\pm2.2$ solar masses, higher than previous measurements. The formation of such a high-mass black hole in a high-metallicity system constrains wind mass loss from massive stars.
+ Comments:
+ Published online in Science on 2021 February 18; Main (3 figures; 1 Table) + Supplementary (11 figures; 3 Tables)
+ Subjects:
+ High Energy Astrophysical Phenomena (astro-ph.HE)
+ Cite as:
+ arXiv:2102.09091 [astro-ph.HE]
+ (or 
+ arXiv:2102.09091v1 [astro-ph.HE] for this version)
+ https://doi.org/10.48550/arXiv.2102.09091
+ Focus to learn more
+ arXiv-issued DOI via DataCite
+ Related DOI:
+ https://doi.org/10.1126/science.abb3363
+ Focus to learn more
+ DOI(s) linking to related resources
+Submission history From: James Miller-Jones [view email] 
+ [v1]
+ Thu, 18 Feb 2021 01:00:02 UTC (3,246 KB)
+ Full-text links:
+Access Paper:
+View a PDF of the paper titled Cygnus X-1 contains a 21-solar mass black hole -- implications for massive star winds, by James C.A. Miller-Jones (1) and 65 other authors
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+astro-ph.HE
+ < prev
+ | 
+ next >
+ new
+ | 
+ recent
+ | 2021-02
+ Change to browse by:
+ astro-ph
+References & Citations
+ INSPIRE HEP
+SciX
+Google Scholar
+Semantic Scholar
+ 1 blog link (what is this?)
+ export BibTeX citation
+ Loading...
+BibTeX formatted citation
+ ×
+ loading...
+ Data provided by: 
+Bookmark
+ Bibliographic Tools
+Bibliographic and Citation Tools
+ Bibliographic Explorer Toggle
+ Bibliographic Explorer (What is the Explorer?)
+ Connected Papers Toggle
+ Connected Papers (What is Connected Papers?)
+ Litmaps Toggle
+ Litmaps (What is Litmaps?)
+ scite.ai Toggle
+ scite Smart Citations (What are Smart Citations?)
+ Code, Data, Media
+Code, Data and Media Associated with this Article
+ alphaXiv Toggle
+ alphaXiv (What is alphaXiv?)
+ Links to Code Toggle
+ CatalyzeX Code Finder for Papers (What is CatalyzeX?)
+ DagsHub Toggle
+ DagsHub (What is DagsHub?)
+ GotitPub Toggle
+ Gotit.pub (What is GotitPub?)
+ Huggingface Toggle
+ Hugging Face (What is Huggingface?)
+ ScienceCast Toggle
+ ScienceCast (What is ScienceCast?)
+ Demos
+Demos
+ Replicate Toggle
+ Replicate (What is Replicate?)
+ Spaces Toggle
+ Hugging Face Spaces (What is Spaces?)
+ Spaces Toggle
+ TXYZ.AI (What is TXYZ.AI?)
+ Related Papers
+Recommenders and Search Tools
+ Link to Influence Flower
+ Influence Flower (What are Influence Flowers?)
+ Core recommender toggle
+ CORE Recommender (What is CORE?)
+ IArxiv recommender toggle
+ IArxiv Recommender
+ (What is IArxiv?)
+Author
+Venue
+Institution
+Topic
+ About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
+ Which authors of this paper are endorsers? |
+ Disable MathJax (What is MathJax?)
+ We gratefully acknowledge support from our major funders,
+ member institutions, ,
+ and all contributors.
+ About ·
+ Help ·
+ Contact ·
+ Subscribe ·
+ Copyright ·
+ Privacy ·
+ Accessibility ·
+ Operational Status (opens in new tab)

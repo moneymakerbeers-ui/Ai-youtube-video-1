@@ -1,0 +1,72 @@
+{
+  "audio": {
+    "file": "audio/shorts/S04/narration.wav",
+    "sha256": "4948880fb5cd7e08c6a3852bc1376ab268c852b3bbfee5de5732820a33d04725",
+    "durationS": 58.599,
+    "sr": 24000
+  },
+  "segments": [
+    {
+      "id": "S04_opening",
+      "startS": 0.0,
+      "endS": 3.39,
+      "sceneIds": [
+        "S04_opening"
+      ],
+      "kind": "opening"
+    },
+    {
+      "id": "s32",
+      "startS": 3.67,
+      "endS": 19.54,
+      "sceneIds": [
+        "s32"
+      ],
+      "kind": "scene",
+      "srcStartS": 359.116,
+      "srcEndS": 374.996
+    },
+    {
+      "id": "s33",
+      "startS": 20.022,
+      "endS": 36.052,
+      "sceneIds": [
+        "s33"
+      ],
+      "kind": "scene",
+      "srcStartS": 375.478,
+      "srcEndS": 391.518
+    },
+    {
+      "id": "s34",
+      "startS": 36.359,
+      "endS": 58.599,
+      "sceneIds": [
+        "s34"
+      ],
+      "kind": "scene",
+      "srcStartS": 391.825,
+      "srcEndS": 414.085
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 3.39,
+      "toS": 3.67,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 19.54,
+      "toS": 20.022,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 36.052,
+      "toS": 36.359,
+      "reason": "scene join",
+      "declaredMs": 0
+    }
+  ]
+}

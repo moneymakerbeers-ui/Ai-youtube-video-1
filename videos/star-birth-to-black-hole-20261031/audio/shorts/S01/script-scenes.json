@@ -1,0 +1,28 @@
+{
+  "scenes": [
+    {
+      "id": "S01_opening",
+      "narration": "A giant star holds itself up against its own gravity by fusing heavier and heavier elements in its core. Until it reaches iron."
+    },
+    {
+      "id": "s20",
+      "narration": "Each new fuel buys the star less time than the one before. And when silicon finally fuses into iron, the star runs out of fuel in a matter of days."
+    },
+    {
+      "id": "s21",
+      "narration": "Iron is a dead end. Fusing iron doesn't release energy; it costs energy. So nothing is left to push back against gravity."
+    },
+    {
+      "id": "s22",
+      "narration": "In less than a second, the core collapses. Its temperature soars past one hundred billion degrees."
+    },
+    {
+      "id": "s23",
+      "narration": "Then the core rebounds, and a shock wave races outward through the star. That is a supernova."
+    },
+    {
+      "id": "S01_closing",
+      "narration": "And what's left behind can become a black hole."
+    }
+  ]
+}

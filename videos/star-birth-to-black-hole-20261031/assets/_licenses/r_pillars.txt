@@ -1,0 +1,367 @@
+asset: r_pillars
+source page: https://esawebb.org/images/weic2216b/
+source file: weic2216b.jpg
+credit: NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI)
+license: CC BY 4.0
+shows: Webb NIRCam: Pillars of Creation (heads of the pillars)
+retrieved: 2026-10-31 (curl)
+processing: crop (0.0, 0.19, 1.0, 0.515), resize to (2560, 1440)
+
+===== licence / usage page text =====
+SOURCE: https://esawebb.org/copyright/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Usage of images, videos and webb texts | ESA/Webb 
+ Subscribe to Webb News
+ Home
+ News
+ Press Releases
+ For Scientists
+ Newsworthy Results
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ 2021
+ Announcements
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ Picture of the Month
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ Images
+ All Images
+ Picture of the Month
+ Categories
+ Anniversaries
+ Exoplanets
+ First Images
+ Galaxies
+ Graphics
+ Illustrations
+ Launch
+ MIRI
+ Nebulae
+ NIRCam
+ NIRISS
+ NIRSpec
+ Picture of the Month
+ Quasars and Black Holes
+ Solar System
+ Spacecraft
+ Spectroscopy
+ Stars
+ Videos
+ All Videos
+ Video Formats
+ About
+ General
+ Mission Overview
+ Fact Sheet
+ Instruments
+ MIRI
+ NIRSpec
+ NIRCam
+ NIRISS
+ Sun Shield
+ Mirrors
+ Orbit
+ Spectroscopy with Webb
+ Webb & Other Space Telescopes
+ Webb's Scientific Method
+ Image Processing
+ Webb and Europe
+ International Collaboration
+ Ariane Launcher
+ ESA/Webb Outreach Team
+ Science
+ Other Worlds
+ The Lifecycle of Stars
+ The Early Universe
+ Galaxies Over Time
+ FAQ
+ For Scientists
+ Newsworthy Results
+ Initiatives
+ Webb's First Images
+ Word Bank
+ Public Resources
+ Virtual Meeting Backgrounds
+ ESA Webb Seeing Farther Brochure
+ Calendars
+ 2026
+ 2025
+ 2024
+ 2023
+ Newsletters
+ ESA/Webb Newsletters
+ ESA/Webb News
+ ESA/Hubble/Webb Science Newsletter
+ Science Announcements
+ Media
+ Usage of ESA/Webb Images & Videos
+ Subscribe to the Media Newsletter
+ Contact
+ ×
+ Page saved successfully
+ ×
+ Couldn't save page :( Please try again.
+Usage of Images, Videos, and Webb Texts
+Summary 
+Unless explicitly stated otherwise, all the images and videos on ESAWebb.org are available for use without prior permission and without charge. You must however include a credit — the credit required for each image or video is listed underneath each respective image/video caption. Each image or video has its own credit line that is required. 
+ESA/Webb images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. 
+Detailed conditions are below.
+Conditions
+The full image or footage credit must be presented in a clear and readable manner to all users, with the wording unaltered (for example: "ESA/Webb"). Web texts should be credited to ESA/Webb (except when used by media). The credit should not be hidden or disassociated from the image footage. Links should be active if the credit is online. See the usage rights Q&A section on this page for guidance.
+ESA/Webb materials may not be used to state or imply the endorsement by ESA/Webb or any ESA/Webb employee of a commercial product or service;
+If an image shows an identifiable person, using that image for commercial purposes may infringe that person's right of privacy, and separate permission should be obtained from the individual.
+If images or visuals are changed significantly from the original work (apart from resizing, cropping), we suggest that the changes are mentioned after the credit line. For example "Original image by ESA/Webb (N. Bartmann), warping and recolouring by NN"
+Notes
+Note that this general permission does not extend to the use of ESA/Webb's logos, which shall remain protected and may not be used or reproduced without prior and individual written consent of ESA/Webb. Owners of external websites wishing to link to the ESA/Webb web site may use ESA/Webb's logo for the link, provided they have obtained prior authorisation from ESA/Webb and on the condition that such use is clearly identifiable as a web link.
+Also note that music, scientific papers and code on this site are not released under the Creative Commons Attribution 4.0 International license and can not be used for non-ESA/Webb products.
+By reproducing ESA/Webb material, in part or in full, the user acknowledges the terms on which such use is permitted.
+Usage rights Q&A
+Our basic intention is to encourage the use of our material and we take a common-sense approach to crediting: our only concern is that you credit clearly, visibly and unambiguously and that the credit is not separated from the image/footage/text. We understand that the most appropriate way of doing so may vary from case to case. See the Q&A below for some common examples.
+Q: I want to use the footage in a YouTube video. Is it OK just to put the credit in the text description that appears next to the video?
+A: No, as this is hidden inside a tab. Also it is not visible if the video is embedded in another website. Please include the full credit ‘burned in’ or overlaid on the video, or clearly visible as a credit at the end.
+Q: I want to upload a Space Sparks video to my YouTube channel, or embed this in my blog. Do I need to add a credit ‘burned in’ or overlaid on the video?
+A: Space Sparks videos already have a credit at the end, so you do not need to edit it. Please also include the associated credits that are provided in each video’s caption text.
+Q: I am a producer for a TV programme and wish to use your images and footage. Do I need to overlay the credit on the image?
+A: You do not need to, provided the credit is clearly visible and reproduced in full at the end of the programme.
+Q: I am a picture editor for a newspaper/magazine. Some of your credits are kind of long. Can’t I just use the first part of the credit?
+A: No. Please reproduce the credit in full. This should normally be on the page which the picture is presented on, or on the facing page.
+Q: I am a picture editor for a News Agency. We prefer to use our own name as credit for the images and not tell anyone from where we got them. Is that ok?
+A: No. Please reproduce the credit in full. This should normally be on the page which the picture is presented on, or on the facing page.
+Q: I want to use a picture on the cover of a book/magazine. Does the credit have to appear on the cover?
+A: No. Provided it is clearly visible and identified as being the credit for the cover image, the credit can appear in another prominent place in your publication. This could, for example, be the back cover, the inside front cover or the editorial page.
+Q: Do I need to contact all the people named in the credit line for permission to use an image or video?
+A: No. Images and videos published on esawebb.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.
+Q: I would like to digitally alter or manipulate an image. Is this OK?
+A: Yes. We suggest that you mention the changes after the credit line, for example: "Original image by ESA/Webb (N. Bartmann), warped and recoloured by NN".
+Q: I would like to edit, expand or cut text from esawebb.org. Is this OK?
+A: Yes.
+Q: Can I just overlay the ESA/Webb logo instead of the credit?
+A: No. The use of the ESA/Webb logo is controlled and it must not be reproduced without permission.
+Q: I am a journalist. I want to use the text of a press release in a news report. Do I need to credit you?
+A: No. News media are excepted from the requirement to credit the text. (You must, however, properly credit any images or videos you use).
+Q: I am an editor of a publishing company. I want to use text from esawebb.org in a book. Do I need to credit you?
+A: No, media including book publishers are exempted from crediting text.
+Q: How should I credit text taken from esawebb.org?
+A: Please credit us as “ESA/Webb”.
+Q: I am an artist and I have produced artwork based on Webb images. Can I sell my artwork for my profit?
+A: Yes, artwork you produced based on Webb images may be sold for your own profit as long as you credit clearly and visibly.
+If you have further questions, or are in any doubt, please contact [email protected].
+Follow us on social media
+ Website developed and operated by Enciso Systems
+ Accelerated by CDN77
+
+
+===== image page text (credit line) =====
+SOURCE: https://esawebb.org/images/weic2216b/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation (Full View) | ESA/Webb
+ Subscribe to Webb News
+ Home
+ News
+ Press Releases
+ For Scientists
+ Newsworthy Results
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ 2021
+ Announcements
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ Picture of the Month
+ 2026
+ 2025
+ 2024
+ 2023
+ 2022
+ Images
+ All Images
+ Picture of the Month
+ Categories
+ Anniversaries
+ Exoplanets
+ First Images
+ Galaxies
+ Graphics
+ Illustrations
+ Launch
+ MIRI
+ Nebulae
+ NIRCam
+ NIRISS
+ NIRSpec
+ Picture of the Month
+ Quasars and Black Holes
+ Solar System
+ Spacecraft
+ Spectroscopy
+ Stars
+ Videos
+ All Videos
+ Video Formats
+ About
+ General
+ Mission Overview
+ Fact Sheet
+ Instruments
+ MIRI
+ NIRSpec
+ NIRCam
+ NIRISS
+ Sun Shield
+ Mirrors
+ Orbit
+ Spectroscopy with Webb
+ Webb & Other Space Telescopes
+ Webb's Scientific Method
+ Image Processing
+ Webb and Europe
+ International Collaboration
+ Ariane Launcher
+ ESA/Webb Outreach Team
+ Science
+ Other Worlds
+ The Lifecycle of Stars
+ The Early Universe
+ Galaxies Over Time
+ FAQ
+ For Scientists
+ Newsworthy Results
+ Initiatives
+ Webb's First Images
+ Word Bank
+ Public Resources
+ Virtual Meeting Backgrounds
+ ESA Webb Seeing Farther Brochure
+ Calendars
+ 2026
+ 2025
+ 2024
+ 2023
+ Newsletters
+ ESA/Webb Newsletters
+ ESA/Webb News
+ ESA/Hubble/Webb Science Newsletter
+ Science Announcements
+ Media
+ Usage of ESA/Webb Images & Videos
+ Subscribe to the Media Newsletter
+ Contact
+ About the Object
+ Name:
+ Eagle Nebula, Messier 16
+ Distance:
+ 6500 light years
+ Constellation:
+ Serpens Cauda
+ Category:
+ Nebulae
+NIRCam
+Coordinates
+Position (RA):18 18 55.18
+Position (Dec):-13° 51' 6.26"
+Field of view:4.21 x 7.30 arcminutes
+Orientation:North is 2.6° right of vertical
+View in ESASky:
+View in WorldWide Telescope:
+Interactive Sky View
+Crossfade image: (fullscreen view)
+Background Survey Options
+Optical (DSS2)
+Infrared (2MASS)
+Crossfade image: (inline view)
+Colours & filters
+BandWavelengthTelescope
+ Optical
+ (Purple)
+z900 nmJames Webb Space Telescope
+NIRCam
+ Infrared
+ (Blue)
+P-alpha1.87 μmJames Webb Space Telescope
+NIRCam
+ Infrared
+ (Cyan)2.0 μmJames Webb Space Telescope
+NIRCam
+ Infrared
+ (Yellow)
+PAH3.35 μmJames Webb Space Telescope
+NIRCam
+ Infrared
+ (Orange)4.44 μmJames Webb Space Telescope
+NIRCam
+ Infrared
+ (Red)
+molecular hydrogen4.7 μmJames Webb Space Telescope
+NIRCam
+Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation (Full View)
+The Pillars of Creation are set off in a kaleidoscope of colour in the NASA/ESA/CSA James Webb Space Telescope’s near-infrared-light view. The pillars look like arches and spires rising out of a desert landscape, but are filled with semi-transparent gas and dust, and ever changing. This is a region where young stars are forming – or have barely burst from their dusty cocoons as they continue to form.
+Protostars are the scene-stealers in this Near-Infrared Camera (NIRCam) image. These are the bright red orbs that sometimes appear with eight diffraction spikes. When knots with sufficient mass form within the pillars, they begin to collapse under their own gravity, slowly heat up, and eventually begin shining brightly.
+Along the edges of the pillars are wavy lines that look like lava. These are ejections from stars that are still forming. Young stars periodically shoot out jets that can interact within clouds of material, like these thick pillars of gas and dust. This sometimes also results in bow shocks, which can form wavy patterns like a boat does as it moves through water. These young stars are estimated to be only a few hundred thousand years old, and will continue to form for millions of years.
+Although it may appear that near-infrared light has allowed Webb to “pierce through” the background to reveal great cosmic distances beyond the pillars, the interstellar medium stands in the way, like a drawn curtain.
+This is also the reason why there are no distant galaxies in this view. This translucent layer of gas blocks our view of the deeper universe. Plus, dust is lit up by the collective light from the packed “party” of stars that have burst free from the pillars. It’s like standing in a well-lit room looking out a window – the interior light reflects on the pane, obscuring the scene outside and, in turn, illuminating the activity at the party inside.
+Webb’s new view of the Pillars of Creation will help researchers revamp models of star formation. By identifying far more precise star populations, along with the quantities of gas and dust in the region, they will begin to build a clearer understanding of how stars form and burst out of these clouds over millions of years.
+The Pillars of Creation is a small region within the vast Eagle Nebula, which lies 6,500 light-years away.
+Webb’s NIRCam was built by a team at the University of Arizona and Lockheed Martin’s Advanced Technology Center.
+[Image Description: This vertical image has layers of semi-opaque rusty red colored gas and dust that starts at the bottom left and goes toward the top right. There are three prominent pillars rising toward the top right. The left pillar is the largest and widest. The peaks of the second and third pillars are set off in darker shades of brown and have red outlines.]
+Credit:
+NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).
+ Usage of ESA/Hubble/Webb Images and Videos
+ Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.
+Search
+ About the Image
+ Id:
+ weic2216b
+ Type:
+ Observation
+ Release date:
+ 19 October 2022, 16:00
+ Related releases:
+ weic2216
+ Size:
+ 8423 x 14589 px
+Image Formats
+Fullsize Original163.4 MB checksum
+Large JPEG
+ 30.3 MB
+Publication TIFF 10K100.8 MB checksum
+Publication TIFF 4K
+ 19.2 MB
+Publication JPEG
+ 4.2 MB
+Screensize JPEG
+ 1.0 MB
+Zoomable
+Zoomable
+Classic Wallpapers
+1024x768
+ 497.6 KB
+1280x1024
+ 782.7 KB
+1600x1200
+ 1.1 MB
+1920x1200
+ 1.2 MB
+2048x1536
+ 1.6 MB
+Follow us on social media
+ Website developed and operated by Enciso Systems
+ Accelerated by CDN77

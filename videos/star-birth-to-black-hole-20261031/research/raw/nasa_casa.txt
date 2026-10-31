@@ -1,0 +1,220 @@
+SOURCE: https://chandra.harvard.edu/photo/2009/casa/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Chandra :: Photo Album :: Cassiopeia A :: January 6, 2009
+NASA's flagship mission for X-ray astronomy. 
+Home
+About Chandra
+Learning
+Field Guide
+Photo Album
+Press Room
+Resources & Multimedia
+Video Series
+Blog
+Research
+Images by Date
+ 2026 
+ 2025 
+ 2024 
+ 2023
+ 2022 
+ 2021 
+ 2020 
+ 2019
+ 2018 
+ 2017 
+ 2016 
+ 2015
+ 2014 
+ 2013 
+ 2012 
+2011
+2010 
+2009 
+2008 
+ 2007
+ 2006 
+ 2005 
+ 2004 
+2003
+2002 
+2001 
+2000 
+ 1999
+Images by Category
+Solar System
+Stars
+Exoplanets
+White Dwarfs
+Supernovas
+Neutron Stars
+Black Holes
+Milky Way Galaxy
+Normal Galaxies
+Quasars
+Galaxy Clusters
+Cosmology/Deep Field
+Miscellaneous
+Images by Interest
+Space Scoop for Kids
+Multiwavelength
+Sky Map
+Constellations
+Photo Blog
+Top Rated Images
+Image Handouts
+Fits Files
+Visual descriptions
+Image Tutorials
+False Color
+Cosmic Distance
+Look-Back Time
+Scale & Distance
+Angular Measurement
+Images & Processing
+AVM/Metadata
+Image Use Policy 
+Web Shortcuts
+Chandra Blog
+RSS Feed
+Image Use Policy
+Questions & Answers
+Glossary of Terms 
+Cassiopeia A: Movie: A Remnant Evolves
+Your browser does not support the video tag.
+Visual Description:
+Text
+This new movie of X-ray data from Chandra of the supernova remnant
+Cassiopeia A (Cas A) was made by combining observations taken in 
+January 2000, February 2002, February 2004, and December 2007. In these 
+images, the lowest-energy X-rays Chandra detects are shown in red, intermediate
+energies in green, and the highest energies in blue. Scientists 
+have used the movie to measure the expansion velocity of the leading edge of the
+explosion's outer blast wave (shown in blue). The researchers find 
+that the velocity is 11 million miles per hour, which is significantly 
+slower than expected for an explosion with the energy estimated to have been
+released in Cas A.
+This slower velocity is explained by a special type of energy loss 
+by the blast wave. Electrons are accelerated to high energies as they travel
+backwards and forwards across the shock front produced by the blast
+wave. As the electrons travel around magnetic fields in the shock 
+they lose energy by producing synchrotron emission and glowing in X-rays. 
+Scientists think heavier particles like protons and ions are accelerated
+in the same way. The energy lost by these heavier particles can amount
+to a large fraction of the energy from the supernova explosion, resulting in a 
+slower shock velocity. The accelerated protons and ions which escape from 
+the remnant are known as "cosmic rays", and continually bombard the 
+Earth's atmosphere. Supernova remnants are believed to be one of the main 
+sources of cosmic rays.
+The authors have constructed a model that combined the measured 
+expansion velocity, as well as its observed size, with estimates of the 
+explosion energy, the mass of the ejected material in Cas A and efficient 
+particle acceleration. For everything to agree, about 35% of the energy of 
+the Cas A supernova went into accelerating cosmic rays.
+Another new feature seen in the Cas A movie is "flickering" of the 
+blue synchrotron emission seen on timescales of about a year. This 
+flickering is thought to be a direct result of acceleration of particles to 
+high energies, causing the emission to become brighter, followed by rapid
+cooling, causing the emission to fade. These variations provide 
+important clues about the location of the acceleration, a topic of some
+controversy. For the first time, this flaring is seen in the outer 
+blast wave. This casts doubt upon the possibility, suggested previously, 
+that cosmic ray acceleration occurs in the so-called "reverse shock". 
+This is a shock that travels backwards into the expanding remnant and is 
+therefore located inside the outer blast wave. Previous claims that flaring 
+occurs in the reverse shock may simply have been caused by regions in the 
+outer blast wave that are projected onto the middle of the
+two-dimensional image.
+The rapid flickering not only gives information about acceleration of
+particles to high energies, but it also shows that relatively strong
+magnetic fields have been generated in the shock front.
+Visual Description:
+This series of X-ray images of the supernova remnant Cassiopeia A shows the object changing over time. The tones in this image are colorful and vibrant, with a mix of pink, purple, blue, red, green, and yellow. The structure of this celestial object resembles that of an irregular sphere. This image showcases the aftermath of a massive explosion that occurred in the constellation Cassiopeia over 300 years ago. This new movie of X-ray data from Chandra was made by combining observations taken in January 2000, February 2002, February 2004, and December 2007. In each image, the lowest-energy X-rays Chandra detects are shown in red, intermediate energies in green, and the highest energies in blue. Scientists have used the movie to measure the expansion velocity of the leading edge of the explosion's outer blast wave (bright blue along the edge). The researchers find that the velocity is 11 million miles per hour, which is significantly slower than expected for an explosion with the energy estimated to have been released in Cas A. 
+ Fast Facts for Cassiopeia A:
+ Credit 
+ NASA/CXC/SAO/D.Patnaude et al.
+Release Date 
+January 6, 2009
+Scale 
+Image is 8.4 arcmin across
+ Category 
+Supernovas & Supernova Remnants
+Coordinates (J2000) 
+RA | Dec 
+Constellation 
+Cassiopeia
+Observation Date 
+01/30/2000 - 12/08/2007 with 5 pointings
+Observation Time 
+ 56 hours
+Obs. ID 
+114, 1952, 5196, 9117, 9773
+Instrument 
+ACIS
+Also Known As Cas A
+Color Code 
+Energy (Red (0.5-1.5 keV); Green (1.5-3.0 keV); Blue (4.0-6.0 keV))
+Distance Estimate 
+About 11,000 light years
+Rate This Image
+Currently 3.80/5
+ Rating: 3.8/5
+(782 votes cast)
+Download & Share
+JPEG (91.5 kb)
+Large JPEG (2 MB)
+Tiff (10.3 MB)
+PS (2.9 MB)
+Handout (pdf)
+FITS File
+Image Feed
+ Share This
+Desktops
+1024x768 - 852.8 kb
+1280x1024 - 1.3 MB
+1680x1050 - 1.5 MB
+More Information
+ Press Room: Cassiopeia A
+ Blog: Cassiopeia A
+More Images
+Chandra X-ray Images of
+ Cassiopeia A taken in December 2007
+Jpg, Tif
+More Images
+Animation & Video
+Brief Time-lapse 
+ Movie of Cassiopeia A
+More Animations
+Related Images
+SN 1006
+ (01 Jul 08)
+Kepler's
+ Supernova Remnant
+ (09 Jan 07)
+Tycho's
+ Supernova Remnant
+ (22 Sep 05)
+Related Information
+Supernovas & Supernova Remnants 
+X-ray Astronomy Field Guide
+Questions and Answers
+Chandra Images
+Related Podcast
+Tour: NASA's Chandra Finds Unexpected Fireworks in Aftermath of Stellar Explosions 
+Top Rated Images
+Cosmic Ghost 
+Currently 5.00/5
+Treble Clef Cluster
+Currently 4.50/5
+Celebrating NASA's Chandra and Swift Exploring Space Together
+Currently 4.38/5
+Help | Image Use Policy | Privacy | Accessibility | Glossary | Q & A | CXC Science 
+Chandra X-ray Center, Operated for NASA by
+the Smithsonian Astrophysical Observatory
+This site was developed with funding from NASA under contract NAS8-03060.
+Contact us: cxcpub@cfa.harvard.edu
+Harvard-Smithsonian Center for Astrophysics
+60 Garden Street, Cambridge, MA 02138 USA
+Phone: 617.496.7941 Fax: 617.495.7356
+Tweet
