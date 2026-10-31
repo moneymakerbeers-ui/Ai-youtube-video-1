@@ -256,7 +256,7 @@ S("s19", "onion", ["C13_chain"],
   {"e_stars": STAR_L, "e_onion": P(0.38, 0.48, 0.44, 2), "e_n": P(0.8, 0.48, 0.3, 3)},
   {"e_stars": STAR_P, "e_onion": P(0.5, 0.42, 0.96, 2), "e_n": P(0.5, 0.74, 0.7, 3)},
   voice=V("list the chain with rhythm", "warm-explanatory", 1, "steady", ["carbon", "neon", "oxygen", "silicon"]),
-  transition={"type": "dissolve", "durationMs": 500})
+  transition={"type": "dissolve", "durationMs": 500, "offsetMs": 260})  # window starts at the boundary, once the next cutaway is already drawn
 S("s20", "onion", ["C13_chain"],
   "Each new fuel buys the star less time than the one before. And when silicon finally fuses into iron, the star runs out of fuel in a matter of days.",
   "the clock speeds up; land on iron", "payoff", "diagram",
@@ -552,7 +552,7 @@ for sc in scenes:
                "s21": ["e_core"], "s22": ["e_col"], "s25": ["e_y"], "s28": ["e_bars", "e_t"], "s29": ["e_fork"], "s37": ["e_r0", "e_t0"]}
     for e in sc["entities"]:
         if e["id"] in PRIMARY.get(sc["id"], []):
-            e.pop("enterAtWord", None); e["enter"] = {"style": "fade", "durationMs": 250}
+            e.pop("enterAtWord", None); e["enter"] = {"style": "none", "durationMs": 0} if sc["id"] == "s20" else {"style": "fade", "durationMs": 250}
         if e["id"] == "e_stars": e["enter"] = {"style": "none", "durationMs": 0}
     if not NO_ASSETS:
         sc["assetIds"] = sorted({e["assetId"] for e in sc["entities"] if e.get("assetId")})

@@ -2902,7 +2902,8 @@
    "visualIntensity": 1,
    "transition": {
     "type": "dissolve",
-    "durationMs": 500
+    "durationMs": 500,
+    "offsetMs": 260
    },
    "voice": {
     "intent": "list the chain with rhythm",
@@ -3082,8 +3083,8 @@
      "role": "diagram",
      "need": "the same cutaway; an iron core appears at the centre",
      "enter": {
-      "style": "fade",
-      "durationMs": 250
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "onion",

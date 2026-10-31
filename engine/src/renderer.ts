@@ -224,7 +224,13 @@ export class FrameRenderer {
       mask = `radial-gradient(circle at ${c.cx.toFixed(1)}px ${c.cy.toFixed(1)}px, #000 ${Math.max(c.r - f, 0).toFixed(1)}px, rgba(0,0,0,0) ${Math.max(c.r, 0.5).toFixed(1)}px)`;
     }
     sc.root.style.maskImage = mask;
-    sc.back.style.opacity = fx.back >= 0.9995 ? "1" : String(+fx.back.toFixed(4));
+    // A uniform fade (back, content and anchor share one opacity, e.g. a dissolve) is applied to the scene as ONE layer. Fading the backdrop and
+    // each entity separately composites them through each other (at 50 % an entity shows 75 % of itself and 25 % of its own faded backdrop),
+    // which reads as a brightness dip in the middle of every dissolve.
+    const uniform = Math.abs(fx.back - fx.content) < 1e-6 && (anchorId === null || Math.abs(fx.anchor - fx.back) < 1e-6) && fx.back < 0.9995;
+    sc.root.style.opacity = uniform ? String(+fx.back.toFixed(4)) : "1";
+    const fxe = uniform ? { ...fx, back: 1, content: 1, anchor: 1 } : fx;
+    sc.back.style.opacity = fxe.back >= 0.9995 ? "1" : String(+fxe.back.toFixed(4));
     const view: View = applyMod(viewAt(sc.moves, t, this.ease), fx.mod);
     // The incoming scene is drawn through the first half of a transition window, i.e. before its own start: entities whose entrance is instant
     // (style none / 0 ms: plates, backdrops) must be present then, or they pop in at the boundary at the crossfade's current opacity. Entrances
@@ -235,7 +241,7 @@ export class FrameRenderer {
     const minPx = this.tokens.type.minPxAt1080 * short;
     for (const e of sc.ents) {
       const isAnchor = e.id === anchorId;
-      const mult = isAnchor ? fx.anchor : e.role === "backdrop" ? fx.back : fx.content;
+      const mult = isAnchor ? fxe.anchor : e.role === "backdrop" ? fxe.back : fxe.content;
       const r = drawEntity(e, { t: Math.max(t, sc.plan.startS), sceneT, frame, fps: this.fps, W: this.W, H: this.H, view, mult, forceEntered: e.id === forceId, ease: this.ease, palette: sc.palette, tokens: this.tokens }, pending);
       if (layoutWarn && r.opacity > 0.5) {
         if (e.kind === "text" && e.textPx !== null && e.textPx * r.scale < minPx - 0.5) layoutWarn.push(`text_small:${sc.plan.id}:${e.id}: ${(e.textPx * r.scale).toFixed(1)}px < minimum ${minPx.toFixed(0)}px`);
