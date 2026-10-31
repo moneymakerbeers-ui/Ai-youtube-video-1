@@ -93,8 +93,8 @@
     {
       "id": "freeze",
       "status": "pass",
-      "value": 244,
-      "detail": "244 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
+      "value": 245,
+      "detail": "245 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
     },
     {
       "id": "silence",
@@ -173,8 +173,8 @@
       "frames": "6 frames across 1.2s"
     },
     {
-      "file": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/qa/sheets/long_risk_03_212.4s.jpg",
-      "aroundS": 212.41,
+      "file": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/qa/sheets/long_risk_03_212.7s.jpg",
+      "aroundS": 212.67,
       "frames": "6 frames across 1.2s"
     },
     {

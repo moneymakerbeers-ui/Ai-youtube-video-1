@@ -2,7 +2,7 @@
   "project": "star-birth-to-black-hole-20261031",
   "idea": "How a star is born from the very first moment until it dies and becomes a black hole",
   "purpose": "production",
-  "madeAt": "2026-10-31T15:46:52",
+  "madeAt": "2026-10-31T16:12:02",
   "targets": {
     "long": {
       "file": "out/full-video.mp4",
@@ -13,11 +13,11 @@
         "codec": "h264",
         "audio": "aac",
         "durationS": 476.267,
-        "bytes": 382986165
+        "bytes": 383233813
       },
-      "sha256": "0ab06245396809ef13154fa213277b2ebcbcc78c039939949e5ffcaa7421368c",
+      "sha256": "68493d29ea2d7171cb4f819f88d076197ed3238cf846b0675758ccad88e09f2c",
       "media": "PASSED",
-      "motion": "FAILED",
+      "motion": "PASSED",
       "counts": {
         "media": {
           "pass": 18,
@@ -27,10 +27,10 @@
           "info": 1
         },
         "motion": {
-          "pass": 54,
-          "fail": 2,
+          "pass": 57,
+          "fail": 0,
           "blocked": 0,
-          "warn": 3,
+          "warn": 2,
           "info": 9
         }
       },
@@ -96,10 +96,6 @@
           "detail": "abrupt audio at 101.73s click 10.5"
         },
         {
-          "id": "motion.s19>s20.smooth",
-          "detail": "a frame step is 4.8 levels above its neighbours' typical 3.7 (a jerk; smaller than a pop)"
-        },
-        {
           "id": "motion.s22>s23.smooth",
           "detail": "a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)"
         }
@@ -108,7 +104,6 @@
   },
   "humanNeeded": [
     "long: motion.s10>s11.audio (heuristic warning) - abrupt audio at 101.73s click 10.5",
-    "long: motion.s19>s20.smooth (heuristic warning) - a frame step is 4.8 levels above its neighbours' typical 3.7 (a jerk; smaller than a pop)",
     "long: motion.s22>s23.smooth (heuristic warning) - a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)",
     "evidence: C01_pillars.evidence[0]: does this passage state the claim? ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb. -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C01_pillars.evidence[1]: does this passage state the claim? NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording). -> read the quote next to the claim text and confirm it says the same thing",
@@ -293,7 +288,7 @@
   },
   "engine": {
     "version": "3.0.0-dom",
-    "sha256": "ae2ebacdb6535afb187918c85bcab3fcfb156c56f1dd8da3f717aff25fd4b3bd",
+    "sha256": "4bdfda497eb0d2b5dc2849666f934b608019d2bcdd44d70ebc1cf87a069406d1",
     "backend": "browser",
     "chromium": "153.0.8010.12",
     "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"

@@ -1,12 +1,12 @@
 {
   "subject": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/full-video.mp4",
   "kind": "motion",
-  "overall": "FAILED",
+  "overall": "PASSED",
   "summary": {
-    "pass": 54,
-    "fail": 2,
+    "pass": 57,
+    "fail": 0,
     "blocked": 0,
-    "warn": 3,
+    "warn": 2,
     "info": 9
   },
   "checks": [
@@ -19,17 +19,17 @@
     {
       "id": "motion.s02>s03.boundary",
       "status": "pass",
-      "value": 1.2,
-      "detail": "dissolve: the change at the window edges (1.2 levels at frame +1) is in line with the window's own motion (median 2.4)"
+      "value": 1.1,
+      "detail": "dissolve: the change at the window edges (1.1 levels at frame +18) is in line with the window's own motion (median 2.6)"
     },
     {
       "id": "motion.s02>s03.exposure",
       "status": "pass",
       "value": {
-        "excursion": 3.6,
-        "step": 8.8
+        "excursion": 2.9,
+        "step": 8.7
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 8.8 levels, largest excursion 3.6)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 8.7 levels, largest excursion 2.9)"
     },
     {
       "id": "motion.s02>s03.stall",
@@ -74,9 +74,9 @@
       "status": "pass",
       "value": {
         "excursion": 17.2,
-        "step": 5.5
+        "step": 5.9
       },
-      "detail": "nested_scale: no flash or exposure jump (largest frame step 5.5 levels, largest excursion 17.2)"
+      "detail": "nested_scale: no flash or exposure jump (largest frame step 5.9 levels, largest excursion 17.2)"
     },
     {
       "id": "motion.s06>s07.stall",
@@ -126,17 +126,17 @@
     {
       "id": "motion.s10>s11.boundary",
       "status": "pass",
-      "value": 0.8,
-      "detail": "dissolve: the change at the window edges (0.8 levels at frame +1) is in line with the window's own motion (median 1.4)"
+      "value": 0.1,
+      "detail": "dissolve: the change at the window edges (0.1 levels at frame +22) is in line with the window's own motion (median 1.1)"
     },
     {
       "id": "motion.s10>s11.exposure",
       "status": "pass",
       "value": {
-        "excursion": 2.0,
-        "step": 2.6
+        "excursion": 0.0,
+        "step": 2.3
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 2.6 levels, largest excursion 2.0)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 2.3 levels, largest excursion 0.0)"
     },
     {
       "id": "motion.s10>s11.stall",
@@ -173,17 +173,17 @@
     {
       "id": "motion.s19>s20.boundary",
       "status": "pass",
-      "value": 0.9,
-      "detail": "dissolve: the change at the window edges (0.9 levels at frame +1) is in line with the window's own motion (median 3.7)"
+      "value": 0.3,
+      "detail": "dissolve: the change at the window edges (0.3 levels at frame +15) is in line with the window's own motion (median 0.4)"
     },
     {
       "id": "motion.s19>s20.exposure",
-      "status": "fail",
+      "status": "pass",
       "value": {
-        "excursion": 28.4,
-        "step": 8.4
+        "excursion": 0.1,
+        "step": 0.3
       },
-      "detail": "dissolve flashes: luma excursion 28.4 levels, colour excursion 35.3, largest frame step 8.4 levels (flash risk)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 0.3 levels, largest excursion 0.1)"
     },
     {
       "id": "motion.s19>s20.stall",
@@ -193,15 +193,15 @@
     },
     {
       "id": "motion.s19>s20.pop",
-      "status": "fail",
-      "value": 4.8,
-      "detail": "dissolve pops: the frame step at 212.53s is 4.8 levels above its neighbours' typical 3.0 and settles again (a one-frame jump)"
+      "status": "pass",
+      "value": 0.0,
+      "detail": "dissolve: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
     },
     {
       "id": "motion.s19>s20.smooth",
-      "status": "warn",
-      "value": 4.8,
-      "detail": "a frame step is 4.8 levels above its neighbours' typical 3.7 (a jerk; smaller than a pop)",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
       "heuristic": true
     },
     {
@@ -281,16 +281,16 @@
       "id": "motion.s25>s26.boundary",
       "status": "pass",
       "value": 0.8,
-      "detail": "dissolve: the change at the window edges (0.8 levels at frame +1) is in line with the window's own motion (median 2.5)"
+      "detail": "dissolve: the change at the window edges (0.8 levels at frame +42) is in line with the window's own motion (median 2.7)"
     },
     {
       "id": "motion.s25>s26.exposure",
       "status": "pass",
       "value": {
-        "excursion": 1.1,
-        "step": 5.5
+        "excursion": 0.9,
+        "step": 4.3
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 5.5 levels, largest excursion 1.1)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 4.3 levels, largest excursion 0.9)"
     },
     {
       "id": "motion.s25>s26.stall",
@@ -327,17 +327,17 @@
     {
       "id": "motion.s30>s31.boundary",
       "status": "pass",
-      "value": 0.4,
-      "detail": "dissolve: the change at the window edges (0.4 levels at frame +0) is in line with the window's own motion (median 0.9)"
+      "value": 0.3,
+      "detail": "dissolve: the change at the window edges (0.3 levels at frame +1) is in line with the window's own motion (median 1.0)"
     },
     {
       "id": "motion.s30>s31.exposure",
       "status": "pass",
       "value": {
-        "excursion": 1.0,
-        "step": 1.8
+        "excursion": 0.2,
+        "step": 2.0
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 1.8 levels, largest excursion 1.0)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 2.0 levels, largest excursion 0.2)"
     },
     {
       "id": "motion.s30>s31.stall",
@@ -374,17 +374,17 @@
     {
       "id": "motion.s36>s37.boundary",
       "status": "pass",
-      "value": 0.6,
-      "detail": "dissolve: the change at the window edges (0.6 levels at frame +1) is in line with the window's own motion (median 1.0)"
+      "value": 0.5,
+      "detail": "dissolve: the change at the window edges (0.5 levels at frame +1) is in line with the window's own motion (median 0.9)"
     },
     {
       "id": "motion.s36>s37.exposure",
       "status": "pass",
       "value": {
-        "excursion": 1.6,
-        "step": 2.1
+        "excursion": 0.6,
+        "step": 1.7
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 2.1 levels, largest excursion 1.6)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 1.7 levels, largest excursion 0.6)"
     },
     {
       "id": "motion.s36>s37.stall",
@@ -421,17 +421,17 @@
     {
       "id": "motion.s38>s39.boundary",
       "status": "pass",
-      "value": 0.4,
-      "detail": "dissolve: the change at the window edges (0.4 levels at frame +24) is in line with the window's own motion (median 2.4)"
+      "value": 0.5,
+      "detail": "dissolve: the change at the window edges (0.5 levels at frame +24) is in line with the window's own motion (median 1.8)"
     },
     {
       "id": "motion.s38>s39.exposure",
       "status": "pass",
       "value": {
-        "excursion": 1.9,
-        "step": 5.5
+        "excursion": 0.0,
+        "step": 5.7
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 5.5 levels, largest excursion 1.9)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 5.7 levels, largest excursion 0.0)"
     },
     {
       "id": "motion.s38>s39.stall",
@@ -495,8 +495,8 @@
     {
       "id": "s19>s20",
       "type": "dissolve",
-      "startS": 212.159,
-      "endS": 212.659,
+      "startS": 212.419,
+      "endS": 212.919,
       "preview": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/long/tr-s19-s20.mp4",
       "strip": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/render/previews/long/tr-s19-s20-strip.png"
     },
