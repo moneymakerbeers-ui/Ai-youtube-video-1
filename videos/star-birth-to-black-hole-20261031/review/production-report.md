@@ -1,12 +1,12 @@
 # Production report - star-birth-to-black-hole-20261031
 
-Idea: How a star is born from the very first moment until it dies and becomes a black hole  ·  purpose: **production**  ·  made 2026-10-31T14:08:03
+Idea: How a star is born from the very first moment until it dies and becomes a black hole  ·  purpose: **production**  ·  made 2026-10-31T14:37:28
 
 ## Gate verdicts
 
 | target | file | media QA | motion QA | length | size |
 |---|---|---|---|---|---|
-| long | out/full-video.mp4 | NOT RUN | NOT RUN | 476.263 s | 640x360 |
+| long | out/full-video.mp4 | FAILED | FAILED | 476.267 s | 1920x1080 |
 
 A verdict is the gate's own result on the delivered file. WARN items are heuristics and are listed under "A person still has to look at". PASSED never means the video is good, only that none of these checks found a defect.
 
@@ -24,7 +24,7 @@ A verdict is the gate's own result on the delivered file. WARN items are heurist
 
 ## Render
 
-- no render trace found
+- long: 14288 frames at 30 fps, 82.3 ms/frame with 4 worker(s) = 1175.5 s of capture on this machine; a 60 fps render would take about 39.2 min
 
 ## Voice and alignment
 
@@ -44,6 +44,9 @@ Creative preview gate: approved 2026-10-31T13:36:04 (creator chose 'cheaper appr
 
 ## A person still has to look at
 
+- long: motion.s10>s11.audio (heuristic warning) - abrupt audio at 101.73s click 10.5
+- long: motion.s22>s23.smooth (heuristic warning) - a frame step is 3.2 levels above its neighbours' typical 3.2 (a jerk; smaller than a pop)
+- long: motion.s25>s26.audio (heuristic warning) - abrupt audio at 272.69s click 9.3
 - evidence: C01_pillars.evidence[0]: does this passage state the claim? ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb. -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C01_pillars.evidence[1]: does this passage state the claim? NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording). -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C02_cloud.evidence[0]: does this passage state the claim? Gives the mass range (upper end 10 million solar masses) and size. -> read the quote next to the claim text and confirm it says the same thing
@@ -112,3 +115,7 @@ Creative preview gate: approved 2026-10-31T13:36:04 (creator chose 'cheaper appr
 - evidence: C27_n6946.evidence[2]: does this passage state the claim? Status: unconfirmed candidate. -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C28_enrich.evidence[0]: does this passage state the claim? States the claim directly. -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C28_enrich.evidence[1]: does this passage state the claim? Independent Chandra page. -> read the quote next to the claim text and confirm it says the same thing
+
+## Reproduce
+
+Engine 3.0.0-dom (browser, Chromium 153.0.8010.12); `python tools/pipeline.py run --project /home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031` reproduces these files byte for byte on the same versions and worker count (the render is reproducible).

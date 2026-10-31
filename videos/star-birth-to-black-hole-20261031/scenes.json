@@ -43,8 +43,8 @@
      "role": "backdrop",
      "need": "real Webb photograph of the Pillars of Creation",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_pillars"
     },
@@ -181,8 +181,8 @@
      "role": "backdrop",
      "need": "the same Webb pillars, closer on one tip",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_pillars"
     },
@@ -557,8 +557,8 @@
      "role": "backdrop",
      "need": "real Webb image of a giant gas-and-dust cloud edge (Cosmic Cliffs, Carina)",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_carina"
     },
@@ -713,8 +713,8 @@
      "role": "backdrop",
      "need": "the same cloud, closer on dense dark knots",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_carina"
     },
@@ -884,8 +884,8 @@
      "role": "subject",
      "need": "illustration: one dark dense clump inside a cloud starting to collapse, faint glow at its centre",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "g_clump"
     },
@@ -1056,8 +1056,8 @@
      "role": "subject",
      "need": "illustration: a glowing protostar wrapped in a dusty disk and envelope, twin jets",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "g_protostar"
     },
@@ -1216,8 +1216,8 @@
      "role": "backdrop",
      "need": "same protostar illustration",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "g_protostar"
     },
@@ -1377,8 +1377,8 @@
      "role": "backdrop",
      "need": "real Webb image of Rho Ophiuchi with red bipolar jets",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_rhooph"
     },
@@ -1673,8 +1673,8 @@
      "role": "subject",
      "need": "illustration: a newborn star igniting at the centre of its clearing cocoon",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "g_ignite"
     },
@@ -2016,8 +2016,8 @@
      "role": "backdrop",
      "need": "real Solar Dynamics Observatory image of the Sun",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_sun"
     },
@@ -2471,8 +2471,8 @@
      "role": "backdrop",
      "need": "real image of the Helix Nebula with its central white dwarf",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_helix"
     },
@@ -2767,8 +2767,8 @@
      "role": "subject",
      "need": "illustration: a vast red supergiant star, mottled surface, deep space",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "g_supergiant"
     },
@@ -3556,8 +3556,8 @@
      "role": "subject",
      "need": "illustration: a supernova shock wave tearing outward through a red supergiant, no white-out",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "g_supernova"
     },
@@ -3716,8 +3716,8 @@
      "role": "backdrop",
      "need": "real Hubble image: a distant galaxy with a supernova as bright as its core",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_sn_hubble"
     },
@@ -3856,7 +3856,8 @@
    "visualIntensity": 1,
    "transition": {
     "type": "dissolve",
-    "durationMs": 600
+    "durationMs": 1400,
+    "easing": "soft"
    },
    "voice": {
     "intent": "tell a true story",
@@ -4032,8 +4033,8 @@
      "role": "backdrop",
      "need": "real Hubble mosaic of the Crab Nebula",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_crab"
     },
@@ -4169,8 +4170,8 @@
      "role": "backdrop",
      "need": "real Chandra X-ray element map of Cassiopeia A",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_casa"
     },
@@ -4650,8 +4651,8 @@
      "role": "subject",
      "need": "illustration: a stellar black hole, dark silhouette ringed by bent light, remnant gas",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "g_blackhole"
     },
@@ -4840,8 +4841,8 @@
      "role": "backdrop",
      "need": "real Event Horizon Telescope image of the M87 black hole shadow",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_eht"
     },
@@ -5023,8 +5024,8 @@
      "role": "backdrop",
      "need": "NASA illustration of Cygnus X-1: a black hole pulling gas from a blue companion star",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_cygx1_art"
     },
@@ -5185,8 +5186,8 @@
      "role": "backdrop",
      "need": "same Cygnus X-1 illustration, closer on the disk",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_cygx1_art"
     },
@@ -5370,8 +5371,8 @@
      "role": "backdrop",
      "need": "ESO illustration of the Gaia BH3 system: an old star orbiting a dark black hole",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_gaiabh3_art"
     },
@@ -5555,8 +5556,8 @@
      "role": "backdrop",
      "need": "real Hubble before/after images of the star N6946-BH1",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_n6946"
     },
@@ -5712,8 +5713,8 @@
      "role": "backdrop",
      "need": "same Hubble before/after images",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_n6946"
     },
@@ -6309,8 +6310,8 @@
      "role": "backdrop",
      "need": "the real Webb pillars again",
      "enter": {
-      "style": "fade",
-      "durationMs": 600
+      "style": "none",
+      "durationMs": 0
      },
      "assetId": "r_pillars"
     },

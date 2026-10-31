@@ -1,0 +1,398 @@
+{
+  "target": "long",
+  "fps": 30,
+  "durationS": 476.263,
+  "layout": "landscape",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [
+    {
+      "fromS": 0.0,
+      "toS": 0.4,
+      "reason": "opening fade-in from black (400 ms, scenes.opening.fadeInMs)",
+      "mustExist": true
+    },
+    {
+      "fromS": 474.463,
+      "toS": 476.263,
+      "reason": "ending fade-out and black hold (1200+600 ms, scenes.ending)",
+      "mustExist": true
+    }
+  ],
+  "freeze": [
+    {
+      "fromS": 25.094,
+      "toS": 32.217,
+      "kind": "hold",
+      "reason": "the two ends of the journey sit side by side while the question is asked",
+      "scene": "s03"
+    },
+    {
+      "fromS": 448.808,
+      "toS": 451.618,
+      "kind": "hold",
+      "reason": "the recap tiles stay put while the steps are named",
+      "scene": "s37"
+    }
+  ],
+  "silence": [
+    {
+      "fromS": 0.0,
+      "toS": 0.5,
+      "reason": "opening lead silence",
+      "declaredMs": 500
+    },
+    {
+      "fromS": 9.304,
+      "toS": 9.584,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 32.13,
+      "toS": 32.71,
+      "reason": "declared pause",
+      "declaredMs": 300
+    },
+    {
+      "fromS": 57.639,
+      "toS": 57.919,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 62.18,
+      "toS": 62.66,
+      "reason": "declared pause",
+      "declaredMs": 200
+    },
+    {
+      "fromS": 73.681,
+      "toS": 73.961,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 79.249,
+      "toS": 79.529,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 101.902,
+      "toS": 102.632,
+      "reason": "declared pause",
+      "declaredMs": 450
+    },
+    {
+      "fromS": 114.293,
+      "toS": 115.073,
+      "reason": "declared pause",
+      "declaredMs": 500
+    },
+    {
+      "fromS": 123.751,
+      "toS": 124.031,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 137.658,
+      "toS": 138.088,
+      "reason": "declared pause",
+      "declaredMs": 150
+    },
+    {
+      "fromS": 147.919,
+      "toS": 148.199,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 156.944,
+      "toS": 157.224,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 167.733,
+      "toS": 168.013,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 187.132,
+      "toS": 187.712,
+      "reason": "declared pause",
+      "declaredMs": 300
+    },
+    {
+      "fromS": 212.525,
+      "toS": 212.805,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 224.059,
+      "toS": 224.639,
+      "reason": "declared pause",
+      "declaredMs": 300
+    },
+    {
+      "fromS": 234.267,
+      "toS": 234.547,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 242.818,
+      "toS": 243.248,
+      "reason": "declared pause",
+      "declaredMs": 150
+    },
+    {
+      "fromS": 251.655,
+      "toS": 252.335,
+      "reason": "declared pause",
+      "declaredMs": 400
+    },
+    {
+      "fromS": 261.138,
+      "toS": 261.418,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 272.401,
+      "toS": 272.681,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 280.41,
+      "toS": 280.69,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 293.17,
+      "toS": 293.45,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 306.467,
+      "toS": 307.147,
+      "reason": "declared pause",
+      "declaredMs": 400
+    },
+    {
+      "fromS": 318.632,
+      "toS": 319.112,
+      "reason": "declared pause",
+      "declaredMs": 200
+    },
+    {
+      "fromS": 337.079,
+      "toS": 337.959,
+      "reason": "declared pause",
+      "declaredMs": 600
+    },
+    {
+      "fromS": 358.955,
+      "toS": 359.236,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 375.168,
+      "toS": 375.598,
+      "reason": "declared pause",
+      "declaredMs": 150
+    },
+    {
+      "fromS": 391.666,
+      "toS": 391.945,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 414.305,
+      "toS": 414.586,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 429.026,
+      "toS": 429.306,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 441.228,
+      "toS": 442.008,
+      "reason": "declared pause",
+      "declaredMs": 500
+    },
+    {
+      "fromS": 460.381,
+      "toS": 460.961,
+      "reason": "declared pause",
+      "declaredMs": 300
+    },
+    {
+      "fromS": 475.063,
+      "toS": 476.263,
+      "reason": "ending tail silence",
+      "declaredMs": 1200
+    }
+  ],
+  "transitions": [
+    {
+      "id": "s02>s03",
+      "type": "dissolve",
+      "startS": 18.624,
+      "endS": 19.224,
+      "from": "s02",
+      "to": "s03",
+      "easing": "standard",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s06>s07",
+      "type": "nested_scale",
+      "startS": 61.309,
+      "endS": 63.109,
+      "from": "s06",
+      "to": "s07",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s10>s11",
+      "type": "dissolve",
+      "startS": 101.731,
+      "endS": 102.431,
+      "from": "s10",
+      "to": "s11",
+      "easing": "standard",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s19>s20",
+      "type": "dissolve",
+      "startS": 212.159,
+      "endS": 212.659,
+      "from": "s19",
+      "to": "s20",
+      "easing": "standard",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s22>s23",
+      "type": "occlusion_reveal",
+      "startS": 242.257,
+      "endS": 243.257,
+      "from": "s22",
+      "to": "s23",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s25>s26",
+      "type": "dissolve",
+      "startS": 272.089,
+      "endS": 272.689,
+      "from": "s25",
+      "to": "s26",
+      "easing": "standard",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s30>s31",
+      "type": "dissolve",
+      "startS": 336.926,
+      "endS": 337.726,
+      "from": "s30",
+      "to": "s31",
+      "easing": "standard",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s36>s37",
+      "type": "dissolve",
+      "startS": 441.197,
+      "endS": 441.897,
+      "from": "s36",
+      "to": "s37",
+      "easing": "standard",
+      "downgradedFrom": null
+    },
+    {
+      "id": "s38>s39",
+      "type": "dissolve",
+      "startS": 460.114,
+      "endS": 460.914,
+      "from": "s38",
+      "to": "s39",
+      "easing": "standard",
+      "downgradedFrom": null
+    }
+  ],
+  "plannedCutsS": [
+    9.272,
+    32.217,
+    45.28,
+    57.584,
+    73.66,
+    79.175,
+    92.289,
+    114.583,
+    123.732,
+    137.739,
+    147.894,
+    156.911,
+    167.728,
+    187.262,
+    201.502,
+    224.182,
+    234.213,
+    251.781,
+    261.087,
+    280.365,
+    293.13,
+    306.578,
+    318.7,
+    358.987,
+    375.237,
+    391.671,
+    414.275,
+    429.016,
+    451.618
+  ],
+  "sampleTimesS": [
+    18.92,
+    62.21,
+    102.08,
+    212.41,
+    242.76,
+    272.39,
+    337.33,
+    441.55,
+    460.51
+  ],
+  "scheduledMotionS": [
+    [
+      0.0,
+      476.263
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.783
+  },
+  "warnings": []
+}

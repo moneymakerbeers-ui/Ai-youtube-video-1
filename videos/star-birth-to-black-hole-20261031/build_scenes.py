@@ -14,7 +14,7 @@ def V(intent, emotion="neutral-clear", intensity=0, pace="steady", emph=(), pb=0
     if pron: v["pronunciation"] = [{"word": w, "say": s} for w, s in pron]
     return v
 
-def img(eid, asset, need, role="backdrop", enter=("fade", 600)):
+def img(eid, asset, need, role="backdrop", enter=("none", 0)):  # plates appear with the cut (a fade-in from the dark ground reads as black frames)
     e = {"id": eid, "role": role, "need": need, "enter": {"style": enter[0], "durationMs": enter[1]}}
     if not NO_ASSETS: e["assetId"] = asset
     return e
@@ -319,7 +319,7 @@ S("s25", "evidence", ["C18_crab"],
   {"e_stars": STAR_P, "e_y": P(0.5, 0.36, 0.6, 2), "e_g": P(0.5, 0.52, 0.86, 2), "e_m": P(0.5, 0.62, 0.6, 2)},
   voice=V("tell a true story", "warm-explanatory", 1, "steady", ["seen", "daytime"]),
   hold_l="the year and the record stay readable while the story is told",
-  hold_p="the year and the record stay readable", transition={"type": "dissolve", "durationMs": 600})
+  hold_p="the year and the record stay readable", transition={"type": "dissolve", "durationMs": 1400, "easing": "soft"})
 S("s26", "evidence", ["C18_crab"],
   "Today, in that spot, we find the Crab Nebula: the expanding wreckage of that explosion, six light-years wide.",
   "the remnant of that star", "payoff", "archival",

@@ -2,25 +2,37 @@
   "project": "star-birth-to-black-hole-20261031",
   "idea": "How a star is born from the very first moment until it dies and becomes a black hole",
   "purpose": "production",
-  "madeAt": "2026-10-31T14:08:03",
+  "madeAt": "2026-10-31T14:37:28",
   "targets": {
     "long": {
       "file": "out/full-video.mp4",
       "video": {
-        "w": 640,
-        "h": 360,
+        "w": 1920,
+        "h": 1080,
         "fps": "30/1",
         "codec": "h264",
         "audio": "aac",
-        "durationS": 476.263,
-        "bytes": 53411118
+        "durationS": 476.267,
+        "bytes": 392562939
       },
-      "sha256": "ba5524276b15c762a1ea922f0f97dce595bded37e962bacd07757599deac0ea8",
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
+      "sha256": "3652ca21e229ce6f2800c58e82b9d873bc0cdd71f56a475a952ec3bdef3bbe88",
+      "media": "FAILED",
+      "motion": "FAILED",
       "counts": {
-        "media": null,
-        "motion": null
+        "media": {
+          "pass": 17,
+          "fail": 1,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 55,
+          "fail": 1,
+          "blocked": 0,
+          "warn": 3,
+          "info": 9
+        }
       },
       "transitions": [
         {
@@ -78,10 +90,26 @@
           "rationale": null
         }
       ],
-      "warnings": []
+      "warnings": [
+        {
+          "id": "motion.s10>s11.audio",
+          "detail": "abrupt audio at 101.73s click 10.5"
+        },
+        {
+          "id": "motion.s22>s23.smooth",
+          "detail": "a frame step is 3.2 levels above its neighbours' typical 3.2 (a jerk; smaller than a pop)"
+        },
+        {
+          "id": "motion.s25>s26.audio",
+          "detail": "abrupt audio at 272.69s click 9.3"
+        }
+      ]
     }
   },
   "humanNeeded": [
+    "long: motion.s10>s11.audio (heuristic warning) - abrupt audio at 101.73s click 10.5",
+    "long: motion.s22>s23.smooth (heuristic warning) - a frame step is 3.2 levels above its neighbours' typical 3.2 (a jerk; smaller than a pop)",
+    "long: motion.s25>s26.audio (heuristic warning) - abrupt audio at 272.69s click 9.3",
     "evidence: C01_pillars.evidence[0]: does this passage state the claim? ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb. -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C01_pillars.evidence[1]: does this passage state the claim? NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording). -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C02_cloud.evidence[0]: does this passage state the claim? Gives the mass range (upper end 10 million solar masses) and size. -> read the quote next to the claim text and confirm it says the same thing",
@@ -263,5 +291,11 @@
     "at": "2026-10-31T13:36:04",
     "note": "creator chose 'cheaper approval, ceiling 38' (Knox via Higgsfield + nano_banana_2 2k illustrations)"
   },
-  "engine": null
+  "engine": {
+    "version": "3.0.0-dom",
+    "sha256": "32fc63eb8163e5730d7758cffc4e42822dbea38854e90aa0b13907798f799acf",
+    "backend": "browser",
+    "chromium": "153.0.8010.12",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  }
 }
