@@ -36,7 +36,7 @@ const starfield: VisualDef = {
     const svg = s("svg", { viewBox: "0 0 1000 1800", width: "100%", height: "100%", preserveAspectRatio: "xMidYMid slice" }, host);
     const defs = s("defs", {}, svg);
     s("rect", { x: 0, y: 0, width: 1000, height: 1800, fill: init.palette.bg }, svg);
-    s("rect", { x: 0, y: 0, width: 1000, height: 1800, fill: radial(defs, gid("neb"), [[0, "#1a2340", 0.55], [60, "#0d1222", 0.25], [100, init.palette.bg, 0]]) }, svg);
+    s("rect", { x: 0, y: 0, width: 1000, height: 1800, fill: radial(defs, gid("neb"), [[0, "#26335e", 0.75], [55, "#151d36", 0.45], [100, init.palette.bg, 0]]) }, svg);
     const r = rng(num(props.seed, 7));
     const tw: { el: SVGElement; ph: number; sp: number; base: number }[] = [];
     for (let i = 0; i < 420; i++) {

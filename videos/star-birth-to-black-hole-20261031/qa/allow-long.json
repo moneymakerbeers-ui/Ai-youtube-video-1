@@ -302,11 +302,11 @@
     {
       "id": "s25>s26",
       "type": "dissolve",
-      "startS": 272.089,
-      "endS": 272.689,
+      "startS": 271.689,
+      "endS": 273.089,
       "from": "s25",
       "to": "s26",
-      "easing": "standard",
+      "easing": "soft",
       "downgradedFrom": null
     },
     {
@@ -384,7 +384,7 @@
   ],
   "scheduledMotionS": [
     [
-      0.0,
+      -0.05,
       476.263
     ]
   ],

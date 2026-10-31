@@ -164,7 +164,7 @@ S("s09", "protostar", ["C04_jets"],
 S("s10", "ignition", ["C05_ignition"],
   "The protostar keeps gaining mass, and its core gets hotter and denser. At about fifteen million degrees, something new happens.",
   "build to the threshold", "develop", "diagram",
-  [starfield(), vis("e_temp", "thermo", {"to": 15, "unit": "million °", "label": "core temperature"}, "a core-temperature readout climbing to about 15 million degrees", role="number", at=11),
+  [starfield(), vis("e_temp", "thermo", {"to": 15, "unit": "million °", "label": "core temperature", "over": 6.5}, "a core-temperature readout climbing to about 15 million degrees", role="number", at=11),
    txt("e_l", "core temperature", "context", at=9)],
   {"e_stars": STAR_L, "e_temp": P(0.5, 0.52, 0.6, 2), "e_l": P(0.5, 0.15, 0.36, 2)},
   {"e_stars": STAR_P, "e_temp": P(0.5, 0.45, 0.9, 2), "e_l": P(0.5, 0.3, 0.7, 2)},
@@ -185,7 +185,7 @@ S("s11", "ignition", ["C05_ignition"],
 S("s12", "balance", ["C06_balance"],
   "Now the real story begins. Gravity pulls every layer of the star inward. The heat from fusion pushes outward.",
   "make the central mechanism visible", "develop", "diagram",
-  [starfield(), vis("e_bal", "balance", {"inAt": 0.25, "outAt": 0.75}, "a star disc with inward gravity arrows and outward pressure arrows", at=0),
+  [starfield(), vis("e_bal", "balance", {"inAtS": 2.2, "outAtS": 6.3}, "a star disc with inward gravity arrows and outward pressure arrows", at=0),
    txt("e_g", "gravity: in", "label", at=6), txt("e_p", "pressure: out", "label", at=15)],
   {"e_stars": STAR_L, "e_bal": P(0.5, 0.5, 0.52, 2), "e_g": P(0.18, 0.5, 0.24, 3), "e_p": P(0.82, 0.5, 0.26, 3)},
   {"e_stars": STAR_P, "e_bal": P(0.5, 0.45, 0.95, 2), "e_g": P(0.5, 0.18, 0.56, 3), "e_p": P(0.5, 0.74, 0.6, 3)},
@@ -279,7 +279,7 @@ S("s21", "collapse", ["C14_iron"],
 S("s22", "collapse", ["C15_collapse"],
   "In less than a second, the core collapses. Its temperature soars past one hundred billion degrees.",
   "the fastest moment of the story", "develop", "diagram",
-  [starfield(), vis("e_col", "collapse", {"collapseAt": 0.6, "collapseS": 0.9}, "the iron core shrinking almost instantly, with a temperature readout", at=0),
+  [starfield(), vis("e_col", "collapse", {"collapseAtS": 2.0, "collapseS": 0.8}, "the iron core shrinking almost instantly, with a temperature readout", at=0),
    txt("e_s", "under 1 second", "number", at=2), txt("e_t", "over 100 billion °", "number", at=9)],
   {"e_stars": STAR_L, "e_col": P(0.5, 0.47, 0.42, 2), "e_s": P(0.17, 0.5, 0.26, 3), "e_t": P(0.83, 0.5, 0.28, 3)},
   {"e_stars": STAR_P, "e_col": P(0.5, 0.42, 0.9, 2), "e_s": P(0.5, 0.17, 0.62, 3), "e_t": P(0.5, 0.74, 0.7, 3)},
@@ -547,6 +547,13 @@ for sc in scenes:
     for lay in sc["layouts"].values():
         for k, v in lay["placements"].items():
             if k in ltexts: v["depth"] = 1.0   # labels follow the camera less (parallax), so pushes never carry them off-frame
+    # diagram scenes: the main visual is on screen from the first frame (a starfield alone reads as a black screen)
+    PRIMARY = {"s10": ["e_temp", "e_l"], "s12": ["e_bal"], "s14": ["e_two"], "s15": ["e_life"], "s17": ["e_fate"], "s19": ["e_onion"], "s20": ["e_onion"],
+               "s21": ["e_core"], "s22": ["e_col"], "s25": ["e_y"], "s28": ["e_bars", "e_t"], "s29": ["e_fork"], "s37": ["e_r0", "e_t0"]}
+    for e in sc["entities"]:
+        if e["id"] in PRIMARY.get(sc["id"], []):
+            e.pop("enterAtWord", None); e["enter"] = {"style": "fade", "durationMs": 250}
+        if e["id"] == "e_stars": e["enter"] = {"style": "none", "durationMs": 0}
     if not NO_ASSETS:
         sc["assetIds"] = sorted({e["assetId"] for e in sc["entities"] if e.get("assetId")})
 

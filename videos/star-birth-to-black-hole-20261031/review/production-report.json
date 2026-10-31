@@ -2,7 +2,7 @@
   "project": "star-birth-to-black-hole-20261031",
   "idea": "How a star is born from the very first moment until it dies and becomes a black hole",
   "purpose": "production",
-  "madeAt": "2026-10-31T14:37:28",
+  "madeAt": "2026-10-31T15:14:52",
   "targets": {
     "long": {
       "file": "out/full-video.mp4",
@@ -13,11 +13,11 @@
         "codec": "h264",
         "audio": "aac",
         "durationS": 476.267,
-        "bytes": 392562939
+        "bytes": 384895580
       },
-      "sha256": "3652ca21e229ce6f2800c58e82b9d873bc0cdd71f56a475a952ec3bdef3bbe88",
+      "sha256": "947dc2818d9d19d18ef28327fdaee6258b968cd474cd65d3666a0bae0d7bba53",
       "media": "FAILED",
-      "motion": "FAILED",
+      "motion": "PASSED",
       "counts": {
         "media": {
           "pass": 17,
@@ -27,10 +27,10 @@
           "info": 1
         },
         "motion": {
-          "pass": 55,
-          "fail": 1,
+          "pass": 57,
+          "fail": 0,
           "blocked": 0,
-          "warn": 3,
+          "warn": 2,
           "info": 9
         }
       },
@@ -98,10 +98,6 @@
         {
           "id": "motion.s22>s23.smooth",
           "detail": "a frame step is 3.2 levels above its neighbours' typical 3.2 (a jerk; smaller than a pop)"
-        },
-        {
-          "id": "motion.s25>s26.audio",
-          "detail": "abrupt audio at 272.69s click 9.3"
         }
       ]
     }
@@ -109,7 +105,6 @@
   "humanNeeded": [
     "long: motion.s10>s11.audio (heuristic warning) - abrupt audio at 101.73s click 10.5",
     "long: motion.s22>s23.smooth (heuristic warning) - a frame step is 3.2 levels above its neighbours' typical 3.2 (a jerk; smaller than a pop)",
-    "long: motion.s25>s26.audio (heuristic warning) - abrupt audio at 272.69s click 9.3",
     "evidence: C01_pillars.evidence[0]: does this passage state the claim? ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb. -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C01_pillars.evidence[1]: does this passage state the claim? NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording). -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C02_cloud.evidence[0]: does this passage state the claim? Gives the mass range (upper end 10 million solar masses) and size. -> read the quote next to the claim text and confirm it says the same thing",

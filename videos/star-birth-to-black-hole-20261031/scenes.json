@@ -317,8 +317,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -1536,8 +1536,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -1552,27 +1552,26 @@
      "need": "a core-temperature readout climbing to about 15 million degrees",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "thermo",
       "props": {
        "to": 15,
        "unit": "million °",
-       "label": "core temperature"
+       "label": "core temperature",
+       "over": 6.5
       }
-     },
-     "enterAtWord": 11
+     }
     },
     {
      "id": "e_l",
      "role": "context",
      "text": "core temperature",
      "enter": {
-      "style": "rise",
-      "durationMs": 450
-     },
-     "enterAtWord": 9
+      "style": "fade",
+      "durationMs": 250
+     }
     }
    ],
    "layouts": {
@@ -1858,8 +1857,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -1874,16 +1873,15 @@
      "need": "a star disc with inward gravity arrows and outward pressure arrows",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "balance",
       "props": {
-       "inAt": 0.25,
-       "outAt": 0.75
+       "inAtS": 2.2,
+       "outAtS": 6.3
       }
-     },
-     "enterAtWord": 0
+     }
     },
     {
      "id": "e_g",
@@ -2199,8 +2197,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -2215,13 +2213,12 @@
      "need": "a small Sun-like star and a much larger heavy star, the heavy one burning brighter",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "twostars",
       "props": {}
-     },
-     "enterAtWord": 0
+     }
     },
     {
      "id": "e_m",
@@ -2354,8 +2351,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -2370,7 +2367,7 @@
      "need": "two lifetime bars on one linear scale: the Sun ~10 billion years vs a massive star a few million",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "lifebars",
@@ -2386,8 +2383,7 @@
         "text": "a few million years"
        }
       }
-     },
-     "enterAtWord": 0
+     }
     }
    ],
    "layouts": {
@@ -2632,8 +2628,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -2648,7 +2644,7 @@
      "need": "a starting-mass axis with three zones: white dwarf, neutron star (from ~8), black hole (from ~20, fuzzy edge)",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "fatechart",
@@ -2657,8 +2653,7 @@
        "sn": 8,
        "bh": 20
       }
-     },
-     "enterAtWord": 0
+     }
     },
     {
      "id": "e_h",
@@ -2929,8 +2924,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -2945,7 +2940,7 @@
      "need": "a cutaway of the star's core growing layers: hydrogen, helium, carbon, neon, oxygen, silicon",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "onion",
@@ -2962,8 +2957,7 @@
        "revealOver": 9.5,
        "stop": 6
       }
-     },
-     "enterAtWord": 0
+     }
     },
     {
      "id": "e_n",
@@ -3073,8 +3067,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -3089,7 +3083,7 @@
      "need": "the same cutaway; an iron core appears at the centre",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "onion",
@@ -3107,8 +3101,7 @@
        "stop": 6,
        "ironAtS": 7.46
       }
-     },
-     "enterAtWord": 0
+     }
     },
     {
      "id": "e_t",
@@ -3243,8 +3236,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -3259,13 +3252,12 @@
      "need": "the iron core alone; outward pressure arrows fade while inward gravity arrows remain",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "ironcore",
       "props": {}
-     },
-     "enterAtWord": 0
+     }
     },
     {
      "id": "e_c",
@@ -3389,8 +3381,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -3405,16 +3397,15 @@
      "need": "the iron core shrinking almost instantly, with a temperature readout",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "collapse",
       "props": {
-       "collapseAt": 0.6,
-       "collapseS": 0.9
+       "collapseAtS": 2.0,
+       "collapseS": 0.8
       }
-     },
-     "enterAtWord": 0
+     }
     },
     {
      "id": "e_s",
@@ -3877,8 +3868,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -3893,9 +3884,8 @@
      "text": "1054",
      "enter": {
       "style": "fade",
-      "durationMs": 600
-     },
-     "enterAtWord": 6
+      "durationMs": 250
+     }
     },
     {
      "id": "e_g",
@@ -4359,8 +4349,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -4375,7 +4365,7 @@
      "need": "three bars: share of each element made by exploding massive stars",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "elementbars",
@@ -4398,18 +4388,16 @@
         ]
        ]
       }
-     },
-     "enterAtWord": 3
+     }
     },
     {
      "id": "e_t",
      "role": "context",
      "text": "made by exploding massive stars",
      "enter": {
-      "style": "rise",
-      "durationMs": 450
-     },
-     "enterAtWord": 9
+      "style": "fade",
+      "durationMs": 250
+     }
     },
     {
      "id": "e_y",
@@ -4535,8 +4523,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -4551,7 +4539,7 @@
      "need": "a fork: collapsed core → neutron star (city-sized) or → black hole",
      "enter": {
       "style": "fade",
-      "durationMs": 500
+      "durationMs": 250
      },
      "visual": {
       "component": "fork",
@@ -4562,8 +4550,7 @@
        "rightNote": "heavier stars",
        "highlightRightAt": 999
       }
-     },
-     "enterAtWord": 0
+     }
     }
    ],
    "layouts": {
@@ -5842,8 +5829,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",
@@ -5857,21 +5844,19 @@
      "role": "subject",
      "need": "small recap tile: cloud",
      "enter": {
-      "style": "rise",
-      "durationMs": 500
+      "style": "fade",
+      "durationMs": 250
      },
-     "assetId": "g_clump",
-     "enterAtWord": 5
+     "assetId": "g_clump"
     },
     {
      "id": "e_t0",
      "role": "label",
      "text": "cloud",
      "enter": {
-      "style": "rise",
-      "durationMs": 450
-     },
-     "enterAtWord": 5
+      "style": "fade",
+      "durationMs": 250
+     }
     },
     {
      "id": "e_r1",
@@ -6022,8 +6007,8 @@
      "role": "backdrop",
      "need": "a quiet deep-space star background",
      "enter": {
-      "style": "fade",
-      "durationMs": 400
+      "style": "none",
+      "durationMs": 0
      },
      "visual": {
       "component": "starfield",

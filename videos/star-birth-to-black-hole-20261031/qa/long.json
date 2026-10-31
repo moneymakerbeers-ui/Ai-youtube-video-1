@@ -67,8 +67,8 @@
     {
       "id": "black",
       "status": "fail",
-      "value": 31,
-      "detail": "unplanned black at [(9.3, 9.37), (32.23, 32.33), (45.3, 45.4), (57.6, 57.7), (73.67, 73.77), (79.2, 79.27), '+25 more']; the plan authorises black only in [(0.0, 0.4), (474.46, 476.26)]"
+      "value": 14,
+      "detail": "unplanned black at [(92.3, 96.43), (114.6, 115.03), (137.77, 138.03), (147.9, 148.27), (167.73, 168.0), (201.53, 201.97), '+8 more']; the plan authorises black only in [(0.0, 0.4), (474.46, 476.26)]"
     },
     {
       "id": "flash",
@@ -93,8 +93,8 @@
     {
       "id": "freeze",
       "status": "pass",
-      "value": 251,
-      "detail": "251 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
+      "value": 252,
+      "detail": "252 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
     },
     {
       "id": "silence",
