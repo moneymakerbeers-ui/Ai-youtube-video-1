@@ -3170,14 +3170,14 @@
       },
       "e_onion": {
        "x": 0.5,
-       "y": 0.42,
-       "w": 0.96,
+       "y": 0.44,
+       "w": 0.82,
        "z": 2,
        "depth": 0.0
       },
       "e_t": {
        "x": 0.5,
-       "y": 0.16,
+       "y": 0.12,
        "w": 0.7,
        "z": 3,
        "depth": 1.0
@@ -5088,7 +5088,7 @@
     "portrait": {
      "placements": {
       "e_cyg": {
-       "x": 0.4,
+       "x": 0.88,
        "y": 0.5,
        "w": 3.0,
        "z": 0,
@@ -5112,17 +5112,17 @@
      "camera": [
       {
        "from": {
-        "x": 0.4,
+        "x": 0.5,
         "y": 0.5,
         "scale": 1.06
        },
        "to": {
-        "x": 0.42,
+        "x": 0.5,
         "y": 0.5,
         "scale": 1.1
        },
        "easing": "soft",
-       "reason": "gentle push on the pair"
+       "reason": "gentle push on the black hole and its disk"
       }
      ]
     }
@@ -5267,7 +5267,7 @@
     "portrait": {
      "placements": {
       "e_cyg": {
-       "x": 0.4,
+       "x": 0.88,
        "y": 0.5,
        "w": 3.0,
        "z": 0,
@@ -5298,14 +5298,14 @@
      "camera": [
       {
        "from": {
-        "x": 0.42,
+        "x": 0.5,
         "y": 0.5,
         "scale": 1.1
        },
        "to": {
-        "x": 0.46,
+        "x": 0.5,
         "y": 0.5,
-        "scale": 1.22
+        "scale": 1.2
        },
        "easing": "soft",
        "reason": "push toward the disk"
@@ -5452,7 +5452,7 @@
     "portrait": {
      "placements": {
       "e_gaia": {
-       "x": 0.5,
+       "x": 0.8,
        "y": 0.5,
        "w": 3.0,
        "z": 0,

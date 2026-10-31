@@ -264,7 +264,7 @@ S("s20", "onion", ["C13_chain"],
                     "the same cutaway; an iron core appears at the centre", at=0),
    txt("e_t", "less time with each fuel", "label", at=0), txt("e_d", "iron: fuel runs out in days", "label", at=16)],
   {"e_stars": STAR_L, "e_onion": P(0.38, 0.48, 0.44, 2), "e_t": P(0.8, 0.36, 0.3, 3), "e_d": P(0.8, 0.6, 0.3, 3)},
-  {"e_stars": STAR_P, "e_onion": P(0.5, 0.42, 0.96, 2), "e_t": P(0.5, 0.16, 0.7, 3), "e_d": P(0.5, 0.74, 0.8, 3)},
+  {"e_stars": STAR_P, "e_onion": P(0.5, 0.44, 0.82, 2), "e_t": P(0.5, 0.12, 0.7, 3), "e_d": P(0.5, 0.74, 0.8, 3)},
   voice=V("tighten", "measured-concern", 1, "steady", ["less time", "iron", "days"], pa=300))
 
 # ---------- 8 collapse ----------
@@ -384,27 +384,27 @@ S("s32", "finding", ["C24_binaries"],
   "the detection question and its answer", "next_question", "illustration",
   [img("e_cyg", "r_cygx1_art", "NASA illustration of Cygnus X-1: a black hole pulling gas from a blue companion star"), txt("e_tag", "NASA illustration", "context"),
    txt("e_l", "paired with a star", "label", at=24)],
-  {"e_cyg": FULL_L, "e_tag": TAG_L, "e_l": P(0.5, 0.86, 0.3, 3)}, {"e_cyg": P(0.4, 0.5, 3.0), "e_tag": TAG_P, "e_l": P(0.5, 0.72, 0.6, 3)},
+  {"e_cyg": FULL_L, "e_tag": TAG_L, "e_l": P(0.5, 0.86, 0.3, 3)}, {"e_cyg": P(0.88, 0.5, 3.0), "e_tag": TAG_P, "e_l": P(0.5, 0.72, 0.6, 3)},
   voice=V("ask, then answer", "curious", 1, "steady", ["how", "pull"], pa=150),
   cam_l=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.06, "gentle push on the pair")],
-  cam_p=[cam(0.4, 0.5, 1.0, 0.42, 0.5, 1.04, "gentle push on the pair")])
+  cam_p=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.04, "gentle push on the black hole and its disk")])
 S("s33", "finding", ["C24_binaries", "C25_cygx1"],
   "In Cygnus X-1, a black hole pulls gas off its companion, into a disk hot enough to glow in X-rays. A 2021 study puts that black hole at about twenty-one times the mass of the Sun.",
   "first concrete case", "evidence", "illustration",
   [img("e_cyg", "r_cygx1_art", "same Cygnus X-1 illustration, closer on the disk"), txt("e_tag", "NASA illustration", "context"),
    txt("e_x", "glows in X-rays", "label", at=15), txt("e_m", "≈21 × the Sun", "number", at=25)],
   {"e_cyg": FULL_L, "e_tag": TAG_L, "e_x": P(0.2, 0.84, 0.26, 3), "e_m": P(0.8, 0.84, 0.28, 3)},
-  {"e_cyg": P(0.4, 0.5, 3.0), "e_tag": TAG_P, "e_x": P(0.5, 0.66, 0.56, 3), "e_m": P(0.5, 0.74, 0.6, 3)},
+  {"e_cyg": P(0.88, 0.5, 3.0), "e_tag": TAG_P, "e_x": P(0.5, 0.66, 0.56, 3), "e_m": P(0.5, 0.74, 0.6, 3)},
   voice=V("give the case", "warm-explanatory", 1, "steady", ["X-rays", "twenty-one"]),
   cam_l=[cam(0.5, 0.5, 1.04, 0.54, 0.5, 1.16, "push toward the glowing disk while it is described")],
-  cam_p=[cam(0.42, 0.5, 1.04, 0.46, 0.5, 1.16, "push toward the disk")])
+  cam_p=[cam(0.5, 0.5, 1.04, 0.5, 0.5, 1.14, "push toward the disk")])
 S("s34", "finding", ["C26_gaiabh3"],
   "And in 2024, the Gaia mission noticed an old star wobbling around something unseen, less than two thousand light-years away. It is a black hole about thirty-three times the Sun's mass, the biggest star-made black hole found in our galaxy when it was announced.",
   "the newest record, found by a wobble", "evidence", "illustration",
   [img("e_gaia", "r_gaiabh3_art", "ESO illustration of the Gaia BH3 system: an old star orbiting a dark black hole"), txt("e_tag", "ESO illustration", "context"),
    txt("e_d", "< 2,000 light-years", "label", at=16), txt("e_m", "≈33 × the Sun", "number", at=26)],
   {"e_gaia": FULL_L, "e_tag": TAG_L, "e_d": P(0.2, 0.86, 0.28, 3), "e_m": P(0.8, 0.86, 0.28, 3)},
-  {"e_gaia": P(0.5, 0.5, 3.0), "e_tag": TAG_P, "e_d": P(0.5, 0.66, 0.56, 3), "e_m": P(0.5, 0.74, 0.56, 3)},
+  {"e_gaia": P(0.8, 0.5, 3.0), "e_tag": TAG_P, "e_d": P(0.5, 0.66, 0.56, 3), "e_m": P(0.5, 0.74, 0.56, 3)},
   voice=V("a fresh discovery", "curious", 2, "steady", ["wobbling", "thirty-three"]),
   cam_l=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.1, "a slow push on the unseen companion")],
   cam_p=[cam(0.5, 0.5, 1.0, 0.5, 0.5, 1.08, "slow push on the system")])

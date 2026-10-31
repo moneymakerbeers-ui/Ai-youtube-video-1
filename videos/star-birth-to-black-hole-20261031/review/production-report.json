@@ -2,45 +2,52 @@
   "project": "star-birth-to-black-hole-20261031",
   "idea": "How a star is born from the very first moment until it dies and becomes a black hole",
   "purpose": "production",
-  "madeAt": "2026-10-31T16:12:02",
+  "madeAt": "2026-10-31T16:49:32",
   "targets": {
-    "long": {
-      "file": "out/full-video.mp4",
-      "video": {
-        "w": 1920,
-        "h": 1080,
-        "fps": "30/1",
-        "codec": "h264",
-        "audio": "aac",
-        "durationS": 476.267,
-        "bytes": 383233813
-      },
-      "sha256": "68493d29ea2d7171cb4f819f88d076197ed3238cf846b0675758ccad88e09f2c",
-      "media": "PASSED",
-      "motion": "PASSED",
+    "S01": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
       "counts": {
-        "media": {
-          "pass": 18,
-          "fail": 0,
-          "blocked": 0,
-          "warn": 0,
-          "info": 1
-        },
-        "motion": {
-          "pass": 57,
-          "fail": 0,
-          "blocked": 0,
-          "warn": 2,
-          "info": 9
-        }
+        "media": null,
+        "motion": null
       },
       "transitions": [
         {
-          "id": "s02>s03",
-          "type": "dissolve",
+          "id": "s22>s23",
+          "type": "occlusion_reveal",
           "downgradedFrom": null,
-          "rationale": null
-        },
+          "rationale": "the shock wave really starts at the collapsed core and moves outward, so the explosion is revealed from the core's position"
+        }
+      ],
+      "warnings": []
+    },
+    "S02": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [],
+      "warnings": []
+    },
+    "S03": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [
         {
           "id": "s06>s07",
           "type": "nested_scale",
@@ -52,59 +59,38 @@
           "type": "dissolve",
           "downgradedFrom": null,
           "rationale": null
-        },
-        {
-          "id": "s19>s20",
-          "type": "dissolve",
-          "downgradedFrom": null,
-          "rationale": null
-        },
-        {
-          "id": "s22>s23",
-          "type": "occlusion_reveal",
-          "downgradedFrom": null,
-          "rationale": "the shock wave really starts at the collapsed core and moves outward, so the explosion is revealed from the core's position"
-        },
-        {
-          "id": "s25>s26",
-          "type": "dissolve",
-          "downgradedFrom": null,
-          "rationale": null
-        },
-        {
-          "id": "s30>s31",
-          "type": "dissolve",
-          "downgradedFrom": null,
-          "rationale": null
-        },
-        {
-          "id": "s36>s37",
-          "type": "dissolve",
-          "downgradedFrom": null,
-          "rationale": null
-        },
-        {
-          "id": "s38>s39",
-          "type": "dissolve",
-          "downgradedFrom": null,
-          "rationale": null
         }
       ],
-      "warnings": [
-        {
-          "id": "motion.s10>s11.audio",
-          "detail": "abrupt audio at 101.73s click 10.5"
-        },
-        {
-          "id": "motion.s22>s23.smooth",
-          "detail": "a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)"
-        }
-      ]
+      "warnings": []
+    },
+    "S04": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [],
+      "warnings": []
+    },
+    "S05": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [],
+      "warnings": []
     }
   },
   "humanNeeded": [
-    "long: motion.s10>s11.audio (heuristic warning) - abrupt audio at 101.73s click 10.5",
-    "long: motion.s22>s23.smooth (heuristic warning) - a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)",
     "evidence: C01_pillars.evidence[0]: does this passage state the claim? ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb. -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C01_pillars.evidence[1]: does this passage state the claim? NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording). -> read the quote next to the claim text and confirm it says the same thing",
     "evidence: C02_cloud.evidence[0]: does this passage state the claim? Gives the mass range (upper end 10 million solar masses) and size. -> read the quote next to the claim text and confirm it says the same thing",
@@ -286,11 +272,5 @@
     "at": "2026-10-31T13:36:04",
     "note": "creator chose 'cheaper approval, ceiling 38' (Knox via Higgsfield + nano_banana_2 2k illustrations)"
   },
-  "engine": {
-    "version": "3.0.0-dom",
-    "sha256": "4bdfda497eb0d2b5dc2849666f934b608019d2bcdd44d70ebc1cf87a069406d1",
-    "backend": "browser",
-    "chromium": "153.0.8010.12",
-    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
-  }
+  "engine": null
 }
