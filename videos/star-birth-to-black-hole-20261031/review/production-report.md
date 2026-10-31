@@ -1,12 +1,12 @@
 # Production report - star-birth-to-black-hole-20261031
 
-Idea: How a star is born from the very first moment until it dies and becomes a black hole  ·  purpose: **production**  ·  made 2026-10-31T15:14:52
+Idea: How a star is born from the very first moment until it dies and becomes a black hole  ·  purpose: **production**  ·  made 2026-10-31T15:40:42
 
 ## Gate verdicts
 
 | target | file | media QA | motion QA | length | size |
 |---|---|---|---|---|---|
-| long | out/full-video.mp4 | FAILED | PASSED | 476.267 s | 1920x1080 |
+| long | out/full-video.mp4 | PASSED | FAILED | 476.267 s | 1920x1080 |
 
 A verdict is the gate's own result on the delivered file. WARN items are heuristics and are listed under "A person still has to look at". PASSED never means the video is good, only that none of these checks found a defect.
 
@@ -24,7 +24,7 @@ A verdict is the gate's own result on the delivered file. WARN items are heurist
 
 ## Render
 
-- long: 14288 frames at 30 fps, 87 ms/frame with 4 worker(s) = 1242.5 s of capture on this machine; a 60 fps render would take about 41.4 min
+- long: 14288 frames at 30 fps, 83.2 ms/frame with 4 worker(s) = 1189.1 s of capture on this machine; a 60 fps render would take about 39.6 min
 
 ## Voice and alignment
 
@@ -45,7 +45,8 @@ Creative preview gate: approved 2026-10-31T13:36:04 (creator chose 'cheaper appr
 ## A person still has to look at
 
 - long: motion.s10>s11.audio (heuristic warning) - abrupt audio at 101.73s click 10.5
-- long: motion.s22>s23.smooth (heuristic warning) - a frame step is 3.2 levels above its neighbours' typical 3.2 (a jerk; smaller than a pop)
+- long: motion.s19>s20.smooth (heuristic warning) - a frame step is 4.8 levels above its neighbours' typical 3.7 (a jerk; smaller than a pop)
+- long: motion.s22>s23.smooth (heuristic warning) - a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)
 - evidence: C01_pillars.evidence[0]: does this passage state the claim? ESA/Webb states the pillars are a site of ongoing star formation imaged by Webb. -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C01_pillars.evidence[1]: does this passage state the claim? NASA confirms the pillars are cool gas and dust (the 'cold gas and dust' wording). -> read the quote next to the claim text and confirm it says the same thing
 - evidence: C02_cloud.evidence[0]: does this passage state the claim? Gives the mass range (upper end 10 million solar masses) and size. -> read the quote next to the claim text and confirm it says the same thing

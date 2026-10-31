@@ -1,12 +1,12 @@
 {
   "subject": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/full-video.mp4",
   "kind": "motion",
-  "overall": "PASSED",
+  "overall": "FAILED",
   "summary": {
-    "pass": 57,
-    "fail": 0,
+    "pass": 54,
+    "fail": 2,
     "blocked": 0,
-    "warn": 2,
+    "warn": 3,
     "info": 9
   },
   "checks": [
@@ -20,16 +20,16 @@
       "id": "motion.s02>s03.boundary",
       "status": "pass",
       "value": 1.2,
-      "detail": "dissolve: the change at the window edges (1.2 levels at frame +1) is in line with the window's own motion (median 2.7)"
+      "detail": "dissolve: the change at the window edges (1.2 levels at frame +1) is in line with the window's own motion (median 2.4)"
     },
     {
       "id": "motion.s02>s03.exposure",
       "status": "pass",
       "value": {
-        "excursion": 4.5,
-        "step": 8.9
+        "excursion": 3.6,
+        "step": 8.8
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 8.9 levels, largest excursion 4.5)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 8.8 levels, largest excursion 3.6)"
     },
     {
       "id": "motion.s02>s03.stall",
@@ -126,17 +126,17 @@
     {
       "id": "motion.s10>s11.boundary",
       "status": "pass",
-      "value": 0.2,
-      "detail": "dissolve: the change at the window edges (0.2 levels at frame +21) is in line with the window's own motion (median 1.6)"
+      "value": 0.8,
+      "detail": "dissolve: the change at the window edges (0.8 levels at frame +1) is in line with the window's own motion (median 1.4)"
     },
     {
       "id": "motion.s10>s11.exposure",
       "status": "pass",
       "value": {
-        "excursion": 1.1,
-        "step": 3.1
+        "excursion": 2.0,
+        "step": 2.6
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 3.1 levels, largest excursion 1.1)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 2.6 levels, largest excursion 2.0)"
     },
     {
       "id": "motion.s10>s11.stall",
@@ -173,17 +173,17 @@
     {
       "id": "motion.s19>s20.boundary",
       "status": "pass",
-      "value": 0.6,
-      "detail": "dissolve: the change at the window edges (0.6 levels at frame +1) is in line with the window's own motion (median 1.7)"
+      "value": 0.9,
+      "detail": "dissolve: the change at the window edges (0.9 levels at frame +1) is in line with the window's own motion (median 3.7)"
     },
     {
       "id": "motion.s19>s20.exposure",
-      "status": "pass",
+      "status": "fail",
       "value": {
-        "excursion": 1.6,
-        "step": 6.5
+        "excursion": 28.4,
+        "step": 8.4
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 6.5 levels, largest excursion 1.6)"
+      "detail": "dissolve flashes: luma excursion 28.4 levels, colour excursion 35.3, largest frame step 8.4 levels (flash risk)"
     },
     {
       "id": "motion.s19>s20.stall",
@@ -193,15 +193,15 @@
     },
     {
       "id": "motion.s19>s20.pop",
-      "status": "pass",
-      "value": 0.0,
-      "detail": "dissolve: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+      "status": "fail",
+      "value": 4.8,
+      "detail": "dissolve pops: the frame step at 212.53s is 4.8 levels above its neighbours' typical 3.0 and settles again (a one-frame jump)"
     },
     {
       "id": "motion.s19>s20.smooth",
-      "status": "pass",
-      "value": 0.0,
-      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "status": "warn",
+      "value": 4.8,
+      "detail": "a frame step is 4.8 levels above its neighbours' typical 3.7 (a jerk; smaller than a pop)",
       "heuristic": true
     },
     {
@@ -228,9 +228,9 @@
       "status": "pass",
       "value": {
         "excursion": 0.2,
-        "step": 5.8
+        "step": 4.8
       },
-      "detail": "occlusion_reveal: no flash or exposure jump (largest frame step 5.8 levels, largest excursion 0.2)"
+      "detail": "occlusion_reveal: no flash or exposure jump (largest frame step 4.8 levels, largest excursion 0.2)"
     },
     {
       "id": "motion.s22>s23.stall",
@@ -247,8 +247,8 @@
     {
       "id": "motion.s22>s23.smooth",
       "status": "warn",
-      "value": 3.2,
-      "detail": "a frame step is 3.2 levels above its neighbours' typical 3.2 (a jerk; smaller than a pop)",
+      "value": 2.8,
+      "detail": "a frame step is 2.8 levels above its neighbours' typical 2.6 (a jerk; smaller than a pop)",
       "heuristic": true
     },
     {
@@ -281,16 +281,16 @@
       "id": "motion.s25>s26.boundary",
       "status": "pass",
       "value": 0.8,
-      "detail": "dissolve: the change at the window edges (0.8 levels at frame +42) is in line with the window's own motion (median 2.7)"
+      "detail": "dissolve: the change at the window edges (0.8 levels at frame +1) is in line with the window's own motion (median 2.5)"
     },
     {
       "id": "motion.s25>s26.exposure",
       "status": "pass",
       "value": {
-        "excursion": 0.7,
-        "step": 5.8
+        "excursion": 1.1,
+        "step": 5.5
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 5.8 levels, largest excursion 0.7)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 5.5 levels, largest excursion 1.1)"
     },
     {
       "id": "motion.s25>s26.stall",
@@ -374,17 +374,17 @@
     {
       "id": "motion.s36>s37.boundary",
       "status": "pass",
-      "value": 0.7,
-      "detail": "dissolve: the change at the window edges (0.7 levels at frame +1) is in line with the window's own motion (median 0.9)"
+      "value": 0.6,
+      "detail": "dissolve: the change at the window edges (0.6 levels at frame +1) is in line with the window's own motion (median 1.0)"
     },
     {
       "id": "motion.s36>s37.exposure",
       "status": "pass",
       "value": {
-        "excursion": 1.4,
-        "step": 2.3
+        "excursion": 1.6,
+        "step": 2.1
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 2.3 levels, largest excursion 1.4)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 2.1 levels, largest excursion 1.6)"
     },
     {
       "id": "motion.s36>s37.stall",
@@ -421,17 +421,17 @@
     {
       "id": "motion.s38>s39.boundary",
       "status": "pass",
-      "value": 0.6,
-      "detail": "dissolve: the change at the window edges (0.6 levels at frame +24) is in line with the window's own motion (median 2.5)"
+      "value": 0.4,
+      "detail": "dissolve: the change at the window edges (0.4 levels at frame +24) is in line with the window's own motion (median 2.4)"
     },
     {
       "id": "motion.s38>s39.exposure",
       "status": "pass",
       "value": {
-        "excursion": 1.5,
-        "step": 5.7
+        "excursion": 1.9,
+        "step": 5.5
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 5.7 levels, largest excursion 1.5)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 5.5 levels, largest excursion 1.9)"
     },
     {
       "id": "motion.s38>s39.stall",

@@ -1,10 +1,10 @@
 {
   "subject": "/home/user/Ai-youtube-video-1/videos/star-birth-to-black-hole-20261031/out/full-video.mp4",
   "kind": "",
-  "overall": "FAILED",
+  "overall": "PASSED",
   "summary": {
-    "pass": 17,
-    "fail": 1,
+    "pass": 18,
+    "fail": 0,
     "blocked": 0,
     "warn": 0,
     "info": 1
@@ -66,9 +66,9 @@
     },
     {
       "id": "black",
-      "status": "fail",
-      "value": 14,
-      "detail": "unplanned black at [(92.3, 96.43), (114.6, 115.03), (137.77, 138.03), (147.9, 148.27), (167.73, 168.0), (201.53, 201.97), '+8 more']; the plan authorises black only in [(0.0, 0.4), (474.46, 476.26)]"
+      "status": "pass",
+      "value": 2,
+      "detail": "2 black span(s), all inside declared windows"
     },
     {
       "id": "flash",
@@ -93,8 +93,8 @@
     {
       "id": "freeze",
       "status": "pass",
-      "value": 252,
-      "detail": "252 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
+      "value": 244,
+      "detail": "244 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
     },
     {
       "id": "silence",
