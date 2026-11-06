@@ -1,0 +1,40 @@
+{
+  "target": "S04",
+  "master": "audio/master-S04.wav",
+  "sha256": "2a873c832127b1db04b6ed8d706cf07e21d9b459eb5d5c823bf9b086e22eb96f",
+  "durationS": 31.87,
+  "planDurationS": 31.87,
+  "before": {
+    "I": -19.88,
+    "TP": -4.82,
+    "LRA": 1.6
+  },
+  "after": {
+    "I": -14.0,
+    "LRA": 1.8,
+    "TP": -1.5
+  },
+  "targetLufs": -14.0,
+  "targetTruePeak": -1.5,
+  "music": {
+    "file": "audio/bed/music-S04.wav",
+    "duckedDb": 0.0,
+    "license": {
+      "name": "made in code for this project (no third-party audio)",
+      "url": "",
+      "attribution": "none required",
+      "generator": "videos/star-life-george-20261106/make_bed.py"
+    }
+  },
+  "fx": {
+    "file": "audio/bed/fx-S04.wav",
+    "db": 0.0,
+    "license": {
+      "name": "made in code for this project (no third-party audio)",
+      "url": "",
+      "attribution": "none required",
+      "generator": "videos/star-life-george-20261106/make_bed.py"
+    }
+  },
+  "ok": true
+}

@@ -1,0 +1,192 @@
+{
+  "subject": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/full-video.mp4",
+  "kind": "",
+  "overall": "PASSED",
+  "summary": {
+    "pass": 18,
+    "fail": 0,
+    "blocked": 0,
+    "warn": 0,
+    "info": 1
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "blackdetect, the stillness instrument (incl. a 1 px/frame crawling square), silencedetect, signalstats and ebur128 found exactly the known events in synthetic media"
+    },
+    {
+      "id": "probe.size",
+      "status": "pass",
+      "value": "1920x1080",
+      "detail": "expected 1920x1080 (from the plan)"
+    },
+    {
+      "id": "probe.codec",
+      "status": "pass",
+      "value": "h264/yuv420p",
+      "detail": "expected h264 + yuv420p"
+    },
+    {
+      "id": "probe.color",
+      "status": "pass",
+      "value": "bt709/tv",
+      "detail": "expected bt709 / tv tags"
+    },
+    {
+      "id": "probe.fps",
+      "status": "pass",
+      "value": "30/1 vs 30/1",
+      "detail": "constant frame rate expected = 30"
+    },
+    {
+      "id": "probe.duration",
+      "status": "pass",
+      "value": 218.533,
+      "detail": "plan duration 218.55s"
+    },
+    {
+      "id": "probe.audio",
+      "status": "pass",
+      "value": "aac 48000Hz 2ch",
+      "detail": "expected aac at 44.1/48 kHz"
+    },
+    {
+      "id": "av.duration",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "audio and video lengths differ by 0.000s (max 0.1)"
+    },
+    {
+      "id": "decode",
+      "status": "pass",
+      "value": 6556,
+      "detail": "6556 frames decoded without a diagnostic (plan: 6556)"
+    },
+    {
+      "id": "black",
+      "status": "pass",
+      "value": 1,
+      "detail": "1 black span(s), all inside declared windows"
+    },
+    {
+      "id": "flash",
+      "status": "pass",
+      "value": 4,
+      "detail": "heuristic for the 3-flashes rule (large mean-luma swings in 1 s), not a conformance test",
+      "heuristic": true
+    },
+    {
+      "id": "cuts",
+      "status": "pass",
+      "value": 0,
+      "detail": "every large frame change is a planned cut or inside a planned transition",
+      "heuristic": true
+    },
+    {
+      "id": "freeze.source",
+      "status": "pass",
+      "value": 0,
+      "detail": "the scene graph at the renderer (before encoding) never holds still long enough to matter"
+    },
+    {
+      "id": "freeze",
+      "status": "pass",
+      "value": 123,
+      "detail": "123 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
+    },
+    {
+      "id": "silence",
+      "status": "pass",
+      "value": 0,
+      "detail": "no silence of 0.7 s or more"
+    },
+    {
+      "id": "loudness",
+      "status": "pass",
+      "value": {
+        "integratedLufs": -14.0,
+        "lra": 1.6,
+        "truePeakDbtp": -1.3
+      },
+      "detail": "engineering target -14.0\u00b11.5 LUFS, true peak \u2264 -1.0 dBTP (calibrate by ear and against the channel; not a YouTube requirement)"
+    },
+    {
+      "id": "narration",
+      "status": "pass",
+      "value": 605,
+      "detail": "all 605 aligned words carry speech energy (speech median -11 dBFS, floor -46)"
+    },
+    {
+      "id": "sync",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "the audio in the file is offset +0 ms from master-long.wav (max \u00b150 ms)"
+    },
+    {
+      "id": "sheets",
+      "status": "info",
+      "value": 10,
+      "detail": "view these with Read; contact-sheet tile n covers startS + n*everyS"
+    }
+  ],
+  "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/full-video.mp4",
+  "sheets": [
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_sheet_01.jpg",
+      "startS": 0.0,
+      "everyS": 5.0,
+      "tile": "6x4"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_sheet_02.jpg",
+      "startS": 120.0,
+      "everyS": 5.0,
+      "tile": "6x4"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_risk_00_25.6s.jpg",
+      "aroundS": 25.56,
+      "frames": "6 frames across 1.2s"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_risk_01_43.7s.jpg",
+      "aroundS": 43.67,
+      "frames": "6 frames across 1.2s"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_risk_02_55.3s.jpg",
+      "aroundS": 55.29,
+      "frames": "6 frames across 1.2s"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_risk_03_85.8s.jpg",
+      "aroundS": 85.77,
+      "frames": "6 frames across 1.2s"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_risk_04_118.3s.jpg",
+      "aroundS": 118.31,
+      "frames": "6 frames across 1.2s"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_risk_05_129.8s.jpg",
+      "aroundS": 129.78,
+      "frames": "6 frames across 1.2s"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_risk_06_164.7s.jpg",
+      "aroundS": 164.7,
+      "frames": "6 frames across 1.2s"
+    },
+    {
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/long_risk_07_201.2s.jpg",
+      "aroundS": 201.17,
+      "frames": "6 frames across 1.2s"
+    }
+  ],
+  "probe": {
+    "duration": "218.533333"
+  }
+}

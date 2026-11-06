@@ -1,0 +1,567 @@
+{
+  "subject": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/full-video.mp4",
+  "kind": "motion",
+  "overall": "FAILED",
+  "summary": {
+    "pass": 61,
+    "fail": 1,
+    "blocked": 0,
+    "warn": 3,
+    "info": 8
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "the motion instruments classified a good eased dissolve, a hard pop, a white flash and a frozen middle correctly"
+    },
+    {
+      "id": "motion.c3>p1.boundary",
+      "status": "pass",
+      "value": 0.7,
+      "detail": "nested_scale: the change at the window edges (0.7 levels at frame +1) is in line with the window's own motion (median 5.0)"
+    },
+    {
+      "id": "motion.c3>p1.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 17.3,
+        "step": 6.8
+      },
+      "detail": "nested_scale: no flash or exposure jump (largest frame step 6.8 levels, largest excursion 17.3)"
+    },
+    {
+      "id": "motion.c3>p1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "nested_scale: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.c3>p1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "nested_scale: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.c3>p1.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.c3>p1.ghost",
+      "status": "pass",
+      "value": 0.21,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.c3>p1.anchor",
+      "status": "pass",
+      "value": 48,
+      "detail": "nested_scale: anchors land, stay locked and travel monotonically over 48 frames"
+    },
+    {
+      "id": "motion.c3>p1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.c3>p1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-c3-p1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-c3-p1.mp4; the numbers above are heuristics, the eyes decide"
+    },
+    {
+      "id": "motion.f2>b1.boundary",
+      "status": "pass",
+      "value": 2.0,
+      "detail": "match_movement: the change at the window edges (2.0 levels at frame +1) is in line with the window's own motion (median 6.2)"
+    },
+    {
+      "id": "motion.f2>b1.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 1.6,
+        "step": 8.0
+      },
+      "detail": "match_movement: no flash or exposure jump (largest frame step 8.0 levels, largest excursion 1.6)"
+    },
+    {
+      "id": "motion.f2>b1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "match_movement: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.f2>b1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "match_movement: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.f2>b1.smooth",
+      "status": "warn",
+      "value": 10.3,
+      "detail": "a frame step is 10.3 levels above its neighbours' typical 12.3 (a jerk; smaller than a pop)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.f2>b1.ghost",
+      "status": "pass",
+      "value": 0.31,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.f2>b1.anchor",
+      "status": "pass",
+      "value": 21,
+      "detail": "match_movement: anchors land, stay locked and travel monotonically over 21 frames"
+    },
+    {
+      "id": "motion.f2>b1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.f2>b1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-f2-b1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-f2-b1.mp4; the numbers above are heuristics, the eyes decide"
+    },
+    {
+      "id": "motion.b2>m1.boundary",
+      "status": "pass",
+      "value": 0.7,
+      "detail": "match_movement: the change at the window edges (0.7 levels at frame +1) is in line with the window's own motion (median 5.1)"
+    },
+    {
+      "id": "motion.b2>m1.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 3.8,
+        "step": 3.8
+      },
+      "detail": "match_movement: no flash or exposure jump (largest frame step 3.8 levels, largest excursion 3.8)"
+    },
+    {
+      "id": "motion.b2>m1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "match_movement: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.b2>m1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "match_movement: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.b2>m1.smooth",
+      "status": "warn",
+      "value": 7.9,
+      "detail": "a frame step is 7.9 levels above its neighbours' typical 9.1 (a jerk; smaller than a pop)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.b2>m1.ghost",
+      "status": "pass",
+      "value": 0.12,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.b2>m1.anchor",
+      "status": "pass",
+      "value": 21,
+      "detail": "match_movement: anchors land, stay locked and travel monotonically over 21 frames"
+    },
+    {
+      "id": "motion.b2>m1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.b2>m1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-b2-m1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-b2-m1.mp4; the numbers above are heuristics, the eyes decide"
+    },
+    {
+      "id": "motion.m4>o1.boundary",
+      "status": "pass",
+      "value": 1.9,
+      "detail": "match_movement: the change at the window edges (1.9 levels at frame +1) is in line with the window's own motion (median 7.7)"
+    },
+    {
+      "id": "motion.m4>o1.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 3.3,
+        "step": 12.4
+      },
+      "detail": "match_movement: no flash or exposure jump (largest frame step 12.4 levels, largest excursion 3.3)"
+    },
+    {
+      "id": "motion.m4>o1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "match_movement: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.m4>o1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "match_movement: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.m4>o1.smooth",
+      "status": "warn",
+      "value": 13.0,
+      "detail": "a frame step is 13.0 levels above its neighbours' typical 13.9 (a jerk; smaller than a pop)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.m4>o1.ghost",
+      "status": "pass",
+      "value": 0.2,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.m4>o1.anchor",
+      "status": "pass",
+      "value": 21,
+      "detail": "match_movement: anchors land, stay locked and travel monotonically over 21 frames"
+    },
+    {
+      "id": "motion.m4>o1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.m4>o1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-m4-o1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-m4-o1.mp4; the numbers above are heuristics, the eyes decide"
+    },
+    {
+      "id": "motion.k3>e1.boundary",
+      "status": "pass",
+      "value": 2.2,
+      "detail": "match_movement: the change at the window edges (2.2 levels at frame +1) is in line with the window's own motion (median 5.0)"
+    },
+    {
+      "id": "motion.k3>e1.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 1.0,
+        "step": 9.3
+      },
+      "detail": "match_movement: no flash or exposure jump (largest frame step 9.3 levels, largest excursion 1.0)"
+    },
+    {
+      "id": "motion.k3>e1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "match_movement: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.k3>e1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "match_movement: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.k3>e1.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.k3>e1.ghost",
+      "status": "pass",
+      "value": 0.06,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.k3>e1.anchor",
+      "status": "pass",
+      "value": 21,
+      "detail": "match_movement: anchors land, stay locked and travel monotonically over 21 frames"
+    },
+    {
+      "id": "motion.k3>e1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.k3>e1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-k3-e1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-k3-e1.mp4; the numbers above are heuristics, the eyes decide"
+    },
+    {
+      "id": "motion.e2>e3.boundary",
+      "status": "pass",
+      "value": 0.8,
+      "detail": "depth_through_object: the change at the window edges (0.8 levels at frame +0) is in line with the window's own motion (median 7.1)"
+    },
+    {
+      "id": "motion.e2>e3.exposure",
+      "status": "fail",
+      "value": {
+        "excursion": 40.5,
+        "step": 39.0
+      },
+      "detail": "depth_through_object flashes: luma excursion 40.5 levels, colour excursion 50.3, largest frame step 39.0 levels (flash risk)"
+    },
+    {
+      "id": "motion.e2>e3.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "depth_through_object: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.e2>e3.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "depth_through_object: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.e2>e3.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.e2>e3.ghost",
+      "status": "pass",
+      "value": -0.05,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.e2>e3.anchor",
+      "status": "pass",
+      "value": 33,
+      "detail": "depth_through_object: anchors land, stay locked and travel monotonically over 33 frames"
+    },
+    {
+      "id": "motion.e2>e3.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.e2>e3.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-e2-e3-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-e2-e3.mp4; the numbers above are heuristics, the eyes decide"
+    },
+    {
+      "id": "motion.r4>x1.boundary",
+      "status": "pass",
+      "value": 0.6,
+      "detail": "match_movement: the change at the window edges (0.6 levels at frame +21) is in line with the window's own motion (median 6.7)"
+    },
+    {
+      "id": "motion.r4>x1.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 0.7,
+        "step": 7.1
+      },
+      "detail": "match_movement: no flash or exposure jump (largest frame step 7.1 levels, largest excursion 0.7)"
+    },
+    {
+      "id": "motion.r4>x1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "match_movement: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.r4>x1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "match_movement: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.r4>x1.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.r4>x1.ghost",
+      "status": "pass",
+      "value": 0.35,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.r4>x1.anchor",
+      "status": "pass",
+      "value": 21,
+      "detail": "match_movement: anchors land, stay locked and travel monotonically over 21 frames"
+    },
+    {
+      "id": "motion.r4>x1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.r4>x1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-r4-x1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-r4-x1.mp4; the numbers above are heuristics, the eyes decide"
+    },
+    {
+      "id": "motion.g3>z1.boundary",
+      "status": "pass",
+      "value": 1.5,
+      "detail": "match_movement: the change at the window edges (1.5 levels at frame +1) is in line with the window's own motion (median 3.3)"
+    },
+    {
+      "id": "motion.g3>z1.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 1.1,
+        "step": 3.8
+      },
+      "detail": "match_movement: no flash or exposure jump (largest frame step 3.8 levels, largest excursion 1.1)"
+    },
+    {
+      "id": "motion.g3>z1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "match_movement: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.g3>z1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "match_movement: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.g3>z1.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.g3>z1.ghost",
+      "status": "pass",
+      "value": 0.42,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.g3>z1.anchor",
+      "status": "pass",
+      "value": 21,
+      "detail": "match_movement: anchors land, stay locked and travel monotonically over 21 frames"
+    },
+    {
+      "id": "motion.g3>z1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.g3>z1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-g3-z1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-g3-z1.mp4; the numbers above are heuristics, the eyes decide"
+    }
+  ],
+  "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/full-video.mp4",
+  "transitions": [
+    {
+      "id": "c3>p1",
+      "type": "nested_scale",
+      "startS": 24.76,
+      "endS": 26.36,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-c3-p1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-c3-p1-strip.png"
+    },
+    {
+      "id": "f2>b1",
+      "type": "match_movement",
+      "startS": 43.32,
+      "endS": 44.02,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-f2-b1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-f2-b1-strip.png"
+    },
+    {
+      "id": "b2>m1",
+      "type": "match_movement",
+      "startS": 54.94,
+      "endS": 55.64,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-b2-m1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-b2-m1-strip.png"
+    },
+    {
+      "id": "m4>o1",
+      "type": "match_movement",
+      "startS": 85.42,
+      "endS": 86.12,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-m4-o1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-m4-o1-strip.png"
+    },
+    {
+      "id": "k3>e1",
+      "type": "match_movement",
+      "startS": 117.96,
+      "endS": 118.66,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-k3-e1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-k3-e1-strip.png"
+    },
+    {
+      "id": "e2>e3",
+      "type": "depth_through_object",
+      "startS": 129.23,
+      "endS": 130.33,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-e2-e3.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-e2-e3-strip.png"
+    },
+    {
+      "id": "r4>x1",
+      "type": "match_movement",
+      "startS": 164.35,
+      "endS": 165.05,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-r4-x1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-r4-x1-strip.png"
+    },
+    {
+      "id": "g3>z1",
+      "type": "match_movement",
+      "startS": 200.82,
+      "endS": 201.52,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-g3-z1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/long/tr-g3-z1-strip.png"
+    }
+  ]
+}

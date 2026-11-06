@@ -1,0 +1,173 @@
+{
+  "target": "long",
+  "fps": 30,
+  "durationS": 218.55,
+  "layout": "landscape",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [
+    {
+      "fromS": 217.85,
+      "toS": 218.55,
+      "reason": "ending fade-out and black hold (700+0 ms, scenes.ending)",
+      "mustExist": false
+    }
+  ],
+  "freeze": [],
+  "silence": [
+    {
+      "fromS": 76.28,
+      "toS": 76.56,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 155.92,
+      "toS": 156.2,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 218.15,
+      "toS": 218.55,
+      "reason": "ending tail silence",
+      "declaredMs": 400
+    }
+  ],
+  "transitions": [
+    {
+      "id": "c3>p1",
+      "type": "nested_scale",
+      "startS": 24.76,
+      "endS": 26.36,
+      "from": "c3",
+      "to": "p1",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "f2>b1",
+      "type": "match_movement",
+      "startS": 43.32,
+      "endS": 44.02,
+      "from": "f2",
+      "to": "b1",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "b2>m1",
+      "type": "match_movement",
+      "startS": 54.94,
+      "endS": 55.64,
+      "from": "b2",
+      "to": "m1",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "m4>o1",
+      "type": "match_movement",
+      "startS": 85.42,
+      "endS": 86.12,
+      "from": "m4",
+      "to": "o1",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "k3>e1",
+      "type": "match_movement",
+      "startS": 117.96,
+      "endS": 118.66,
+      "from": "k3",
+      "to": "e1",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "e2>e3",
+      "type": "depth_through_object",
+      "startS": 129.23,
+      "endS": 130.33,
+      "from": "e2",
+      "to": "e3",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "r4>x1",
+      "type": "match_movement",
+      "startS": 164.35,
+      "endS": 165.05,
+      "from": "r4",
+      "to": "x1",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    },
+    {
+      "id": "g3>z1",
+      "type": "match_movement",
+      "startS": 200.82,
+      "endS": 201.52,
+      "from": "g3",
+      "to": "z1",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    }
+  ],
+  "plannedCutsS": [
+    4.39,
+    7.6,
+    10.76,
+    16.91,
+    19.64,
+    28.71,
+    32.66,
+    41.14,
+    50.1,
+    63.01,
+    68.09,
+    76.27,
+    92.97,
+    102.65,
+    107.38,
+    113.28,
+    126.65,
+    135.85,
+    143.11,
+    152.23,
+    155.86,
+    160.55,
+    174.1,
+    177.47,
+    182.63,
+    187.8,
+    209.82,
+    213.8
+  ],
+  "sampleTimesS": [
+    25.56,
+    43.67,
+    55.29,
+    85.77,
+    118.31,
+    129.78,
+    164.7,
+    201.17
+  ],
+  "scheduledMotionS": [
+    [
+      -0.05,
+      218.55
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.783
+  },
+  "warnings": []
+}
