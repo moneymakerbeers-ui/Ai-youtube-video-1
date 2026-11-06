@@ -1,0 +1,108 @@
+SOURCE: https://chandra.harvard.edu/xray_sources/supernovas.html
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Chandra :: Field Guide to X-ray Sources :: Supernovas & Supernova Remnants
+NASA's flagship mission for X-ray astronomy. 
+Home
+About Chandra
+Learning
+Field Guide
+Photo Album
+Press Room
+Resources & Multimedia
+Video Series
+Blog
+Research
+X-ray Astronomy
+History
+Major Milestones
+X-ray Universe
+X-rays & Light
+VS. Medical X-ray
+X-ray Absorption
+X-ray Images 101
+Galactic Navigation
+Dark Matter
+Dark Energy
+Chemistry & Cosmos
+X-ray Sources
+Solar System
+Stars
+White Dwarfs
+Supernovas
+Neutron Stars
+Black Holes
+Galaxies
+Quasars & AGN
+Galaxy Clusters
+X-ray Background
+Brown Dwarfs
+Gamma Ray Bursts
+Web Shortcuts
+Chandra Blog
+RSS Feed
+Image Use Policy
+Questions & Answers
+Glossary of Terms
+ Supernovas & Supernova Remnants
+Animation of Supernova Explosion
+Quicktime Movie 
+Every 50 years or so, a massive star in our galaxy blows itself apart in a supernova explosion. Supernovas are one of the most violent events in the universe, and the force of the explosion generates a blinding flash of radiation, as well as shock waves analogous to sonic booms. 
+Supernovas were originally classified on the basis of their optical properties. Type II supernovas show conspicuous evidence for hydrogen in the expanding debris ejected in the explosion; Type Ia explosions do not. Recent research has led to a refinement of these types, and a classification in terms of the types of stars that give rise to supernovas. A Type II, as well as Type Ib and Type Ic explosion, is produced by the catastrophic collapse of the core of a massive star. A Type Ia supernova is produced by a sudden thermonuclear explosion that disintegrates a white dwarf star. 
+Chandra image of SN 1006
+Type II supernovas occur in regions with lots of bright, young stars, such as the spiral arms of galaxies. They apparently do not occur in elliptical galaxies, which are dominated by old, low-mass stars. Since bright young stars are typically stars with masses greater than about 10 times the mass of the sun, this and other evidence led to the conclusion that Type II supernovae are produced by massive stars.
+ Some Type I supernovas show many of the characteristics of Type II supernovas. These supernovas, called Type Ib and Type Ic, apparently differ from Type II because they lost their outer hydrogen envelope prior to the explosion. The hydrogen envelope could have been lost by a vigorous outflow of matter prior to the explosion, or because it was pulled away by a companion star.
+Core-collapse Supernovas
+The general picture for Type II, Type Ib and Type Ic supernovas - also called core-collapse supernovas - goes something like this. When the nuclear power source at the center or core of a star is exhausted, the core collapses. In less than a second, a neutron star (or a black hole, if the star is extremely massive) is formed. The formation of a neutron star releases an enormous amount of energy in the form of neutrinos and heat, which reverses the implosion. All but the central neutron star is blown away at speeds in excess of 50 million kilometers per hour as a thermonuclear shock wave races through the now expanding stellar debris, fusing lighter elements into heavier ones and producing a brilliant visual outburst that can be as intense as the light of several billion Suns. 
+Thermonuclear Supernovas
+Type Ia supernovas, in contrast, are observed in all kinds of galaxies, and are produced by white dwarf stars, the condensed remnant of what used to be sun-like stars. A white dwarf star, a dense ball primarily composed of carbon and oxygen atoms, is intrinsically the most stable of stars, as long as its mass remains below the so-called Chandrasekhar limit of 1.4 solar masses. 
+Illustration: NASA/CXC/M.Weiss
+Chandra image of Kepler's Supernova Remnant
+If, however, accretion of matter from a companion star or the merger with another white dwarf, push a white dwarf star over the Chandrasekhar limit of 1.4 solar masses, the temperature in the core of the white dwarf will rise, triggering explosive nuclear fusion reactions that release an enormous amount of energy. The star explodes in about ten seconds, leaving no remnant. The expanding cloud of ejecta glows brightly for many weeks as radioactive nickel produced in the explosion decays into cobalt and then iron.
+Supernova 2001el (Lawrence Berkeley National Lab)
+Because Type Ia supernovas all occur in a star that has a mass of about 1.4 solar masses, they produce about the same amount of light. This property makes them extremely useful as a distance indicator - if one Type Ia supernova is dimmer than another one, it must be further away by an amount that can be calculated. In recent years Type Ia supernova have been used in this way to determine the rate of expansion of the universe. This research has led to the astounding discovery that the expansion of the universe is accelerating, possibly because the universe is filled with a mysterious substance called dark energy.
+Pair-Instability Supernovas
+Artist's Concept: A close-up of SN 2006gy
+For extremely massive stars, another, even more violent type of supernova is possible. According to stellar evolution theory, temperatures rise to several billion degrees in the central regions of stars with masses between 140 and 260 suns. At these temperatures the usual process of converting mass into energy (E = mc2) by nuclear reactions is reversed, and energy is converted into mass in the form of pairs of electrons and antielectrons, or positrons.
+The production of electron-positron pairs saps energy from the core of the star, disturbing the equilibrium between the outward push of pressure and the inward crush of gravity. This so-called "pair instability" causes violent pulsations that eject a large fraction of the outer layers of the star, and eventually disrupt the star completely in a thermonuclear explosion.
+Pair-instability supernovas, if they exist, would be the most energetic thermonuclear explosions in the universe. In stars with masses greater than about 260 suns, the pulsations would be overwhelmed by gravity and the star would collapse to form a black hole without an explosion.
+Illustration of Stellar Explosion of SN 2006gy
+Illustration of Shock Waves in Supernova Remnants
+For stars with initial masses above about 200 suns, pair-instability supernovas would produce an abundance of radioactive nickel. Radioactive decay of this large mass of nickel into cobalt and other nuclei would feed energy into the expanding debris for several months, and create an ultra-bright supernova.
+Observations with Chandra and optical telescopes indicate that Supernova 2006gy, the most luminous supernova ever recorded, may be a long-sought (40 years) pair-instability supernova.
+The intense radiation emitted by a supernova lasts from several months to a few years before fading away. In the meantime, the rapidly expanding (millions of miles per hour) matter from the explosion eventually crashes into circumstellar gas. This collision creates a supernova remnant consisting of hot gas and high-energy particles that glow in radio through X-ray wavelengths for thousands of years. 
+Chandra image of Cassiopeia A 
+The process of forming the remnant is somewhat like an extreme version of sonic booms produced by the supersonic motion of an airplane. Expanding stellar debris creates a shock wave that races ahead of the debris. This forward shock wave produces sudden, large changes in pressure and temperature behind the shock wave. 
+The forward shock wave also accelerates electrons and other charged particles to extremely high energies. Electrons spiraling around the magnetic field behind the shock wave produce radiation over a wide range of wavelengths. Radiation from supernova remnants is especially conspicuous at radio wavelengths, and radio telescopes have traditionally been the primary tools for discovering these objects. 
+Chandra image of Crab Nebula 
+Chandra image of Tycho's Supernova Remnant
+In recent years, supernova remnants have also been discovered with focusing X-ray telescopes. The X-rays are produced by the forward shock wave and by a reverse shock wave that heats the debris, or ejecta, of the exploded star. The reverse shock is formed as the high pressure gas behind the forward shock wave expands and pushes back on the stellar ejecta. 
+A Chandra observation of the supernova remnant Cassiopeia A (Cas A) clearly shows both the outer shock wave and the debris heated by the reverse shock wave. The study of supernova remnants with radio, infrared, optical and X-ray telescopes enables astronomers to trace the progress of the shock waves and distribution of elements ejected in the explosion. These data are especially significant because supernovas are the primary means for seeding the galaxy with many elements such as carbon, nitrogen, oxygen, silicon and iron that are necessary for planets and life. 
+In core-collapse supernovas a rapidly spinning neutron star, or pulsar, can produce a pulsating source of radiation and a magnetized nebula of high-energy particles that lights up the interior of the expanding shell. The Crab Nebula, a remnant of a supernova observed in 1054 A.D., is the most spectacular example. 
+Chandra's image of the Crab Nebula reveals rings and jets of high-energy particles that appear to have been flung outward over great distances from the neutron star. The diameter of the inner ring is about 1,000 times the diameter of our solar system. 
+Infographic (PDF)
+Chandra has been able to detect numerous pulsars and their associated pulsar nebulas. These discoveries are proving to be one of the best ways to identify supernova remnants produced by the core collapse of a massive star, and to distinguish them from remnants produced by the thermonuclear disruption of a white dwarf star (Type Ia supernova). 
+Another method used to determine the origin of a particular remnant is to study the relative amounts of various elements, especially oxygen and iron. Core-collapse supernovas are rich in oxygen, whereas thermonuclear supernovas produce relatively more iron. The remnants of Tycho's and Kepler's supernovas are thought to have been produced by Type Ia supernovas.
+More Information
+Infographic: Supernovas & Supernova Remnants
+Chandra Podcast: Until Their Dying Day: Stars on the Brink
+Chandra Podcast: Supernovas: When Stars Die
+Chronicle Article: Blasts From The Past Impact Science 
+Chandra Images: Supernovas & Supernova Remnants 
+Printable Field Guide: Supernovas & Supernova Remnants 
+Questions & Answers: Supernova Remnants and Neutron Stars 
+ Resources:
+Best of Chandra Images: Supernovas (Video)
+Crab Nebula Story 
+ Supernova Gallery 
+Supernova Word Search Print
+ CXC Home | Search | Help | Image Use Policy | Latest Images | Privacy | Accessibility | Glossary | Q&A 
+ Photo | Press | Blog | More Feeds
+ [News by email: Chandra Digest]
+[Contact us: cxcpub@cfa.harvard.edu]
+Center for Astrophysics | Harvard & Smithsonian
+60 Garden Street, Cambridge, MA 02138 USA
+Phone: 617.496.7941 Fax: 617.495.7356
+Operated for NASA by the Smithsonian Astrophysical Observatory
+This site was developed with funding from NASA under Contract NAS8-03060.
+Revised: April 14, 2026

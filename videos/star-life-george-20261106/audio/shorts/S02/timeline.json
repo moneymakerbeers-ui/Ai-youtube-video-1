@@ -1,0 +1,70 @@
+{
+  "short": "S02",
+  "segments": [
+    {
+      "id": "m1",
+      "startS": 0.0,
+      "endS": 7.46,
+      "sceneIds": [
+        "m1"
+      ],
+      "kind": "scene",
+      "srcStartS": 55.48,
+      "srcEndS": 62.78
+    },
+    {
+      "id": "m2",
+      "startS": 7.92,
+      "endS": 12.62,
+      "sceneIds": [
+        "m2"
+      ],
+      "kind": "scene",
+      "srcStartS": 63.24,
+      "srcEndS": 67.82
+    },
+    {
+      "id": "m3",
+      "startS": 13.16,
+      "endS": 20.99,
+      "sceneIds": [
+        "m3"
+      ],
+      "kind": "scene",
+      "srcStartS": 68.36,
+      "srcEndS": 76.1
+    },
+    {
+      "id": "m4",
+      "startS": 21.33,
+      "endS": 30.43,
+      "sceneIds": [
+        "m4"
+      ],
+      "kind": "scene",
+      "srcStartS": 76.44,
+      "srcEndS": 85.58
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 7.46,
+      "toS": 7.92,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 12.62,
+      "toS": 13.16,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 20.99,
+      "toS": 21.33,
+      "reason": "scene join",
+      "declaredMs": 0
+    }
+  ],
+  "note": "assembled from the long narration slices and the Short's own lines; alignment.json measures THIS file"
+}

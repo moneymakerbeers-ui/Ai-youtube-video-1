@@ -1,0 +1,5 @@
+# Input — video 7 (re-edit)
+Creator prompt (6 Nov 2026): re-edit the star life-cycle video on the supplied ElevenLabs "George" narration (247 s, already paid, downloaded from vidIQ to narration.mp3); rebuild the timeline from forced alignment; hook in 25 s with a change every 2-4 s; push-ins on every still; counters on key numbers; supernova hard cut + shake + flash + boom; motion transitions, no fades; low music bed and whooshes (free or generated only); 5 connected Shorts "Star Life 1/5…5/5" cut from the same audio; QA with loudness, longest static hold, longest silence; zero paid spend.
+Overrides recorded: 5:00 floor waived by the creator; preview gate off (the creator specified the look, voice and structure in the prompt; nothing paid is at stake).
+Script: the plan file named in the prompt (claude/video7-edit-plan.md) does not exist in this repository, so the exact script was transcribed from the audio (whisper medium.en) and saved as narration.txt.
+Rule conflict noted: "no silent stretch > 0.4 s" shortens the audio from 247 s to about 218 s, so the video is shorter than the prompt's 4:15-4:30 estimate.

@@ -1,0 +1,37 @@
+{
+  "takes": [
+    {
+      "takeId": "t01",
+      "loudDb": -22.96,
+      "f0Hz": 131.1,
+      "voicedFrames": 1608,
+      "pitchFrames": 1110,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t02",
+      "loudDb": -22.52,
+      "f0Hz": 131.1,
+      "voicedFrames": 1676,
+      "pitchFrames": 1192,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    },
+    {
+      "takeId": "t03",
+      "loudDb": -22.57,
+      "f0Hz": 130.1,
+      "voicedFrames": 1324,
+      "pitchFrames": 960,
+      "intensity": 1,
+      "emotion": "warm-explanatory"
+    }
+  ],
+  "findings": [],
+  "thresholds": {
+    "maxDb": 3.0,
+    "maxPitchRel": 0.25
+  },
+  "kind": "heuristic"
+}

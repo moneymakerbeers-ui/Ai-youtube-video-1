@@ -34,7 +34,9 @@ def main():
     shorts = json.load(open(a.shorts))["shorts"] if a.shorts else []
     cfg = json.load(open(a.config)) if a.config else {}
     lo, hi = (cfg.get("targetDurationMin") or [5, 15])[:2]
-    min_s = a.min_seconds if a.min_seconds is not None else max(lo, 5) * 60
+    waiver = cfg.get("durationFloorWaivedByCreator")  # the creator's recorded decision for this one video (schema: RunConfig)
+    floor = lo * 60 if (waiver or cfg.get("purpose") == "test_clip") else max(lo, 5) * 60
+    min_s = a.min_seconds if a.min_seconds is not None else floor
     out = []
 
     def say(level, where, msg):
@@ -74,6 +76,8 @@ def main():
     if len(first.split()) > 20:
         say("WARN", scenes[0]["id"], f"opening sentence is {len(first.split())} words; aim for one concrete, speakable line")
     est = words_total / a.wpm * 60 + pause_total
+    if waiver and a.min_seconds is None:
+        say("INFO", "video", f"5:00 floor waived by the creator ({waiver.get('reason', '')[:90]}); checking against the config's own lower target {floor:.0f}s")
     if est < min_s:
         say("FAIL", "video", f"estimated {est:.0f}s ({words_total} words at {a.wpm:.0f} wpm + pauses) is under the {min_s:.0f}s minimum; deepen the content, don't pad")
     elif est > hi * 60:
@@ -86,20 +90,32 @@ def main():
     for sh in shorts:
         if sh["status"] != "validated":
             continue
-        opening = sh.get("delta", {}).get("openingLine") or (byid.get(sh["sceneIds"][0], {}).get("narration", ""))
-        head = " ".join(sentences(opening)[:2]).lower()
-        for pat in BACKWARD:
-            m = re.search(pat, head if "^" not in pat else sentences(opening)[0].lower() if sentences(opening) else "", re.I)
-            if m:
-                say("FAIL", sh["id"], f'opening is not independent: "{m.group(0)}" points backwards; write delta.openingLine')
-                break
+        d = sh.get("delta", {})
+        spoken = d.get("openingLine") or (byid.get(sh["sceneIds"][0], {}).get("narration", ""))
+        card = None if d.get("openingLine") else d.get("openingCard")
+        # with no new voice line, an on-screen opening card (frame 1) can carry the independent opening: the CARD must then stand alone
+        # (FAIL if it points backwards); a backward word in the spoken line right after it is a WARN for a person to hear, never a pass
+        for text, is_card in ((card, True), (spoken, False)) if card else ((spoken, False),):
+            head = " ".join(sentences(text)[:2]).lower()
+            for pat in BACKWARD:
+                m = re.search(pat, head if "^" not in pat else sentences(text)[0].lower() if sentences(text) else "", re.I)
+                if m:
+                    if is_card:
+                        say("FAIL", sh["id"], f'opening card is not independent: "{m.group(0)}" points backwards')
+                    elif card:
+                        say("WARN", sh["id"], f'spoken opening starts with "{m.group(0)}" right after the opening card "{card}"; a person should check it reads as an answer to the card')
+                    else:
+                        say("FAIL", sh["id"], f'opening is not independent: "{m.group(0)}" points backwards; write delta.openingLine or an opening card')
+                    break
+        opening = spoken
         if len(sentences(opening)) and len(sentences(opening)[0].split()) > 20:
             say("WARN", sh["id"], "opening sentence is long for a Short")
 
     for level, where, msg in out:
         print(f"{level:4} {where:10} {msg}")
     fails = sum(1 for o in out if o[0] == "FAIL")
-    print(f"\n{len(scenes)} scenes, {words_total} words, ~{est:.0f}s estimated; {fails} FAIL, {len(out) - fails} WARN")
+    warns = sum(1 for o in out if o[0] == "WARN")
+    print(f"\n{len(scenes)} scenes, {words_total} words, ~{est:.0f}s estimated; {fails} FAIL, {warns} WARN")
     return 1 if fails else 0
 
 

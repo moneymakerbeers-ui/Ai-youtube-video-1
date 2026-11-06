@@ -38,6 +38,8 @@ def main():
     ap.add_argument("--target", required=True)
     ap.add_argument("--music")
     ap.add_argument("--music-db", type=float, default=-24.0)
+    ap.add_argument("--fx", help="a pre-timed effects track (same length as the target), mixed AFTER the music ducking so an impact is not ducked away; needs <file>.license.json")
+    ap.add_argument("--fx-db", type=float, default=0.0)
     ap.add_argument("--lufs", type=float, default=-14.0)
     ap.add_argument("--tp", type=float, default=-1.5)
     ap.add_argument("--tolerance", type=float, default=1.0)
@@ -63,6 +65,16 @@ def main():
             print(f"BLOCKED: {mp} has no {os.path.basename(lp)} (name, url, attribution): no asset without a logged right (H6)", file=sys.stderr)
             return 3
         lic = read_json(lp)
+    fx_lic = None
+    if a.fx:
+        fp = a.fx if os.path.isabs(a.fx) else P(a.fx)
+        if not os.path.exists(fp):
+            print(f"fx file missing: {fp}", file=sys.stderr)
+            return 2
+        if not os.path.exists(fp + ".license.json"):
+            print(f"BLOCKED: {fp} has no {os.path.basename(fp)}.license.json: no asset without a logged right (H6)", file=sys.stderr)
+            return 3
+        fx_lic = read_json(fp + ".license.json")
     # graph: narration -> [music ducked] -> pad/trim to exactly dur -> loudnorm
     voice = f"[0:a]aresample={SR},aformat=sample_fmts=fltp:channel_layouts=stereo,apad=whole_dur={dur:.6f},atrim=0:{dur:.6f},asetpts=PTS-STARTPTS"
     if a.music:
@@ -71,6 +83,11 @@ def main():
         ins = ["-i", narr, "-i", mp if os.path.isabs(mp) else P(a.music)]
     else:
         g, ins = voice, ["-i", narr]
+    if a.fx:
+        n = len(ins) // 2
+        fxs = f"[{n}:a]aresample={SR},aformat=sample_fmts=fltp:channel_layouts=stereo,apad=whole_dur={dur:.6f},atrim=0:{dur:.6f},asetpts=PTS-STARTPTS,volume={a.fx_db}dB[fxs]"
+        g = f"{g}[pre];{fxs};[pre][fxs]amix=inputs=2:normalize=0:duration=first"
+        ins = ins + ["-i", a.fx if os.path.isabs(a.fx) else P(a.fx)]
     try:
         pre = run(["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "info", *ins, "-filter_complex", g + f",loudnorm=I={a.lufs}:TP={a.tp}:LRA=11:print_format=json[o]", "-map", "[o]", "-f", "null", "-"], check=False)
         if pre.returncode != 0:
@@ -95,7 +112,7 @@ def main():
         return 3
     got = duration_s(out)
     ok = abs(after["I"] - a.lufs) <= a.tolerance and after["TP"] <= a.tp + 0.2 and abs(got - dur) <= 0.01
-    write_json(P("audio", f"mix-{a.target}.json"), {"target": a.target, "master": os.path.relpath(out, a.project), "sha256": sha256_file(out), "durationS": round(got, 3), "planDurationS": dur, "before": {"I": float(m["input_i"]), "TP": float(m["input_tp"]), "LRA": float(m["input_lra"])}, "after": after, "targetLufs": a.lufs, "targetTruePeak": a.tp, "music": ({"file": a.music, "duckedDb": a.music_db, "license": lic} if a.music else None), "ok": ok})
+    write_json(P("audio", f"mix-{a.target}.json"), {"target": a.target, "master": os.path.relpath(out, a.project), "sha256": sha256_file(out), "durationS": round(got, 3), "planDurationS": dur, "before": {"I": float(m["input_i"]), "TP": float(m["input_tp"]), "LRA": float(m["input_lra"])}, "after": after, "targetLufs": a.lufs, "targetTruePeak": a.tp, "music": ({"file": a.music, "duckedDb": a.music_db, "license": lic} if a.music else None), "fx": ({"file": a.fx, "db": a.fx_db, "license": fx_lic} if a.fx else None), "ok": ok})
     print(f"master-{a.target}.wav: {got:.2f}s, {m['input_i']} -> {after['I']:.1f} LUFS, true peak {after['TP']:.1f} dBTP, LRA {after['LRA']}" + ("" if ok else "  (MISSES THE TARGET)"))
     return 0 if ok else 4
 

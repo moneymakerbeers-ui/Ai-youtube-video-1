@@ -1,0 +1,215 @@
+{
+ "target": "long",
+ "narrationLufs": -19.9,
+ "musicTargetLufs": -27.9,
+ "events": [
+  {
+   "kind": "whoosh",
+   "atS": 1.58
+  },
+  {
+   "kind": "whoosh",
+   "atS": 3.5
+  },
+  {
+   "kind": "whoosh",
+   "atS": 6.56
+  },
+  {
+   "kind": "whoosh",
+   "atS": 9.5
+  },
+  {
+   "kind": "whoosh",
+   "atS": 10.78
+  },
+  {
+   "kind": "whoosh",
+   "atS": 17.68
+  },
+  {
+   "kind": "whoosh",
+   "atS": 21.78
+  },
+  {
+   "kind": "whoosh",
+   "atS": 24.76
+  },
+  {
+   "kind": "whoosh",
+   "atS": 27.46
+  },
+  {
+   "kind": "whoosh",
+   "atS": 31.24
+  },
+  {
+   "kind": "whoosh",
+   "atS": 33.04
+  },
+  {
+   "kind": "whoosh",
+   "atS": 38.14
+  },
+  {
+   "kind": "whoosh",
+   "atS": 39.94
+  },
+  {
+   "kind": "whoosh",
+   "atS": 42.44
+  },
+  {
+   "kind": "whoosh",
+   "atS": 43.98
+  },
+  {
+   "kind": "whoosh",
+   "atS": 46.42
+  },
+  {
+   "kind": "whoosh",
+   "atS": 51.4
+  },
+  {
+   "kind": "whoosh",
+   "atS": 53.82
+  },
+  {
+   "kind": "whoosh",
+   "atS": 57.14
+  },
+  {
+   "kind": "whoosh",
+   "atS": 58.5
+  },
+  {
+   "kind": "whoosh",
+   "atS": 63.98
+  },
+  {
+   "kind": "whoosh",
+   "atS": 72.96
+  },
+  {
+   "kind": "whoosh",
+   "atS": 82.98
+  },
+  {
+   "kind": "whoosh",
+   "atS": 85.42
+  },
+  {
+   "kind": "whoosh",
+   "atS": 88.74
+  },
+  {
+   "kind": "whoosh",
+   "atS": 95.26
+  },
+  {
+   "kind": "whoosh",
+   "atS": 101.72
+  },
+  {
+   "kind": "whoosh",
+   "atS": 104.2
+  },
+  {
+   "kind": "whoosh",
+   "atS": 107.64
+  },
+  {
+   "kind": "boom",
+   "atS": 113.28
+  },
+  {
+   "kind": "whoosh",
+   "atS": 113.88
+  },
+  {
+   "kind": "whoosh",
+   "atS": 116.26
+  },
+  {
+   "kind": "whoosh",
+   "atS": 117.96
+  },
+  {
+   "kind": "whoosh",
+   "atS": 120.34
+  },
+  {
+   "kind": "whoosh",
+   "atS": 121.84
+  },
+  {
+   "kind": "whoosh",
+   "atS": 127.94
+  },
+  {
+   "kind": "whoosh",
+   "atS": 129.23
+  },
+  {
+   "kind": "whoosh",
+   "atS": 140.82
+  },
+  {
+   "kind": "whoosh",
+   "atS": 153.76
+  },
+  {
+   "kind": "whoosh",
+   "atS": 159.3
+  },
+  {
+   "kind": "whoosh",
+   "atS": 161.64
+  },
+  {
+   "kind": "whoosh",
+   "atS": 163.14
+  },
+  {
+   "kind": "whoosh",
+   "atS": 164.35
+  },
+  {
+   "kind": "whoosh",
+   "atS": 170.44
+  },
+  {
+   "kind": "whoosh",
+   "atS": 176.42
+  },
+  {
+   "kind": "whoosh",
+   "atS": 179.18
+  },
+  {
+   "kind": "whoosh",
+   "atS": 180.78
+  },
+  {
+   "kind": "whoosh",
+   "atS": 185.98
+  },
+  {
+   "kind": "whoosh",
+   "atS": 192.52
+  },
+  {
+   "kind": "whoosh",
+   "atS": 196.0
+  },
+  {
+   "kind": "whoosh",
+   "atS": 200.82
+  },
+  {
+   "kind": "whoosh",
+   "atS": 217.14
+  }
+ ]
+}

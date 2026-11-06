@@ -1,0 +1,88 @@
+{
+  "audio": {
+    "file": "audio/narration.wav",
+    "sha256": "106c984be7cf3c84cb611dcd888946addf283a91282b5cbde602565c780b893c",
+    "durationS": 218.55,
+    "sr": 24000
+  },
+  "segments": [
+    {
+      "id": "t01",
+      "startS": 0.0,
+      "endS": 76.28,
+      "sceneIds": [
+        "h1",
+        "h2",
+        "h3",
+        "c1",
+        "c2",
+        "c3",
+        "p1",
+        "p2",
+        "f1",
+        "f2",
+        "b1",
+        "b2",
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "t02",
+      "startS": 76.56,
+      "endS": 155.92,
+      "sceneIds": [
+        "m4",
+        "o1",
+        "o2",
+        "k1",
+        "k2",
+        "k3",
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "r1",
+        "r2"
+      ]
+    },
+    {
+      "id": "t03",
+      "startS": 156.2,
+      "endS": 218.15,
+      "sceneIds": [
+        "r3",
+        "r4",
+        "x1",
+        "x2",
+        "g1",
+        "g2",
+        "g3",
+        "z1",
+        "z2",
+        "z3"
+      ]
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 76.28,
+      "toS": 76.56,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 155.92,
+      "toS": 156.2,
+      "reason": "take join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 218.15,
+      "toS": 218.55,
+      "reason": "ending tail silence",
+      "declaredMs": 400
+    }
+  ]
+}

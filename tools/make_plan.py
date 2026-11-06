@@ -155,6 +155,8 @@ def main():
         prev_tr = order[k - 1].get("transition", {}) if k else {}
         incoming_anchor = (prev_tr.get("anchorTo") or {}).get("entityId") if (k and prev_tr.get("type", "cut") != "cut" and (not is_short or idx[s["id"]] == idx[order[k - 1]["id"]] + 1)) else None
         for e in s["entities"]:
+            if e.get("only") and e["only"] != layout:
+                continue  # drawn in the other layout only (e.g. a Short's own title card)
             en_s = word_time(s["id"], e["enterAtWord"], "s") if e.get("enterAtWord") is not None else b["startS"]
             ex_s = word_time(s["id"], e["exitAtWord"], "s") if e.get("exitAtWord") is not None else None
             en = e.get("enter") or {}
@@ -182,6 +184,10 @@ def main():
         ps = {"id": s["id"], "startS": round(b["startS"], 3), "endS": round(b["endS"], 3), "layout": layout, "entities": ent, "camera": cams}
         if s.get("look"):
             ps["look"] = s["look"]
+        if lay.get("shake"):
+            sh = lay["shake"]
+            f_s = word_time(s["id"], sh["atWord"], "s")
+            ps["shake"] = {"fromS": round(f_s, 3), "toS": round(min(f_s + sh.get("durationMs", 600) / 1000, b["endS"]), 3), "amplitude": sh.get("amplitude", 0.012)}
         # outgoing transition (a Short keeps one only between scenes that are neighbours in the long video)
         tr = s.get("transition", {"type": "cut"})
         last = k + 1 >= len(order)

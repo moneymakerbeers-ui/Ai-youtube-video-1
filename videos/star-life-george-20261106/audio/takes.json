@@ -1,0 +1,66 @@
+[
+  {
+    "takeId": "t01",
+    "file": "audio/takes/t01.wav",
+    "sceneIds": [
+      "h1",
+      "h2",
+      "h3",
+      "c1",
+      "c2",
+      "c3",
+      "p1",
+      "p2",
+      "f1",
+      "f2",
+      "b1",
+      "b2",
+      "m1",
+      "m2",
+      "m3"
+    ],
+    "chars": 1159,
+    "textSha256": "29d33dfd00a82a2587b9bcd689f87f126f109f412b63f9bce4849bf858cd786d",
+    "audioSha256": "7ca8b2b95b4b4eb408378d5da45e746374a657ebe971fba557efa87d6bf8f6db"
+  },
+  {
+    "takeId": "t02",
+    "file": "audio/takes/t02.wav",
+    "sceneIds": [
+      "m4",
+      "o1",
+      "o2",
+      "k1",
+      "k2",
+      "k3",
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "r1",
+      "r2"
+    ],
+    "chars": 1182,
+    "textSha256": "3849061073bd49aee9e19162e2319b0ace6297e2ea9429b884067bfe5a95d589",
+    "audioSha256": "9349d0230e4ebb91dde24561a1ad8db8fbac7f3ce0ca1977f99209bc181c2c85"
+  },
+  {
+    "takeId": "t03",
+    "file": "audio/takes/t03.wav",
+    "sceneIds": [
+      "r3",
+      "r4",
+      "x1",
+      "x2",
+      "g1",
+      "g2",
+      "g3",
+      "z1",
+      "z2",
+      "z3"
+    ],
+    "chars": 964,
+    "textSha256": "f6393dd734ed146a226adbdcbcdf500d81c4874e9d6132d6112eb3f50da8b3b1",
+    "audioSha256": "83bf4ce77df5ddee96bed877b1e409d485c341890efc0a38f83066a38c8a981e"
+  }
+]

@@ -292,7 +292,16 @@ def run(a):
                 thr_l = os.path.join(REPO, "library", "thresholds.json")
                 go(f"lint:{t}", [pl.p("render", f"plan-{t}.json"), pl.p("style-tokens.json"), thr_l, os.path.join(HERE, "make_allow.py")], [],
                    [PY, "tools/make_allow.py", "--plan", pl.p("render", f"plan-{t}.json"), "--tokens", pl.p("style-tokens.json"), "--thresholds", thr_l, "--check"], fail_code=1)
-            go(f"mix:{t}", [pl.p("render", f"plan-{t}.json")], [pl.p("audio", f"master-{t}.wav")], [PY, "tools/mix.py", "--project", P, "--target", t])
+            # optional per-target sound bed (written for this target's own timeline, each with a .license.json): a music bed (ducked) and an effects track
+            bed_in, bed_args = [], []
+            for kind, flag in (("music", "--music"), ("fx", "--fx")):
+                f = pl.p("audio", "bed", f"{kind}-{t}.wav")
+                if os.path.exists(f):
+                    bed_in += [f, f + ".license.json"]
+                    bed_args += [flag, os.path.join("audio", "bed", f"{kind}-{t}.wav")]
+            if bed_args:
+                bed_args += ["--music-db", "0"]  # the bed is written at its intended level; mix.py only ducks it under speech
+            go(f"mix:{t}", [pl.p("render", f"plan-{t}.json")] + bed_in, [pl.p("audio", f"master-{t}.wav")], [PY, "tools/mix.py", "--project", P, "--target", t] + bed_args)
             # Render validity depends on the contents of image assets and custom
             # visual source files, not just on their filenames in scenes.json.
             manifest_path = pl.p("assets", "manifest.json")

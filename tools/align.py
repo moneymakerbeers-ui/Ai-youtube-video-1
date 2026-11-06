@@ -296,13 +296,22 @@ def align_whisper(x, words, t0=0.0):
     import difflib
 
     model = _whisper_model()
-    segs, _info = model.transcribe(x.astype(np.float32), language="en", word_timestamps=True, beam_size=5, vad_filter=False,
-                                   initial_prompt=" ".join(words)[:800])
-    rec = [(float(w.start), float(w.end), float(w.probability), w.word) for s in segs for w in (s.words or [])]
-    # split recognised tokens that hold several words ("light-years" stays one, "10 million" is already two tokens)
-    a = [_wnorm(w.replace("-", "")) for _, _, _, w in rec]
     b = [_wnorm(w.replace("-", "")) for w in words]
-    sm = difflib.SequenceMatcher(a=a, b=b, autojunk=False)
+    # Recognition can derail on one pass (a hallucinated or skipped stretch). Try a prompted and an unprompted pass and keep the one whose
+    # recognised words match the script best; the caller fails closed when even the best pass matches too little.
+    best = None
+    for prompt in (" ".join(words)[:800], None):
+        segs, _info = model.transcribe(x.astype(np.float32), language="en", word_timestamps=True, beam_size=5, vad_filter=False,
+                                       initial_prompt=prompt, condition_on_previous_text=False)
+        rec_try = [(float(w.start), float(w.end), float(w.probability), w.word) for s in segs for w in (s.words or [])]
+        a_try = [_wnorm(w.replace("-", "")) for _, _, _, w in rec_try]
+        sm_try = difflib.SequenceMatcher(a=a_try, b=b, autojunk=False)
+        m = sum(blk.size for blk in sm_try.get_matching_blocks())
+        if best is None or m > best[0]:
+            best = (m, rec_try, a_try, sm_try)
+        if m >= 0.97 * len(b):
+            break
+    _, rec, a, sm = best
     res = [None] * len(words)
     for blk in sm.get_matching_blocks():
         for k in range(blk.size):
@@ -463,6 +472,8 @@ def main():
                 a0, a1 = max(s0 - pad, 0), min(s1 + pad, audio_dur)
                 r, st = align_whisper(x[int(a0 * SR) : int(a1 * SR)], [sw[i][1] for i in idxs], t0=a0)
                 m_tot += st["matched"]
+                if st["matched"] < 0.85 * len(idxs) and not (len(idxs) < 12 and len(idxs) - st["matched"] <= 1):  # short segments may miss one word
+                    raise RuntimeError(f"segment {s0:.1f}-{s1:.1f}s: only {st['matched']}/{len(idxs)} script words matched the recognised speech (per-segment floor 85 %)")
                 for i, v in zip(idxs, r):
                     res[i] = v
             if any(v is None for v in res):

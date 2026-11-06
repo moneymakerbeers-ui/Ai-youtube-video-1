@@ -78,8 +78,9 @@ export function loadBundle(project: string, target: string, base: string, opts: 
     if (!sc) throw new Fail(2, `plan scene ${ps.id} is not in scenes.json`);
     const lay = sc.layouts[plan.layout] ?? (plan.layout === "landscape" ? sc.layouts.landscape : undefined);
     if (!lay) throw new Fail(2, `scene ${ps.id} has no ${plan.layout} layout`);
-    outScenes[ps.id] = { id: ps.id, entities: sc.entities, placements: lay.placements };
-    for (const e of sc.entities) {
+    const ents = sc.entities.filter((e) => !e.only || e.only === plan.layout); // layout-only entities (a Short's title card) stay out of the other layout
+    outScenes[ps.id] = { id: ps.id, entities: ents, placements: lay.placements };
+    for (const e of ents) {
       if (!e.assetId || assets[e.assetId]) continue;
       const a = manifest.assets.find((x) => x.id === e.assetId);
       if (!a) { problems.push(`missing_asset:${ps.id}:${e.id}: asset "${e.assetId}" is not in assets/manifest.json`); continue; }

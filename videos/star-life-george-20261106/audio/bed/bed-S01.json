@@ -1,0 +1,47 @@
+{
+ "target": "S01",
+ "narrationLufs": -19.9,
+ "musicTargetLufs": -27.9,
+ "events": [
+  {
+   "kind": "whoosh",
+   "atS": 6.81
+  },
+  {
+   "kind": "whoosh",
+   "atS": 11.15
+  },
+  {
+   "kind": "whoosh",
+   "atS": 14.075
+  },
+  {
+   "kind": "whoosh",
+   "atS": 15.3
+  },
+  {
+   "kind": "whoosh",
+   "atS": 16.86
+  },
+  {
+   "kind": "whoosh",
+   "atS": 20.53
+  },
+  {
+   "kind": "whoosh",
+   "atS": 22.37
+  },
+  {
+   "kind": "whoosh",
+   "atS": 27.45
+  },
+  {
+   "kind": "whoosh",
+   "atS": 29.25
+  },
+  {
+   "kind": "whoosh",
+   "atS": 31.79
+  }
+ ]
+}

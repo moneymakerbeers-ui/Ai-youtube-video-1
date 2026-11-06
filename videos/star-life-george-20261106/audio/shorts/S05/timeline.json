@@ -1,0 +1,121 @@
+{
+  "short": "S05",
+  "segments": [
+    {
+      "id": "r3",
+      "startS": 0.0,
+      "endS": 4.16,
+      "sceneIds": [
+        "r3"
+      ],
+      "kind": "scene",
+      "srcStartS": 156.08,
+      "srcEndS": 160.28
+    },
+    {
+      "id": "r4",
+      "startS": 4.7,
+      "endS": 8.45,
+      "sceneIds": [
+        "r4"
+      ],
+      "kind": "scene",
+      "srcStartS": 160.82,
+      "srcEndS": 164.46
+    },
+    {
+      "id": "x1",
+      "startS": 8.93,
+      "endS": 17.85,
+      "sceneIds": [
+        "x1"
+      ],
+      "kind": "scene",
+      "srcStartS": 164.94,
+      "srcEndS": 173.8
+    },
+    {
+      "id": "x2",
+      "startS": 18.45,
+      "endS": 21.49,
+      "sceneIds": [
+        "x2"
+      ],
+      "kind": "scene",
+      "srcStartS": 174.4,
+      "srcEndS": 177.28
+    },
+    {
+      "id": "g1",
+      "startS": 21.87,
+      "endS": 26.58,
+      "sceneIds": [
+        "g1"
+      ],
+      "kind": "scene",
+      "srcStartS": 177.66,
+      "srcEndS": 182.34
+    },
+    {
+      "id": "g2",
+      "startS": 27.16,
+      "endS": 32.2,
+      "sceneIds": [
+        "g2"
+      ],
+      "kind": "scene",
+      "srcStartS": 182.92,
+      "srcEndS": 187.8
+    },
+    {
+      "id": "g3",
+      "startS": 32.3,
+      "endS": 45.55,
+      "sceneIds": [
+        "g3"
+      ],
+      "kind": "scene",
+      "srcStartS": 187.8,
+      "srcEndS": 200.98
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 4.16,
+      "toS": 4.7,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 8.45,
+      "toS": 8.93,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 17.85,
+      "toS": 18.45,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 21.49,
+      "toS": 21.87,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 26.58,
+      "toS": 27.16,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 32.2,
+      "toS": 32.3,
+      "reason": "scene join",
+      "declaredMs": 0
+    }
+  ],
+  "note": "assembled from the long narration slices and the Short's own lines; alignment.json measures THIS file"
+}

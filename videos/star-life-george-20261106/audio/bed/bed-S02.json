@@ -1,0 +1,27 @@
+{
+ "target": "S02",
+ "narrationLufs": -19.8,
+ "musicTargetLufs": -27.8,
+ "events": [
+  {
+   "kind": "whoosh",
+   "atS": 1.66
+  },
+  {
+   "kind": "whoosh",
+   "atS": 3.1
+  },
+  {
+   "kind": "whoosh",
+   "atS": 8.7
+  },
+  {
+   "kind": "whoosh",
+   "atS": 17.78
+  },
+  {
+   "kind": "whoosh",
+   "atS": 27.73
+  }
+ ]
+}

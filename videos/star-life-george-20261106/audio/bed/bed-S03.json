@@ -1,0 +1,55 @@
+{
+ "target": "S03",
+ "narrationLufs": -19.9,
+ "musicTargetLufs": -27.9,
+ "events": [
+  {
+   "kind": "whoosh",
+   "atS": 2.76
+  },
+  {
+   "kind": "whoosh",
+   "atS": 9.4
+  },
+  {
+   "kind": "whoosh",
+   "atS": 15.82
+  },
+  {
+   "kind": "whoosh",
+   "atS": 18.4
+  },
+  {
+   "kind": "whoosh",
+   "atS": 21.87
+  },
+  {
+   "kind": "boom",
+   "atS": 27.44
+  },
+  {
+   "kind": "whoosh",
+   "atS": 28.15
+  },
+  {
+   "kind": "whoosh",
+   "atS": 30.55
+  },
+  {
+   "kind": "whoosh",
+   "atS": 32.17
+  },
+  {
+   "kind": "whoosh",
+   "atS": 34.65
+  },
+  {
+   "kind": "whoosh",
+   "atS": 36.19
+  },
+  {
+   "kind": "whoosh",
+   "atS": 42.35
+  }
+ ]
+}

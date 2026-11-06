@@ -1,0 +1,39 @@
+{
+ "target": "S04",
+ "narrationLufs": -19.8,
+ "musicTargetLufs": -27.8,
+ "events": [
+  {
+   "kind": "whoosh",
+   "atS": 1.66
+  },
+  {
+   "kind": "whoosh",
+   "atS": 4.46
+  },
+  {
+   "kind": "whoosh",
+   "atS": 7.93
+  },
+  {
+   "kind": "boom",
+   "atS": 13.49
+  },
+  {
+   "kind": "whoosh",
+   "atS": 14.21
+  },
+  {
+   "kind": "whoosh",
+   "atS": 16.61
+  },
+  {
+   "kind": "whoosh",
+   "atS": 19.13
+  },
+  {
+   "kind": "whoosh",
+   "atS": 29.77
+  }
+ ]
+}

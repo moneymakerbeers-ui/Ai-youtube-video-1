@@ -1,0 +1,20 @@
+{
+  "scenes": [
+    {
+      "id": "m1",
+      "narration": "So how long does it last? Mass decides. A heavier star burns its fuel much faster, just to hold up its own weight."
+    },
+    {
+      "id": "m2",
+      "narration": "The Sun gets about 10 billion years. Some massive stars, only a few million."
+    },
+    {
+      "id": "m3",
+      "narration": "Mass also decides the ending. Stars like the Sun fade quietly into a white dwarf, a cooling cinder the size of Earth."
+    },
+    {
+      "id": "m4",
+      "narration": "Stars with more than about 8 times the Sun's mass end by exploding. And to leave a black hole, a star probably needs around 20 suns or more."
+    }
+  ]
+}

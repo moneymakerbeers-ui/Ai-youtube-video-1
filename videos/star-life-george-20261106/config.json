@@ -1,0 +1,27 @@
+{
+  "videoIdea": "Star life cycle re-edit (video 7): from dust to black hole, George narration",
+  "purpose": "production",
+  "language": "en-US",
+  "targetDurationMin": [
+    3.4,
+    4.6
+  ],
+  "previewGate": "off",
+  "maxPaidSpend": {
+    "higgsfieldCredits": 0,
+    "higgsfieldCeilingRaisedByCreator": false,
+    "elevenlabsChars": 0,
+    "otherUsd": 0
+  },
+  "shortsTarget": [
+    4,
+    5
+  ],
+  "durationFloorWaivedByCreator": {
+    "reason": "creator's video-7 prompt: final length = the supplied 247 s George narration + at most 15 s of visual beats, with no silence over 0.4 s"
+  },
+  "voiceProfile": "George (ElevenLabs), master narration supplied and paid for by the creator via vidIQ",
+  "creativeStyle": "deep-field-specimen (reused from video 6) with a faster, retention-first edit",
+  "sensitivity": "normal",
+  "fps": 30
+}

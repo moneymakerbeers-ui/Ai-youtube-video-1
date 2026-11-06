@@ -1,0 +1,125 @@
+{
+  "audio": {
+    "file": "audio/shorts/S03/narration.wav",
+    "sha256": "7d75d75c1723a7d4e2c2c9fc1074909c62b2b5ddf4637899f5dc764dc1bb496c",
+    "durationS": 44.05,
+    "sr": 24000
+  },
+  "segments": [
+    {
+      "id": "o1",
+      "startS": 0.0,
+      "endS": 6.9,
+      "sceneIds": [
+        "o1"
+      ],
+      "kind": "scene",
+      "srcStartS": 85.96,
+      "srcEndS": 92.78
+    },
+    {
+      "id": "o2",
+      "startS": 7.28,
+      "endS": 16.64,
+      "sceneIds": [
+        "o2"
+      ],
+      "kind": "scene",
+      "srcStartS": 93.16,
+      "srcEndS": 102.46
+    },
+    {
+      "id": "k1",
+      "startS": 17.02,
+      "endS": 21.45,
+      "sceneIds": [
+        "k1"
+      ],
+      "kind": "scene",
+      "srcStartS": 102.84,
+      "srcEndS": 107.16
+    },
+    {
+      "id": "k2",
+      "startS": 21.89,
+      "endS": 27.37,
+      "sceneIds": [
+        "k2"
+      ],
+      "kind": "scene",
+      "srcStartS": 107.6,
+      "srcEndS": 113.06
+    },
+    {
+      "id": "k3",
+      "startS": 27.81,
+      "endS": 32.41,
+      "sceneIds": [
+        "k3"
+      ],
+      "kind": "scene",
+      "srcStartS": 113.5,
+      "srcEndS": 118.04
+    },
+    {
+      "id": "e1",
+      "startS": 32.95,
+      "endS": 40.83,
+      "sceneIds": [
+        "e1"
+      ],
+      "kind": "scene",
+      "srcStartS": 118.58,
+      "srcEndS": 126.42
+    },
+    {
+      "id": "e2",
+      "startS": 41.29,
+      "endS": 44.05,
+      "sceneIds": [
+        "e2"
+      ],
+      "kind": "scene",
+      "srcStartS": 126.88,
+      "srcEndS": 129.56
+    }
+  ],
+  "silences": [
+    {
+      "fromS": 6.9,
+      "toS": 7.28,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 16.64,
+      "toS": 17.02,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 21.45,
+      "toS": 21.89,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 27.37,
+      "toS": 27.81,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 32.41,
+      "toS": 32.95,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 40.83,
+      "toS": 41.29,
+      "reason": "scene join",
+      "declaredMs": 0
+    }
+  ]
+}

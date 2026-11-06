@@ -1,0 +1,293 @@
+asset: r_cygx1_art
+source page: https://chandra.harvard.edu/photo/2011/cygx1/
+source file: cygx1_ill.jpg
+credit: Illustration: NASA/CXC/M.Weiss
+license: NASA/Chandra: no copyright asserted, credit requested
+shows: ILLUSTRATION of Cygnus X-1: black hole with accretion disk pulling gas from a blue supergiant companion
+retrieved: 2026-10-31 (curl)
+processing: crop (0.0, 0.103, 1.0, 0.897), resize to (1728, 972)
+
+===== licence / usage page text =====
+SOURCE: https://chandra.harvard.edu/photo/image_use.html
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Chandra :: Photo Album :: Chandra Public Permissions & Usage
+NASA's flagship mission for X-ray astronomy. 
+Home
+About Chandra
+Learning
+Field Guide
+Photo Album
+Press Room
+Resources & Multimedia
+Video Series
+Blog
+Research
+Images by Date
+ 2026 
+ 2025 
+ 2024 
+ 2023
+ 2022 
+ 2021 
+ 2020 
+ 2019
+ 2018 
+ 2017 
+ 2016 
+ 2015
+ 2014 
+ 2013 
+ 2012 
+2011
+2010 
+2009 
+2008 
+ 2007
+ 2006 
+ 2005 
+ 2004 
+2003
+2002 
+2001 
+2000 
+ 1999
+Images by Category
+Solar System
+Stars
+Exoplanets
+White Dwarfs
+Supernovas
+Neutron Stars
+Black Holes
+Milky Way Galaxy
+Normal Galaxies
+Quasars
+Galaxy Clusters
+Cosmology/Deep Field
+Miscellaneous
+Images by Interest
+Space Scoop for Kids
+Multiwavelength
+Sky Map
+Constellations
+Photo Blog
+Top Rated Images
+Image Handouts
+Fits Files
+Visual descriptions
+Image Tutorials
+False Color
+Cosmic Distance
+Look-Back Time
+Scale & Distance
+Angular Measurement
+Images & Processing
+AVM/Metadata
+Image Use Policy 
+Web Shortcuts
+Chandra Blog
+RSS Feed
+Image Use Policy
+Questions & Answers
+Glossary of Terms
+Chandra Public Permissions & Usage
+(materials)
+Chandra materials on this site have been produced for NASA at the Smithsonian Astrophysical Observatory (SAO) under contract NAS8-03060. For Chandra content, no claim to copyright is being asserted and the material may be used in accordance with NASA guidelines. It is requested that use of this work by NASA/SAO be given all appropriate acknowledgement. Credits are provided with each image/video/sonification on its page. If you have questions about those credits, please email us at cxcpub@cfa.harvard.edu
+The Chandra web site also contains material created and/or provided by individuals or institutions other than SAO, and those individuals or institutions may claim copyright. For example, multiwavelength images with non-NASA data. If you would like to use such material, inquiries should be made directly to those listed individuals/institutions. Or, contact Dr. Kimberly Arcand (cxcpub@cfa.harvard.edu) for further information.
+Note: The availability of Chandra/SAO materials on this website does not include logos, and does not imply the endorsement of SAO, NASA, or the Smithsonian of any commercial or private use of such materials.
+Photography: If a recognizable person appears in a photograph, use for commercial purposes may infringe a right of privacy or publicity, and permission should be obtained from the recognizable person.
+Audio Recordings: Use of a portion or segment of an audio piece, such as narration, or music, may infringe a right of publicity or copyright, and permission should be obtained from the source.
+Video Recordings: Music or footage copyrighted by others, which is incorporated in a production, may not be used unless permission is obtained from the copyright owner. Use for commercial purposes of a portion or segment containing a recognizable person may infringe a right of publicity, and permission should be obtained from the recognizable person.
+If you have further questions, please contact us at: cxcpub@cfa.harvard.edu
+ Smithsonian Astrophysical Observatory
+ 60 Garden Street, MS 6
+ Cambridge, MA 02138
+ CXC Home | Search | Help | Image Use Policy | Latest Images | Privacy | Accessibility | Glossary | Q&A 
+ Photo | Press | Blog | More Feeds
+ [News by email: Chandra Digest]
+[Contact us: cxcpub@cfa.harvard.edu]
+Center for Astrophysics | Harvard & Smithsonian
+60 Garden Street, Cambridge, MA 02138 USA
+Phone: 617.496.7941 Fax: 617.495.7356
+Operated for NASA by the Smithsonian Astrophysical Observatory
+This site was developed with funding from NASA under Contract NAS8-03060.
+Revised: June 17, 2025
+
+
+===== image page text (credit line) =====
+SOURCE: https://chandra.harvard.edu/photo/2011/cygx1/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Chandra :: Photo Album :: Cygnus X-1 :: November 17, 2011
+NASA's flagship mission for X-ray astronomy. 
+Home
+About Chandra
+Learning
+Field Guide
+Photo Album
+Press Room
+Resources & Multimedia
+Video Series
+Blog
+Research
+Images by Date
+ 2026 
+ 2025 
+ 2024 
+ 2023
+ 2022 
+ 2021 
+ 2020 
+ 2019
+ 2018 
+ 2017 
+ 2016 
+ 2015
+ 2014 
+ 2013 
+ 2012 
+2011
+2010 
+2009 
+2008 
+ 2007
+ 2006 
+ 2005 
+ 2004 
+2003
+2002 
+2001 
+2000 
+ 1999
+Images by Category
+Solar System
+Stars
+Exoplanets
+White Dwarfs
+Supernovas
+Neutron Stars
+Black Holes
+Milky Way Galaxy
+Normal Galaxies
+Quasars
+Galaxy Clusters
+Cosmology/Deep Field
+Miscellaneous
+Images by Interest
+Space Scoop for Kids
+Multiwavelength
+Sky Map
+Constellations
+Photo Blog
+Top Rated Images
+Image Handouts
+Fits Files
+Visual descriptions
+Image Tutorials
+False Color
+Cosmic Distance
+Look-Back Time
+Scale & Distance
+Angular Measurement
+Images & Processing
+AVM/Metadata
+Image Use Policy 
+Web Shortcuts
+Chandra Blog
+RSS Feed
+Image Use Policy
+Questions & Answers
+Glossary of Terms 
+Cygnus X-1: NASA's Chandra Adds to Black Hole Birth Announcement
+Visual Description:
+Text
+ Cygnus X-1 is a black hole about 15 times the mass of the Sun in orbit with a massive blue companion star.
+Astronomers used several telescopes including Chandra to study Cygnus X-1.
+The combined data have revealed the spin, mass, and distance of this black hole more precisely than ever before.
+Stephen Hawking lost a bet — originally placed in 1974 — that Cygnus X-1 did not contain a black hole.
+On the left, an optical image from the Digitized Sky Survey shows Cygnus X-1, outlined in a red box. Cygnus X-1 is located near large active regions of star formation in the Milky Way, as seen in this image that spans some 700 light years across. An artist's illustration on the right depicts what astronomers think is happening within the Cygnus X-1 system. Cygnus X-1 is a so-called stellar-mass black hole, a class of black holes that comes from the collapse of a massive star. The black hole pulls material from a massive, blue companion star toward it. This material forms a disk (shown in red and orange) that rotates around the black hole before falling into it or being redirected away from the black hole in the form of powerful jets. 
+A trio of papers with data from radio, optical and X-ray telescopes, including NASA's Chandra X-ray Observatory, has revealed new details about the birth of this famous black hole that took place millions of years ago. Using X-ray data from Chandra, the Rossi X-ray Timing Explorer, and the Advanced Satellite for Cosmology and Astrophysics, scientists were able to determine the spin of Cygnus X-1 with unprecedented accuracy, showing that the black hole is spinning at very close to its maximum rate. Its event horizon — the point of no return for material falling towards a black hole — is spinning around more than 800 times a second.
+Chandra X-ray of Cygnus X-1.
+Using optical observations of the companion star and its motion around its unseen companion, the team also made the most precise determination ever for the mass of Cygnus X-1, of 14.8 times the mass of the Sun. It was likely to have been almost this massive at birth, because of lack of time for it to grow appreciably.
+The researchers also announced that they have made the most accurate distance estimate yet of Cygnus X-1 using the National Radio Observatory's Very Long Baseline Array (VLBA). The new distance is about 6,070 light years from Earth. This accurate distance was a crucial ingredient for making the precise mass and spin determinations.
+Visual Description:
+The graphic features two panels on the stellar-mass black hole Cygnus X-1. On the left, an optical image from the Digitized Sky Survey shows a large field around the black hole, outlined in a red box at the very center. Cygnus X-1 is located near large active regions of star formation in our Milky Way, as pictured in this image that spans some 700 light years across. An artist's illustration on the right depicts what astronomers think is happening within the Cygnus X-1 system. Cygnus X-1 is part of a class of black holes that comes from the collapse of a massive star. The black hole is shown pulling material from a massive, blue companion star toward it. This material forms a disk (colored in bright red and orange) that rotates around the black hole before falling into it or being redirected away from the black hole in the form of thin, powerful jets. The Chandra X-ray Observatory and other telescopes combined to determine the spin, mass, and distance to this black hole more precisely than ever before. 
+ Fast Facts for Cygnus X-1:
+ Credit 
+ Optical: DSS; Illustration: NASA/CXC/M.Weiss
+Release Date 
+November 17, 2011
+Scale 
+Wide field optical image is 4x5 degrees (424x530 light years)
+ Category 
+Black Holes
+Coordinates (J2000) 
+RA 19h 58m 21.70s | Dec +35° 12´ 05.80"
+Constellation 
+ Cygnus
+Instrument 
+ACIS
+References arXiv:1106.3690
+arXiv:1106.3689
+arXiv:1106.3688
+Color Code 
+Intensity Map
+Distance Estimate 
+About 6070 light years
+Rate This Image
+Currently 3.84/5
+ Rating: 3.8/5
+(1684 votes cast)
+Download & Share
+JPEG (693.8 kb)
+Large JPEG (4.7 MB)
+Tiff (31 MB)
+PS (41.2 MB)
+View on the Sky (WWT)
+Handout (pdf)
+Image Feed
+ Share This
+More Information
+ Press Room: Cygnus X-1
+ For Kids: Cygnus X-1
+ Blog: Cygnus X-1
+More Images
+Illustration of 
+ Cygnus X-1
+Jpg, Tif, PS
+More Images
+Animation & Video
+Tour of Cygnus X-1
+More Animations
+More Releases
+ Cygnus X-1
+(27 Aug 09)
+ Cygnus X-1
+(17 Sep 03)
+Related Images
+M33 X-7
+ (17 Oct 07)
+Related Information
+Black Holes
+X-ray Astronomy Field Guide
+Questions and Answers
+Chandra Images
+Related Podcast
+Tour: NASA Connects Little Red Dots With Chandra, Webb 
+Top Rated Images
+Cosmic Ghost 
+Currently 5.00/5
+Treble Clef Cluster
+Currently 4.50/5
+Celebrating NASA's Chandra and Swift Exploring Space Together
+Currently 4.38/5
+Help | Image Use Policy | Privacy | Accessibility | Glossary | Q & A | CXC Science 
+Chandra X-ray Center, Operated for NASA by
+the Smithsonian Astrophysical Observatory
+This site was developed with funding from NASA under contract NAS8-03060.
+Contact us: cxcpub@cfa.harvard.edu
+Harvard-Smithsonian Center for Astrophysics
+60 Garden Street, Cambridge, MA 02138 USA
+Phone: 617.496.7941 Fax: 617.495.7356
+Tweet

@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    {
+      "id": "o1",
+      "narration": "Now follow one of the heavy ones. It swells into a red supergiant and starts burning the ashes of its last fire."
+    },
+    {
+      "id": "o2",
+      "narration": "Then oxygen. Then silicon. Each new fuel buys less time than the one before. And when silicon fuses into iron, the star hits a dead end."
+    },
+    {
+      "id": "k1",
+      "narration": "Fusing iron releases no energy, so nothing pushes back against gravity."
+    },
+    {
+      "id": "k2",
+      "narration": "In less than a second, the core collapses. It rebounds, and a shockwave races outward."
+    },
+    {
+      "id": "k3",
+      "narration": "That is a supernova. One dying star can outshine its entire galaxy."
+    },
+    {
+      "id": "e1",
+      "narration": "We have seen it happen. In the year 1054, Chinese astronomers recorded a guest star visible in the daytime sky."
+    },
+    {
+      "id": "e2",
+      "narration": "Today we find the Crab Nebula right there."
+    }
+  ]
+}

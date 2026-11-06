@@ -1,0 +1,7127 @@
+{
+ "schemaVersion": 1,
+ "fps": 30,
+ "opening": {
+  "fadeInMs": 0,
+  "leadSilenceMs": 0
+ },
+ "ending": {
+  "fadeOutMs": 700,
+  "holdBlackMs": 0,
+  "tailSilenceMs": 400
+ },
+ "scenes": [
+  {
+   "id": "h1",
+   "section": "hook",
+   "claimIds": [
+    "C01_pillars"
+   ],
+   "narration": "How does a soft cloud of dust become the darkest object in the universe?",
+   "intent": "hook",
+   "retentionBeat": "promise",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_pil",
+     "role": "backdrop",
+     "assetId": "r_pillars",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_scrim",
+     "role": "decor",
+     "visual": {
+      "component": "scrim",
+      "props": {
+       "aspect": 0.35
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_q1",
+     "role": "subject",
+     "text": "How does a soft cloud of dust",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "enterAtWord": 0
+    },
+    {
+     "id": "e_q2",
+     "role": "subject",
+     "text": "become the darkest object",
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     },
+     "enterAtWord": 7
+    },
+    {
+     "id": "e_q3",
+     "role": "subject",
+     "text": "in the universe?",
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     },
+     "enterAtWord": 13
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_pil": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_scrim": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_q1": {
+       "x": 0.5,
+       "y": 0.39,
+       "w": 0.82,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_q2": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.82,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_q3": {
+       "x": 0.5,
+       "y": 0.61,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.47,
+        "y": 0.44,
+        "scale": 1.1
+       },
+       "easing": "soft",
+       "reason": "a fast push into the pillars carries the hook question"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_pil": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_scrim": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_q1": {
+       "x": 0.5,
+       "y": 0.43,
+       "w": 0.86,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_q2": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.86,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_q3": {
+       "x": 0.5,
+       "y": 0.57,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.48,
+        "y": 0.45,
+        "scale": 1.16
+       },
+       "easing": "soft",
+       "reason": "a fast push into the pillars carries the hook question"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [
+    "r_pillars"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 0.0,
+    "endS": 4.39,
+    "firstWord": 0,
+    "lastWord": 13
+   }
+  },
+  {
+   "id": "h2",
+   "section": "hook",
+   "claimIds": [
+    "C06_balance"
+   ],
+   "narration": "Stay with me, because the answer is a tug of war.",
+   "intent": "hook",
+   "retentionBeat": "promise",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_bal",
+     "role": "diagram",
+     "visual": {
+      "component": "balance",
+      "props": {
+       "inAtS": 0.2,
+       "outAtS": 1.2
+      }
+     },
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_t",
+     "role": "subject",
+     "text": "a tug of war",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 8
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_bal": {
+       "x": 0.5,
+       "y": 0.48,
+       "w": 0.42,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_t": {
+       "x": 0.5,
+       "y": 0.88,
+       "w": 0.28,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "the tug of war tightens as it is named"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_bal": {
+       "x": 0.5,
+       "y": 0.45,
+       "w": 0.9,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_t": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "the tug of war tightens"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 4.39,
+    "endS": 7.6,
+    "firstWord": 14,
+    "lastWord": 24
+   }
+  },
+  {
+   "id": "h3",
+   "section": "hook",
+   "claimIds": [
+    "C20_elements"
+   ],
+   "narration": "And the calcium in your bones is part of the story.",
+   "intent": "hook",
+   "retentionBeat": "next_question",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_bone",
+     "role": "subject",
+     "visual": {
+      "component": "bone",
+      "props": {}
+     },
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_t",
+     "role": "label",
+     "text": "part of the story",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 7
+    },
+    {
+     "id": "e_qS040",
+     "role": "subject",
+     "text": "Where did the calcium in",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "exitAtWord": 4,
+     "only": "portrait"
+    },
+    {
+     "id": "e_qS041",
+     "role": "subject",
+     "text": "your bones come from?",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "exitAtWord": 4,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_bone": {
+       "x": 0.5,
+       "y": 0.45,
+       "w": 0.42,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_t": {
+       "x": 0.5,
+       "y": 0.75,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "slow push on the bone: the open loop"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_bone": {
+       "x": 0.5,
+       "y": 0.44,
+       "w": 0.84,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_t": {
+       "x": 0.5,
+       "y": 0.62,
+       "w": 0.62,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_qS040": {
+       "x": 0.5,
+       "y": 0.33,
+       "w": 0.86,
+       "z": 9,
+       "depth": 1.0
+      },
+      "e_qS041": {
+       "x": 0.5,
+       "y": 0.39,
+       "w": 0.86,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "slow push on the bone"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S04"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 7.6,
+    "endS": 10.76,
+    "firstWord": 25,
+    "lastWord": 35
+   }
+  },
+  {
+   "id": "c1",
+   "section": "cloud",
+   "claimIds": [
+    "C02_cloud"
+   ],
+   "narration": "It starts in a molecular cloud. Cold gas, with up to 10 million times the mass of the Sun,",
+   "intent": "cloud",
+   "retentionBeat": "orient",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_car",
+     "role": "backdrop",
+     "assetId": "r_carina",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     },
+     "enterAtWord": 6
+    },
+    {
+     "id": "e_n",
+     "role": "number",
+     "visual": {
+      "component": "countup",
+      "props": {
+       "to": 10000000,
+       "over": 1.4,
+       "sub": "times the Sun's mass"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     },
+     "enterAtWord": 11
+    },
+    {
+     "id": "e_l",
+     "role": "label",
+     "text": "molecular cloud",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 0
+    },
+    {
+     "id": "e_qS010",
+     "role": "subject",
+     "text": "How does a cloud",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "exitAtWord": 4,
+     "only": "portrait"
+    },
+    {
+     "id": "e_qS011",
+     "role": "subject",
+     "text": "become a star?",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "exitAtWord": 4,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_car": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.72,
+       "w": 0.5,
+       "z": 4,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.2,
+       "w": 0.32,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.53,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "slow pan across the giant cloud"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_car": {
+       "x": 0.62,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.6,
+       "w": 0.9,
+       "z": 4,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.22,
+       "w": 0.66,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4408,
+       "z": 6,
+       "depth": 1.0
+      },
+      "e_qS010": {
+       "x": 0.5,
+       "y": 0.33,
+       "w": 0.86,
+       "z": 9,
+       "depth": 1.0
+      },
+      "e_qS011": {
+       "x": 0.5,
+       "y": 0.39,
+       "w": 0.86,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.11
+       },
+       "easing": "soft",
+       "reason": "slow pan across the cloud"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S01"
+   ],
+   "assetIds": [
+    "r_carina"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 10.76,
+    "endS": 16.91,
+    "firstWord": 36,
+    "lastWord": 54
+   }
+  },
+  {
+   "id": "c2",
+   "section": "cloud",
+   "claimIds": [
+    "C02_cloud"
+   ],
+   "narration": "stretched across hundreds of light-years.",
+   "intent": "cloud",
+   "retentionBeat": "develop",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_car",
+     "role": "backdrop",
+     "assetId": "r_carina",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "number",
+     "text": "hundreds of light-years",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 2
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_car": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.78,
+       "w": 0.46,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.53,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "easing": "emphasized",
+       "reason": "pull back to show how wide it is"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_car": {
+       "x": 0.62,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.62,
+       "w": 0.8,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4408,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.11
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "pull back to show its width"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S01"
+   ],
+   "assetIds": [
+    "r_carina"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 16.91,
+    "endS": 19.64,
+    "firstWord": 55,
+    "lastWord": 59
+   }
+  },
+  {
+   "id": "c3",
+   "section": "cloud",
+   "claimIds": [
+    "C02_cloud",
+    "C03_protostar"
+   ],
+   "narration": "Some clumps gather more matter, and their gravity grows stronger. One collapses and heats up.",
+   "intent": "cloud",
+   "retentionBeat": "payoff",
+   "presentation": "illustration",
+   "visualIntensity": 3,
+   "transition": {
+    "type": "nested_scale",
+    "durationMs": 1600,
+    "easing": "emphasized",
+    "rationale": "the protostar is the inside of this collapsing clump: the zoom shows the same object one scale down",
+    "anchorFrom": {
+     "entityId": "e_core"
+    },
+    "anchorTo": {
+     "entityId": "e_proto"
+    }
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_clump",
+     "role": "subject",
+     "assetId": "g_clump",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_g",
+     "role": "label",
+     "text": "gravity grows",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 7
+    },
+    {
+     "id": "e_core",
+     "role": "subject",
+     "visual": {
+      "component": "glowdot",
+      "props": {
+       "color": "#ffcf8a"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 500
+     },
+     "enterAtWord": 11
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_clump": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_g": {
+       "x": 0.22,
+       "y": 0.8,
+       "w": 0.26,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_core": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.12,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8483,
+       "y": 0.085,
+       "w": 0.1833,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "the camera leans into the collapsing clump"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_clump": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_g": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.56,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_core": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.26,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.3261,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.12
+       },
+       "easing": "soft",
+       "reason": "lean into the clump"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S01"
+   ],
+   "assetIds": [
+    "g_clump"
+   ],
+   "qaRisk": [],
+   "signature": {
+    "before": "a collapsing clump",
+    "after": "the protostar at its centre",
+    "track": "the warm centre of the clump"
+   },
+   "timing": {
+    "startS": 19.64,
+    "endS": 25.56,
+    "firstWord": 60,
+    "lastWord": 74
+   }
+  },
+  {
+   "id": "p1",
+   "section": "protostar",
+   "claimIds": [
+    "C03_protostar"
+   ],
+   "narration": "That's a protostar. It isn't burning anything yet.",
+   "intent": "protostar",
+   "retentionBeat": "develop",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_proto",
+     "role": "subject",
+     "assetId": "g_protostar",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "subject",
+     "text": "protostar",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 2
+    },
+    {
+     "id": "e_n",
+     "role": "label",
+     "text": "not burning yet",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 5
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_proto": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.18,
+       "w": 0.24,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.82,
+       "w": 0.26,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8483,
+       "y": 0.085,
+       "w": 0.1833,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "easing": "soft",
+       "reason": "settles back from the zoom"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_proto": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.56,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.3261,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.12
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "settles back from the zoom"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S01"
+   ],
+   "assetIds": [
+    "g_protostar"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 25.56,
+    "endS": 28.71,
+    "firstWord": 75,
+    "lastWord": 82
+   }
+  },
+  {
+   "id": "p2",
+   "section": "protostar",
+   "claimIds": [
+    "C05_ignition"
+   ],
+   "narration": "It keeps gaining mass. Its core gets hotter and denser.",
+   "intent": "protostar",
+   "retentionBeat": "develop",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_proto",
+     "role": "subject",
+     "assetId": "g_protostar",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "label",
+     "text": "hotter · denser",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 7
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_proto": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.82,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8483,
+       "y": 0.085,
+       "w": 0.1833,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "push toward the heating core"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_proto": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.3261,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.12
+       },
+       "easing": "soft",
+       "reason": "push toward the core"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S01"
+   ],
+   "assetIds": [
+    "g_protostar"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 28.71,
+    "endS": 32.66,
+    "firstWord": 83,
+    "lastWord": 92
+   }
+  },
+  {
+   "id": "f1",
+   "section": "ignition",
+   "claimIds": [
+    "C05_ignition"
+   ],
+   "narration": "At about 15 million degrees, hydrogen nuclei are squeezed together so hard that they fuse into helium. That's nuclear fusion.",
+   "intent": "ignition",
+   "retentionBeat": "develop",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_temp",
+     "role": "number",
+     "visual": {
+      "component": "countup",
+      "props": {
+       "to": 15,
+       "over": 1.2,
+       "suffix": " million °",
+       "sub": "core temperature"
+      }
+     },
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     },
+     "enterAtWord": 2
+    },
+    {
+     "id": "e_f",
+     "role": "subject",
+     "text": "hydrogen → helium",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 14
+    },
+    {
+     "id": "e_n",
+     "role": "label",
+     "text": "nuclear fusion",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 18
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_temp": {
+       "x": 0.5,
+       "y": 0.4,
+       "w": 0.58,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_f": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.38,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.79,
+       "w": 0.24,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift while the numbers build"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_temp": {
+       "x": 0.5,
+       "y": 0.36,
+       "w": 0.95,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_f": {
+       "x": 0.5,
+       "y": 0.55,
+       "w": 0.8,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.63,
+       "w": 0.56,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S01"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 32.66,
+    "endS": 41.14,
+    "firstWord": 93,
+    "lastWord": 112
+   }
+  },
+  {
+   "id": "f2",
+   "section": "ignition",
+   "claimIds": [
+    "C05_ignition"
+   ],
+   "narration": "And in that moment, a star is born.",
+   "intent": "ignition",
+   "retentionBeat": "payoff",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "match_movement",
+    "durationMs": 700,
+    "easing": "emphasized",
+    "rationale": "the camera keeps travelling from the newborn star into what holds it up",
+    "anchorFrom": {
+     "entityId": "e_ign"
+    },
+    "anchorTo": {
+     "entityId": "e_bal"
+    }
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_ign",
+     "role": "subject",
+     "assetId": "g_ignite",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_b",
+     "role": "subject",
+     "text": "a star is born",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 5
+    },
+    {
+     "id": "e_nS01",
+     "role": "label",
+     "text": "Next: what decides how it dies",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 3,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_ign": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_b": {
+       "x": 0.5,
+       "y": 0.16,
+       "w": 0.34,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8483,
+       "y": 0.085,
+       "w": 0.1833,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.08
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "easing": "soft",
+       "reason": "pull back as the new star lights its cocoon"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_ign": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_b": {
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.7,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.3261,
+       "z": 6,
+       "depth": 1.0
+      },
+      "e_nS01": {
+       "x": 0.5,
+       "y": 0.74,
+       "w": 0.8,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.14
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "pull back as the star lights up"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S01"
+   ],
+   "assetIds": [
+    "g_ignite"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 41.14,
+    "endS": 43.67,
+    "firstWord": 113,
+    "lastWord": 120
+   }
+  },
+  {
+   "id": "b1",
+   "section": "balance",
+   "claimIds": [
+    "C06_balance"
+   ],
+   "narration": "Now gravity pulls in, and the heat from fusion pushes out. While they balance, the star is stable.",
+   "intent": "balance",
+   "retentionBeat": "develop",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_bal",
+     "role": "diagram",
+     "visual": {
+      "component": "balance",
+      "props": {
+       "inAtS": 0.4,
+       "outAtS": 2.6
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_g",
+     "role": "label",
+     "text": "gravity: in",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 1
+    },
+    {
+     "id": "e_p",
+     "role": "label",
+     "text": "pressure: out",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 9
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_bal": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.48,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_g": {
+       "x": 0.18,
+       "y": 0.5,
+       "w": 0.22,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_p": {
+       "x": 0.82,
+       "y": 0.5,
+       "w": 0.24,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift while both forces appear"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_bal": {
+       "x": 0.5,
+       "y": 0.45,
+       "w": 0.92,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_g": {
+       "x": 0.5,
+       "y": 0.2,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_p": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.54,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 43.67,
+    "endS": 50.1,
+    "firstWord": 121,
+    "lastWord": 138
+   }
+  },
+  {
+   "id": "b2",
+   "section": "balance",
+   "claimIds": [
+    "C07_mainseq"
+   ],
+   "narration": "Astronomers call this the main sequence. Our Sun is roughly halfway through it.",
+   "intent": "balance",
+   "retentionBeat": "settle",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "match_movement",
+    "durationMs": 700,
+    "easing": "emphasized",
+    "rationale": "the motion carries on from our steady Sun to the stars that burn faster",
+    "anchorFrom": {
+     "entityId": "e_sun"
+    },
+    "anchorTo": {
+     "entityId": "e_two"
+    }
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_sun",
+     "role": "subject",
+     "assetId": "r_sun",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · SDO"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "subject",
+     "text": "main sequence",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 4
+    },
+    {
+     "id": "e_h",
+     "role": "label",
+     "text": "the Sun: about halfway",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 10
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_sun": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.46,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.17,
+       "y": 0.2,
+       "w": 0.28,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_h": {
+       "x": 0.81,
+       "y": 0.78,
+       "w": 0.32,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8226,
+       "y": 0.085,
+       "w": 0.2348,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "slow push on the Sun"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_sun": {
+       "x": 0.5,
+       "y": 0.45,
+       "w": 0.96,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.2,
+       "w": 0.62,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_h": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.74,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4179,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "slow push on the Sun"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [
+    "r_sun"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 50.1,
+    "endS": 55.29,
+    "firstWord": 139,
+    "lastWord": 151
+   }
+  },
+  {
+   "id": "m1",
+   "section": "mass",
+   "claimIds": [
+    "C08_mass_rate"
+   ],
+   "narration": "So how long does it last? Mass decides. A heavier star burns its fuel much faster, just to hold up its own weight.",
+   "intent": "mass",
+   "retentionBeat": "develop",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_two",
+     "role": "diagram",
+     "visual": {
+      "component": "twostars",
+      "props": {}
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_m",
+     "role": "subject",
+     "text": "mass decides",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 6
+    },
+    {
+     "id": "e_f",
+     "role": "label",
+     "text": "heavier → burns faster",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 9
+    },
+    {
+     "id": "e_qS020",
+     "role": "subject",
+     "text": "What decides how a star dies?",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "exitAtWord": 4,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_two": {
+       "x": 0.5,
+       "y": 0.54,
+       "w": 0.54,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_m": {
+       "x": 0.5,
+       "y": 0.1,
+       "w": 0.26,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_f": {
+       "x": 0.5,
+       "y": 0.2,
+       "w": 0.36,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_two": {
+       "x": 0.5,
+       "y": 0.45,
+       "w": 0.96,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_m": {
+       "x": 0.5,
+       "y": 0.2,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_f": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.8,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_qS020": {
+       "x": 0.5,
+       "y": 0.33,
+       "w": 0.86,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S02"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 55.29,
+    "endS": 63.01,
+    "firstWord": 152,
+    "lastWord": 174
+   }
+  },
+  {
+   "id": "m2",
+   "section": "mass",
+   "claimIds": [
+    "C08_mass_rate"
+   ],
+   "narration": "The Sun gets about 10 billion years. Some massive stars, only a few million.",
+   "intent": "mass",
+   "retentionBeat": "evidence",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_life",
+     "role": "diagram",
+     "visual": {
+      "component": "lifebars",
+      "props": {
+       "a": {
+        "label": "the Sun",
+        "value": 10000,
+        "text": ""
+       },
+       "b": {
+        "label": "a massive star",
+        "value": 5,
+        "text": "a few million years"
+       }
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_n",
+     "role": "number",
+     "visual": {
+      "component": "countup",
+      "props": {
+       "to": 10,
+       "over": 1.3,
+       "suffix": " billion years",
+       "size": 150
+      }
+     },
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     },
+     "enterAtWord": 4
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_life": {
+       "x": 0.5,
+       "y": 0.52,
+       "w": 0.58,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.12,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_life": {
+       "x": 0.5,
+       "y": 0.47,
+       "w": 0.94,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.2,
+       "w": 0.9,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S02"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 63.01,
+    "endS": 68.09,
+    "firstWord": 175,
+    "lastWord": 188
+   }
+  },
+  {
+   "id": "m3",
+   "section": "mass",
+   "claimIds": [
+    "C09_whitedwarf"
+   ],
+   "narration": "Mass also decides the ending. Stars like the Sun fade quietly into a white dwarf, a cooling cinder the size of Earth.",
+   "intent": "mass",
+   "retentionBeat": "develop",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_hel",
+     "role": "backdrop",
+     "assetId": "r_helix",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Hubble"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "label",
+     "text": "white dwarf at the centre",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 13
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_hel": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.78,
+       "w": 0.4,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8032,
+       "y": 0.085,
+       "w": 0.2735,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "push toward the white dwarf"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_hel": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.8,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.8,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4867,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "push toward the white dwarf"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S02"
+   ],
+   "assetIds": [
+    "r_helix"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 68.09,
+    "endS": 76.27,
+    "firstWord": 189,
+    "lastWord": 210
+   }
+  },
+  {
+   "id": "m4",
+   "section": "mass",
+   "claimIds": [
+    "C10_sn_threshold",
+    "C11_bh_threshold"
+   ],
+   "narration": "Stars with more than about 8 times the Sun's mass end by exploding. And to leave a black hole, a star probably needs around 20 suns or more.",
+   "intent": "mass",
+   "retentionBeat": "payoff",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "match_movement",
+    "durationMs": 700,
+    "easing": "emphasized",
+    "rationale": "we keep moving toward one of the heavy stars on the chart",
+    "anchorFrom": {
+     "entityId": "e_fate"
+    },
+    "anchorTo": {
+     "entityId": "e_rsg"
+    }
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_fate",
+     "role": "diagram",
+     "visual": {
+      "component": "fatechart",
+      "props": {
+       "max": 30,
+       "sn": 8,
+       "bh": 20
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_h",
+     "role": "context",
+     "text": "line still uncertain",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 21
+    },
+    {
+     "id": "e_nS02",
+     "role": "label",
+     "text": "Next: the last second of a giant",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 23,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_fate": {
+       "x": 0.5,
+       "y": 0.52,
+       "w": 0.84,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_h": {
+       "x": 0.5,
+       "y": 0.12,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_fate": {
+       "x": 0.5,
+       "y": 0.45,
+       "w": 0.96,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_h": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.62,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_nS02": {
+       "x": 0.5,
+       "y": 0.74,
+       "w": 0.8,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S02"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 76.27,
+    "endS": 85.77,
+    "firstWord": 211,
+    "lastWord": 238
+   }
+  },
+  {
+   "id": "o1",
+   "section": "giant",
+   "claimIds": [
+    "C12_supergiant",
+    "C13_chain"
+   ],
+   "narration": "Now follow one of the heavy ones. It swells into a red supergiant and starts burning the ashes of its last fire.",
+   "intent": "giant",
+   "retentionBeat": "orient",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_rsg",
+     "role": "subject",
+     "assetId": "g_supergiant",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "subject",
+     "text": "red supergiant",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 11
+    },
+    {
+     "id": "e_qS030",
+     "role": "subject",
+     "text": "How does a giant star die?",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "exitAtWord": 4,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_rsg": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.75,
+       "y": 0.82,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8483,
+       "y": 0.085,
+       "w": 0.1833,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.12
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "easing": "soft",
+       "reason": "the pull-back makes the star swell past the frame"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_rsg": {
+       "x": 0.85,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.3261,
+       "z": 6,
+       "depth": 1.0
+      },
+      "e_qS030": {
+       "x": 0.5,
+       "y": 0.33,
+       "w": 0.86,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.18
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "the star swells"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S03"
+   ],
+   "assetIds": [
+    "g_supergiant"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 85.77,
+    "endS": 92.97,
+    "firstWord": 239,
+    "lastWord": 260
+   }
+  },
+  {
+   "id": "o2",
+   "section": "giant",
+   "claimIds": [
+    "C13_chain"
+   ],
+   "narration": "Then oxygen. Then silicon. Each new fuel buys less time than the one before. And when silicon fuses into iron, the star hits a dead end.",
+   "intent": "giant",
+   "retentionBeat": "develop",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_onion",
+     "role": "diagram",
+     "visual": {
+      "component": "onion",
+      "props": {
+       "shells": [
+        "H",
+        "He",
+        "C",
+        "Ne",
+        "O",
+        "Si",
+        "Fe"
+       ],
+       "revealOver": 2.2,
+       "stop": 6,
+       "ironAtS": 7.16
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_t",
+     "role": "label",
+     "text": "less time with each fuel",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 4
+    },
+    {
+     "id": "e_d",
+     "role": "subject",
+     "text": "iron: a dead end",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 24
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_onion": {
+       "x": 0.38,
+       "y": 0.5,
+       "w": 0.44,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_t": {
+       "x": 0.8,
+       "y": 0.38,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_d": {
+       "x": 0.8,
+       "y": 0.62,
+       "w": 0.28,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift as the layers build"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_onion": {
+       "x": 0.5,
+       "y": 0.44,
+       "w": 0.82,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_t": {
+       "x": 0.5,
+       "y": 0.12,
+       "w": 0.7,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_d": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S03"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 92.97,
+    "endS": 102.65,
+    "firstWord": 261,
+    "lastWord": 286
+   }
+  },
+  {
+   "id": "k1",
+   "section": "collapse",
+   "claimIds": [
+    "C14_iron"
+   ],
+   "narration": "Fusing iron releases no energy, so nothing pushes back against gravity.",
+   "intent": "collapse",
+   "retentionBeat": "develop",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_core",
+     "role": "diagram",
+     "visual": {
+      "component": "ironcore",
+      "props": {
+       "fadeAtS": 1.4
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_c",
+     "role": "label",
+     "text": "no energy from iron",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 4
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_core": {
+       "x": 0.5,
+       "y": 0.54,
+       "w": 0.36,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_c": {
+       "x": 0.5,
+       "y": 0.11,
+       "w": 0.34,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "the frame tightens as support fails"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_core": {
+       "x": 0.5,
+       "y": 0.42,
+       "w": 0.88,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_c": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.7,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "the frame tightens"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S03",
+    "S04"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 102.65,
+    "endS": 107.38,
+    "firstWord": 287,
+    "lastWord": 297
+   }
+  },
+  {
+   "id": "k2",
+   "section": "collapse",
+   "claimIds": [
+    "C15_collapse",
+    "C16_rebound"
+   ],
+   "narration": "In less than a second, the core collapses. It rebounds, and a shockwave races outward.",
+   "intent": "collapse",
+   "retentionBeat": "develop",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_col",
+     "role": "diagram",
+     "visual": {
+      "component": "collapse",
+      "props": {
+       "collapseAtS": 1.0,
+       "collapseS": 0.7
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_s",
+     "role": "number",
+     "text": "under 1 second",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 1
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_col": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.42,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_s": {
+       "x": 0.18,
+       "y": 0.5,
+       "w": 0.26,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.08
+       },
+       "easing": "emphasized",
+       "reason": "the camera rushes in with the collapse"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_col": {
+       "x": 0.5,
+       "y": 0.42,
+       "w": 0.9,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_s": {
+       "x": 0.5,
+       "y": 0.16,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.08
+       },
+       "easing": "emphasized",
+       "reason": "rush in with the collapse"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S03",
+    "S04"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 107.38,
+    "endS": 113.28,
+    "firstWord": 298,
+    "lastWord": 312
+   }
+  },
+  {
+   "id": "k3",
+   "section": "collapse",
+   "claimIds": [
+    "C16_rebound",
+    "C17_outshine"
+   ],
+   "narration": "That is a supernova. One dying star can outshine its entire galaxy.",
+   "intent": "collapse",
+   "retentionBeat": "payoff",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "match_movement",
+    "durationMs": 700,
+    "easing": "emphasized",
+    "rationale": "the shock wave's outward motion carries us to the night it was seen from Earth",
+    "anchorFrom": {
+     "entityId": "e_sn"
+    },
+    "anchorTo": {
+     "entityId": "e_y"
+    }
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_sn",
+     "role": "subject",
+     "assetId": "g_supernova",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_flash",
+     "role": "decor",
+     "visual": {
+      "component": "flash",
+      "props": {
+       "peak": 0.75,
+       "decayS": 0.45
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     },
+     "enterAtWord": 4
+    },
+    {
+     "id": "e_l",
+     "role": "subject",
+     "text": "supernova",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 3
+    },
+    {
+     "id": "e_o",
+     "role": "label",
+     "text": "brighter than its galaxy",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 8
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_sn": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_flash": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 8,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.15,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_o": {
+       "x": 0.5,
+       "y": 0.8,
+       "w": 0.38,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8483,
+       "y": 0.085,
+       "w": 0.1833,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.16
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "easing": "emphasized",
+       "reason": "the blast pushes the camera back"
+      }
+     ],
+     "shake": {
+      "atWord": 0,
+      "durationMs": 650,
+      "amplitude": 0.012,
+      "reason": "the impact of the explosion"
+     }
+    },
+    "portrait": {
+     "placements": {
+      "e_sn": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_flash": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 8,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.24,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_o": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.8,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.3261,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.22
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "emphasized",
+       "reason": "the blast pushes the camera back"
+      }
+     ],
+     "shake": {
+      "atWord": 0,
+      "durationMs": 650,
+      "amplitude": 0.012,
+      "reason": "the impact of the explosion"
+     }
+    }
+   },
+   "shortIds": [
+    "S03",
+    "S04"
+   ],
+   "assetIds": [
+    "g_supernova"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 113.28,
+    "endS": 118.31,
+    "firstWord": 313,
+    "lastWord": 324
+   }
+  },
+  {
+   "id": "e1",
+   "section": "evidence",
+   "claimIds": [
+    "C18_crab"
+   ],
+   "narration": "We have seen it happen. In the year 1054, Chinese astronomers recorded a guest star visible in the daytime sky.",
+   "intent": "evidence",
+   "retentionBeat": "evidence",
+   "presentation": "text",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_y",
+     "role": "number",
+     "visual": {
+      "component": "countup",
+      "props": {
+       "from": 1000,
+       "to": 1054,
+       "over": 1.2,
+       "separators": false,
+       "sub": "a “guest star” in daylight",
+       "size": 170
+      }
+     },
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     },
+     "enterAtWord": 8
+    },
+    {
+     "id": "e_c",
+     "role": "context",
+     "text": "recorded by Chinese astronomers",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 9
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_y": {
+       "x": 0.5,
+       "y": 0.42,
+       "w": 0.52,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_c": {
+       "x": 0.5,
+       "y": 0.72,
+       "w": 0.46,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift through the night sky"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_y": {
+       "x": 0.5,
+       "y": 0.38,
+       "w": 0.95,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_c": {
+       "x": 0.5,
+       "y": 0.58,
+       "w": 0.86,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S03"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 118.31,
+    "endS": 126.65,
+    "firstWord": 325,
+    "lastWord": 344
+   }
+  },
+  {
+   "id": "e2",
+   "section": "evidence",
+   "claimIds": [
+    "C18_crab"
+   ],
+   "narration": "Today we find the Crab Nebula right there.",
+   "intent": "evidence",
+   "retentionBeat": "payoff",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "depth_through_object",
+    "durationMs": 1100,
+    "easing": "emphasized",
+    "rationale": "we travel through one supernova remnant into another to see what remnants are made of",
+    "anchorFrom": {
+     "entityId": "e_crab"
+    },
+    "anchorTo": {
+     "entityId": "e_cas"
+    }
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_crab",
+     "role": "backdrop",
+     "assetId": "r_crab",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Hubble"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "subject",
+     "text": "Crab Nebula",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 4
+    },
+    {
+     "id": "e_nS03",
+     "role": "label",
+     "text": "Next: you are made of this",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 3,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_crab": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.16,
+       "w": 0.26,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8032,
+       "y": 0.085,
+       "w": 0.2735,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.1
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "easing": "soft",
+       "reason": "pull back reveals the wreckage"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_crab": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.8,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.24,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4867,
+       "z": 6,
+       "depth": 1.0
+      },
+      "e_nS03": {
+       "x": 0.5,
+       "y": 0.74,
+       "w": 0.8,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.1
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "easing": "soft",
+       "reason": "pull back reveals the wreckage"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S03"
+   ],
+   "assetIds": [
+    "r_crab"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 126.65,
+    "endS": 129.78,
+    "firstWord": 345,
+    "lastWord": 352
+   }
+  },
+  {
+   "id": "e3",
+   "section": "twist",
+   "claimIds": [
+    "C19_casa",
+    "C20_elements"
+   ],
+   "narration": "And here's the twist. All the oxygen in our solar system came from exploding massive stars.",
+   "intent": "twist",
+   "retentionBeat": "evidence",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_cas",
+     "role": "subject",
+     "assetId": "r_casa",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Chandra"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_key",
+     "role": "diagram",
+     "visual": {
+      "component": "legend",
+      "props": {
+       "items": [
+        [
+         "silicon",
+         "#ff5a4a"
+        ],
+        [
+         "sulfur",
+         "#ffd84a"
+        ],
+        [
+         "calcium",
+         "#4adf6a"
+        ],
+        [
+         "iron",
+         "#b47aff"
+        ],
+        [
+         "blast wave",
+         "#5a8cff"
+        ]
+       ],
+       "cols": 2
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     },
+     "enterAtWord": 6
+    },
+    {
+     "id": "e_t",
+     "role": "subject",
+     "text": "the twist",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 3,
+     "exitAtWord": 4
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_cas": {
+       "x": 0.33,
+       "y": 0.5,
+       "w": 0.54,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_key": {
+       "x": 0.79,
+       "y": 0.52,
+       "w": 0.4,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_t": {
+       "x": 0.33,
+       "y": 0.12,
+       "w": 0.2,
+       "z": 4,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.7968,
+       "y": 0.085,
+       "w": 0.2864,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "slow push while the elements are named"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_cas": {
+       "x": 0.5,
+       "y": 0.31,
+       "w": 0.9,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_key": {
+       "x": 0.5,
+       "y": 0.64,
+       "w": 0.9,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_t": {
+       "x": 0.5,
+       "y": 0.1,
+       "w": 0.4,
+       "z": 4,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.5096,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "slow push"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S04"
+   ],
+   "assetIds": [
+    "r_casa"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 129.78,
+    "endS": 135.85,
+    "firstWord": 353,
+    "lastWord": 368
+   }
+  },
+  {
+   "id": "e4",
+   "section": "twist",
+   "claimIds": [
+    "C20_elements"
+   ],
+   "narration": "So did about half the calcium and about 40% of the iron. The calcium in your bones came from these explosions.",
+   "intent": "twist",
+   "retentionBeat": "payoff",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_bars",
+     "role": "diagram",
+     "visual": {
+      "component": "elementbars",
+      "props": {
+       "items": [
+        [
+         "oxygen",
+         100,
+         "all"
+        ],
+        [
+         "calcium",
+         50,
+         "about half"
+        ],
+        [
+         "iron",
+         40,
+         "about 40%"
+        ]
+       ]
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_bone",
+     "role": "subject",
+     "visual": {
+      "component": "bone",
+      "props": {}
+     },
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     },
+     "enterAtWord": 16
+    },
+    {
+     "id": "e_y",
+     "role": "label",
+     "text": "in your bones",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 16
+    },
+    {
+     "id": "e_nS04",
+     "role": "label",
+     "text": "Next: what is left becomes this",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 16,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_bars": {
+       "x": 0.36,
+       "y": 0.52,
+       "w": 0.5,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_bone": {
+       "x": 0.8,
+       "y": 0.45,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_y": {
+       "x": 0.8,
+       "y": 0.66,
+       "w": 0.24,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_bars": {
+       "x": 0.5,
+       "y": 0.33,
+       "w": 0.94,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_bone": {
+       "x": 0.5,
+       "y": 0.6,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_y": {
+       "x": 0.5,
+       "y": 0.71,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_nS04": {
+       "x": 0.5,
+       "y": 0.74,
+       "w": 0.8,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S04"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 135.85,
+    "endS": 143.11,
+    "firstWord": 369,
+    "lastWord": 389
+   }
+  },
+  {
+   "id": "r1",
+   "section": "remnant",
+   "claimIds": [
+    "C16_rebound",
+    "C21_remnant"
+   ],
+   "narration": "But what happens to the core? It survives as an incredibly dense remnant. Below a limit, it becomes a neutron star, about the size of a city.",
+   "intent": "remnant",
+   "retentionBeat": "orient",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_fork",
+     "role": "diagram",
+     "visual": {
+      "component": "fork",
+      "props": {
+       "left": "neutron star",
+       "leftNote": "about city-sized",
+       "right": "black hole",
+       "rightNote": "heavier stars"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_fork": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.78,
+       "z": 2,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_fork": {
+       "x": 0.5,
+       "y": 0.45,
+       "w": 0.96,
+       "z": 2,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 143.11,
+    "endS": 152.23,
+    "firstWord": 390,
+    "lastWord": 416
+   }
+  },
+  {
+   "id": "r2",
+   "section": "remnant",
+   "claimIds": [
+    "C21_remnant"
+   ],
+   "narration": "But if the star was heavy enough, nothing can stop the collapse.",
+   "intent": "remnant",
+   "retentionBeat": "develop",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_col",
+     "role": "diagram",
+     "visual": {
+      "component": "collapse",
+      "props": {
+       "collapseAtS": 1.4,
+       "collapseS": 1.2
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "label",
+     "text": "nothing stops it",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 7
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_col": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.4,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.85,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.08
+       },
+       "easing": "emphasized",
+       "reason": "the camera follows the core inward"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_col": {
+       "x": 0.5,
+       "y": 0.42,
+       "w": 0.88,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.08
+       },
+       "easing": "emphasized",
+       "reason": "follow the core inward"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 152.23,
+    "endS": 155.86,
+    "firstWord": 417,
+    "lastWord": 428
+   }
+  },
+  {
+   "id": "r3",
+   "section": "remnant",
+   "claimIds": [
+    "C22_horizon"
+   ],
+   "narration": "The core falls until gravity is so strong that not even light escapes.",
+   "intent": "remnant",
+   "retentionBeat": "develop",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_bh",
+     "role": "subject",
+     "assetId": "g_blackhole",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "label",
+     "text": "not even light escapes",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 11
+    },
+    {
+     "id": "e_qS050",
+     "role": "subject",
+     "text": "What is a black hole, and",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "exitAtWord": 4,
+     "only": "portrait"
+    },
+    {
+     "id": "e_qS051",
+     "role": "subject",
+     "text": "how do we find one?",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "exitAtWord": 4,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_bh": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.82,
+       "w": 0.36,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8483,
+       "y": 0.085,
+       "w": 0.1833,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "push toward the dark centre"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_bh": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.74,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.3261,
+       "z": 6,
+       "depth": 1.0
+      },
+      "e_qS050": {
+       "x": 0.5,
+       "y": 0.33,
+       "w": 0.86,
+       "z": 9,
+       "depth": 1.0
+      },
+      "e_qS051": {
+       "x": 0.5,
+       "y": 0.39,
+       "w": 0.86,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.12
+       },
+       "easing": "soft",
+       "reason": "push toward the dark centre"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S05"
+   ],
+   "assetIds": [
+    "g_blackhole"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 155.86,
+    "endS": 160.55,
+    "firstWord": 429,
+    "lastWord": 441
+   }
+  },
+  {
+   "id": "r4",
+   "section": "remnant",
+   "claimIds": [
+    "C22_horizon"
+   ],
+   "narration": "That boundary is the event horizon. A black hole is born.",
+   "intent": "remnant",
+   "retentionBeat": "payoff",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "match_movement",
+    "durationMs": 700,
+    "easing": "emphasized",
+    "rationale": "the movement carries on from a star's black hole to the first real picture of one",
+    "anchorFrom": {
+     "entityId": "e_bh"
+    },
+    "anchorTo": {
+     "entityId": "e_eht"
+    }
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_bh",
+     "role": "subject",
+     "assetId": "g_blackhole",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_ring",
+     "role": "subject",
+     "visual": {
+      "component": "pulsering",
+      "props": {}
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 400
+     },
+     "enterAtWord": 4
+    },
+    {
+     "id": "e_h",
+     "role": "label",
+     "text": "event horizon",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 4
+    },
+    {
+     "id": "e_b",
+     "role": "subject",
+     "text": "a black hole is born",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 7
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_bh": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_ring": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.15,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_h": {
+       "x": 0.5,
+       "y": 0.78,
+       "w": 0.26,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_b": {
+       "x": 0.5,
+       "y": 0.15,
+       "w": 0.36,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8483,
+       "y": 0.085,
+       "w": 0.1833,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.1
+       },
+       "easing": "soft",
+       "reason": "the push continues onto the horizon"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_bh": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_ring": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 0.45,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_h": {
+       "x": 0.5,
+       "y": 0.64,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_b": {
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.74,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.3261,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.12
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.16
+       },
+       "easing": "soft",
+       "reason": "the push continues"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S05"
+   ],
+   "assetIds": [
+    "g_blackhole"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 160.55,
+    "endS": 164.7,
+    "firstWord": 442,
+    "lastWord": 452
+   }
+  },
+  {
+   "id": "x1",
+   "section": "proof",
+   "claimIds": [
+    "C23_eht"
+   ],
+   "narration": "This is the first image of a black hole's shadow, from the Event Horizon Telescope. That one is a giant, six and a half billion times the mass of the Sun.",
+   "intent": "proof",
+   "retentionBeat": "evidence",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_eht",
+     "role": "subject",
+     "assetId": "r_eht",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · EHT"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_n",
+     "role": "number",
+     "visual": {
+      "component": "countup",
+      "props": {
+       "to": 6.5,
+       "decimals": 1,
+       "over": 1.3,
+       "suffix": " billion Suns",
+       "size": 150
+      }
+     },
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     },
+     "enterAtWord": 20
+    },
+    {
+     "id": "e_s",
+     "role": "label",
+     "text": "supermassive",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 19
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_eht": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.86,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_s": {
+       "x": 0.18,
+       "y": 0.5,
+       "w": 0.24,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8226,
+       "y": 0.085,
+       "w": 0.2348,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "slow push on the shadow"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_eht": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.9,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_s": {
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.5,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4179,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.12
+       },
+       "easing": "soft",
+       "reason": "slow push on the shadow"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S05"
+   ],
+   "assetIds": [
+    "r_eht"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 164.7,
+    "endS": 174.1,
+    "firstWord": 453,
+    "lastWord": 483
+   }
+  },
+  {
+   "id": "x2",
+   "section": "proof",
+   "claimIds": [
+    "C23_eht",
+    "C21_remnant"
+   ],
+   "narration": "Black holes left by dying stars are far smaller.",
+   "intent": "proof",
+   "retentionBeat": "settle",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_eht",
+     "role": "subject",
+     "assetId": "r_eht",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · EHT"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "subject",
+     "text": "star-made ones: far smaller",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 7
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_eht": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.82,
+       "w": 0.42,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8226,
+       "y": 0.085,
+       "w": 0.2348,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 0.98
+       },
+       "easing": "emphasized",
+       "reason": "pull away: star-made black holes are far smaller"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_eht": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.66,
+       "w": 0.84,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4179,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.12
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "emphasized",
+       "reason": "pull away"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S05"
+   ],
+   "assetIds": [
+    "r_eht"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 174.1,
+    "endS": 177.47,
+    "firstWord": 484,
+    "lastWord": 492
+   }
+  },
+  {
+   "id": "g1",
+   "section": "finding",
+   "claimIds": [
+    "C24_binaries"
+   ],
+   "narration": "So if light can't escape, how do we know they're there? Because they pull on their neighbors.",
+   "intent": "finding",
+   "retentionBeat": "next_question",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_cyg",
+     "role": "subject",
+     "assetId": "r_cygx1_art",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "NASA illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_q",
+     "role": "subject",
+     "text": "how do we know?",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 5
+    },
+    {
+     "id": "e_p",
+     "role": "label",
+     "text": "they pull on neighbours",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 11
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_cyg": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_q": {
+       "x": 0.5,
+       "y": 0.15,
+       "w": 0.28,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_p": {
+       "x": 0.5,
+       "y": 0.82,
+       "w": 0.38,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "easing": "soft",
+       "reason": "slow push on the pair"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_cyg": {
+       "x": 0.88,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_q": {
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_p": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.8,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4408,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.11
+       },
+       "easing": "soft",
+       "reason": "slow push on the pair"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S05"
+   ],
+   "assetIds": [
+    "r_cygx1_art"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 177.47,
+    "endS": 182.63,
+    "firstWord": 493,
+    "lastWord": 509
+   }
+  },
+  {
+   "id": "g2",
+   "section": "finding",
+   "claimIds": [
+    "C24_binaries"
+   ],
+   "narration": "Many are paired with a living star, and the gas they steal glows in X-rays.",
+   "intent": "finding",
+   "retentionBeat": "evidence",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_cyg",
+     "role": "subject",
+     "assetId": "r_cygx1_art",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "NASA illustration"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_x",
+     "role": "label",
+     "text": "glows in X-rays",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 12
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_cyg": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_x": {
+       "x": 0.25,
+       "y": 0.82,
+       "w": 0.26,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.05
+       },
+       "to": {
+        "x": 0.54,
+        "y": 0.5,
+        "scale": 1.15
+       },
+       "easing": "soft",
+       "reason": "push toward the glowing disk"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_cyg": {
+       "x": 0.88,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_x": {
+       "x": 0.5,
+       "y": 0.68,
+       "w": 0.56,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4408,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.11
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.18
+       },
+       "easing": "soft",
+       "reason": "push toward the disk"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S05"
+   ],
+   "assetIds": [
+    "r_cygx1_art"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 182.63,
+    "endS": 187.8,
+    "firstWord": 510,
+    "lastWord": 524
+   }
+  },
+  {
+   "id": "g3",
+   "section": "finding",
+   "claimIds": [
+    "C26_gaiabh3"
+   ],
+   "narration": "And the Gaia mission noticed an old star wobbling around something unseen, less than 2,000 light-years away. A black hole of about 33 suns, the biggest star-made one found in our galaxy at the time.",
+   "intent": "finding",
+   "retentionBeat": "payoff",
+   "presentation": "diagram",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "match_movement",
+    "durationMs": 700,
+    "easing": "emphasized",
+    "rationale": "the orbit's motion carries us into the recap of the whole journey",
+    "anchorFrom": {
+     "entityId": "e_orb"
+    },
+    "anchorTo": {
+     "entityId": "e_r0"
+    }
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_orb",
+     "role": "diagram",
+     "visual": {
+      "component": "gaiaorbit",
+      "props": {}
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 250
+     }
+    },
+    {
+     "id": "e_d",
+     "role": "label",
+     "text": "< 2,000 light-years",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 12
+    },
+    {
+     "id": "e_n",
+     "role": "number",
+     "visual": {
+      "component": "countup",
+      "props": {
+       "to": 33,
+       "over": 1.0,
+       "suffix": " Suns",
+       "size": 170
+      }
+     },
+     "enter": {
+      "style": "pop",
+      "durationMs": 300
+     },
+     "enterAtWord": 22
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Diagram"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_nS05",
+     "role": "label",
+     "text": "Back to 1/5: a cold cloud collapses…",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 30,
+     "only": "portrait"
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_orb": {
+       "x": 0.42,
+       "y": 0.52,
+       "w": 0.66,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_d": {
+       "x": 0.84,
+       "y": 0.36,
+       "w": 0.28,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.84,
+       "y": 0.6,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8805,
+       "y": 0.085,
+       "w": 0.1189,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift while the orbit draws"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_orb": {
+       "x": 0.5,
+       "y": 0.36,
+       "w": 0.96,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_d": {
+       "x": 0.5,
+       "y": 0.58,
+       "w": 0.56,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_n": {
+       "x": 0.5,
+       "y": 0.67,
+       "w": 0.7,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.2115,
+       "z": 6,
+       "depth": 1.0
+      },
+      "e_nS05": {
+       "x": 0.5,
+       "y": 0.74,
+       "w": 0.8,
+       "z": 9,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.04
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [
+    "S05"
+   ],
+   "assetIds": [],
+   "qaRisk": [],
+   "timing": {
+    "startS": 187.8,
+    "endS": 201.17,
+    "firstWord": 525,
+    "lastWord": 559
+   }
+  },
+  {
+   "id": "z1",
+   "section": "recap",
+   "claimIds": [
+    "C06_balance"
+   ],
+   "narration": "So that's the whole journey. A cold cloud collapses. A protostar ignites. For millions of years, pressure holds gravity back.",
+   "intent": "recap",
+   "retentionBeat": "settle",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_r0",
+     "role": "subject",
+     "assetId": "g_clump",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     }
+    },
+    {
+     "id": "e_t0",
+     "role": "label",
+     "text": "cloud",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     }
+    },
+    {
+     "id": "e_r1",
+     "role": "subject",
+     "assetId": "g_protostar",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 10
+    },
+    {
+     "id": "e_t1",
+     "role": "label",
+     "text": "protostar",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 10
+    },
+    {
+     "id": "e_r2",
+     "role": "subject",
+     "assetId": "g_ignite",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 16
+    },
+    {
+     "id": "e_t2",
+     "role": "label",
+     "text": "star",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 16
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_r0": {
+       "x": 0.2,
+       "y": 0.25,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t0": {
+       "x": 0.2,
+       "y": 0.44,
+       "w": 0.085,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r1": {
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t1": {
+       "x": 0.5,
+       "y": 0.44,
+       "w": 0.153,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r2": {
+       "x": 0.8,
+       "y": 0.25,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t2": {
+       "x": 0.8,
+       "y": 0.44,
+       "w": 0.068,
+       "z": 2,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.03
+       },
+       "easing": "soft",
+       "reason": "slow drift over the recap"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_r0": {
+       "x": 0.28,
+       "y": 0.2,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t0": {
+       "x": 0.28,
+       "y": 0.29,
+       "w": 0.15,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r1": {
+       "x": 0.72,
+       "y": 0.2,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t1": {
+       "x": 0.72,
+       "y": 0.29,
+       "w": 0.27,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r2": {
+       "x": 0.28,
+       "y": 0.44,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t2": {
+       "x": 0.28,
+       "y": 0.53,
+       "w": 0.12,
+       "z": 2,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.03
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [
+    "g_clump",
+    "g_ignite",
+    "g_protostar"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 201.17,
+    "endS": 209.82,
+    "firstWord": 560,
+    "lastWord": 579
+   }
+  },
+  {
+   "id": "z2",
+   "section": "recap",
+   "claimIds": [
+    "C21_remnant"
+   ],
+   "narration": "Then the core falls, and what's left can disappear into the dark.",
+   "intent": "recap",
+   "retentionBeat": "settle",
+   "presentation": "illustration",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_stars",
+     "role": "backdrop",
+     "visual": {
+      "component": "starfield",
+      "props": {
+       "seed": 7
+      }
+     },
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_r0",
+     "role": "subject",
+     "assetId": "g_clump",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_t0",
+     "role": "label",
+     "text": "cloud",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_r1",
+     "role": "subject",
+     "assetId": "g_protostar",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_t1",
+     "role": "label",
+     "text": "protostar",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_r2",
+     "role": "subject",
+     "assetId": "g_ignite",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_t2",
+     "role": "label",
+     "text": "star",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_r3",
+     "role": "subject",
+     "assetId": "g_supergiant",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_t3",
+     "role": "label",
+     "text": "supergiant",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_r4",
+     "role": "subject",
+     "assetId": "g_supernova",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 3
+    },
+    {
+     "id": "e_t4",
+     "role": "label",
+     "text": "supernova",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 3
+    },
+    {
+     "id": "e_r5",
+     "role": "subject",
+     "assetId": "g_blackhole",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 11
+    },
+    {
+     "id": "e_t5",
+     "role": "label",
+     "text": "black hole",
+     "enter": {
+      "style": "rise",
+      "durationMs": 400
+     },
+     "enterAtWord": 11
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_r0": {
+       "x": 0.2,
+       "y": 0.25,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t0": {
+       "x": 0.2,
+       "y": 0.44,
+       "w": 0.085,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r1": {
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t1": {
+       "x": 0.5,
+       "y": 0.44,
+       "w": 0.153,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r2": {
+       "x": 0.8,
+       "y": 0.25,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t2": {
+       "x": 0.8,
+       "y": 0.44,
+       "w": 0.068,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r3": {
+       "x": 0.2,
+       "y": 0.63,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t3": {
+       "x": 0.2,
+       "y": 0.8200000000000001,
+       "w": 0.17,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r4": {
+       "x": 0.5,
+       "y": 0.63,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t4": {
+       "x": 0.5,
+       "y": 0.8200000000000001,
+       "w": 0.153,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r5": {
+       "x": 0.8,
+       "y": 0.63,
+       "w": 0.26,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t5": {
+       "x": 0.8,
+       "y": 0.8200000000000001,
+       "w": 0.17,
+       "z": 2,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.03
+       },
+       "easing": "soft",
+       "reason": "slow drift over the recap"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_stars": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": -1,
+       "depth": 0.0
+      },
+      "e_r0": {
+       "x": 0.28,
+       "y": 0.2,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t0": {
+       "x": 0.28,
+       "y": 0.29,
+       "w": 0.15,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r1": {
+       "x": 0.72,
+       "y": 0.2,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t1": {
+       "x": 0.72,
+       "y": 0.29,
+       "w": 0.27,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r2": {
+       "x": 0.28,
+       "y": 0.44,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t2": {
+       "x": 0.28,
+       "y": 0.53,
+       "w": 0.12,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r3": {
+       "x": 0.72,
+       "y": 0.44,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t3": {
+       "x": 0.72,
+       "y": 0.53,
+       "w": 0.3,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r4": {
+       "x": 0.28,
+       "y": 0.6799999999999999,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t4": {
+       "x": 0.28,
+       "y": 0.77,
+       "w": 0.27,
+       "z": 2,
+       "depth": 0.0
+      },
+      "e_r5": {
+       "x": 0.72,
+       "y": 0.6799999999999999,
+       "w": 0.4,
+       "z": 1,
+       "depth": 0.0
+      },
+      "e_t5": {
+       "x": 0.72,
+       "y": 0.77,
+       "w": 0.3,
+       "z": 2,
+       "depth": 0.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.03
+       },
+       "easing": "soft",
+       "reason": "slow drift"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [
+    "g_blackhole",
+    "g_clump",
+    "g_ignite",
+    "g_protostar",
+    "g_supergiant",
+    "g_supernova"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 209.82,
+    "endS": 213.8,
+    "firstWord": 580,
+    "lastWord": 591
+   }
+  },
+  {
+   "id": "z3",
+   "section": "loop",
+   "claimIds": [
+    "C28_enrich",
+    "C01_pillars"
+   ],
+   "narration": "But the gas the star threw away, it's already becoming the next cloud.",
+   "intent": "loop",
+   "retentionBeat": "next_question",
+   "presentation": "archival",
+   "visualIntensity": 1,
+   "transition": {
+    "type": "cut"
+   },
+   "voice": {
+    "intent": "keep the master read",
+    "emotion": "warm-explanatory",
+    "intensity": 1,
+    "pace": "steady",
+    "emphasisWords": [],
+    "pauseBeforeMs": 0,
+    "pauseAfterMs": 0
+   },
+   "entities": [
+    {
+     "id": "e_pil",
+     "role": "backdrop",
+     "assetId": "r_pillars",
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     }
+    },
+    {
+     "id": "e_tag",
+     "role": "context",
+     "visual": {
+      "component": "tag",
+      "props": {
+       "text": "Real image · Webb"
+      }
+     },
+     "enter": {
+      "style": "fade",
+      "durationMs": 300
+     }
+    },
+    {
+     "id": "e_l",
+     "role": "subject",
+     "text": "the next cloud",
+     "enter": {
+      "style": "pop",
+      "durationMs": 350
+     },
+     "enterAtWord": 11
+    }
+   ],
+   "layouts": {
+    "landscape": {
+     "placements": {
+      "e_pil": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 1.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.18,
+       "w": 0.3,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.8161,
+       "y": 0.085,
+       "w": 0.2477,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.47,
+        "y": 0.44,
+        "scale": 1.12
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.0
+       },
+       "easing": "soft",
+       "reason": "pull back to the opening view: the cycle starts again"
+      }
+     ]
+    },
+    "portrait": {
+     "placements": {
+      "e_pil": {
+       "x": 0.5,
+       "y": 0.5,
+       "w": 3.0,
+       "z": 0,
+       "depth": 0.0
+      },
+      "e_l": {
+       "x": 0.5,
+       "y": 0.25,
+       "w": 0.6,
+       "z": 3,
+       "depth": 0.0
+      },
+      "e_tag": {
+       "x": 0.5,
+       "y": 0.105,
+       "w": 0.4408,
+       "z": 6,
+       "depth": 1.0
+      }
+     },
+     "camera": [
+      {
+       "from": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.18
+       },
+       "to": {
+        "x": 0.5,
+        "y": 0.5,
+        "scale": 1.06
+       },
+       "easing": "soft",
+       "reason": "pull back: the cycle starts again"
+      }
+     ]
+    }
+   },
+   "shortIds": [],
+   "assetIds": [
+    "r_pillars"
+   ],
+   "qaRisk": [],
+   "timing": {
+    "startS": 213.8,
+    "endS": 218.55,
+    "firstWord": 592,
+    "lastWord": 604
+   }
+  }
+ ]
+}

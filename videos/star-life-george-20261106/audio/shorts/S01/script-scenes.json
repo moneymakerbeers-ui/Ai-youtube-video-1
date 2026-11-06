@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    {
+      "id": "c1",
+      "narration": "It starts in a molecular cloud. Cold gas, with up to 10 million times the mass of the Sun,"
+    },
+    {
+      "id": "c2",
+      "narration": "stretched across hundreds of light-years."
+    },
+    {
+      "id": "c3",
+      "narration": "Some clumps gather more matter, and their gravity grows stronger. One collapses and heats up."
+    },
+    {
+      "id": "p1",
+      "narration": "That's a protostar. It isn't burning anything yet."
+    },
+    {
+      "id": "p2",
+      "narration": "It keeps gaining mass. Its core gets hotter and denser."
+    },
+    {
+      "id": "f1",
+      "narration": "At about 15 million degrees, hydrogen nuclei are squeezed together so hard that they fuse into helium. That's nuclear fusion."
+    },
+    {
+      "id": "f2",
+      "narration": "And in that moment, a star is born."
+    }
+  ]
+}

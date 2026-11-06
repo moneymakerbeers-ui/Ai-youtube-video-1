@@ -1,0 +1,388 @@
+{
+ "assets": [
+  {
+   "id": "r_pillars",
+   "kind": "image",
+   "file": "assets/r_pillars.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://esawebb.org/images/weic2216b/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/images/weic2216b/",
+    "attribution": "NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI)",
+    "evidenceFile": "assets/_licenses/r_pillars.txt"
+   },
+   "width": 2560,
+   "height": 1440,
+   "usedBy": [
+    "s01",
+    "s02",
+    "s03",
+    "s39"
+   ]
+  },
+  {
+   "id": "r_carina",
+   "kind": "image",
+   "file": "assets/r_carina.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://esawebb.org/images/weic2205a/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/images/weic2205a/",
+    "attribution": "NASA, ESA, CSA, and STScI",
+    "evidenceFile": "assets/_licenses/r_carina.txt"
+   },
+   "width": 2560,
+   "height": 1440,
+   "usedBy": [
+    "s04",
+    "s05"
+   ]
+  },
+  {
+   "id": "r_rhooph",
+   "kind": "image",
+   "file": "assets/r_rhooph.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://esawebb.org/images/weic2316a/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://esawebb.org/images/weic2316a/",
+    "attribution": "NASA, ESA, CSA, STScI, K. Pontoppidan (STScI), A. Pagan (STScI)",
+    "evidenceFile": "assets/_licenses/r_rhooph.txt"
+   },
+   "width": 2560,
+   "height": 1440,
+   "usedBy": [
+    "s09"
+   ]
+  },
+  {
+   "id": "r_helix",
+   "kind": "image",
+   "file": "assets/r_helix.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://esahubble.org/images/heic0307a/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/images/heic0307a/",
+    "attribution": "NASA, NOAO, ESA, the Hubble Helix Nebula Team, M. Meixner (STScI), and T.A. Rector (NRAO)",
+    "evidenceFile": "assets/_licenses/r_helix.txt"
+   },
+   "width": 2000,
+   "height": 2000,
+   "usedBy": [
+    "s16"
+   ]
+  },
+  {
+   "id": "r_crab",
+   "kind": "image",
+   "file": "assets/r_crab.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://esahubble.org/images/heic0515a/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/images/heic0515a/",
+    "attribution": "NASA, ESA and Allison Loll/Jeff Hester (Arizona State University); acknowledgement Davide De Martin (ESA/Hubble)",
+    "evidenceFile": "assets/_licenses/r_crab.txt"
+   },
+   "width": 2400,
+   "height": 2400,
+   "usedBy": [
+    "s26"
+   ]
+  },
+  {
+   "id": "r_sn_hubble",
+   "kind": "image",
+   "file": "assets/r_sn_hubble.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://esahubble.org/images/opo9919i/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/images/opo9919i/",
+    "attribution": "NASA/ESA, The Hubble Key Project Team and The High-Z Supernova Search Team",
+    "evidenceFile": "assets/_licenses/r_sn_hubble.txt"
+   },
+   "width": 2560,
+   "height": 1440,
+   "usedBy": [
+    "s24"
+   ]
+  },
+  {
+   "id": "r_n6946",
+   "kind": "image",
+   "file": "assets/r_n6946.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://esahubble.org/images/opo1719b/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://esahubble.org/images/opo1719b/",
+    "attribution": "NASA, ESA, and C. Kochanek (OSU)",
+    "evidenceFile": "assets/_licenses/r_n6946.txt"
+   },
+   "width": 1800,
+   "height": 1200,
+   "usedBy": [
+    "s35",
+    "s36"
+   ]
+  },
+  {
+   "id": "r_eht",
+   "kind": "image",
+   "file": "assets/r_eht.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://www.eso.org/public/images/eso1907a/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://www.eso.org/public/images/eso1907a/",
+    "attribution": "EHT Collaboration",
+    "evidenceFile": "assets/_licenses/r_eht.txt"
+   },
+   "width": 2560,
+   "height": 1440,
+   "usedBy": [
+    "s31"
+   ]
+  },
+  {
+   "id": "r_gaiabh3_art",
+   "kind": "image",
+   "file": "assets/r_gaiabh3_art.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://www.eso.org/public/images/eso2408a/"
+   },
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://www.eso.org/public/images/eso2408a/",
+    "attribution": "ESO/L. Calçada/Space Engine (spaceengine.org)",
+    "evidenceFile": "assets/_licenses/r_gaiabh3_art.txt"
+   },
+   "width": 2560,
+   "height": 1440,
+   "usedBy": [
+    "s34"
+   ]
+  },
+  {
+   "id": "r_casa",
+   "kind": "image",
+   "file": "assets/r_casa.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://chandra.harvard.edu/photo/2017/casa_life/"
+   },
+   "license": {
+    "name": "NASA/Chandra: no copyright asserted, credit requested",
+    "url": "https://chandra.harvard.edu/photo/2017/casa_life/",
+    "attribution": "NASA/CXC/SAO",
+    "evidenceFile": "assets/_licenses/r_casa.txt"
+   },
+   "width": 864,
+   "height": 864,
+   "usedBy": [
+    "s27"
+   ]
+  },
+  {
+   "id": "r_cygx1_art",
+   "kind": "image",
+   "file": "assets/r_cygx1_art.jpg",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://chandra.harvard.edu/photo/2011/cygx1/"
+   },
+   "license": {
+    "name": "NASA/Chandra: no copyright asserted, credit requested",
+    "url": "https://chandra.harvard.edu/photo/2011/cygx1/",
+    "attribution": "Illustration: NASA/CXC/M.Weiss",
+    "evidenceFile": "assets/_licenses/r_cygx1_art.txt"
+   },
+   "width": 1728,
+   "height": 972,
+   "usedBy": [
+    "s32",
+    "s33"
+   ]
+  },
+  {
+   "id": "r_sun",
+   "kind": "image",
+   "file": "assets/r_sun.png",
+   "route": "retrieved",
+   "provenance": {
+    "tool": "curl",
+    "sourceUrl": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0304.jpg"
+   },
+   "license": {
+    "name": "NASA SDO: not copyrighted unless noted, attribution requested",
+    "url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0304.jpg",
+    "attribution": "NASA/SDO and the AIA science team",
+    "evidenceFile": "assets/_licenses/r_sun.txt"
+   },
+   "width": 1888,
+   "height": 1888,
+   "usedBy": [
+    "s13"
+   ],
+   "hasAlpha": true
+  },
+  {
+   "id": "g_clump",
+   "kind": "image",
+   "file": "assets/g_clump.png",
+   "route": "generated_image",
+   "provenance": {
+    "tool": "higgsfield",
+    "model": "nano_banana_2 (requested; job metadata reports nano_banana_flash), resolution 2k, aspect 16:9",
+    "prompt": "A single dense, dark clump of cold gas and dust inside a vast molecular cloud, just beginning to collapse under its own gravity; a faint warm glow at its very centre; wisps of gas spiralling inward;  Scientific illustration with photographic realism, deep near-black space background with fine star grain, warm amber starlight and cool blue-grey neutrals, subject centred with generous dark margins so it can be cropped to 16:9 and to a tall 9:16 centre strip, no lens flare, no text, no labels, no numbers, no watermark.",
+    "jobId": "26c0fc76-e687-41e7-a8d4-b6e73f44045e"
+   },
+   "creditsSpent": 2,
+   "width": 2560,
+   "height": 1440,
+   "hasAlpha": false,
+   "usedBy": [
+    "s06",
+    "s37",
+    "s38"
+   ]
+  },
+  {
+   "id": "g_protostar",
+   "kind": "image",
+   "file": "assets/g_protostar.png",
+   "route": "generated_image",
+   "provenance": {
+    "tool": "higgsfield",
+    "model": "nano_banana_2 (requested; job metadata reports nano_banana_flash), resolution 2k, aspect 16:9",
+    "prompt": "A young protostar: a small hot glowing core wrapped in a flattened dusty disk and a thick envelope of gas, two thin opposite jets of glowing gas shooting out from its poles;  Scientific illustration with photographic realism, deep near-black space background with fine star grain, warm amber starlight and cool blue-grey neutrals, subject centred with generous dark margins so it can be cropped to 16:9 and to a tall 9:16 centre strip, no lens flare, no text, no labels, no numbers, no watermark.",
+    "jobId": "7702a533-4122-4cc7-b878-6788e0d446b9"
+   },
+   "creditsSpent": 2,
+   "width": 2560,
+   "height": 1440,
+   "hasAlpha": false,
+   "usedBy": [
+    "s07",
+    "s08",
+    "s37",
+    "s38"
+   ]
+  },
+  {
+   "id": "g_ignite",
+   "kind": "image",
+   "file": "assets/g_ignite.png",
+   "route": "generated_image",
+   "provenance": {
+    "tool": "higgsfield",
+    "model": "nano_banana_2 (requested; job metadata reports nano_banana_flash), resolution 2k, aspect 16:9",
+    "prompt": "The moment a newborn star ignites: a bright young star at the centre of a clearing cocoon of gas and dust, its light pushing the surrounding material outward into a glowing cavity;  Scientific illustration with photographic realism, deep near-black space background with fine star grain, warm amber starlight and cool blue-grey neutrals, subject centred with generous dark margins so it can be cropped to 16:9 and to a tall 9:16 centre strip, no lens flare, no text, no labels, no numbers, no watermark.",
+    "jobId": "dba0ca5d-7577-45c2-bd66-e3e72caa28dd"
+   },
+   "creditsSpent": 2,
+   "width": 2560,
+   "height": 1440,
+   "hasAlpha": false,
+   "usedBy": [
+    "s11",
+    "s37",
+    "s38"
+   ]
+  },
+  {
+   "id": "g_supergiant",
+   "kind": "image",
+   "file": "assets/g_supergiant.png",
+   "route": "generated_image",
+   "provenance": {
+    "tool": "higgsfield",
+    "model": "nano_banana_2 (requested; job metadata reports nano_banana_flash), resolution 2k, aspect 16:9",
+    "prompt": "A vast red supergiant star filling the centre of the frame, its huge mottled surface with giant convection cells, a faint extended atmosphere fading into space;  Scientific illustration with photographic realism, deep near-black space background with fine star grain, warm amber starlight and cool blue-grey neutrals, subject centred with generous dark margins so it can be cropped to 16:9 and to a tall 9:16 centre strip, no lens flare, no text, no labels, no numbers, no watermark.",
+    "jobId": "db119fb4-6916-4638-a699-201fbc4a689d"
+   },
+   "creditsSpent": 2,
+   "width": 2560,
+   "height": 1440,
+   "hasAlpha": false,
+   "usedBy": [
+    "s18",
+    "s38"
+   ]
+  },
+  {
+   "id": "g_supernova",
+   "kind": "image",
+   "file": "assets/g_supernova.png",
+   "route": "generated_image",
+   "provenance": {
+    "tool": "higgsfield",
+    "model": "nano_banana_2 (requested; job metadata reports nano_banana_flash), resolution 2k, aspect 16:9",
+    "prompt": "A core-collapse supernova seen from a distance: a shock wave of glowing debris tearing outward through the shell of a red supergiant, filaments of hot gas in orange, gold and violet, centre bright but not a white-out;  Scientific illustration with photographic realism, deep near-black space background with fine star grain, warm amber starlight and cool blue-grey neutrals, subject centred with generous dark margins so it can be cropped to 16:9 and to a tall 9:16 centre strip, no lens flare, no text, no labels, no numbers, no watermark.",
+    "jobId": "1710684e-695b-4d8f-a955-d9cdd47f556f"
+   },
+   "creditsSpent": 2,
+   "width": 2560,
+   "height": 1440,
+   "hasAlpha": false,
+   "usedBy": [
+    "s23",
+    "s38"
+   ]
+  },
+  {
+   "id": "g_blackhole",
+   "kind": "image",
+   "file": "assets/g_blackhole.png",
+   "route": "generated_image",
+   "provenance": {
+    "tool": "higgsfield",
+    "model": "nano_banana_2 (requested; job metadata reports nano_banana_flash), resolution 2k, aspect 16:9",
+    "prompt": "A stellar-mass black hole left behind by a supernova: a perfectly dark round silhouette at the centre, ringed by a thin bright ring of bent light and a faint glowing disk of infalling gas, faint remnant nebula filaments around it;  Scientific illustration with photographic realism, deep near-black space background with fine star grain, warm amber starlight and cool blue-grey neutrals, subject centred with generous dark margins so it can be cropped to 16:9 and to a tall 9:16 centre strip, no lens flare, no text, no labels, no numbers, no watermark.",
+    "jobId": "1948d9a1-571d-4153-8b9c-f9c51cbc4ac8"
+   },
+   "creditsSpent": 2,
+   "width": 2560,
+   "height": 1440,
+   "hasAlpha": false,
+   "usedBy": [
+    "s03",
+    "s30",
+    "s38"
+   ]
+  }
+ ]
+}

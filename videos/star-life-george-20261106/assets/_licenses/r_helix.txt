@@ -1,0 +1,692 @@
+asset: r_helix
+source page: https://esahubble.org/images/heic0307a/
+source file: heic0307a.jpg
+credit: NASA, NOAO, ESA, the Hubble Helix Nebula Team, M. Meixner (STScI), and T.A. Rector (NRAO)
+license: CC BY 4.0
+shows: Helix Nebula: shed outer layers around a white dwarf
+retrieved: 2026-10-31 (curl)
+processing: crop None, resize to (2000, 2000)
+
+===== licence / usage page text =====
+SOURCE: https://esahubble.org/copyright/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Copyright Information | ESA/Hubble | ESA/Hubble
+ Contact
+ Subscribe to Hubble News
+ Site Map
+ Open Menu
+Home
+News
+Press Releases
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+Announcements
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+Picture of the Week
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+Images
+View All
+Top 100
+Top 100 Large Size (ZIP file, 1.2GB)
+Top 100 Original Size (ZIP file, 4.7GB)
+Categories
+Anniversary
+Cosmology
+Exoplanets
+Galaxies
+Illustrations
+James Webb Space Telescope
+Launch/Servicing Missions
+Miscellaneous
+Nebulae
+ Quasars & Black Holes
+Solar System
+Spacecraft
+Star Clusters
+Stars
+Image Formats
+Picture of the Month
+Picture of the Week
+Advanced Search
+Usage of Images and Videos
+Videos
+View All
+Categories
+3D Animations
+Cosmology
+Fulldome
+Exoplanets
+Eyes on the Skies DVD
+Galaxies
+HD Videos
+Hubble 15 Years DVD
+Hubble Images Videos
+Hubblecast
+James Webb Space Telescope
+Miscellaneous
+Nebulae
+Quasars & Black Holes
+Solar System
+Spacecraft
+Space Sparks
+Star Clusters
+Stars
+Video Formats
+Advanced Search
+Usage of Images and Videos
+Newsletters
+ESA/Hubble News
+Science Announcements
+ESA/Hubble/Webb Science Newsletter
+Subscribe to the ESA/Hubble/Webb Science Newsletter
+Initiatives
+Word Bank
+Calendars
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+Art and Science
+Our Place in Space
+30th Anniversary Creations
+Anniversaries
+35th Anniversary
+31st Anniversary
+30th Anniversary
+25th Anniversary
+Ode to Hubble Competition
+Fulldome Clips
+Symposium
+Image Unveilings Across Europe
+Resources
+20th Anniversary
+Events and Exhibitions
+Hubble Pop Culture Contest
+15th Anniversary
+News Release
+Movie DVD
+Partners
+Hubble Day Events
+Educational Material
+Soundtrack 
+Hubble Anniversary Book
+Outlets/resellers
+About the Production Team
+Poster
+Planetarium Show Package
+Credits
+Exhibitions
+Our Place in Space
+OPiS room description
+Applications
+FITS Liberator
+News
+Download
+User Guide (PDF)
+Image processing introduction 
+FITS for education
+Example data sets and links to archives
+User's Gallery
+Known issues and FAQ
+Download past versions
+Documents
+Step-by-step guide to making your own images
+Projects
+Hidden Treasures
+Public Resources
+Virtual Meeting Backgrounds
+About
+General
+Fact Sheet
+Instruments
+WFC3
+ACS
+COS
+STIS
+NICMOS
+FGS
+WFPC2
+WFPC1
+COSTAR
+FOC
+FOS
+GHRS
+HSP
+Operations
+Institutions
+Solar Panels
+Gyroscopes
+Batteries
+Soft Capture
+Science
+The Hubble Deep Fields 
+Age and size of the Universe
+The lives of stars
+The solar neighbourhood
+Exoplanets and proto-planetary discs
+Black Holes, Quasars, and Active Galaxies
+Formation of stars
+Composition of the Universe
+Gravitational lenses
+Multi-messenger astronomy
+Europe & Hubble
+History
+Timeline
+Launch 1990
+Servicing Mission 1
+Servicing Mission 2
+Servicing Mission 3A
+Servicing Mission 3B
+Servicing Mission 4
+IMAX Camera
+Tools
+Thermal
+Crew
+ACS Repair
+STIS Repair
+SM4 Timeline
+ESA
+The scientist behind the name
+The mother of Hubble
+Hubble's mirror problem
+FAQ
+Glossary
+ESA/Hubble Team
+ESA/Hubble Outreach Team
+Further Information
+Press Kits
+For Scientists
+Newsworthy Results
+Press
+Usage of ESA/Hubble Images and Videos
+Press Kits
+Subscribe to ESA/Hubble News
+Interview Possibilities
+Press Mailing List
+Video Formats
+Image Formats
+ ×
+ Page saved successfully
+ ×
+ Couldn't save page :( Please try again.
+Usage of images, videos and web texts
+Summary
+ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 4.0 International license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. Detailed conditions are below.
+Conditions
+The full image or footage credit must be presented in a clear and readable manner to all users, with the wording unaltered (for example: "ESA/Hubble"). Web texts should be credited to ESA/Hubble (except when used by media). The credit should not be hidden or disassociated from the image footage. Links should be active if the credit is online. See the usage rights Q&A section on this page for guidance.
+ESA/Hubble materials may not be used to state or imply the endorsement by ESA/Hubble or any ESA/Hubble employee of a commercial product or service;
+If an image shows an identifiable person, using that image for commercial purposes may infringe that person's right of privacy, and separate permission should be obtained from the individual.
+If images or visuals are changed significantly from the original work (apart from resizing, cropping), we suggest that the changes are mentioned after the credit line. For example "Original image by ESA/Hubble (M. Kornmesser), warping and recolouring by NN"
+Notes
+Note that this general permission does not extend to the use of ESA/Hubble's logos, which shall remain protected and may not be used or reproduced without prior and individual written consent of ESA/Hubble. Owners of external websites wishing to link to the ESA/Hubble web site may use ESA/Hubble's logo for the link, provided they have obtained prior authorisation from ESA/Hubble and on the condition that such use is clearly identifiable as a web link.
+Also note that music, scientific papers and code on this site are not released under the Creative Commons Attribution 4.0 International license and can not be used for non-ESA/Hubble products.
+By reproducing ESA/Hubble material, in part or in full, the user acknowledges the terms on which such use is permitted.
+Usage rights Q&A
+Our basic intention is to encourage the use of our material and we take a common-sense approach to crediting: our only concern is that you credit clearly, visibly and unambiguously and that the credit is not separated from the image/footage/text. We understand that the most appropriate way of doing so may vary from case to case. See the Q&A below for some common examples.
+Q: I want to use the footage in a YouTube video. Is it OK just to put the credit in the text description that appears next to the video?
+A: No, as this is hidden inside a tab. Also it is not visible if the video is embedded in another website. Please include the full credit ‘burned in’ or overlaid on the video, or clearly visible as a credit at the end.
+Q: I want to upload a Hubblecast to my YouTube channel, or embed this in my blog. Do I need to add a credit ‘burned in’ or overlaid on the video?
+A: Hubblecast videos already have a credit at the end, so you do not need to edit it.
+Q: I am a producer for a TV programme and wish to use your images and footage. Do I need to overlay the credit on the image?
+A: You do not need to, provided the credit is clearly visible and reproduced in full at the end of the programme.
+Q: I am a picture editor for a newspaper/magazine. Some of your credits are kind of long. Can’t I just use the first part of the credit? 
+A: No. Please reproduce the credit in full. This should normally be on the page which the picture is presented on, or on the facing page.
+Q: I am a picture editor for a News Agency. We prefer to use our own name as credit for the images and not tell anyone from where we got them. Is that ok? 
+A: No. Please reproduce the credit in full. This should normally be on the page which the picture is presented on, or on the facing page.
+Q: I want to use a picture on the cover of a book/magazine. Does the credit have to appear on the cover?
+A: No. Provided it is clearly visible and identified as being the credit for the cover image, the credit can appear in another prominent place in your publication. This could, for example, be the back cover, the inside front cover or the editorial page.
+Q: Do I need to contact all the people named in the credit line for permission to use an image or video? 
+A: No. Images and videos published on esahubble.org are, unless explicitly stated otherwise, cleared for reuse without needing to contact the individuals or organisations listed. Their names must not be removed from the credit, however.
+Q: I would like to digitally alter or manipulate an image. Is this OK? 
+ A: Yes. We suggest that you mention the changes after the credit line, for example: "Original image by ESA/Hubble (M. Kornmesser), warped and recoloured by NN".
+Q: I would like to edit, expand or cut text from esahubble.org. Is this OK? 
+A: Yes.
+Q: Can I just overlay the ESA/Hubble logo instead of the credit? 
+A: No. The use of the ESA/Hubble logo is controlled and it must not be reproduced without permission.
+Q: Do these copyright terms also apply to images and footage from HubbleSite.org? 
+A: NASA’s HubbleSite.org has similar but slightly different conditions. Any material made available on the ESA/Hubble website at esahubble.org can be reproduced without seeking separate permission from HubbleSite.org or other organisations, even if it also appears on their website.
+Q: I am a journalist. I want to use the text of a press release in a news report. Do I need to credit you? 
+A: No. News media are excepted from the requirement to credit the text. (You must, however, properly credit any images or videos you use).
+Q: I am an editor of a publishing company. I want to use text from esahubble.org in a book. Do I need to credit you? 
+A: No, media including book publishers are exempted from crediting text.
+Q: How should I credit text taken from esahubble.org? 
+ A: Please credit us as “ESA/Hubble”.
+Q: I am an artist and I have produced artwork based on Hubble images. Can I sell my artwork for my profit?
+A: Yes, artwork you produced based on Hubble images may be sold for your own profit as long as you credit clearly and visibly.
+If you have further questions, or are in any doubt, please contact [email protected].
+ Privacy policy
+ Website developed and operated by Enciso Systems
+ Accelerated by CDN77
+
+
+===== image page text (credit line) =====
+SOURCE: https://esahubble.org/images/heic0307a/
+RETRIEVED: 2026-10-31 via curl, text extracted from HTML
+
+Iridescent Glory of Nearby Planetary Nebula Showcased on Astronomy Day | ESA/Hubble
+ Contact
+ Subscribe to Hubble News
+ Site Map
+ Open Menu
+Home
+News
+Press Releases
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+Announcements
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+Picture of the Week
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+Images
+View All
+Top 100
+Top 100 Large Size (ZIP file, 1.2GB)
+Top 100 Original Size (ZIP file, 4.7GB)
+Categories
+Anniversary
+Cosmology
+Exoplanets
+Galaxies
+Illustrations
+James Webb Space Telescope
+Launch/Servicing Missions
+Miscellaneous
+Nebulae
+ Quasars & Black Holes
+Solar System
+Spacecraft
+Star Clusters
+Stars
+Image Formats
+Picture of the Month
+Picture of the Week
+Advanced Search
+Usage of Images and Videos
+Videos
+View All
+Categories
+3D Animations
+Cosmology
+Fulldome
+Exoplanets
+Eyes on the Skies DVD
+Galaxies
+HD Videos
+Hubble 15 Years DVD
+Hubble Images Videos
+Hubblecast
+James Webb Space Telescope
+Miscellaneous
+Nebulae
+Quasars & Black Holes
+Solar System
+Spacecraft
+Space Sparks
+Star Clusters
+Stars
+Video Formats
+Advanced Search
+Usage of Images and Videos
+Newsletters
+ESA/Hubble News
+Science Announcements
+ESA/Hubble/Webb Science Newsletter
+Subscribe to the ESA/Hubble/Webb Science Newsletter
+Initiatives
+Word Bank
+Calendars
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+Art and Science
+Our Place in Space
+30th Anniversary Creations
+Anniversaries
+35th Anniversary
+31st Anniversary
+30th Anniversary
+25th Anniversary
+Ode to Hubble Competition
+Fulldome Clips
+Symposium
+Image Unveilings Across Europe
+Resources
+20th Anniversary
+Events and Exhibitions
+Hubble Pop Culture Contest
+15th Anniversary
+News Release
+Movie DVD
+Partners
+Hubble Day Events
+Educational Material
+Soundtrack 
+Hubble Anniversary Book
+Outlets/resellers
+About the Production Team
+Poster
+Planetarium Show Package
+Credits
+Exhibitions
+Our Place in Space
+OPiS room description
+Applications
+FITS Liberator
+News
+Download
+User Guide (PDF)
+Image processing introduction 
+FITS for education
+Example data sets and links to archives
+User's Gallery
+Known issues and FAQ
+Download past versions
+Documents
+Step-by-step guide to making your own images
+Projects
+Hidden Treasures
+Public Resources
+Virtual Meeting Backgrounds
+About
+General
+Fact Sheet
+Instruments
+WFC3
+ACS
+COS
+STIS
+NICMOS
+FGS
+WFPC2
+WFPC1
+COSTAR
+FOC
+FOS
+GHRS
+HSP
+Operations
+Institutions
+Solar Panels
+Gyroscopes
+Batteries
+Soft Capture
+Science
+The Hubble Deep Fields 
+Age and size of the Universe
+The lives of stars
+The solar neighbourhood
+Exoplanets and proto-planetary discs
+Black Holes, Quasars, and Active Galaxies
+Formation of stars
+Composition of the Universe
+Gravitational lenses
+Multi-messenger astronomy
+Europe & Hubble
+History
+Timeline
+Launch 1990
+Servicing Mission 1
+Servicing Mission 2
+Servicing Mission 3A
+Servicing Mission 3B
+Servicing Mission 4
+IMAX Camera
+Tools
+Thermal
+Crew
+ACS Repair
+STIS Repair
+SM4 Timeline
+ESA
+The scientist behind the name
+The mother of Hubble
+Hubble's mirror problem
+FAQ
+Glossary
+ESA/Hubble Team
+ESA/Hubble Outreach Team
+Further Information
+Press Kits
+For Scientists
+Newsworthy Results
+Press
+Usage of ESA/Hubble Images and Videos
+Press Kits
+Subscribe to ESA/Hubble News
+Interview Possibilities
+Press Mailing List
+Video Formats
+Image Formats
+Iridescent Glory of Nearby Planetary Nebula Showcased on Astronomy Day
+In one of the largest and most detailed celestial images ever made, the coil-shaped Helix Nebula is being unveiled tomorrow in celebration of Astronomy Day (Saturday, May 10).
+The composite picture is a seamless blend of ultra-sharp NASA/ESA Hubble Space Telescope HST) images combined with the wide view of the Mosaic Camera on the National Science Foundation's 0.9-meter telescope at Kitt Peak National Observatory, part of the National Optical Astronomy Observatory, near Tucson, Ariz. Astronomers at the Space Telescope Science Institute assembled these images into a mosaic. The mosaic was then blended with a wider photograph taken by the Mosaic Camera. The image shows a fine web of filamentary "bicycle-spoke" features embedded in the colorful red and blue gas ring, which is one of the nearest planetary nebulae to Earth.
+Because the nebula is nearby, it appears as nearly one-half the diameter of the full Moon. This required HST astronomers to take several exposures with the Advanced Camera for Surveys to capture most of the Helix. HST views were then blended with a wider photo taken by the Mosaic Camera. The portrait offers a dizzying look down what is actually a trillion-mile-long tunnel of glowing gases. The fluorescing tube is pointed nearly directly at Earth, so it looks more like a bubble than a cylinder. A forest of thousands of comet-like filaments, embedded along the inner rim of the nebula, points back toward the central star, which is a small, super-hot white dwarf.
+The tentacles formed when a hot "stellar wind" of gas plowed into colder shells of dust and gas ejected previously by the doomed star. Ground-based telescopes have seen these comet-like filaments for decades, but never before in such detail. The filaments may actually lie in a disk encircling the hot star, like a collar. The radiant tie-die colours correspond to glowing oxygen (blue) and hydrogen and nitrogen (red).
+Valuable Hubble observing time became available during the November 2002 Leonid meteor storm. To protect the spacecraft, including HST's precise mirror, controllers turned the aft end into the direction of the meteor stream for about half a day. Fortunately, the Helix Nebula was almost exactly in the opposite direction of the meteor stream, so Hubble used nine orbits to photograph the nebula while it waited out the storm. To capture the sprawling nebula, Hubble had to take nine separate snapshots.
+Planetary nebulae like the Helix are sculpted late in a Sun-like star's life by a torrential gush of gases escaping from the dying star. They have nothing to do with planet formation, but got their name because they look like planetary disks when viewed through a small telescope. With higher magnification, the classic "donut-hole" in the middle of a planetary nebula can be resolved. Based on the nebula's distance of 650 light-years, its angular size corresponds to a huge ring with a diameter of nearly 3 light-years. That's approximately three-quarters of the distance between our Sun and the nearest star.
+The Helix Nebula is a popular target of amateur astronomers and can be seen with binoculars as a ghostly, greenish cloud in the constellation Aquarius. Larger amateur telescopes can resolve the ring-shaped nebula, but only the largest ground-based telescopes can resolve the radial streaks. After careful analysis, astronomers concluded the nebula really isn't a bubble, but is a cylinder that happens to be pointed toward Earth.
+Credit:
+NASA, NOAO, ESA, the Hubble Helix Nebula Team, M. Meixner (STScI), and T.A. Rector (NRAO).
+ Usage of ESA/Hubble Images and Videos
+ Are you a journalist? Subscribe to the ESA/Hubble Media Newsletter.
+About the Image
+NASA press release
+Id:heic0307a
+Type:Observation
+Release date:9 May 2003, 15:00
+Related releases:heic0307
+Size:8000 x 8000 px
+About the Object
+Name:Helix Nebula, NGC 7293
+Type:Milky Way : Nebula : Type : Planetary
+Distance:2500 light years
+Constellation:Aquarius
+Category:Nebulae
+Image Formats
+Fullsize Original
+147.9 MB checksum
+Large JPEG
+ 33.6 MB
+Publication TIFF 4K
+ 37.9 MB
+Publication JPEG
+ 13.0 MB
+Screensize JPEG
+ 179.8 KB
+Print Layout
+Fullsize Original
+ 11.2 MB
+Screensize JPEG
+ 243.8 KB
+Zoomable
+Zoomable
+Classic Wallpapers
+1024x768
+ 210.8 KB
+1280x1024
+ 375.1 KB
+1600x1200
+ 639.3 KB
+1920x1200
+ 610.4 KB
+2048x1536
+ 864.0 KB
+Coordinates
+Position (RA):22 29 39.82
+Position (Dec):-20° 50' 19.81"
+Field of view:26.64 x 26.64 arcminutes
+Orientation:North is 0.4° left of vertical
+View in ESASky:
+View in WorldWide Telescope:
+Crossfade image:
+Optical (DSS2)
+Infrared (2MASS)
+Crossfade image:
+Colours & filters
+BandWavelengthTelescope
+Optical
+Oiii502 nm
+ Hubble Space Telescope
+ACS
+Optical
+Pseudogreen
+ Hubble Space Telescope
+ACS
+Optical
+H-alpha658 nm
+ Hubble Space Telescope
+ACS
+Notes: Additional information was contributed to this image by the National Science Foundation's 0.9-meter telescope at Kitt Peak National Observatory.
+ Privacy policy
+ Website developed and operated by Enciso Systems
+ Accelerated by CDN77

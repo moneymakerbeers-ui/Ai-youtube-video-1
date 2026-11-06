@@ -1,0 +1,183 @@
+{
+  "project": "star-life-george-20261106",
+  "idea": "Star life cycle re-edit (video 7): from dust to black hole, George narration",
+  "purpose": "production",
+  "madeAt": "2026-11-06T17:43:42",
+  "targets": {
+    "long": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [
+        {
+          "id": "c3>p1",
+          "type": "nested_scale",
+          "downgradedFrom": null,
+          "rationale": "the protostar is the inside of this collapsing clump: the zoom shows the same object one scale down"
+        },
+        {
+          "id": "f2>b1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the camera keeps travelling from the newborn star into what holds it up"
+        },
+        {
+          "id": "b2>m1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the motion carries on from our steady Sun to the stars that burn faster"
+        },
+        {
+          "id": "m4>o1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "we keep moving toward one of the heavy stars on the chart"
+        },
+        {
+          "id": "k3>e1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the shock wave's outward motion carries us to the night it was seen from Earth"
+        },
+        {
+          "id": "e2>e3",
+          "type": "depth_through_object",
+          "downgradedFrom": null,
+          "rationale": "we travel through one supernova remnant into another to see what remnants are made of"
+        },
+        {
+          "id": "r4>x1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the movement carries on from a star's black hole to the first real picture of one"
+        },
+        {
+          "id": "g3>z1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the orbit's motion carries us into the recap of the whole journey"
+        }
+      ],
+      "warnings": []
+    },
+    "S01": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [
+        {
+          "id": "c3>p1",
+          "type": "nested_scale",
+          "downgradedFrom": null,
+          "rationale": "the protostar is the inside of this collapsing clump: the zoom shows the same object one scale down"
+        }
+      ],
+      "warnings": []
+    },
+    "S02": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [],
+      "warnings": []
+    },
+    "S03": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [
+        {
+          "id": "k3>e1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the shock wave's outward motion carries us to the night it was seen from Earth"
+        }
+      ],
+      "warnings": []
+    },
+    "S04": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [],
+      "warnings": []
+    },
+    "S05": {
+      "file": null,
+      "video": null,
+      "sha256": null,
+      "media": "NOT RUN",
+      "motion": "NOT RUN",
+      "counts": {
+        "media": null,
+        "motion": null
+      },
+      "transitions": [
+        {
+          "id": "r4>x1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the movement carries on from a star's black hole to the first real picture of one"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "humanNeeded": [],
+  "notes": [],
+  "voice": {
+    "stack": "file",
+    "voice": "externally supplied",
+    "model": "unknown",
+    "quality": "as supplied",
+    "takes": 3,
+    "shortLines": [],
+    "totalChars": 3305
+  },
+  "alignment": {
+    "source": "whisper",
+    "coverage": 1.0,
+    "quality": {
+      "medianConf": 0.995,
+      "notes": [
+        "whisper (small.en, faster-whisper word timestamps) mapped onto the script: 600/605 script words matched a recognised word (99.2%); the rest are interpolated between matched neighbours (confidence 0.3)",
+        "11 words have confidence < 0.35: listen to them before trusting their timing"
+      ]
+    }
+  },
+  "spend": [],
+  "pendingPaid": [],
+  "downgrades": {},
+  "previewGate": null,
+  "engine": null
+}

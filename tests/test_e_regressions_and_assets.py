@@ -121,3 +121,26 @@ def test_raster_image_asset_renders_in_both_layouts(smoke, tmp_path):
     H, W, _ = port.shape  # 640 x 360
     left, right = port[H // 2, int(W * 0.33)], port[H // 2, int(W * 0.67)]
     assert left[0] > left[2] + 60 and right[2] > right[0] + 60, f"portrait: red then blue expected, got {left} / {right}"
+
+
+def _lint_fixture(tmp_path, card=None, waiver=False, spoken="So how long does it last? Mass decides."):
+    import json as _j
+    sc = {"scenes": [{"id": "a1", "section": "s", "beat": "payoff", "narration": spoken, "claimIds": []}]}
+    sh = {"shorts": [{"id": "S01", "status": "validated", "sceneIds": ["a1"], "delta": ({"openingCard": card} if card else {})}]}
+    cfg = {"targetDurationMin": [0.01, 1], "purpose": "production"}
+    if waiver:
+        cfg["durationFloorWaivedByCreator"] = {"reason": "the creator's brief for this one video sets the length"}
+    for n, d in (("scenes", sc), ("shorts", sh), ("config", cfg), ("facts", {"claims": []})):
+        (tmp_path / f"{n}.json").write_text(_j.dumps(d))
+    return py("lint_script.py", "--scenes", str(tmp_path / "scenes.json"), "--facts", str(tmp_path / "facts.json"),
+              "--shorts", str(tmp_path / "shorts.json"), "--config", str(tmp_path / "config.json"))
+
+
+def test_lint_honours_the_creators_duration_waiver_and_judges_opening_cards(tmp_path):
+    r = _lint_fixture(tmp_path)  # no waiver, no card: the 5:00 floor and the backward "so" both FAIL
+    assert r.returncode == 1 and "under the 300s minimum" in r.stdout and 'opening is not independent: "so"' in r.stdout
+    r = _lint_fixture(tmp_path, card="What decides how a star dies?", waiver=True)
+    assert r.returncode == 0, r.stdout
+    assert "5:00 floor waived by the creator" in r.stdout and 'spoken opening starts with "so"' in r.stdout and "WARN" in r.stdout
+    r = _lint_fixture(tmp_path, card="So what decides it?", waiver=True)  # the card itself must stand alone
+    assert r.returncode == 1 and "opening card is not independent" in r.stdout

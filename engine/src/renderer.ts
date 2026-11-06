@@ -231,7 +231,13 @@ export class FrameRenderer {
     sc.root.style.opacity = uniform ? String(+fx.back.toFixed(4)) : "1";
     const fxe = uniform ? { ...fx, back: 1, content: 1, anchor: 1 } : fx;
     sc.back.style.opacity = fxe.back >= 0.9995 ? "1" : String(+fxe.back.toFixed(4));
-    const view: View = applyMod(viewAt(sc.moves, t, this.ease), fx.mod);
+    let view: View = applyMod(viewAt(sc.moves, t, this.ease), fx.mod);
+    const sh = (sc.plan as { shake?: { fromS: number; toS: number; amplitude: number } }).shake;
+    if (sh && t >= sh.fromS && t < sh.toS) {
+      // damped two-axis oscillation (deterministic: a pure function of t), an impact rather than a wobble
+      const u = (t - sh.fromS) / Math.max(sh.toS - sh.fromS, 1e-3), damp = Math.pow(1 - u, 2), w = (t - sh.fromS) * 2 * Math.PI;
+      view = { ...view, x: view.x + sh.amplitude * damp * Math.sin(w * 17), y: view.y + sh.amplitude * 0.8 * damp * Math.sin(w * 13 + 1.3) };
+    }
     // The incoming scene is drawn through the first half of a transition window, i.e. before its own start: entities whose entrance is instant
     // (style none / 0 ms: plates, backdrops) must be present then, or they pop in at the boundary at the crossfade's current opacity. Entrances
     // with a duration still start from alpha 0 at the scene start, so nothing else changes.

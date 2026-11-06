@@ -45,9 +45,11 @@ export const RunConfig = z
     sensitivity: z.enum(["normal", "care", "high"]).default("normal"), // set in stage 01; the creator may force it
     // "required": tools/pipeline.py refuses to run until the creator approved the creative preview (tools/preview.py) for the current look, voice direction and scene structure
     previewGate: z.enum(["required", "off"]).default("off"),
+    // the creator explicitly asked for a production video shorter than 5:00 in this run (recorded with their reason); never set on your own
+    durationFloorWaivedByCreator: z.object({ reason: z.string().min(10) }).optional(),
   })
   .superRefine((c, ctx) => {
-    if (c.purpose === "production" && c.targetDurationMin[0] < 5) ctx.addIssue({ code: "custom", path: ["targetDurationMin"], message: "a production video is never under 5:00 (use purpose \"test_clip\" only for a short test the creator asked for)" });
+    if (c.purpose === "production" && c.targetDurationMin[0] < 5 && !c.durationFloorWaivedByCreator) ctx.addIssue({ code: "custom", path: ["targetDurationMin"], message: "a production video is never under 5:00 (use purpose \"test_clip\" only for a short test the creator asked for)" });
     const m = c.maxPaidSpend;
     if (m.higgsfieldCredits > 20 && !m.higgsfieldCeilingRaisedByCreator)
       ctx.addIssue({ code: "custom", path: ["maxPaidSpend", "higgsfieldCredits"], message: "above 20 credits only if the creator raised the ceiling in this run" });
@@ -161,6 +163,7 @@ export const Entity = z.object({
   enter: z.object({ style: EnterStyle.default("fade"), durationMs: z.number().int().min(0).max(3000).default(500) }).optional(),
   enterAtWord: z.number().int().min(0).optional(), // scene-relative word index; timing source is alignment.json
   exitAtWord: z.number().int().min(0).optional(), // scene-relative word index; the entity fades out at this word
+  only: z.enum(["landscape", "portrait"]).optional(), // drawn only in this layout (e.g. a Short's own title or end card); needs a placement only there
 });
 export const Placement = z.object({
   x: Unit, y: Unit, w: z.number().positive().max(3), // centre and width, normalised to the frame
@@ -180,6 +183,8 @@ export const CameraMove = z.object({
 export const Layout = z.object({
   placements: z.record(z.string(), Placement),
   camera: z.array(CameraMove).default([]), // empty = no camera move
+  // a short, damped camera shake (an impact), starting at a scene-relative word; amplitude is a fraction of the frame
+  shake: z.object({ atWord: z.number().int().min(0), durationMs: z.number().int().min(100).max(1500).default(600), amplitude: z.number().min(0).max(0.03).default(0.012), reason: z.string().min(8) }).optional(),
   hold: z.object({ reason: z.string().min(8) }).optional(), // a DELIBERATE still hold (the only thing that authorises a frozen-frame window in QA); omitted = stillness is not planned
   notes: z.string().optional(),
 });
@@ -213,6 +218,7 @@ export const Scene = z
     if (new Set(ids).size !== ids.length) bad(["entities"], "entity ids must be unique within a scene");
     for (const [name, layout] of Object.entries(s.layouts))
       for (const k of Object.keys(layout?.placements ?? {})) if (!ids.includes(k)) bad(["layouts", name, "placements", k], "placement refers to an unknown entity");
+    for (const e of s.entities) if (e.only === "portrait" && !s.layouts.portrait) bad(["entities"], `${e.id} is portrait-only but the scene has no portrait layout`);
     if (s.shortIds.length && !s.layouts.portrait) bad(["layouts", "portrait"], "a scene used by a Short needs an explicit portrait layout");
     if ((s.retentionBeat === "evidence" || s.retentionBeat === "payoff") && s.claimIds.length === 0) bad(["claimIds"], "evidence and payoff beats must cite claim IDs");
     if (!["cut", "dissolve"].includes(s.transition.type) && !(s.transition.rationale && s.transition.rationale.length >= 15))
@@ -250,7 +256,7 @@ export const ShortPlan = z
     minimumContext: z.array(z.string()).max(3),
     payoff: z.string(),
     sceneIds: z.array(Id).min(1), // source scenes in the long video (in order)
-    delta: z.object({ openingLine: z.string().optional(), closingLine: z.string().optional(), portraitRestage: z.string().optional(), addedVisual: z.string().optional() }),
+    delta: z.object({ openingLine: z.string().optional(), closingLine: z.string().optional(), openingCard: z.string().optional(), closingCard: z.string().optional(), portraitRestage: z.string().optional(), addedVisual: z.string().optional() }),
     targetDurationS: z.number().min(10).max(180), // prefer 35–60; eligible Shorts may run to 180
     validation: ShortValidation,
     rejectedReason: z.string().optional(),
@@ -385,6 +391,7 @@ export const PlanScene = z.object({
   entities: z.array(z.object({ id: Id, enterS: z.number().min(0), exitS: z.number().nullable().default(null), enterStyle: z.enum(["none", "fade", "rise", "pop", "draw"]).default("fade"), enterMs: z.number().min(0).default(0), motion: z.object({ kind: z.literal("continuous"), fromS: z.number().min(0), toS: z.number().min(0) }).optional(), viaTransition: z.boolean().default(false) })),
   camera: z.array(z.object({ fromS: z.number(), toS: z.number(), from: View, to: View, easing: EasingName })).default([]),
   hold: z.object({ fromS: z.number(), toS: z.number(), reason: z.string() }).optional(),
+  shake: z.object({ fromS: z.number(), toS: z.number(), amplitude: z.number() }).optional(),
   transitionOut: PlanTransition.optional(),
 });
 export const PlanCaption = z.object({ startS: z.number().min(0), endS: z.number().min(0), text: z.string(), words: z.array(z.object({ w: z.string(), s: z.number(), e: z.number() })) });
@@ -508,7 +515,7 @@ export function checkProject(p: Project): { errors: string[]; warnings: string[]
     const nWords = s.narration.trim().split(/\s+/).length;
     for (const [lname, lay] of Object.entries(s.layouts)) {
       if (!lay) continue;
-      for (const e of s.entities) if (!(e.id in lay.placements)) errors.push(`${s.id}: entity ${e.id} has no placement in the ${lname} layout`);
+      for (const e of s.entities) if ((!e.only || e.only === lname) && !(e.id in lay.placements)) errors.push(`${s.id}: entity ${e.id} has no placement in the ${lname} layout`);
       for (const [ci, cm] of lay.camera.entries()) {
         if (cm.startWord !== undefined && cm.startWord >= nWords) errors.push(`${s.id}: ${lname} camera[${ci}].startWord ${cm.startWord} is past the ${nWords} words of the narration`);
         if (cm.endWord !== undefined && cm.endWord >= nWords) errors.push(`${s.id}: ${lname} camera[${ci}].endWord ${cm.endWord} is past the ${nWords} words of the narration`);
@@ -539,7 +546,7 @@ export function checkProject(p: Project): { errors: string[]; warnings: string[]
       if (prev && Math.abs(prev.endS - t.startS) > tol) errors.push(`${s.id}: timing window is not contiguous with the previous scene`);
     });
   }
-  if (timed.length === p.scenes.scenes.length && (p.config?.purpose ?? "production") === "production") {
+  if (timed.length === p.scenes.scenes.length && (p.config?.purpose ?? "production") === "production" && !p.config?.durationFloorWaivedByCreator) {
     const total = p.scenes.scenes[p.scenes.scenes.length - 1].timing!.endS - p.scenes.scenes[0].timing!.startS;
     if (total < 300) errors.push(`the long video runs ${total.toFixed(0)} s; a production video is never under 5:00 (deepen the idea, or set purpose "test_clip" for a deliberate short test)`);
   }
