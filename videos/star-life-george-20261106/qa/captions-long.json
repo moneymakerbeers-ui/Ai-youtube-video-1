@@ -20,8 +20,7 @@
   "srtMatchesBurnedIn": {
    "srtEntries": 131,
    "planPhrases": 131,
-   "ok": true,
-   "rule": "starts identical; ends = max(plan end, start+0.6 s) (plan_lib.to_srt minimum display)"
+   "ok": true
   },
   "drift": {
    "engine": "faster-whisper medium.en on the mp4's audio (independent of the small.en alignment)",

@@ -19,17 +19,17 @@
     {
       "id": "motion.k3>e1.boundary",
       "status": "pass",
-      "value": 0.9,
-      "detail": "dissolve: the change at the window edges (0.9 levels at frame +1) is in line with the window's own motion (median 2.2)"
+      "value": 1.1,
+      "detail": "dissolve: the change at the window edges (1.1 levels at frame +1) is in line with the window's own motion (median 2.2)"
     },
     {
       "id": "motion.k3>e1.exposure",
       "status": "pass",
       "value": {
-        "excursion": 0.4,
-        "step": 8.0
+        "excursion": 0.2,
+        "step": 7.9
       },
-      "detail": "dissolve: no flash or exposure jump (largest frame step 8.0 levels, largest excursion 0.4)"
+      "detail": "dissolve: no flash or exposure jump (largest frame step 7.9 levels, largest excursion 0.2)"
     },
     {
       "id": "motion.k3>e1.stall",
@@ -69,8 +69,8 @@
     {
       "id": "k3>e1",
       "type": "dissolve",
-      "startS": 32.42,
-      "endS": 33.12,
+      "startS": 31.89,
+      "endS": 32.59,
       "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S03/tr-k3-e1.mp4",
       "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S03/tr-k3-e1-strip.png"
     }

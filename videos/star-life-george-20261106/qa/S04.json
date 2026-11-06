@@ -43,13 +43,13 @@
     {
       "id": "probe.duration",
       "status": "pass",
-      "value": 34.733,
-      "detail": "plan duration 34.72s"
+      "value": 34.467,
+      "detail": "plan duration 34.48s"
     },
     {
       "id": "short.length",
       "status": "pass",
-      "value": 34.73,
+      "value": 34.47,
       "detail": "a Short must be <= 180s"
     },
     {
@@ -61,14 +61,14 @@
     {
       "id": "av.duration",
       "status": "pass",
-      "value": 0.013,
-      "detail": "audio and video lengths differ by 0.013s (max 0.1)"
+      "value": 0.001,
+      "detail": "audio and video lengths differ by 0.001s (max 0.1)"
     },
     {
       "id": "decode",
       "status": "pass",
-      "value": 1042,
-      "detail": "1042 frames decoded without a diagnostic (plan: 1042)"
+      "value": 1034,
+      "detail": "1034 frames decoded without a diagnostic (plan: 1034)"
     },
     {
       "id": "black",
@@ -79,7 +79,7 @@
     {
       "id": "flash",
       "status": "pass",
-      "value": 2,
+      "value": 4,
       "detail": "heuristic for the 3-flashes rule (large mean-luma swings in 1 s), not a conformance test",
       "heuristic": true
     },
@@ -99,8 +99,8 @@
     {
       "id": "freeze",
       "status": "pass",
-      "value": 2,
-      "detail": "2 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
+      "value": 4,
+      "detail": "4 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
     },
     {
       "id": "silence",
@@ -114,7 +114,7 @@
       "value": {
         "integratedLufs": -14.0,
         "lra": 2.0,
-        "truePeakDbtp": -1.5
+        "truePeakDbtp": -1.4
       },
       "detail": "engineering target -14.0\u00b11.5 LUFS, true peak \u2264 -1.0 dBTP (calibrate by ear and against the channel; not a YouTube requirement)"
     },
@@ -153,6 +153,6 @@
     }
   ],
   "probe": {
-    "duration": "34.733333"
+    "duration": "34.466667"
   }
 }

@@ -43,13 +43,13 @@
     {
       "id": "probe.duration",
       "status": "pass",
-      "value": 46.9,
-      "detail": "plan duration 46.9s"
+      "value": 46.533,
+      "detail": "plan duration 46.53s"
     },
     {
       "id": "short.length",
       "status": "pass",
-      "value": 46.9,
+      "value": 46.53,
       "detail": "a Short must be <= 180s"
     },
     {
@@ -61,14 +61,14 @@
     {
       "id": "av.duration",
       "status": "pass",
-      "value": 0.0,
-      "detail": "audio and video lengths differ by 0.000s (max 0.1)"
+      "value": 0.003,
+      "detail": "audio and video lengths differ by 0.003s (max 0.1)"
     },
     {
       "id": "decode",
       "status": "pass",
-      "value": 1407,
-      "detail": "1407 frames decoded without a diagnostic (plan: 1407)"
+      "value": 1396,
+      "detail": "1396 frames decoded without a diagnostic (plan: 1396)"
     },
     {
       "id": "black",
@@ -79,7 +79,7 @@
     {
       "id": "flash",
       "status": "pass",
-      "value": 4,
+      "value": 2,
       "detail": "heuristic for the 3-flashes rule (large mean-luma swings in 1 s), not a conformance test",
       "heuristic": true
     },
@@ -99,8 +99,8 @@
     {
       "id": "freeze",
       "status": "pass",
-      "value": 3,
-      "detail": "3 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
+      "value": 6,
+      "detail": "6 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
     },
     {
       "id": "silence",
@@ -113,8 +113,8 @@
       "status": "pass",
       "value": {
         "integratedLufs": -14.0,
-        "lra": 2.2,
-        "truePeakDbtp": -1.5
+        "lra": 2.1,
+        "truePeakDbtp": -1.4
       },
       "detail": "engineering target -14.0\u00b11.5 LUFS, true peak \u2264 -1.0 dBTP (calibrate by ear and against the channel; not a YouTube requirement)"
     },
@@ -152,12 +152,12 @@
       "tile": "8x2"
     },
     {
-      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/S03_risk_00_32.8s.jpg",
-      "aroundS": 32.77,
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/S03_risk_00_32.2s.jpg",
+      "aroundS": 32.24,
       "frames": "6 frames across 1.2s"
     }
   ],
   "probe": {
-    "duration": "46.900000"
+    "duration": "46.533333"
   }
 }

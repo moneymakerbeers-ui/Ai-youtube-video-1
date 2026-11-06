@@ -4,34 +4,31 @@
   "frames": 1,
   "durS": 0.033,
   "startS": 0.033,
-  "totalFrames": 1452
+  "totalFrames": 1431
  },
- "longestFreezeDelivered": {
-  "startS": 10.0,
-  "durS": 0.5
- },
- "freezesOver0_5s": 1,
+ "longestFreezeDelivered": null,
+ "freezesOver0_5s": 0,
  "longestVoiceGap": {
-  "startS": 18.1,
-  "endS": 18.727,
-  "durS": 0.627
+  "startS": 41.493,
+  "endS": 41.849,
+  "durS": 0.356
  },
- "voiceGapsOver0_10s": 20,
+ "voiceGapsOver0_10s": 19,
  "endingTail": [
   {
-   "startS": 45.799,
-   "endS": 48.4,
+   "startS": 45.109,
+   "endS": 47.71,
    "durS": 2.601
   }
  ],
  "longestMixSilence": {
-  "startS": 48.029,
-  "endS": 48.405,
-  "durS": 0.376
+  "startS": 47.393,
+  "endS": 47.701,
+  "durS": 0.308
  },
  "limits": {
   "staticS": 4.0,
   "voiceGapS": 0.4
  },
- "verdict": "FAILED"
+ "verdict": "PASSED"
 }

@@ -43,13 +43,13 @@
     {
       "id": "probe.duration",
       "status": "pass",
-      "value": 35.733,
-      "detail": "plan duration 35.75s"
+      "value": 35.367,
+      "detail": "plan duration 35.36s"
     },
     {
       "id": "short.length",
       "status": "pass",
-      "value": 35.73,
+      "value": 35.37,
       "detail": "a Short must be <= 180s"
     },
     {
@@ -61,14 +61,14 @@
     {
       "id": "av.duration",
       "status": "pass",
-      "value": 0.0,
-      "detail": "audio and video lengths differ by 0.000s (max 0.1)"
+      "value": 0.007,
+      "detail": "audio and video lengths differ by 0.007s (max 0.1)"
     },
     {
       "id": "decode",
       "status": "pass",
-      "value": 1072,
-      "detail": "1072 frames decoded without a diagnostic (plan: 1072)"
+      "value": 1061,
+      "detail": "1061 frames decoded without a diagnostic (plan: 1061)"
     },
     {
       "id": "black",
@@ -99,8 +99,8 @@
     {
       "id": "freeze",
       "status": "pass",
-      "value": 3,
-      "detail": "3 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
+      "value": 2,
+      "detail": "2 still span(s) in the delivered picture (captions excluded), each inside a span where the source changes by at most 12 levels on the same pooled picture (\u00b10.3s); threshold 6 levels on a 96-px pooled picture"
     },
     {
       "id": "silence",
@@ -114,7 +114,7 @@
       "value": {
         "integratedLufs": -14.0,
         "lra": 1.9,
-        "truePeakDbtp": -1.4
+        "truePeakDbtp": -1.5
       },
       "detail": "engineering target -14.0\u00b11.5 LUFS, true peak \u2264 -1.0 dBTP (calibrate by ear and against the channel; not a YouTube requirement)"
     },
@@ -152,12 +152,12 @@
       "tile": "8x2"
     },
     {
-      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/S01_risk_00_15.1s.jpg",
-      "aroundS": 15.12,
+      "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/qa/sheets/S01_risk_00_14.6s.jpg",
+      "aroundS": 14.61,
       "frames": "6 frames across 1.2s"
     }
   ],
   "probe": {
-    "duration": "35.733333"
+    "duration": "35.366667"
   }
 }

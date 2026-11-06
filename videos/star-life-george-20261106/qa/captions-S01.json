@@ -28,7 +28,7 @@
    "matched": 84,
    "coverage": 0.988,
    "overallMedianMs": 40.0,
-   "p90AbsMs": 117.0,
+   "p90AbsMs": 151.0,
    "windows": [
     {
      "fromS": 0.0,
@@ -38,9 +38,9 @@
     },
     {
      "fromS": 20.0,
-     "toS": 35.8,
+     "toS": 35.4,
      "n": 34,
-     "medianDriftMs": 30.0
+     "medianDriftMs": 40.0
     }
    ],
    "worstWindowMedianMs": 40.0,

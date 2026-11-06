@@ -1,7 +1,7 @@
 {
   "target": "S02",
   "fps": 30,
-  "durationS": 33.28,
+  "durationS": 33.11,
   "layout": "portrait",
   "tolS": 0.08,
   "audioTolS": 0.06,
@@ -16,41 +16,23 @@
       "declaredMs": 250
     },
     {
-      "fromS": 7.71,
-      "toS": 8.17,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 12.87,
-      "toS": 13.41,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 21.24,
-      "toS": 21.58,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 30.68,
-      "toS": 33.28,
+      "fromS": 30.51,
+      "toS": 33.11,
       "reason": "ending tail silence",
       "declaredMs": 2600
     }
   ],
   "transitions": [],
   "plannedCutsS": [
-    7.82,
-    13.01,
-    21.305
+    7.6,
+    12.61,
+    21.4
   ],
   "sampleTimesS": [],
   "scheduledMotionS": [
     [
       -0.05,
-      33.28
+      33.11
     ]
   ],
   "pictureRegion": {

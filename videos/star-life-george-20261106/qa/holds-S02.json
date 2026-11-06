@@ -4,31 +4,31 @@
   "frames": 1,
   "durS": 0.033,
   "startS": 0.033,
-  "totalFrames": 998
+  "totalFrames": 993
  },
  "longestFreezeDelivered": null,
  "freezesOver0_5s": 0,
  "longestVoiceGap": {
-  "startS": 12.868,
-  "endS": 13.448,
-  "durS": 0.58
+  "startS": 12.882,
+  "endS": 13.238,
+  "durS": 0.357
  },
  "voiceGapsOver0_10s": 13,
  "endingTail": [
   {
-   "startS": 30.672,
-   "endS": 33.28,
+   "startS": 30.503,
+   "endS": 33.11,
    "durS": 2.607
   }
  ],
  "longestMixSilence": {
-  "startS": 32.912,
-  "endS": 33.28,
-  "durS": 0.368
+  "startS": 32.734,
+  "endS": 33.109,
+  "durS": 0.375
  },
  "limits": {
   "staticS": 4.0,
   "voiceGapS": 0.4
  },
- "verdict": "FAILED"
+ "verdict": "PASSED"
 }

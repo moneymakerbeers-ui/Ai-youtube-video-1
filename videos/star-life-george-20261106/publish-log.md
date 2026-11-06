@@ -7,11 +7,11 @@ Files hosted for Metricool via Higgsfield media (public CDN URLs; sizes checked 
 | when (Berlin) | file | type | title | Metricool post |
 |---|---|---|---|---|
 | Fri 6 Nov 21:00 | out/full-video.mp4 | video | How a Cloud of Dust Becomes a Black Hole \| Life Cycle of a Star | 419277154 |
-| Sat 7 Nov 16:00 | out/short-01.mp4 | short | Star Life 1/5: How a Cloud Becomes a Star | uuid 6161987296426803988 |
-| Sun 8 Nov 16:00 | out/short-02.mp4 | short | Star Life 2/5: Mass Decides How a Star Dies | uuid 4380333992355449033 |
-| Mon 9 Nov 16:00 | out/short-03.mp4 | short | Star Life 3/5: The Last Second of a Giant Star | uuid -6668357157083855366 |
-| Tue 10 Nov 16:00 | out/short-04.mp4 | short | Star Life 4/5: You Are Made of Dead Stars | uuid 6387452052277707600 |
-| Wed 11 Nov 16:00 | out/short-05.mp4 | short | Star Life 5/5: How We Find Invisible Black Holes | uuid 3084715638926689865 |
+| Sat 7 Nov 16:00 | out/short-01.mp4 | short | Star Life 1/5: How a Cloud Becomes a Star | 419323358 (uuid 6161987296426803988) |
+| Sun 8 Nov 16:00 | out/short-02.mp4 | short | Star Life 2/5: Mass Decides How a Star Dies | 419323456 (uuid 4380333992355449033) |
+| Mon 9 Nov 16:00 | out/short-03.mp4 | short | Star Life 3/5: The Last Second of a Giant Star | 419323527 (uuid -6668357157083855366) |
+| Tue 10 Nov 16:00 | out/short-04.mp4 | short | Star Life 4/5: You Are Made of Dead Stars | 419323588 (uuid 6387452052277707600) |
+| Wed 11 Nov 16:00 | out/short-05.mp4 | short | Star Life 5/5: How We Find Invisible Black Holes | 419323640 (uuid 3084715638926689865) |
 
 - The five Short posts reuse the five old video-6 (Knox voice) drafts: their content was replaced, so the Knox Shorts will not be published.
 - Time basis: Metricool best-time data for YouTube, Nov 7–13 (16:00 is the best hour on each of these days; Tue/Wed 16:00 the strongest of the week).

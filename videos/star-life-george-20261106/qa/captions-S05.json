@@ -28,28 +28,28 @@
    "matched": 126,
    "coverage": 0.962,
    "overallMedianMs": 30.0,
-   "p90AbsMs": 120.0,
+   "p90AbsMs": 110.0,
    "windows": [
     {
      "fromS": 0.0,
      "toS": 20.0,
-     "n": 60,
-     "medianDriftMs": 40.0
+     "n": 61,
+     "medianDriftMs": 50.0
     },
     {
      "fromS": 20.0,
      "toS": 40.0,
-     "n": 50,
+     "n": 53,
      "medianDriftMs": 30.0
     },
     {
      "fromS": 40.0,
-     "toS": 48.4,
-     "n": 16,
+     "toS": 47.7,
+     "n": 12,
      "medianDriftMs": 40.0
     }
    ],
-   "worstWindowMedianMs": 40.0,
+   "worstWindowMedianMs": 50.0,
    "limitMs": 80.0,
    "ok": true
   }

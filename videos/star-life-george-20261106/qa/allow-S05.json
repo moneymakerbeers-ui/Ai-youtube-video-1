@@ -1,7 +1,7 @@
 {
   "target": "S05",
   "fps": 30,
-  "durationS": 48.4,
+  "durationS": 47.71,
   "layout": "portrait",
   "tolS": 0.08,
   "audioTolS": 0.06,
@@ -16,44 +16,8 @@
       "declaredMs": 250
     },
     {
-      "fromS": 4.41,
-      "toS": 4.95,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 8.7,
-      "toS": 9.18,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 18.1,
-      "toS": 18.7,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 21.74,
-      "toS": 22.12,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 26.83,
-      "toS": 27.41,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 32.45,
-      "toS": 32.55,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 45.8,
-      "toS": 48.4,
+      "fromS": 45.11,
+      "toS": 47.71,
       "reason": "ending tail silence",
       "declaredMs": 2600
     }
@@ -62,8 +26,8 @@
     {
       "id": "r4>x1",
       "type": "dissolve",
-      "startS": 8.475,
-      "endS": 9.175,
+      "startS": 8.13,
+      "endS": 8.83,
       "from": "r4",
       "to": "x1",
       "easing": "emphasized",
@@ -71,19 +35,19 @@
     }
   ],
   "plannedCutsS": [
-    4.54,
-    18.29,
-    21.8,
-    26.955,
-    32.18
+    4.29,
+    17.82,
+    21.28,
+    26.59,
+    31.92
   ],
   "sampleTimesS": [
-    8.82
+    8.48
   ],
   "scheduledMotionS": [
     [
       -0.05,
-      48.4
+      47.71
     ]
   ],
   "pictureRegion": {

@@ -4,34 +4,34 @@
   "frames": 1,
   "durS": 0.033,
   "startS": 0.033,
-  "totalFrames": 1407
+  "totalFrames": 1396
  },
  "longestFreezeDelivered": {
-  "startS": 33.8,
-  "durS": 0.533
+  "startS": 33.3,
+  "durS": 0.5
  },
  "freezesOver0_5s": 1,
  "longestVoiceGap": {
-  "startS": 32.659,
-  "endS": 33.237,
-  "durS": 0.578
+  "startS": 29.069,
+  "endS": 29.432,
+  "durS": 0.363
  },
  "voiceGapsOver0_10s": 22,
  "endingTail": [
   {
-   "startS": 44.292,
-   "endS": 46.9,
+   "startS": 43.922,
+   "endS": 46.53,
    "durS": 2.608
   }
  ],
  "longestMixSilence": {
-  "startS": 46.526,
-  "endS": 46.912,
-  "durS": 0.386
+  "startS": 46.108,
+  "endS": 46.549,
+  "durS": 0.442
  },
  "limits": {
   "staticS": 4.0,
   "voiceGapS": 0.4
  },
- "verdict": "FAILED"
+ "verdict": "PASSED"
 }

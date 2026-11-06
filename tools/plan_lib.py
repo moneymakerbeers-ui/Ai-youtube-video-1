@@ -53,7 +53,9 @@ def to_srt(chunks, min_gap=0.0):
             ws = text.split()
             best = min(range(1, len(ws)), key=lambda k: abs(len(" ".join(ws[:k])) - len(" ".join(ws[k:]))))
             text = " ".join(ws[:best]) + "\n" + " ".join(ws[best:])
-        end = max(c["endS"], c["startS"] + 0.6)
+        end = max(c["endS"], c["startS"] + 0.6)  # keep a short phrase up long enough to read...
+        if i < len(chunks):  # ...but never into the next phrase (overlapping cues show two lines at once; aligner word times can overlap by a few ms)
+            end = max(min(end, chunks[i]["startS"]), c["startS"] + 0.05)
         lines.append(f"{i}\n{srt_time(c['startS'])} --> {srt_time(end)}\n{text}\n")
     return "\n".join(lines)
 

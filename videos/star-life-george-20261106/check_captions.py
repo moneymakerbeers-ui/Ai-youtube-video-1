@@ -77,7 +77,10 @@ def check(t):
     # 2 overlaps (SRT, and SRT == plan phrases so the burned-in text and the file agree)
     ov = [{"i": i + 1, "end": a["end"], "nextStart": b["start"]} for i, (a, b) in enumerate(zip(caps, caps[1:])) if b["start"] < a["end"] - 1e-6]
     # the SRT writer (plan_lib.to_srt) keeps a phrase up for at least 0.6 s; starts must be identical, ends equal to max(plan end, start + 0.6)
-    same = len(caps) == len(pc) and all(abs(a["start"] - b["startS"]) <= 0.0015 and abs(a["end"] - max(b["endS"], b["startS"] + 0.6)) <= 0.0015 for a, b in zip(caps, pc))
+    def srt_end(k):  # plan_lib.to_srt: at least 0.6 s on screen, but never into the next phrase
+        e = max(pc[k]["endS"], pc[k]["startS"] + 0.6)
+        return max(min(e, pc[k + 1]["startS"]), pc[k]["startS"] + 0.05) if k + 1 < len(pc) else e
+    same = len(caps) == len(pc) and all(abs(a["start"] - pc[k]["startS"]) <= 0.0015 and abs(a["end"] - srt_end(k)) <= 0.0015 for k, a in enumerate(caps))
     res["checks"]["overlaps"] = {"count": len(ov), "first": ov[:5], "ok": not ov}
     res["checks"]["srtMatchesBurnedIn"] = {"srtEntries": len(caps), "planPhrases": len(pc), "ok": same}
     # 3 drift against an independent recognition of the delivered audio

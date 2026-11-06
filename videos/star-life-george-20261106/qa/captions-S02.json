@@ -27,8 +27,8 @@
    "planWords": 87,
    "matched": 87,
    "coverage": 1.0,
-   "overallMedianMs": 35.0,
-   "p90AbsMs": 110.0,
+   "overallMedianMs": 50.0,
+   "p90AbsMs": 118.0,
    "windows": [
     {
      "fromS": 0.0,
@@ -38,9 +38,9 @@
     },
     {
      "fromS": 20.0,
-     "toS": 33.3,
+     "toS": 33.1,
      "n": 32,
-     "medianDriftMs": 30.0
+     "medianDriftMs": 47.5
     }
    ],
    "worstWindowMedianMs": 50.0,

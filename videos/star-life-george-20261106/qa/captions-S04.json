@@ -38,12 +38,12 @@
     },
     {
      "fromS": 20.0,
-     "toS": 34.7,
+     "toS": 34.5,
      "n": 33,
-     "medianDriftMs": 40.0
+     "medianDriftMs": 20.0
     }
    ],
-   "worstWindowMedianMs": 40.0,
+   "worstWindowMedianMs": 30.0,
    "limitMs": 80.0,
    "ok": true
   }

@@ -1,13 +1,13 @@
 {
   "target": "S04",
   "master": "audio/master-S04.wav",
-  "sha256": "0fb842d706eb0788b0de565548538c2c2c1b6c4dc388f0d8c0f4eb43c89a4ae6",
-  "durationS": 34.72,
-  "planDurationS": 34.72,
+  "sha256": "3d4a841d61ae2f316c771090d47fa33e816471e24a59c4a6db3e94e204110eb0",
+  "durationS": 34.48,
+  "planDurationS": 34.48,
   "before": {
     "I": -19.93,
-    "TP": -4.83,
-    "LRA": 5.0
+    "TP": -4.84,
+    "LRA": 6.2
   },
   "after": {
     "I": -14.0,

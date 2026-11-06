@@ -2,8 +2,103 @@
   "project": "star-life-george-20261106",
   "idea": "Star life cycle re-edit (video 7): from dust to black hole, George narration",
   "purpose": "production",
-  "madeAt": "2026-11-06T19:08:50",
+  "madeAt": "2026-11-06T19:26:41",
   "targets": {
+    "long": {
+      "file": "out/full-video.mp4",
+      "video": {
+        "w": 1920,
+        "h": 1080,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 218.533,
+        "bytes": 188015345
+      },
+      "sha256": "02e2ef1293f9ff8c5efac42d0923c28dbd7f775c0642714ba7721cee3617a303",
+      "media": "PASSED",
+      "motion": "PASSED",
+      "counts": {
+        "media": {
+          "pass": 18,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 60,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 3,
+          "info": 8
+        }
+      },
+      "transitions": [
+        {
+          "id": "c3>p1",
+          "type": "nested_scale",
+          "downgradedFrom": null,
+          "rationale": "the protostar is the inside of this collapsing clump: the zoom shows the same object one scale down"
+        },
+        {
+          "id": "f2>b1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the camera keeps travelling from the newborn star into what holds it up"
+        },
+        {
+          "id": "b2>m1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the motion carries on from our steady Sun to the stars that burn faster"
+        },
+        {
+          "id": "m4>o1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "we keep moving toward one of the heavy stars on the chart"
+        },
+        {
+          "id": "k3>e1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the shock wave's outward motion carries us to the night it was seen from Earth"
+        },
+        {
+          "id": "e2>e3",
+          "type": "dissolve",
+          "downgradedFrom": "depth_through_object",
+          "rationale": "downgraded from depth_through_object by the motion gate: motion.e2>e3.exposure FAILED (depth_through_object flashes: luma excursion 40.5 levels, colour excursion 50.3, largest frame step 39.0 levels (flash risk))"
+        },
+        {
+          "id": "r4>x1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the movement carries on from a star's black hole to the first real picture of one"
+        },
+        {
+          "id": "g3>z1",
+          "type": "match_movement",
+          "downgradedFrom": null,
+          "rationale": "the orbit's motion carries us into the recap of the whole journey"
+        }
+      ],
+      "warnings": [
+        {
+          "id": "motion.f2>b1.smooth",
+          "detail": "a frame step is 10.3 levels above its neighbours' typical 12.3 (a jerk; smaller than a pop)"
+        },
+        {
+          "id": "motion.b2>m1.smooth",
+          "detail": "a frame step is 7.9 levels above its neighbours' typical 9.1 (a jerk; smaller than a pop)"
+        },
+        {
+          "id": "motion.m4>o1.smooth",
+          "detail": "a frame step is 13.0 levels above its neighbours' typical 13.9 (a jerk; smaller than a pop)"
+        }
+      ]
+    },
     "S01": {
       "file": "out/short-01.mp4",
       "video": {
@@ -12,10 +107,10 @@
         "fps": "30/1",
         "codec": "h264",
         "audio": "aac",
-        "durationS": 35.733,
-        "bytes": 28791636
+        "durationS": 35.367,
+        "bytes": 28342578
       },
-      "sha256": "dcb831d8b7ff5b56d10489a5f69afc8250d4d25468387a867bb40a5f1b752194",
+      "sha256": "e7810daf73f428dc6452581766bee9f9c8fb4d82dbc0e378f637ca312727d81c",
       "media": "PASSED",
       "motion": "PASSED",
       "counts": {
@@ -52,10 +147,10 @@
         "fps": "30/1",
         "codec": "h264",
         "audio": "aac",
-        "durationS": 33.267,
-        "bytes": 17801346
+        "durationS": 33.1,
+        "bytes": 18112153
       },
-      "sha256": "efde6359eeded7098a9690635d33ede10e25522e83c360fae9bd7ec563885b98",
+      "sha256": "3c82c98fd9ac4473213c9a4b2a281fc19dae837086e06515b66e9f1603093adb",
       "media": "PASSED",
       "motion": "PASSED",
       "counts": {
@@ -85,10 +180,10 @@
         "fps": "30/1",
         "codec": "h264",
         "audio": "aac",
-        "durationS": 46.9,
-        "bytes": 31323809
+        "durationS": 46.533,
+        "bytes": 31238299
       },
-      "sha256": "39fdb65fc840126f6d9352f6d4785d29fe6322b1cd6e412d129fc222a70398ea",
+      "sha256": "af96b01a53e268ac4451f182a6106ddcb5aa2fb8b367a19c4382a5b906f40d5c",
       "media": "PASSED",
       "motion": "PASSED",
       "counts": {
@@ -125,10 +220,10 @@
         "fps": "30/1",
         "codec": "h264",
         "audio": "aac",
-        "durationS": 34.733,
-        "bytes": 18558502
+        "durationS": 34.467,
+        "bytes": 18616774
       },
-      "sha256": "071a273a9093e62478241b6dafe35d9d9b9914c15c87137f53b7358d27f0a181",
+      "sha256": "8908a04cbe991ab7a4f41f31fbb15690ef0304730be8754c717f8448c75c2a44",
       "media": "PASSED",
       "motion": "PASSED",
       "counts": {
@@ -158,10 +253,10 @@
         "fps": "30/1",
         "codec": "h264",
         "audio": "aac",
-        "durationS": 48.4,
-        "bytes": 26136050
+        "durationS": 47.7,
+        "bytes": 25618493
       },
-      "sha256": "3471f255289eb17807607ab0895ceaa1cbb0967cee5dd41c15a2807ddb21c89f",
+      "sha256": "c9be96af3c8a008cd6f7554dc06c26203dd652815b0da2b65ecf5318b61a8ae6",
       "media": "PASSED",
       "motion": "PASSED",
       "counts": {
@@ -191,7 +286,11 @@
       "warnings": []
     }
   },
-  "humanNeeded": [],
+  "humanNeeded": [
+    "long: motion.f2>b1.smooth (heuristic warning) - a frame step is 10.3 levels above its neighbours' typical 12.3 (a jerk; smaller than a pop)",
+    "long: motion.b2>m1.smooth (heuristic warning) - a frame step is 7.9 levels above its neighbours' typical 9.1 (a jerk; smaller than a pop)",
+    "long: motion.m4>o1.smooth (heuristic warning) - a frame step is 13.0 levels above its neighbours' typical 13.9 (a jerk; smaller than a pop)"
+  ],
   "notes": [],
   "voice": {
     "stack": "file",

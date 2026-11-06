@@ -27,29 +27,29 @@
    "planWords": 114,
    "matched": 114,
    "coverage": 1.0,
-   "overallMedianMs": 35.0,
-   "p90AbsMs": 97.0,
+   "overallMedianMs": 30.0,
+   "p90AbsMs": 104.0,
    "windows": [
     {
      "fromS": 0.0,
      "toS": 20.0,
-     "n": 55,
+     "n": 56,
      "medianDriftMs": 30.0
     },
     {
      "fromS": 20.0,
      "toS": 40.0,
      "n": 49,
-     "medianDriftMs": 40.0
+     "medianDriftMs": 50.0
     },
     {
      "fromS": 40.0,
-     "toS": 46.9,
-     "n": 10,
-     "medianDriftMs": 40.0
+     "toS": 46.5,
+     "n": 9,
+     "medianDriftMs": 50.0
     }
    ],
-   "worstWindowMedianMs": 40.0,
+   "worstWindowMedianMs": 50.0,
    "limitMs": 80.0,
    "ok": true
   }
