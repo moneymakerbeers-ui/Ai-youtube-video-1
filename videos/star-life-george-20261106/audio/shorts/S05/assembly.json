@@ -1,15 +1,15 @@
 {
   "audio": {
     "file": "audio/shorts/S05/narration.wav",
-    "sha256": "e5ef345e98676a555290496a81d1045ae42212a79671c9ce1df4404287dc1fe6",
-    "durationS": 45.55,
+    "sha256": "dd9cd3e2d45be33eff95ae25388b0029d084cf25faf6e5622282151596cca3ac",
+    "durationS": 48.4,
     "sr": 24000
   },
   "segments": [
     {
       "id": "r3",
-      "startS": 0.0,
-      "endS": 4.16,
+      "startS": 0.25,
+      "endS": 4.41,
       "sceneIds": [
         "r3"
       ],
@@ -19,8 +19,8 @@
     },
     {
       "id": "r4",
-      "startS": 4.7,
-      "endS": 8.45,
+      "startS": 4.95,
+      "endS": 8.7,
       "sceneIds": [
         "r4"
       ],
@@ -30,8 +30,8 @@
     },
     {
       "id": "x1",
-      "startS": 8.93,
-      "endS": 17.85,
+      "startS": 9.18,
+      "endS": 18.1,
       "sceneIds": [
         "x1"
       ],
@@ -41,8 +41,8 @@
     },
     {
       "id": "x2",
-      "startS": 18.45,
-      "endS": 21.49,
+      "startS": 18.7,
+      "endS": 21.74,
       "sceneIds": [
         "x2"
       ],
@@ -52,8 +52,8 @@
     },
     {
       "id": "g1",
-      "startS": 21.87,
-      "endS": 26.58,
+      "startS": 22.12,
+      "endS": 26.83,
       "sceneIds": [
         "g1"
       ],
@@ -63,8 +63,8 @@
     },
     {
       "id": "g2",
-      "startS": 27.16,
-      "endS": 32.2,
+      "startS": 27.41,
+      "endS": 32.45,
       "sceneIds": [
         "g2"
       ],
@@ -74,8 +74,8 @@
     },
     {
       "id": "g3",
-      "startS": 32.3,
-      "endS": 45.55,
+      "startS": 32.55,
+      "endS": 45.8,
       "sceneIds": [
         "g3"
       ],
@@ -86,40 +86,52 @@
   ],
   "silences": [
     {
-      "fromS": 4.16,
-      "toS": 4.7,
+      "fromS": 0.0,
+      "toS": 0.25,
+      "reason": "opening lead silence",
+      "declaredMs": 250
+    },
+    {
+      "fromS": 4.41,
+      "toS": 4.95,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 8.45,
-      "toS": 8.93,
+      "fromS": 8.7,
+      "toS": 9.18,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 17.85,
-      "toS": 18.45,
+      "fromS": 18.1,
+      "toS": 18.7,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 21.49,
-      "toS": 21.87,
+      "fromS": 21.74,
+      "toS": 22.12,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 26.58,
-      "toS": 27.16,
+      "fromS": 26.83,
+      "toS": 27.41,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 32.2,
-      "toS": 32.3,
+      "fromS": 32.45,
+      "toS": 32.55,
       "reason": "scene join",
       "declaredMs": 0
+    },
+    {
+      "fromS": 45.8,
+      "toS": 48.4,
+      "reason": "ending tail silence",
+      "declaredMs": 2600
     }
   ]
 }

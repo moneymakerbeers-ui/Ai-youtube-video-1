@@ -2,7 +2,8 @@
 """make_bed.py — the sound bed of each target, made entirely in code (no third-party audio, so the right to use it is ours):
   audio/bed/music-<target>.wav  a slow ambient pad (A minor: Am-F-C-G, 8 s per chord), written 8 dB under the narration (the brief: music -22 LUFS vs voice -14)
                                  (mix.py additionally ducks it under speech by sidechain)
-  audio/bed/fx-<target>.wav     soft whooshes on label pops / motion transitions (at least 1.2 s apart) and one low boom on the supernova cut
+  audio/bed/fx-<target>.wav     soft whooshes on label pops / motion transitions (at least 1.2 s apart), one low boom on the supernova cut;
+                                 Shorts also get an opening snap (the hook sound) and a whoosh under the end card
 Reads render/plan-<target>.json for every time, so a re-plan means re-running this. Each file gets a .license.json next to it (H6).
 usage: python3 make_bed.py [targets…]   (default: long S01 S02 S03 S04 S05)"""
 import json, os, subprocess, sys
@@ -85,6 +86,15 @@ def boom(length=1.8):
     y /= np.max(np.abs(y)) + 1e-9
     return np.stack([y, y], axis=1)
 
+def snap(length=0.14):
+    """a finger-snap-like click: a band-limited noise burst with a short tonal body (made in code)"""
+    n = int(length * SR); t = np.arange(n) / SR
+    from scipy.signal import butter, sosfilt
+    y = sosfilt(butter(2, [1800, 6500], "band", fs=SR, output="sos"), rng.standard_normal(n)) * np.exp(-t * 55)
+    y = y + 0.6 * np.sin(2 * np.pi * 2300 * t) * np.exp(-t * 80)
+    y = (y / (np.max(np.abs(y)) + 1e-9)).astype(np.float32)
+    return np.stack([y, y], axis=1)
+
 def place(track, clip, at, gain):
     i = int(at * SR)
     if i >= len(track): return
@@ -114,10 +124,20 @@ def make(target):
             events.append(("whoosh", max(0.0, tr["startS"])))
         if s["id"] == "k3":
             events.append(("boom", s["startS"]))
+    if target.startswith("S"):  # Shorts: an opening snap (the hook sound) and a whoosh as the end card arrives
+        events.append(("snap", 0.02))
+        for sc_ in plan["scenes"]:
+            for e in sc_["entities"]:
+                if e["id"] == f"e_n{target}":  # the Short's end card (build_scenes.py names it e_n<Short id>)
+                    events.append(("cta", max(0.0, e["enterS"] - 0.15)))
     events.sort(key=lambda x: x[1])
     last, placed = -9.0, []
     wh_gain = 10 ** (-24 / 20)
     for kind, at in events:
+        if kind == "snap":
+            place(fx, snap(), at, 10 ** (-12 / 20)); placed.append({"kind": kind, "atS": round(at, 3)}); continue
+        if kind == "cta":
+            place(fx, whoosh(0.6), at, 10 ** (-20 / 20)); placed.append({"kind": "whoosh", "atS": round(at, 3), "why": "end card"}); continue
         if kind == "boom":
             place(fx, boom(), at, 10 ** (-9 / 20)); placed.append({"kind": kind, "atS": round(at, 3)})
         elif at - last >= 1.2:

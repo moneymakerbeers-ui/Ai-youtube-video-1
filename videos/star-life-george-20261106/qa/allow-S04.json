@@ -1,0 +1,77 @@
+{
+  "target": "S04",
+  "fps": 30,
+  "durationS": 34.72,
+  "layout": "portrait",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [],
+  "freeze": [],
+  "silence": [
+    {
+      "fromS": 0.0,
+      "toS": 0.25,
+      "reason": "opening lead silence",
+      "declaredMs": 250
+    },
+    {
+      "fromS": 3.05,
+      "toS": 3.33,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 7.76,
+      "toS": 8.2,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 13.68,
+      "toS": 14.12,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 18.72,
+      "toS": 19.0,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 24.72,
+      "toS": 25.22,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 32.12,
+      "toS": 34.72,
+      "reason": "ending tail silence",
+      "declaredMs": 2600
+    }
+  ],
+  "transitions": [],
+  "plannedCutsS": [
+    3.04,
+    7.835,
+    13.74,
+    18.7,
+    24.8
+  ],
+  "sampleTimesS": [],
+  "scheduledMotionS": [
+    [
+      -0.05,
+      34.72
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.734
+  },
+  "warnings": []
+}

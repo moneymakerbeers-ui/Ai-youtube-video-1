@@ -1,15 +1,15 @@
 {
   "audio": {
     "file": "audio/shorts/S02/narration.wav",
-    "sha256": "9e8ea6be2fc3794198a488b2adb00bf96a8ab32da82c79e8cd26c25c6f86f34f",
-    "durationS": 30.43,
+    "sha256": "6496446a5235fce332cea6d54f44dd9633d74f14605bec47f5e76e8cf6bd1b04",
+    "durationS": 33.28,
     "sr": 24000
   },
   "segments": [
     {
       "id": "m1",
-      "startS": 0.0,
-      "endS": 7.46,
+      "startS": 0.25,
+      "endS": 7.71,
       "sceneIds": [
         "m1"
       ],
@@ -19,8 +19,8 @@
     },
     {
       "id": "m2",
-      "startS": 7.92,
-      "endS": 12.62,
+      "startS": 8.17,
+      "endS": 12.87,
       "sceneIds": [
         "m2"
       ],
@@ -30,8 +30,8 @@
     },
     {
       "id": "m3",
-      "startS": 13.16,
-      "endS": 20.99,
+      "startS": 13.41,
+      "endS": 21.24,
       "sceneIds": [
         "m3"
       ],
@@ -41,8 +41,8 @@
     },
     {
       "id": "m4",
-      "startS": 21.33,
-      "endS": 30.43,
+      "startS": 21.58,
+      "endS": 30.68,
       "sceneIds": [
         "m4"
       ],
@@ -53,22 +53,34 @@
   ],
   "silences": [
     {
-      "fromS": 7.46,
-      "toS": 7.92,
+      "fromS": 0.0,
+      "toS": 0.25,
+      "reason": "opening lead silence",
+      "declaredMs": 250
+    },
+    {
+      "fromS": 7.71,
+      "toS": 8.17,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 12.62,
-      "toS": 13.16,
+      "fromS": 12.87,
+      "toS": 13.41,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 20.99,
-      "toS": 21.33,
+      "fromS": 21.24,
+      "toS": 21.58,
       "reason": "scene join",
       "declaredMs": 0
+    },
+    {
+      "fromS": 30.68,
+      "toS": 33.28,
+      "reason": "ending tail silence",
+      "declaredMs": 2600
     }
   ]
 }

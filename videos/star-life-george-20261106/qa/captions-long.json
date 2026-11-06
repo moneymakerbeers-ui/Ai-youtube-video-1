@@ -1,0 +1,107 @@
+{
+ "target": "long",
+ "mp4": "out/full-video.mp4",
+ "srt": "out/captions.srt",
+ "checks": {
+  "firstCaption": {
+   "startS": 0.0,
+   "ok": true
+  },
+  "voiceOnset": {
+   "onsetS": 0.04,
+   "thresholdDbfs": -40,
+   "ok": true
+  },
+  "overlaps": {
+   "count": 0,
+   "first": [],
+   "ok": true
+  },
+  "srtMatchesBurnedIn": {
+   "srtEntries": 131,
+   "planPhrases": 131,
+   "ok": true,
+   "rule": "starts identical; ends = max(plan end, start+0.6 s) (plan_lib.to_srt minimum display)"
+  },
+  "drift": {
+   "engine": "faster-whisper medium.en on the mp4's audio (independent of the small.en alignment)",
+   "planWords": 605,
+   "matched": 599,
+   "coverage": 0.99,
+   "overallMedianMs": 40.0,
+   "p90AbsMs": 100.0,
+   "windows": [
+    {
+     "fromS": 0.0,
+     "toS": 20.0,
+     "n": 61,
+     "medianDriftMs": 40.0
+    },
+    {
+     "fromS": 20.0,
+     "toS": 40.0,
+     "n": 49,
+     "medianDriftMs": 20.0
+    },
+    {
+     "fromS": 40.0,
+     "toS": 60.0,
+     "n": 55,
+     "medianDriftMs": 40.0
+    },
+    {
+     "fromS": 60.0,
+     "toS": 80.0,
+     "n": 57,
+     "medianDriftMs": 40.0
+    },
+    {
+     "fromS": 80.0,
+     "toS": 100.0,
+     "n": 56,
+     "medianDriftMs": 20.0
+    },
+    {
+     "fromS": 100.0,
+     "toS": 120.0,
+     "n": 51,
+     "medianDriftMs": 40.0
+    },
+    {
+     "fromS": 120.0,
+     "toS": 140.0,
+     "n": 51,
+     "medianDriftMs": 40.0
+    },
+    {
+     "fromS": 140.0,
+     "toS": 160.0,
+     "n": 61,
+     "medianDriftMs": 20.0
+    },
+    {
+     "fromS": 160.0,
+     "toS": 180.0,
+     "n": 61,
+     "medianDriftMs": 40.0
+    },
+    {
+     "fromS": 180.0,
+     "toS": 200.0,
+     "n": 49,
+     "medianDriftMs": 20.0
+    },
+    {
+     "fromS": 200.0,
+     "toS": 218.6,
+     "n": 48,
+     "medianDriftMs": 30.0
+    }
+   ],
+   "worstWindowMedianMs": 40.0,
+   "limitMs": 80.0,
+   "ok": true
+  }
+ },
+ "verdict": "PASSED"
+}

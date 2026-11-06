@@ -354,12 +354,14 @@ for sid, title, q, ids, nxt, tgt in SH:
         first["layouts"]["portrait"]["placements"][eid] = P(0.5, 0.33 + 0.06 * i, 0.86, 9, 1.0)
     nw = len(last["narration"].split())
     eid = f"e_n{sid}"
-    last["entities"].append({"id": eid, "role": "label", "text": nxt[:40], "enter": {"style": "rise", "durationMs": 400}, "enterAtWord": max(0, nw - 5), "only": "portrait"})
-    last["layouts"]["portrait"]["placements"][eid] = P(0.5, 0.74, 0.8, 9, 1.0)
+    # end card: the full video + follow, then the series link; enters on the last two words and holds through endHoldMs
+    last["entities"].append({"id": eid, "role": "context", "visual": {"component": "ctacard", "props": {"l1": "Want the full story?", "l2": "How a star is born", "l3": "and becomes a black hole",
+                             "cta": "Watch the full video", "l4": "Follow for more", "l5": nxt[:44]}}, "enter": {"style": "none", "durationMs": 0}, "enterAtWord": max(0, nw - 2), "only": "portrait"})
+    last["layouts"]["portrait"]["placements"][eid] = P(0.5, 0.47, 0.88, 9, 1.0)
     for i_ in ids: by[i_]["shortIds"].append(sid)
     shorts.append({"id": sid, "status": "validated", "title": title[:60], "question": q, "minimumContext": ["the on-screen question frames the clip"],
-                   "payoff": "answered by the clip's own narration", "sceneIds": ids, "delta": {"openingCard": q, "closingCard": nxt, "portraitRestage": "recomposed tall layouts; own title card and end card", "addedVisual": f"title card '{q}', end card '{nxt}'"},
-                   "targetDurationS": tgt, "validation": SV})
+                   "payoff": "answered by the clip's own narration", "sceneIds": ids, "delta": {"openingCard": q, "closingCard": nxt, "portraitRestage": "recomposed tall layouts; own title card and end card", "addedVisual": f"title card '{q}' with an opening snap, end card 'Want the full story? Watch the full video / Follow for more / {nxt}'"},
+                   "targetDurationS": tgt, "leadMs": 250, "endHoldMs": 2600, "validation": SV})
 
 # timing from the final audio's alignment (stage 03)
 _al = os.path.join(HERE, "audio", "alignment.json")

@@ -1,0 +1,96 @@
+{
+  "target": "S05",
+  "fps": 30,
+  "durationS": 48.4,
+  "layout": "portrait",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [],
+  "freeze": [],
+  "silence": [
+    {
+      "fromS": 0.0,
+      "toS": 0.25,
+      "reason": "opening lead silence",
+      "declaredMs": 250
+    },
+    {
+      "fromS": 4.41,
+      "toS": 4.95,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 8.7,
+      "toS": 9.18,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 18.1,
+      "toS": 18.7,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 21.74,
+      "toS": 22.12,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 26.83,
+      "toS": 27.41,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 32.45,
+      "toS": 32.55,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 45.8,
+      "toS": 48.4,
+      "reason": "ending tail silence",
+      "declaredMs": 2600
+    }
+  ],
+  "transitions": [
+    {
+      "id": "r4>x1",
+      "type": "dissolve",
+      "startS": 8.475,
+      "endS": 9.175,
+      "from": "r4",
+      "to": "x1",
+      "easing": "emphasized",
+      "downgradedFrom": "match_movement"
+    }
+  ],
+  "plannedCutsS": [
+    4.54,
+    18.29,
+    21.8,
+    26.955,
+    32.18
+  ],
+  "sampleTimesS": [
+    8.82
+  ],
+  "scheduledMotionS": [
+    [
+      -0.05,
+      48.4
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.734
+  },
+  "warnings": []
+}

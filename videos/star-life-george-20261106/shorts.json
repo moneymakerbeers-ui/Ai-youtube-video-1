@@ -19,10 +19,14 @@
     "f2"
    ],
    "delta": {
+    "openingCard": "How does a cloud become a star?",
+    "closingCard": "Next: what decides how it dies",
     "portraitRestage": "recomposed tall layouts; own title card and end card",
-    "addedVisual": "title card 'How does a cloud become a star?', end card 'Next: what decides how it dies'"
+    "addedVisual": "title card 'How does a cloud become a star?' with an opening snap, end card 'Want the full story? Watch the full video / Follow for more / Next: what decides how it dies'"
    },
    "targetDurationS": 40,
+   "leadMs": 250,
+   "endHoldMs": 2600,
    "validation": {
     "independentOpening": true,
     "oneQuestion": true,
@@ -49,10 +53,14 @@
     "m4"
    ],
    "delta": {
+    "openingCard": "What decides how a star dies?",
+    "closingCard": "Next: the last second of a giant",
     "portraitRestage": "recomposed tall layouts; own title card and end card",
-    "addedVisual": "title card 'What decides how a star dies?', end card 'Next: the last second of a giant'"
+    "addedVisual": "title card 'What decides how a star dies?' with an opening snap, end card 'Want the full story? Watch the full video / Follow for more / Next: the last second of a giant'"
    },
    "targetDurationS": 34,
+   "leadMs": 250,
+   "endHoldMs": 2600,
    "validation": {
     "independentOpening": true,
     "oneQuestion": true,
@@ -82,10 +90,14 @@
     "e2"
    ],
    "delta": {
+    "openingCard": "How does a giant star die?",
+    "closingCard": "Next: you are made of this",
     "portraitRestage": "recomposed tall layouts; own title card and end card",
-    "addedVisual": "title card 'How does a giant star die?', end card 'Next: you are made of this'"
+    "addedVisual": "title card 'How does a giant star die?' with an opening snap, end card 'Want the full story? Watch the full video / Follow for more / Next: you are made of this'"
    },
    "targetDurationS": 45,
+   "leadMs": 250,
+   "endHoldMs": 2600,
    "validation": {
     "independentOpening": true,
     "oneQuestion": true,
@@ -114,10 +126,14 @@
     "e4"
    ],
    "delta": {
+    "openingCard": "Where did the calcium in your bones come from?",
+    "closingCard": "Next: what is left becomes this",
     "portraitRestage": "recomposed tall layouts; own title card and end card",
-    "addedVisual": "title card 'Where did the calcium in your bones come from?', end card 'Next: what is left becomes this'"
+    "addedVisual": "title card 'Where did the calcium in your bones come from?' with an opening snap, end card 'Want the full story? Watch the full video / Follow for more / Next: what is left becomes this'"
    },
    "targetDurationS": 32,
+   "leadMs": 250,
+   "endHoldMs": 2600,
    "validation": {
     "independentOpening": true,
     "oneQuestion": true,
@@ -147,10 +163,14 @@
     "g3"
    ],
    "delta": {
+    "openingCard": "What is a black hole, and how do we find one?",
+    "closingCard": "Back to 1/5: a cold cloud collapses…",
     "portraitRestage": "recomposed tall layouts; own title card and end card",
-    "addedVisual": "title card 'What is a black hole, and how do we find one?', end card 'Back to 1/5: a cold cloud collapses…'"
+    "addedVisual": "title card 'What is a black hole, and how do we find one?' with an opening snap, end card 'Want the full story? Watch the full video / Follow for more / Back to 1/5: a cold cloud collapses…'"
    },
    "targetDurationS": 45,
+   "leadMs": 250,
+   "endHoldMs": 2600,
    "validation": {
     "independentOpening": true,
     "oneQuestion": true,

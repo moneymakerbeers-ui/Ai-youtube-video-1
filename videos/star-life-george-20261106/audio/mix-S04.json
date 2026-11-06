@@ -1,17 +1,17 @@
 {
   "target": "S04",
   "master": "audio/master-S04.wav",
-  "sha256": "2a873c832127b1db04b6ed8d706cf07e21d9b459eb5d5c823bf9b086e22eb96f",
-  "durationS": 31.87,
-  "planDurationS": 31.87,
+  "sha256": "0fb842d706eb0788b0de565548538c2c2c1b6c4dc388f0d8c0f4eb43c89a4ae6",
+  "durationS": 34.72,
+  "planDurationS": 34.72,
   "before": {
-    "I": -19.88,
-    "TP": -4.82,
-    "LRA": 1.6
+    "I": -19.93,
+    "TP": -4.83,
+    "LRA": 5.0
   },
   "after": {
     "I": -14.0,
-    "LRA": 1.8,
+    "LRA": 2.0,
     "TP": -1.5
   },
   "targetLufs": -14.0,

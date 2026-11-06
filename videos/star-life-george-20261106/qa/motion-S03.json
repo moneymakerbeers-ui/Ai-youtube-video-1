@@ -1,0 +1,78 @@
+{
+  "subject": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/short-03.mp4",
+  "kind": "motion",
+  "overall": "PASSED",
+  "summary": {
+    "pass": 7,
+    "fail": 0,
+    "blocked": 0,
+    "warn": 0,
+    "info": 1
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "the motion instruments classified a good eased dissolve, a hard pop, a white flash and a frozen middle correctly"
+    },
+    {
+      "id": "motion.k3>e1.boundary",
+      "status": "pass",
+      "value": 0.9,
+      "detail": "dissolve: the change at the window edges (0.9 levels at frame +1) is in line with the window's own motion (median 2.2)"
+    },
+    {
+      "id": "motion.k3>e1.exposure",
+      "status": "pass",
+      "value": {
+        "excursion": 0.4,
+        "step": 8.0
+      },
+      "detail": "dissolve: no flash or exposure jump (largest frame step 8.0 levels, largest excursion 0.4)"
+    },
+    {
+      "id": "motion.k3>e1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "dissolve: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.k3>e1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "dissolve: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.k3>e1.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.k3>e1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.k3>e1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S03/tr-k3-e1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S03/tr-k3-e1.mp4; the numbers above are heuristics, the eyes decide"
+    }
+  ],
+  "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/short-03.mp4",
+  "transitions": [
+    {
+      "id": "k3>e1",
+      "type": "dissolve",
+      "startS": 32.42,
+      "endS": 33.12,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S03/tr-k3-e1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S03/tr-k3-e1-strip.png"
+    }
+  ]
+}

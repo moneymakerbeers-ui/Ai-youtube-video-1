@@ -4,24 +4,33 @@
  "musicTargetLufs": -27.8,
  "events": [
   {
-   "kind": "whoosh",
-   "atS": 1.66
+   "kind": "snap",
+   "atS": 0.02
   },
   {
    "kind": "whoosh",
-   "atS": 3.1
+   "atS": 1.93
   },
   {
    "kind": "whoosh",
-   "atS": 8.7
+   "atS": 3.35
   },
   {
    "kind": "whoosh",
-   "atS": 17.78
+   "atS": 8.95
   },
   {
    "kind": "whoosh",
-   "atS": 27.73
+   "atS": 18.03
+  },
+  {
+   "kind": "whoosh",
+   "atS": 27.98
+  },
+  {
+   "kind": "whoosh",
+   "atS": 29.97,
+   "why": "end card"
   }
  ]
 }

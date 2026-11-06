@@ -76,7 +76,8 @@ def check(t):
     res["checks"]["voiceOnset"] = {"onsetS": on, "thresholdDbfs": -40, "ok": on is not None and on <= 0.10}
     # 2 overlaps (SRT, and SRT == plan phrases so the burned-in text and the file agree)
     ov = [{"i": i + 1, "end": a["end"], "nextStart": b["start"]} for i, (a, b) in enumerate(zip(caps, caps[1:])) if b["start"] < a["end"] - 1e-6]
-    same = len(caps) == len(pc) and all(abs(a["start"] - b["startS"]) <= 0.0015 and abs(a["end"] - b["endS"]) <= 0.0015 for a, b in zip(caps, pc))
+    # the SRT writer (plan_lib.to_srt) keeps a phrase up for at least 0.6 s; starts must be identical, ends equal to max(plan end, start + 0.6)
+    same = len(caps) == len(pc) and all(abs(a["start"] - b["startS"]) <= 0.0015 and abs(a["end"] - max(b["endS"], b["startS"] + 0.6)) <= 0.0015 for a, b in zip(caps, pc))
     res["checks"]["overlaps"] = {"count": len(ov), "first": ov[:5], "ok": not ov}
     res["checks"]["srtMatchesBurnedIn"] = {"srtEntries": len(caps), "planPhrases": len(pc), "ok": same}
     # 3 drift against an independent recognition of the delivered audio

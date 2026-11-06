@@ -1,37 +1,22 @@
 # Production report - star-life-george-20261106
 
-Idea: Star life cycle re-edit (video 7): from dust to black hole, George narration  ·  purpose: **production**  ·  made 2026-11-06T17:43:42
+Idea: Star life cycle re-edit (video 7): from dust to black hole, George narration  ·  purpose: **production**  ·  made 2026-11-06T18:49:30
 
 ## Gate verdicts
 
 | target | file | media QA | motion QA | length | size |
 |---|---|---|---|---|---|
-| long | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S01 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S02 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S03 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S04 | MISSING | NOT RUN | NOT RUN | - s | -x- |
-| S05 | MISSING | NOT RUN | NOT RUN | - s | -x- |
+| S05 | out/short-05.mp4 | PASSED | PASSED | 48.4 s | 1080x1920 |
 
 A verdict is the gate's own result on the delivered file. WARN items are heuristics and are listed under "A person still has to look at". PASSED never means the video is good, only that none of these checks found a defect.
 
 ## Transitions
 
-- long c3>p1: **nested_scale**
-- long f2>b1: **match_movement**
-- long b2>m1: **match_movement**
-- long m4>o1: **match_movement**
-- long k3>e1: **match_movement**
-- long e2>e3: **depth_through_object**
-- long r4>x1: **match_movement**
-- long g3>z1: **match_movement**
-- S01 c3>p1: **nested_scale**
-- S03 k3>e1: **match_movement**
-- S05 r4>x1: **match_movement**
+- S05 r4>x1: **dissolve** (downgraded from match_movement: downgraded from match_movement by the motion gate: motion.r4>x1.exposure FAILED (match_movement flashes: luma excursion 9.8 levels, colour excursion 4.6, largest frame step 7.5 levels (flash risk)))
 
 ## Render
 
-- no render trace found
+- S05: 1452 frames at 30 fps, 82.6 ms/frame with 4 worker(s) = 120 s of capture on this machine; a 60 fps render would take about 4.0 min
 
 ## Voice and alignment
 
@@ -45,3 +30,7 @@ A verdict is the gate's own result on the delivered file. WARN items are heurist
 ## A person still has to look at
 
 - nothing flagged by the gates; still play the video once before publishing
+
+## Reproduce
+
+Engine 3.0.0-dom (browser, Chromium 153.0.8010.12); `python tools/pipeline.py run --project /home/user/Ai-youtube-video-1/videos/star-life-george-20261106` reproduces these files byte for byte on the same versions and worker count (the render is reproducible).

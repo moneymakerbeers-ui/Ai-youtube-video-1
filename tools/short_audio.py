@@ -77,7 +77,8 @@ def main():
         script_scenes.append({"id": sid, "narration": by[sid]["narration"]})
         prev_sid = sid
     line("closing")
-    audio, segments, silences = assemble(parts)
+    # optional declared lead (room for an opening sound) and end-card hold; both are recorded silences, so the plan and QA know them
+    audio, segments, silences = assemble(parts, lead_ms=int(sh.get("leadMs", 0)), tail_ms=int(sh.get("endHoldMs", 0)))
     write_wav(os.path.join(out, "narration.wav"), audio, SR)
     write_json(os.path.join(out, "assembly.json"), {"audio": {"file": os.path.relpath(os.path.join(out, "narration.wav"), a.project), "sha256": sha256_file(os.path.join(out, "narration.wav")), "durationS": round(duration_s(os.path.join(out, "narration.wav")), 3), "sr": SR}, "segments": segments, "silences": silences})
     write_json(os.path.join(out, "script-scenes.json"), {"scenes": script_scenes})

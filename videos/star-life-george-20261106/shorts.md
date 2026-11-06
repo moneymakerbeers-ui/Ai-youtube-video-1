@@ -3,9 +3,21 @@
 Files: `out/short-01.mp4` … `out/short-05.mp4` (1080×1920, burned-in word captions, own title card + end card).
 Every Short opens on its own question (title card, frame 1) and ends on an end card that points to the next part; 5/5 points back to 1/5.
 
-## Posting order
-| Day | Post | Why this slot |
+## Posting order (scheduled in Metricool, Europe/Berlin)
+| When | Post | Metricool slot |
 |---|---|---|
+| Fri 6 Nov 21:00 | Long video: "How a Cloud of Dust Becomes a Black Hole \| Life Cycle of a Star" | post 419277154 |
+| Sat 7 Nov 16:00 | Star Life 1/5 | best hour of the day in Metricool's data |
+| Sun 8 Nov 16:00 | Star Life 2/5 | " |
+| Mon 9 Nov 16:00 | Star Life 3/5 | " |
+| Tue 10 Nov 16:00 | Star Life 4/5 | " |
+| Wed 11 Nov 16:00 | Star Life 5/5 | " (Tue/Wed 16:00 are the week's strongest hours) |
+
+Every Short now starts with a finger-snap sound and the on-screen question (frame 1), and ends on a 2.6 s end card: "Want the full story? How a star is born and becomes a black hole · Watch the full video · Follow for more · <next part>".
+The card is on screen, not spoken: the voice is the fixed George narration and no new voice line was made (a spoken line would need new paid synthesis).
+The order and the 16:00 slot are a test, not a rule: compare views and swipe-away after a week (stage 07).
+
+---|---|---|
 | Day 0 | Long video (this re-edit, George voice) | the anchor every Short links to |
 | Day 1 | Star Life 1/5 | birth: the natural first question |
 | Day 2 | Star Life 2/5 | mass decides the ending |

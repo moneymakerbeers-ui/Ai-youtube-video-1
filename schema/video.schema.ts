@@ -258,6 +258,8 @@ export const ShortPlan = z
     sceneIds: z.array(Id).min(1), // source scenes in the long video (in order)
     delta: z.object({ openingLine: z.string().optional(), closingLine: z.string().optional(), openingCard: z.string().optional(), closingCard: z.string().optional(), portraitRestage: z.string().optional(), addedVisual: z.string().optional() }),
     targetDurationS: z.number().min(10).max(180), // prefer 35–60; eligible Shorts may run to 180
+    leadMs: z.number().int().min(0).max(1000).optional(), // silence before the first word (room for an opening sound); declared in the Short's assembly
+    endHoldMs: z.number().int().min(0).max(4000).optional(), // held end card after the last word (music continues); declared as the ending tail
     validation: ShortValidation,
     rejectedReason: z.string().optional(),
   })

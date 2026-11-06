@@ -1,17 +1,17 @@
 {
   "target": "S05",
   "master": "audio/master-S05.wav",
-  "sha256": "0adaa539d98ebb06750073edac2cd4e736547e32d82aaa4ff2c2da62f2ed67b0",
-  "durationS": 45.55,
-  "planDurationS": 45.55,
+  "sha256": "07ed0c028895b7b9a49cd04e902d1f9f4792aef21fc7923b5c7e8e1820521a65",
+  "durationS": 48.4,
+  "planDurationS": 48.4,
   "before": {
-    "I": -20.05,
-    "TP": -4.6,
-    "LRA": 1.3
+    "I": -20.25,
+    "TP": -4.62,
+    "LRA": 1.7
   },
   "after": {
     "I": -14.0,
-    "LRA": 1.4,
+    "LRA": 1.5,
     "TP": -1.5
   },
   "targetLufs": -14.0,

@@ -1,17 +1,17 @@
 {
   "target": "S03",
   "master": "audio/master-S03.wav",
-  "sha256": "8031551042600a5a01bae5018afaf0eaddc74b5e6487aa8a9571d27ff6449485",
-  "durationS": 44.05,
-  "planDurationS": 44.05,
+  "sha256": "a119b62eef9251981d55f63cbb447d4532388c06cf720486f68917c488b81435",
+  "durationS": 46.9,
+  "planDurationS": 46.9,
   "before": {
-    "I": -19.95,
-    "TP": -5.31,
-    "LRA": 1.9
+    "I": -20.08,
+    "TP": -5.34,
+    "LRA": 2.6
   },
   "after": {
     "I": -14.0,
-    "LRA": 1.9,
+    "LRA": 2.2,
     "TP": -1.5
   },
   "targetLufs": -14.0,

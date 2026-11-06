@@ -1,7 +1,7 @@
 {
   "target": "S01",
   "fps": 30,
-  "durationS": 32.9,
+  "durationS": 35.75,
   "layout": "portrait",
   "tolS": 0.08,
   "audioTolS": 0.06,
@@ -10,68 +10,80 @@
   "freeze": [],
   "silence": [
     {
-      "fromS": 5.67,
-      "toS": 6.29,
+      "fromS": 0.0,
+      "toS": 0.25,
+      "reason": "opening lead silence",
+      "declaredMs": 250
+    },
+    {
+      "fromS": 5.92,
+      "toS": 6.54,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 8.87,
-      "toS": 8.97,
+      "fromS": 9.12,
+      "toS": 9.22,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 14.84,
-      "toS": 15.12,
+      "fromS": 15.09,
+      "toS": 15.37,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 18.01,
-      "toS": 18.31,
+      "fromS": 18.26,
+      "toS": 18.56,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 21.89,
-      "toS": 22.17,
+      "fromS": 22.14,
+      "toS": 22.42,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 30.33,
-      "toS": 30.77,
+      "fromS": 30.58,
+      "toS": 31.02,
       "reason": "scene join",
       "declaredMs": 0
+    },
+    {
+      "fromS": 33.15,
+      "toS": 35.75,
+      "reason": "ending tail silence",
+      "declaredMs": 2600
     }
   ],
   "transitions": [
     {
       "id": "c3>p1",
-      "type": "nested_scale",
-      "startS": 14.075,
-      "endS": 15.675,
+      "type": "dissolve",
+      "startS": 14.325,
+      "endS": 15.925,
       "from": "c3",
       "to": "p1",
       "easing": "emphasized",
-      "downgradedFrom": null
+      "downgradedFrom": "nested_scale"
     }
   ],
   "plannedCutsS": [
-    5.855,
-    8.62,
-    18.045,
-    21.93,
-    30.42
+    6.105,
+    8.87,
+    18.295,
+    22.18,
+    30.67
   ],
   "sampleTimesS": [
-    14.88
+    15.12
   ],
   "scheduledMotionS": [
     [
       -0.05,
-      32.9
+      35.75
     ]
   ],
   "pictureRegion": {

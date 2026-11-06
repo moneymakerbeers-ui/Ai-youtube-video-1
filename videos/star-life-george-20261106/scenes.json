@@ -1735,13 +1735,23 @@
     },
     {
      "id": "e_nS01",
-     "role": "label",
-     "text": "Next: what decides how it dies",
-     "enter": {
-      "style": "rise",
-      "durationMs": 400
+     "role": "context",
+     "visual": {
+      "component": "ctacard",
+      "props": {
+       "l1": "Want the full story?",
+       "l2": "How a star is born",
+       "l3": "and becomes a black hole",
+       "cta": "Watch the full video",
+       "l4": "Follow for more",
+       "l5": "Next: what decides how it dies"
+      }
      },
-     "enterAtWord": 3,
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "enterAtWord": 6,
      "only": "portrait"
     }
    ],
@@ -1812,8 +1822,8 @@
       },
       "e_nS01": {
        "x": 0.5,
-       "y": 0.74,
-       "w": 0.8,
+       "y": 0.47,
+       "w": 0.88,
        "z": 9,
        "depth": 1.0
       }
@@ -2854,13 +2864,23 @@
     },
     {
      "id": "e_nS02",
-     "role": "label",
-     "text": "Next: the last second of a giant",
-     "enter": {
-      "style": "rise",
-      "durationMs": 400
+     "role": "context",
+     "visual": {
+      "component": "ctacard",
+      "props": {
+       "l1": "Want the full story?",
+       "l2": "How a star is born",
+       "l3": "and becomes a black hole",
+       "cta": "Watch the full video",
+       "l4": "Follow for more",
+       "l5": "Next: the last second of a giant"
+      }
      },
-     "enterAtWord": 23,
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "enterAtWord": 26,
      "only": "portrait"
     }
    ],
@@ -2931,8 +2951,8 @@
       },
       "e_nS02": {
        "x": 0.5,
-       "y": 0.74,
-       "w": 0.8,
+       "y": 0.47,
+       "w": 0.88,
        "z": 9,
        "depth": 1.0
       }
@@ -4124,13 +4144,23 @@
     },
     {
      "id": "e_nS03",
-     "role": "label",
-     "text": "Next: you are made of this",
-     "enter": {
-      "style": "rise",
-      "durationMs": 400
+     "role": "context",
+     "visual": {
+      "component": "ctacard",
+      "props": {
+       "l1": "Want the full story?",
+       "l2": "How a star is born",
+       "l3": "and becomes a black hole",
+       "cta": "Watch the full video",
+       "l4": "Follow for more",
+       "l5": "Next: you are made of this"
+      }
      },
-     "enterAtWord": 3,
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "enterAtWord": 6,
      "only": "portrait"
     }
    ],
@@ -4201,8 +4231,8 @@
       },
       "e_nS03": {
        "x": 0.5,
-       "y": 0.74,
-       "w": 0.8,
+       "y": 0.47,
+       "w": 0.88,
        "z": 9,
        "depth": 1.0
       }
@@ -4569,13 +4599,23 @@
     },
     {
      "id": "e_nS04",
-     "role": "label",
-     "text": "Next: what is left becomes this",
-     "enter": {
-      "style": "rise",
-      "durationMs": 400
+     "role": "context",
+     "visual": {
+      "component": "ctacard",
+      "props": {
+       "l1": "Want the full story?",
+       "l2": "How a star is born",
+       "l3": "and becomes a black hole",
+       "cta": "Watch the full video",
+       "l4": "Follow for more",
+       "l5": "Next: what is left becomes this"
+      }
      },
-     "enterAtWord": 16,
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "enterAtWord": 19,
      "only": "portrait"
     }
    ],
@@ -4660,8 +4700,8 @@
       },
       "e_nS04": {
        "x": 0.5,
-       "y": 0.74,
-       "w": 0.8,
+       "y": 0.47,
+       "w": 0.88,
        "z": 9,
        "depth": 1.0
       }
@@ -6184,13 +6224,23 @@
     },
     {
      "id": "e_nS05",
-     "role": "label",
-     "text": "Back to 1/5: a cold cloud collapses…",
-     "enter": {
-      "style": "rise",
-      "durationMs": 400
+     "role": "context",
+     "visual": {
+      "component": "ctacard",
+      "props": {
+       "l1": "Want the full story?",
+       "l2": "How a star is born",
+       "l3": "and becomes a black hole",
+       "cta": "Watch the full video",
+       "l4": "Follow for more",
+       "l5": "Back to 1/5: a cold cloud collapses…"
+      }
      },
-     "enterAtWord": 30,
+     "enter": {
+      "style": "none",
+      "durationMs": 0
+     },
+     "enterAtWord": 33,
      "only": "portrait"
     }
    ],
@@ -6289,8 +6339,8 @@
       },
       "e_nS05": {
        "x": 0.5,
-       "y": 0.74,
-       "w": 0.8,
+       "y": 0.47,
+       "w": 0.88,
        "z": 9,
        "depth": 1.0
       }

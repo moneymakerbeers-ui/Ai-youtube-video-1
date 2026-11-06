@@ -400,6 +400,35 @@ const countup: VisualDef = {
   },
 };
 
+/** the Short's closing call to action: the full video and the channel (portrait end card). Gentle continuous motion, no flashing. */
+const ctacard: VisualDef = {
+  id: "ctacard",
+  motion: "continuous",
+  aspect: () => 0.66,
+  create(host, props, init) {
+    const svg = s("svg", { viewBox: "0 0 1000 660", width: "100%", height: "100%", style: "overflow: visible" }, host);
+    const g = s("g", {}, svg);
+    // dim the whole frame behind the card (drawn far past the card's own box) so nothing underneath competes with it
+    s("rect", { x: -4000, y: -6000, width: 9000, height: 13000, fill: init.palette.bg, "fill-opacity": 0.72 }, g);
+    s("rect", { x: 6, y: 6, width: 988, height: 648, rx: 48, fill: init.palette.bg, "fill-opacity": 0.97, stroke: init.palette.accent, "stroke-opacity": 0.8, "stroke-width": 5 }, g);
+    text(g, 500, 118, str(props.l1, "Want the full story?"), 78, init.palette.accent, init, 800);
+    text(g, 500, 205, str(props.l2, "How a star is born"), 54, init.palette.fg, init, 600);
+    text(g, 500, 272, str(props.l3, "and becomes a black hole"), 54, init.palette.fg, init, 600);
+    const pill = s("g", {}, g);
+    s("rect", { x: 90, y: 330, width: 820, height: 128, rx: 64, fill: init.palette.accent }, pill);
+    s("polygon", { points: "160,360 160,428 218,394", fill: "#0b0e16" }, pill);
+    text(pill, 545, 416, str(props.cta, "Watch the full video"), 60, "#0b0e16", init, 800);
+    text(g, 500, 545, str(props.l4, "Follow for more"), 50, init.palette.fg, init, 700);
+    text(g, 500, 615, str(props.l5, ""), 40, init.palette.fg, init, 500);
+    return { update(ctx) {
+      const r = ease(ctx.t / 0.45);
+      set(g, { opacity: r.toFixed(3), transform: `translate(0 ${(40 * (1 - r)).toFixed(1)})` });
+      const pu = 1 + 0.035 * Math.sin(Math.max(0, ctx.t - 0.5) * 4.2);
+      set(pill, { transform: `translate(500 394) scale(${pu.toFixed(4)}) translate(-500 -394)` });
+    } };
+  },
+};
+
 /** a soft dark band so large text stays readable over a bright photograph */
 const scrim: VisualDef = {
   id: "scrim",
@@ -493,4 +522,4 @@ const gaiaorbit: VisualDef = {
   },
 };
 
-export default [countup, scrim, bone, flash, pulsering, gaiaorbit, tag, starfield, glowdot, thermo, balance, twostars, lifebars, fatechart, onion, ironcore, collapse, legend, elementbars, fork];
+export default [ctacard, countup, scrim, bone, flash, pulsering, gaiaorbit, tag, starfield, glowdot, thermo, balance, twostars, lifebars, fatechart, onion, ironcore, collapse, legend, elementbars, fork];

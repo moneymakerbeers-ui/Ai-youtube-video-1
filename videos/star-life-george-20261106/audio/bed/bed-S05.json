@@ -4,44 +4,53 @@
  "musicTargetLufs": -27.8,
  "events": [
   {
-   "kind": "whoosh",
-   "atS": 3.08
+   "kind": "snap",
+   "atS": 0.02
   },
   {
    "kind": "whoosh",
-   "atS": 5.54
+   "atS": 3.33
   },
   {
    "kind": "whoosh",
-   "atS": 7.06
+   "atS": 5.79
   },
   {
    "kind": "whoosh",
-   "atS": 14.41
+   "atS": 7.31
   },
   {
    "kind": "whoosh",
-   "atS": 20.55
+   "atS": 14.66
   },
   {
    "kind": "whoosh",
-   "atS": 23.41
+   "atS": 20.8
   },
   {
    "kind": "whoosh",
-   "atS": 24.99
+   "atS": 23.66
   },
   {
    "kind": "whoosh",
-   "atS": 30.26
+   "atS": 25.24
   },
   {
    "kind": "whoosh",
-   "atS": 36.86
+   "atS": 30.51
   },
   {
    "kind": "whoosh",
-   "atS": 40.48
+   "atS": 37.15
+  },
+  {
+   "kind": "whoosh",
+   "atS": 40.73
+  },
+  {
+   "kind": "whoosh",
+   "atS": 45.08,
+   "why": "end card"
   }
  ]
 }

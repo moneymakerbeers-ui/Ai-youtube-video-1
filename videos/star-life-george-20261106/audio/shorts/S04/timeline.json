@@ -3,8 +3,8 @@
   "segments": [
     {
       "id": "h3",
-      "startS": 0.0,
-      "endS": 2.8,
+      "startS": 0.25,
+      "endS": 3.05,
       "sceneIds": [
         "h3"
       ],
@@ -14,8 +14,8 @@
     },
     {
       "id": "k1",
-      "startS": 3.08,
-      "endS": 7.51,
+      "startS": 3.33,
+      "endS": 7.76,
       "sceneIds": [
         "k1"
       ],
@@ -25,8 +25,8 @@
     },
     {
       "id": "k2",
-      "startS": 7.95,
-      "endS": 13.43,
+      "startS": 8.2,
+      "endS": 13.68,
       "sceneIds": [
         "k2"
       ],
@@ -36,8 +36,8 @@
     },
     {
       "id": "k3",
-      "startS": 13.87,
-      "endS": 18.47,
+      "startS": 14.12,
+      "endS": 18.72,
       "sceneIds": [
         "k3"
       ],
@@ -47,8 +47,8 @@
     },
     {
       "id": "e3",
-      "startS": 18.75,
-      "endS": 24.47,
+      "startS": 19.0,
+      "endS": 24.72,
       "sceneIds": [
         "e3"
       ],
@@ -58,8 +58,8 @@
     },
     {
       "id": "e4",
-      "startS": 24.97,
-      "endS": 31.87,
+      "startS": 25.22,
+      "endS": 32.12,
       "sceneIds": [
         "e4"
       ],
@@ -70,34 +70,46 @@
   ],
   "silences": [
     {
-      "fromS": 2.8,
-      "toS": 3.08,
+      "fromS": 0.0,
+      "toS": 0.25,
+      "reason": "opening lead silence",
+      "declaredMs": 250
+    },
+    {
+      "fromS": 3.05,
+      "toS": 3.33,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 7.51,
-      "toS": 7.95,
+      "fromS": 7.76,
+      "toS": 8.2,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 13.43,
-      "toS": 13.87,
+      "fromS": 13.68,
+      "toS": 14.12,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 18.47,
-      "toS": 18.75,
+      "fromS": 18.72,
+      "toS": 19.0,
       "reason": "scene join",
       "declaredMs": 0
     },
     {
-      "fromS": 24.47,
-      "toS": 24.97,
+      "fromS": 24.72,
+      "toS": 25.22,
       "reason": "scene join",
       "declaredMs": 0
+    },
+    {
+      "fromS": 32.12,
+      "toS": 34.72,
+      "reason": "ending tail silence",
+      "declaredMs": 2600
     }
   ],
   "note": "assembled from the long narration slices and the Short's own lines; alignment.json measures THIS file"

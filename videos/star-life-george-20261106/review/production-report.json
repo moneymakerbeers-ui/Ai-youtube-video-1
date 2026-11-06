@@ -2,152 +2,44 @@
   "project": "star-life-george-20261106",
   "idea": "Star life cycle re-edit (video 7): from dust to black hole, George narration",
   "purpose": "production",
-  "madeAt": "2026-11-06T17:43:42",
+  "madeAt": "2026-11-06T18:49:30",
   "targets": {
-    "long": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [
-        {
-          "id": "c3>p1",
-          "type": "nested_scale",
-          "downgradedFrom": null,
-          "rationale": "the protostar is the inside of this collapsing clump: the zoom shows the same object one scale down"
-        },
-        {
-          "id": "f2>b1",
-          "type": "match_movement",
-          "downgradedFrom": null,
-          "rationale": "the camera keeps travelling from the newborn star into what holds it up"
-        },
-        {
-          "id": "b2>m1",
-          "type": "match_movement",
-          "downgradedFrom": null,
-          "rationale": "the motion carries on from our steady Sun to the stars that burn faster"
-        },
-        {
-          "id": "m4>o1",
-          "type": "match_movement",
-          "downgradedFrom": null,
-          "rationale": "we keep moving toward one of the heavy stars on the chart"
-        },
-        {
-          "id": "k3>e1",
-          "type": "match_movement",
-          "downgradedFrom": null,
-          "rationale": "the shock wave's outward motion carries us to the night it was seen from Earth"
-        },
-        {
-          "id": "e2>e3",
-          "type": "depth_through_object",
-          "downgradedFrom": null,
-          "rationale": "we travel through one supernova remnant into another to see what remnants are made of"
-        },
-        {
-          "id": "r4>x1",
-          "type": "match_movement",
-          "downgradedFrom": null,
-          "rationale": "the movement carries on from a star's black hole to the first real picture of one"
-        },
-        {
-          "id": "g3>z1",
-          "type": "match_movement",
-          "downgradedFrom": null,
-          "rationale": "the orbit's motion carries us into the recap of the whole journey"
-        }
-      ],
-      "warnings": []
-    },
-    "S01": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [
-        {
-          "id": "c3>p1",
-          "type": "nested_scale",
-          "downgradedFrom": null,
-          "rationale": "the protostar is the inside of this collapsing clump: the zoom shows the same object one scale down"
-        }
-      ],
-      "warnings": []
-    },
-    "S02": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [],
-      "warnings": []
-    },
-    "S03": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [
-        {
-          "id": "k3>e1",
-          "type": "match_movement",
-          "downgradedFrom": null,
-          "rationale": "the shock wave's outward motion carries us to the night it was seen from Earth"
-        }
-      ],
-      "warnings": []
-    },
-    "S04": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
-      "counts": {
-        "media": null,
-        "motion": null
-      },
-      "transitions": [],
-      "warnings": []
-    },
     "S05": {
-      "file": null,
-      "video": null,
-      "sha256": null,
-      "media": "NOT RUN",
-      "motion": "NOT RUN",
+      "file": "out/short-05.mp4",
+      "video": {
+        "w": 1080,
+        "h": 1920,
+        "fps": "30/1",
+        "codec": "h264",
+        "audio": "aac",
+        "durationS": 48.4,
+        "bytes": 26192175
+      },
+      "sha256": "c0162074ef1e5bbe3fa422850f1b0e6eaad9f5870c0e16e7c5160046cdcb0eff",
+      "media": "PASSED",
+      "motion": "PASSED",
       "counts": {
-        "media": null,
-        "motion": null
+        "media": {
+          "pass": 19,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        },
+        "motion": {
+          "pass": 7,
+          "fail": 0,
+          "blocked": 0,
+          "warn": 0,
+          "info": 1
+        }
       },
       "transitions": [
         {
           "id": "r4>x1",
-          "type": "match_movement",
-          "downgradedFrom": null,
-          "rationale": "the movement carries on from a star's black hole to the first real picture of one"
+          "type": "dissolve",
+          "downgradedFrom": "match_movement",
+          "rationale": "downgraded from match_movement by the motion gate: motion.r4>x1.exposure FAILED (match_movement flashes: luma excursion 9.8 levels, colour excursion 4.6, largest frame step 7.5 levels (flash risk))"
         }
       ],
       "warnings": []
@@ -177,7 +69,54 @@
   },
   "spend": [],
   "pendingPaid": [],
-  "downgrades": {},
+  "downgrades": {
+    "long": {
+      "e2>e3": {
+        "type": "dissolve",
+        "downgradedFrom": "depth_through_object",
+        "check": "motion.e2>e3.exposure",
+        "finding": "depth_through_object flashes: luma excursion 40.5 levels, colour excursion 50.3, largest frame step 39.0 levels (flash risk)",
+        "round": 1,
+        "at": "2026-11-06T18:12:34"
+      }
+    },
+    "S01": {
+      "c3>p1": {
+        "type": "dissolve",
+        "downgradedFrom": "nested_scale",
+        "check": "motion.c3>p1.exposure",
+        "finding": "nested_scale flashes: luma excursion 19.5 levels, colour excursion 22.0, largest frame step 5.4 levels (flash risk)",
+        "round": 1,
+        "at": "2026-11-06T18:24:34"
+      }
+    },
+    "S03": {
+      "k3>e1": {
+        "type": "dissolve",
+        "downgradedFrom": "match_movement",
+        "check": "motion.k3>e1.exposure",
+        "finding": "match_movement flashes: luma excursion 0.7 levels, colour excursion 0.7, largest frame step 27.2 levels (flash risk) (+1 more failed check)",
+        "round": 1,
+        "at": "2026-11-06T18:27:18"
+      }
+    },
+    "S05": {
+      "r4>x1": {
+        "type": "dissolve",
+        "downgradedFrom": "match_movement",
+        "check": "motion.r4>x1.exposure",
+        "finding": "match_movement flashes: luma excursion 9.8 levels, colour excursion 4.6, largest frame step 7.5 levels (flash risk)",
+        "round": 1,
+        "at": "2026-11-06T18:30:26"
+      }
+    }
+  },
   "previewGate": null,
-  "engine": null
+  "engine": {
+    "version": "3.0.0-dom",
+    "sha256": "88892d502e6aca95fd840e019c36aba496c7c36e4357d1e4d9c079b9b2a2626b",
+    "backend": "browser",
+    "chromium": "153.0.8010.12",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  }
 }

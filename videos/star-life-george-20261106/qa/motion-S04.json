@@ -1,0 +1,22 @@
+{
+  "subject": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/short-04.mp4",
+  "kind": "motion",
+  "overall": "PASSED",
+  "summary": {
+    "pass": 0,
+    "fail": 0,
+    "blocked": 0,
+    "warn": 0,
+    "info": 1
+  },
+  "checks": [
+    {
+      "id": "motion",
+      "status": "info",
+      "value": 0,
+      "detail": "the plan has no transitions (only cuts); nothing to measure"
+    }
+  ],
+  "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/short-04.mp4",
+  "transitions": []
+}
