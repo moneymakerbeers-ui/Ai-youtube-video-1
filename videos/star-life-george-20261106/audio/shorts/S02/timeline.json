@@ -14,8 +14,8 @@
     },
     {
       "id": "m2",
-      "startS": 8.17,
-      "endS": 12.87,
+      "startS": 7.71,
+      "endS": 12.75,
       "sceneIds": [
         "m2"
       ],
@@ -25,8 +25,8 @@
     },
     {
       "id": "m3",
-      "startS": 13.41,
-      "endS": 21.24,
+      "startS": 12.75,
+      "endS": 21.03,
       "sceneIds": [
         "m3"
       ],
@@ -36,8 +36,8 @@
     },
     {
       "id": "m4",
-      "startS": 21.58,
-      "endS": 30.68,
+      "startS": 21.03,
+      "endS": 30.51,
       "sceneIds": [
         "m4"
       ],
@@ -54,26 +54,8 @@
       "declaredMs": 250
     },
     {
-      "fromS": 7.71,
-      "toS": 8.17,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 12.87,
-      "toS": 13.41,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 21.24,
-      "toS": 21.58,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 30.68,
-      "toS": 33.28,
+      "fromS": 30.51,
+      "toS": 33.11,
       "reason": "ending tail silence",
       "declaredMs": 2600
     }

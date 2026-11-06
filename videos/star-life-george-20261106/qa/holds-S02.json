@@ -1,0 +1,34 @@
+{
+ "target": "S02",
+ "staticHoldTrace": {
+  "frames": 1,
+  "durS": 0.033,
+  "startS": 0.033,
+  "totalFrames": 998
+ },
+ "longestFreezeDelivered": null,
+ "freezesOver0_5s": 0,
+ "longestVoiceGap": {
+  "startS": 12.868,
+  "endS": 13.448,
+  "durS": 0.58
+ },
+ "voiceGapsOver0_10s": 13,
+ "endingTail": [
+  {
+   "startS": 30.672,
+   "endS": 33.28,
+   "durS": 2.607
+  }
+ ],
+ "longestMixSilence": {
+  "startS": 32.912,
+  "endS": 33.28,
+  "durS": 0.368
+ },
+ "limits": {
+  "staticS": 4.0,
+  "voiceGapS": 0.4
+ },
+ "verdict": "FAILED"
+}

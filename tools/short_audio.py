@@ -14,7 +14,7 @@ writes (under audio/shorts/<id>/): narration.wav, timeline.json, script-scenes.j
 import argparse, os, subprocess, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from audio_lib import BASE_GAP_MS, SR, assemble, load, trim_voiced  # noqa: E402
+from audio_lib import BASE_GAP_MS, SR, assemble, load, trim_voiced, voiced_bounds  # noqa: E402
 from common import die, duration_s, read_json, sha256_file, write_json, write_wav  # noqa: E402
 
 
@@ -57,20 +57,27 @@ def main():
         script_scenes.append({"id": f"{a.short}_{kind}", "narration": text})
 
     line("opening")
-    prev_sid = None
+    prev_sid, prev_end = None, None  # prev_end: where the previous slice ended in the PARENT audio (samples)
     for sid in sh["sceneIds"]:
         if sid not in bounds:
             die(f"scene {sid} has no alignment bounds")
         b = bounds[sid]
         w0, w1 = al["words"][b["firstWord"]], al["words"][b["lastWord"]]
-        seg = x_parent[int(max(w0["s"] - 0.08, 0) * SR) : int(min(w1["e"] + 0.08, al["audio"]["durationS"]) * SR)]
+        s0 = int(max(w0["s"] - 0.08, 0) * SR)
+        s1 = int(min(w1["e"] + 0.08, al["audio"]["durationS"]) * SR)
+        va, vb = voiced_bounds(x_parent[s0:s1])
+        a_abs, b_abs = s0 + va, s0 + vb
         gap = BASE_GAP_MS
-        if prev_sid is not None and idx[sid] == idx[prev_sid] + 1:  # neighbours in the long video keep their natural rhythm
-            pw = al["words"][bounds[prev_sid]["lastWord"]]
-            gap = int(round(max(w0["s"] - pw["e"], 0.1) * 1000))
+        if prev_sid is not None and idx[sid] == idx[prev_sid] + 1:
+            # neighbours in the long video keep their natural rhythm: the gap is the parent's own pause between the two voiced slices
+            # (word timestamps put boundaries inside the pause, so gap = next word start - last word end, plus the trim pads, overstated it;
+            #  the slices are contiguous in the parent, so the pause is exactly the long video's pause)
+            # take the parent's own pause audio (room tone, breaths) contiguously instead of replacing it with digital silence
+            a_abs, gap = prev_end, 0
         elif prev_sid is None and not parts:
             gap = 0
-        part = {"id": sid, "x": trim_voiced(seg), "meta": {"sceneIds": [sid], "kind": "scene", "srcStartS": round(w0["s"], 3), "srcEndS": round(w1["e"], 3)}}
+        part = {"id": sid, "x": x_parent[a_abs:b_abs], "meta": {"sceneIds": [sid], "kind": "scene", "srcStartS": round(w0["s"], 3), "srcEndS": round(w1["e"], 3)}}
+        prev_end = b_abs
         if parts:
             part.update({"gapBeforeMs": gap, "reason": "scene join", "declaredMs": 0})
         parts.append(part)

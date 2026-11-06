@@ -1,8 +1,8 @@
 {
   "audio": {
     "file": "audio/shorts/S03/narration.wav",
-    "sha256": "37bd6c4a77a5176a0816b13502229d723e0a9ba3a52be149bb392259674c18a3",
-    "durationS": 46.9,
+    "sha256": "afa079fcd623e5c81755843494599880b0f236cef935eefb61e6e250cb5c9898",
+    "durationS": 46.53,
     "sr": 24000
   },
   "segments": [
@@ -19,8 +19,8 @@
     },
     {
       "id": "o2",
-      "startS": 7.53,
-      "endS": 16.89,
+      "startS": 7.15,
+      "endS": 16.82,
       "sceneIds": [
         "o2"
       ],
@@ -30,8 +30,8 @@
     },
     {
       "id": "k1",
-      "startS": 17.27,
-      "endS": 21.7,
+      "startS": 16.82,
+      "endS": 21.53,
       "sceneIds": [
         "k1"
       ],
@@ -41,8 +41,8 @@
     },
     {
       "id": "k2",
-      "startS": 22.14,
-      "endS": 27.62,
+      "startS": 21.53,
+      "endS": 27.43,
       "sceneIds": [
         "k2"
       ],
@@ -52,8 +52,8 @@
     },
     {
       "id": "k3",
-      "startS": 28.06,
-      "endS": 32.66,
+      "startS": 27.43,
+      "endS": 32.41,
       "sceneIds": [
         "k3"
       ],
@@ -63,8 +63,8 @@
     },
     {
       "id": "e1",
-      "startS": 33.2,
-      "endS": 41.08,
+      "startS": 32.41,
+      "endS": 40.79,
       "sceneIds": [
         "e1"
       ],
@@ -74,8 +74,8 @@
     },
     {
       "id": "e2",
-      "startS": 41.54,
-      "endS": 44.3,
+      "startS": 40.79,
+      "endS": 43.93,
       "sceneIds": [
         "e2"
       ],
@@ -92,44 +92,8 @@
       "declaredMs": 250
     },
     {
-      "fromS": 7.15,
-      "toS": 7.53,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 16.89,
-      "toS": 17.27,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 21.7,
-      "toS": 22.14,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 27.62,
-      "toS": 28.06,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 32.66,
-      "toS": 33.2,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 41.08,
-      "toS": 41.54,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 44.3,
-      "toS": 46.9,
+      "fromS": 43.93,
+      "toS": 46.53,
       "reason": "ending tail silence",
       "declaredMs": 2600
     }

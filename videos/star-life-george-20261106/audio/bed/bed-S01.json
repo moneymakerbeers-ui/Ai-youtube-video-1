@@ -1,7 +1,7 @@
 {
  "target": "S01",
- "narrationLufs": -20.0,
- "musicTargetLufs": -28.0,
+ "narrationLufs": -19.9,
+ "musicTargetLufs": -27.9,
  "events": [
   {
    "kind": "snap",
@@ -9,43 +9,43 @@
   },
   {
    "kind": "whoosh",
-   "atS": 7.06
+   "atS": 6.9
   },
   {
    "kind": "whoosh",
-   "atS": 11.4
+   "atS": 11.02
   },
   {
    "kind": "whoosh",
-   "atS": 15.55
+   "atS": 15.16
   },
   {
    "kind": "whoosh",
-   "atS": 17.11
+   "atS": 16.72
   },
   {
    "kind": "whoosh",
-   "atS": 20.78
+   "atS": 20.46
   },
   {
    "kind": "whoosh",
-   "atS": 22.62
+   "atS": 22.26
   },
   {
    "kind": "whoosh",
-   "atS": 27.7
+   "atS": 27.36
   },
   {
    "kind": "whoosh",
-   "atS": 29.5
+   "atS": 29.16
   },
   {
    "kind": "whoosh",
-   "atS": 32.04
+   "atS": 31.64
   },
   {
    "kind": "whoosh",
-   "atS": 32.37,
+   "atS": 31.95,
    "why": "end card"
   }
  ]

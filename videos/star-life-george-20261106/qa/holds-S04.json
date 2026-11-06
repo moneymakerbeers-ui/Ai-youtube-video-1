@@ -1,0 +1,34 @@
+{
+ "target": "S04",
+ "staticHoldTrace": {
+  "frames": 1,
+  "durS": 0.033,
+  "startS": 0.033,
+  "totalFrames": 1042
+ },
+ "longestFreezeDelivered": null,
+ "freezesOver0_5s": 0,
+ "longestVoiceGap": {
+  "startS": 24.718,
+  "endS": 25.244,
+  "durS": 0.526
+ },
+ "voiceGapsOver0_10s": 17,
+ "endingTail": [
+  {
+   "startS": 32.12,
+   "endS": 34.72,
+   "durS": 2.6
+  }
+ ],
+ "longestMixSilence": {
+  "startS": 34.318,
+  "endS": 34.731,
+  "durS": 0.413
+ },
+ "limits": {
+  "staticS": 4.0,
+  "voiceGapS": 0.4
+ },
+ "verdict": "FAILED"
+}

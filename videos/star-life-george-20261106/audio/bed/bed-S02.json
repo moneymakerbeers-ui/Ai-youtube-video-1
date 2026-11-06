@@ -9,7 +9,7 @@
   },
   {
    "kind": "whoosh",
-   "atS": 1.93
+   "atS": 1.91
   },
   {
    "kind": "whoosh",
@@ -17,19 +17,19 @@
   },
   {
    "kind": "whoosh",
-   "atS": 8.95
+   "atS": 8.83
   },
   {
    "kind": "whoosh",
-   "atS": 18.03
+   "atS": 17.83
   },
   {
    "kind": "whoosh",
-   "atS": 27.98
+   "atS": 27.81
   },
   {
    "kind": "whoosh",
-   "atS": 29.97,
+   "atS": 29.8,
    "why": "end card"
   }
  ]

@@ -1,13 +1,13 @@
 {
   "target": "S01",
   "master": "audio/master-S01.wav",
-  "sha256": "2b209ae7b1eca6ec48d90555c824f8f08f6c68ca8413ac9c6dbbaa821dd7608f",
-  "durationS": 35.75,
-  "planDurationS": 35.75,
+  "sha256": "b56e3b7cddd3ec19f74b8918ce8dbeb4a3e9540515f9408a490a5d885d9694b4",
+  "durationS": 35.36,
+  "planDurationS": 35.36,
   "before": {
-    "I": -20.3,
-    "TP": -5.14,
-    "LRA": 2.9
+    "I": -20.31,
+    "TP": -5.21,
+    "LRA": 2.6
   },
   "after": {
     "I": -14.0,

@@ -10,16 +10,22 @@ SR = 24000
 BASE_GAP_MS = 280  # natural breath between two takes when nothing special is declared (shorter than any silence gate)
 
 
-def trim_voiced(x, sr=SR, pad_ms=40, floor_db=-46.0):
-    """Cut leading/trailing near-silence (relative to the loudest frames), keeping `pad_ms` of room at each edge."""
+def voiced_bounds(x, sr=SR, pad_ms=40, floor_db=-46.0):
+    """(a, b) sample bounds of the voiced part of x (relative to the loudest frames), keeping `pad_ms` of room at each edge."""
     hop = int(sr * 0.01)
     n = max(len(x) // hop, 1)
     e = 10 * np.log10(np.mean(x[: n * hop].reshape(n, hop) ** 2, axis=1) + 1e-12)
     keep = np.where(e > max(e.max() - 40.0, floor_db))[0]
     if not len(keep):
-        return x
+        return 0, len(x)
     a = max(keep[0] * hop - int(sr * pad_ms / 1000), 0)
     b = min((keep[-1] + 1) * hop + int(sr * pad_ms / 1000), len(x))
+    return a, b
+
+
+def trim_voiced(x, sr=SR, pad_ms=40, floor_db=-46.0):
+    """Cut leading/trailing near-silence (relative to the loudest frames), keeping `pad_ms` of room at each edge."""
+    a, b = voiced_bounds(x, sr, pad_ms, floor_db)
     return x[a:b]
 
 

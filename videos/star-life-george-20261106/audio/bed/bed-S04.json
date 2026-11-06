@@ -17,31 +17,31 @@
   },
   {
    "kind": "whoosh",
-   "atS": 8.18
+   "atS": 8.14
   },
   {
    "kind": "boom",
-   "atS": 13.74
+   "atS": 13.5
   },
   {
    "kind": "whoosh",
-   "atS": 14.46
+   "atS": 14.38
   },
   {
    "kind": "whoosh",
-   "atS": 16.86
+   "atS": 16.78
   },
   {
    "kind": "whoosh",
-   "atS": 19.38
+   "atS": 19.3
   },
   {
    "kind": "whoosh",
-   "atS": 30.02
+   "atS": 29.78
   },
   {
    "kind": "whoosh",
-   "atS": 31.07,
+   "atS": 30.81,
    "why": "end card"
   }
  ]

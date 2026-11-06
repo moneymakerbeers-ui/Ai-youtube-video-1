@@ -14,8 +14,8 @@
     },
     {
       "id": "r4",
-      "startS": 4.95,
-      "endS": 8.7,
+      "startS": 4.41,
+      "endS": 8.59,
       "sceneIds": [
         "r4"
       ],
@@ -25,8 +25,8 @@
     },
     {
       "id": "x1",
-      "startS": 9.18,
-      "endS": 18.1,
+      "startS": 8.59,
+      "endS": 17.93,
       "sceneIds": [
         "x1"
       ],
@@ -36,8 +36,8 @@
     },
     {
       "id": "x2",
-      "startS": 18.7,
-      "endS": 21.74,
+      "startS": 17.93,
+      "endS": 21.41,
       "sceneIds": [
         "x2"
       ],
@@ -47,8 +47,8 @@
     },
     {
       "id": "g1",
-      "startS": 22.12,
-      "endS": 26.83,
+      "startS": 21.41,
+      "endS": 26.47,
       "sceneIds": [
         "g1"
       ],
@@ -58,8 +58,8 @@
     },
     {
       "id": "g2",
-      "startS": 27.41,
-      "endS": 32.45,
+      "startS": 26.47,
+      "endS": 31.93,
       "sceneIds": [
         "g2"
       ],
@@ -69,8 +69,8 @@
     },
     {
       "id": "g3",
-      "startS": 32.55,
-      "endS": 45.8,
+      "startS": 31.93,
+      "endS": 45.11,
       "sceneIds": [
         "g3"
       ],
@@ -87,44 +87,8 @@
       "declaredMs": 250
     },
     {
-      "fromS": 4.41,
-      "toS": 4.95,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 8.7,
-      "toS": 9.18,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 18.1,
-      "toS": 18.7,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 21.74,
-      "toS": 22.12,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 26.83,
-      "toS": 27.41,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 32.45,
-      "toS": 32.55,
-      "reason": "scene join",
-      "declaredMs": 0
-    },
-    {
-      "fromS": 45.8,
-      "toS": 48.4,
+      "fromS": 45.11,
+      "toS": 47.71,
       "reason": "ending tail silence",
       "declaredMs": 2600
     }

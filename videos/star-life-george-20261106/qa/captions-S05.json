@@ -1,0 +1,58 @@
+{
+ "target": "S05",
+ "mp4": "out/short-05.mp4",
+ "srt": "out/short-05.srt",
+ "checks": {
+  "firstCaption": {
+   "startS": 0.13,
+   "ok": false
+  },
+  "voiceOnset": {
+   "onsetS": 0.02,
+   "thresholdDbfs": -40,
+   "ok": true
+  },
+  "overlaps": {
+   "count": 0,
+   "first": [],
+   "ok": true
+  },
+  "srtMatchesBurnedIn": {
+   "srtEntries": 25,
+   "planPhrases": 25,
+   "ok": true
+  },
+  "drift": {
+   "engine": "faster-whisper medium.en on the mp4's audio (independent of the small.en alignment)",
+   "planWords": 131,
+   "matched": 126,
+   "coverage": 0.962,
+   "overallMedianMs": 30.0,
+   "p90AbsMs": 120.0,
+   "windows": [
+    {
+     "fromS": 0.0,
+     "toS": 20.0,
+     "n": 60,
+     "medianDriftMs": 40.0
+    },
+    {
+     "fromS": 20.0,
+     "toS": 40.0,
+     "n": 50,
+     "medianDriftMs": 30.0
+    },
+    {
+     "fromS": 40.0,
+     "toS": 48.4,
+     "n": 16,
+     "medianDriftMs": 40.0
+    }
+   ],
+   "worstWindowMedianMs": 40.0,
+   "limitMs": 80.0,
+   "ok": true
+  }
+ },
+ "verdict": "FAILED"
+}
