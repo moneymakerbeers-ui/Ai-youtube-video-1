@@ -1,0 +1,91 @@
+{
+  "subject": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/short-01.mp4",
+  "kind": "motion",
+  "overall": "FAILED",
+  "summary": {
+    "pass": 8,
+    "fail": 1,
+    "blocked": 0,
+    "warn": 0,
+    "info": 1
+  },
+  "checks": [
+    {
+      "id": "selfcheck",
+      "status": "pass",
+      "value": null,
+      "detail": "the motion instruments classified a good eased dissolve, a hard pop, a white flash and a frozen middle correctly"
+    },
+    {
+      "id": "motion.c3>p1.boundary",
+      "status": "pass",
+      "value": 0.7,
+      "detail": "nested_scale: the change at the window edges (0.7 levels at frame +1) is in line with the window's own motion (median 8.3)"
+    },
+    {
+      "id": "motion.c3>p1.exposure",
+      "status": "fail",
+      "value": {
+        "excursion": 19.5,
+        "step": 5.4
+      },
+      "detail": "nested_scale flashes: luma excursion 19.5 levels, colour excursion 22.0, largest frame step 5.4 levels (flash risk)"
+    },
+    {
+      "id": "motion.c3>p1.stall",
+      "status": "pass",
+      "value": 0,
+      "detail": "nested_scale: the picture keeps moving through the middle of the window"
+    },
+    {
+      "id": "motion.c3>p1.pop",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "nested_scale: no interior frame jumps away from its neighbours (steadiest 0.0 levels above them)"
+    },
+    {
+      "id": "motion.c3>p1.smooth",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "inter-frame motion changes smoothly (no frame step stands out from its neighbours)",
+      "heuristic": true
+    },
+    {
+      "id": "motion.c3>p1.ghost",
+      "status": "pass",
+      "value": 0.2,
+      "detail": "no strong double image mid-window",
+      "heuristic": true
+    },
+    {
+      "id": "motion.c3>p1.anchor",
+      "status": "pass",
+      "value": 48,
+      "detail": "nested_scale: anchors land, stay locked and travel monotonically over 48 frames"
+    },
+    {
+      "id": "motion.c3>p1.audio",
+      "status": "pass",
+      "value": 0,
+      "detail": "no abrupt level step or click at the window edges",
+      "heuristic": true
+    },
+    {
+      "id": "motion.c3>p1.preview",
+      "status": "info",
+      "value": null,
+      "detail": "view /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S01/tr-c3-p1-strip.png (10 frames) and play /home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S01/tr-c3-p1.mp4; the numbers above are heuristics, the eyes decide"
+    }
+  ],
+  "file": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/out/short-01.mp4",
+  "transitions": [
+    {
+      "id": "c3>p1",
+      "type": "nested_scale",
+      "startS": 14.075,
+      "endS": 15.675,
+      "preview": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S01/tr-c3-p1.mp4",
+      "strip": "/home/user/Ai-youtube-video-1/videos/star-life-george-20261106/render/previews/S01/tr-c3-p1-strip.png"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "target": "S01",
+  "fps": 30,
+  "durationS": 32.9,
+  "layout": "portrait",
+  "tolS": 0.08,
+  "audioTolS": 0.06,
+  "restMaxS": 1.2,
+  "black": [],
+  "freeze": [],
+  "silence": [
+    {
+      "fromS": 5.67,
+      "toS": 6.29,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 8.87,
+      "toS": 8.97,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 14.84,
+      "toS": 15.12,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 18.01,
+      "toS": 18.31,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 21.89,
+      "toS": 22.17,
+      "reason": "scene join",
+      "declaredMs": 0
+    },
+    {
+      "fromS": 30.33,
+      "toS": 30.77,
+      "reason": "scene join",
+      "declaredMs": 0
+    }
+  ],
+  "transitions": [
+    {
+      "id": "c3>p1",
+      "type": "nested_scale",
+      "startS": 14.075,
+      "endS": 15.675,
+      "from": "c3",
+      "to": "p1",
+      "easing": "emphasized",
+      "downgradedFrom": null
+    }
+  ],
+  "plannedCutsS": [
+    5.855,
+    8.62,
+    18.045,
+    21.93,
+    30.42
+  ],
+  "sampleTimesS": [
+    14.88
+  ],
+  "scheduledMotionS": [
+    [
+      -0.05,
+      32.9
+    ]
+  ],
+  "pictureRegion": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 0.734
+  },
+  "warnings": []
+}
