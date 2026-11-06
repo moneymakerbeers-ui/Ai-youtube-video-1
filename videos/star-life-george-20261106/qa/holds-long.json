@@ -1,0 +1,37 @@
+{
+ "target": "long",
+ "staticHoldTrace": {
+  "frames": 1,
+  "durS": 0.033,
+  "startS": 0.033,
+  "totalFrames": 6556
+ },
+ "longestFreezeDelivered": {
+  "startS": 40.467,
+  "durS": 0.5
+ },
+ "freezesOver0_5s": 3,
+ "longestVoiceGap": {
+  "startS": 16.746,
+  "endS": 17.122,
+  "durS": 0.375
+ },
+ "voiceGapsOver0_10s": 105,
+ "endingTail": [
+  {
+   "startS": 218.145,
+   "endS": 218.55,
+   "durS": 0.405
+  }
+ ],
+ "longestMixSilence": {
+  "startS": 218.147,
+  "endS": 218.539,
+  "durS": 0.391
+ },
+ "limits": {
+  "staticS": 4.0,
+  "voiceGapS": 0.4
+ },
+ "verdict": "PASSED"
+}
